@@ -10,6 +10,15 @@
 | REF-03 | Overzicht met robot, signaalvogel, aap, panda, octopus, schildpad en aanvullende symbolen | Verhouding tussen personages, aanzichten en karakterbladen | Kernreferentie |
 | REF-04 | Het speelgoedlaboratorium: kleine geometrische huisjes, gestreepte schoorstenen, kleurrijke daken en een knoppenroute op een groene basis | Specifieke omgevingsconceptreferentie | Kernreferentie voor deze wereld |
 | REF-05 | Verticale robotposter met robot en kinderen, geometrische achtergrondvlakken | Aanvullende referentie voor robotpresentatie, schaal en grafische compositie | Aanvullend |
+| AST-ROBOT-01 | Nieuwe zeefdrukillustratie van de echte witte speelgoedrobot: frontaal, crème inkt, petrolschaduw, signaalrode cirkel, mosterdgele accenten en sterke verweerde druktextuur | Primaire gestileerde robotasset voor ROBO MYSTERY | Gegenereerd; wacht op plaatsing als afbeeldingsbestand in `assets/characters/` |
+
+## Eerste uitgewerkte asset — AST-ROBOT-01
+
+**Bron:** door Michel aangeleverde foto van de fysieke witte robot.  
+**Assetrichting:** behoud de herkenbare vorm van de echte robot: afgeronde kop, donker vizier, drie borstsensoren, power-symbool, gepantserde ledematen en grote voeten.  
+**Stijlbehandeling:** sterke jarenzeventig-zeefdruk, verweerd crème papier, signaalrood, mosterdgeel en donker petrol; zichtbare halftoon, inktspikkels, krassen en lichte kleurplaatverschuiving.  
+**Compositie:** volledige robot, frontaal en centraal, zonder extra personages of tekst.  
+**Bestand:** de gegenereerde PNG is in deze sessie aangemaakt, maar is nog niet als binair bestand in de repository opgeslagen. De asset is daarom nog niet als definitief geregistreerd in de bestandenstructuur.
 
 ## Gedeelde kenmerken
 - Warme crème/papierkleur.
