@@ -1,12 +1,12 @@
 # ROBO MYSTERY — Uitdagingen
 
-**Versie:** 0.4  
+**Versie:** 0.5  
 **Status:** Ontwerpdossier in ontwikkeling — nog geen nieuwe gamecode.  
 **Focus van deze revisie:** uitdaging 1 herwerkt tot drie match-3-levels; beloningen afgestemd op het grote slot.
 
 ## Algemene spelregels
 
-- Het spel bestaat uit vier hoofd uitdagingen: observatie, logica/raadsels, volgen en combineren.
+- Het spel bestaat uit vier hoofd uitdagingen: match-3-puzzels, logica/raadsels, volgen en combineren.
 - Uitdagingen 1, 2 en 3 leveren elk één onderdeel op dat nodig is voor het slot in uitdaging 4.
 - Fouten mogen de speler niet onherroepelijk blokkeren. Geef feedback, hints en nieuwe kansen.
 - Het spel is Nederlandstalig, mobile-first en geschikt voor bediening op een iPhone.
@@ -267,21 +267,146 @@ De aap wijst naar drie gesloten kistjes. De sleutel past op het slot van het gek
 
 ## Uitdaging 3 — De onmogelijke bekers
 
-**Doel:** Wannes volgt waar een rood balletje naartoe gaat.
+**Status:** ontwerp uitgewerkt; moeilijkheid gekozen: **opbouwend**.  
+**Spelvorm:** een klassieke bekers-truc in drie rondes. Wannes volgt één rood balletje terwijl drie bekers van plaats wisselen. De beweging wordt per ronde iets sneller, maar blijft volledig zichtbaar en eerlijk te volgen.
 
-Onder één van drie bekers ligt een rood balletje. De bekers wisselen van plaats en Wannes tikt op de beker waaronder hij het balletje verwacht.
+**Doel in het verhaal:** de robot toont een goocheltruc die de kleur van het laatste onderdeel van het grote slot onthult. Wannes moet het balletje volgen en de juiste beker kiezen in alle drie de rondes.
 
-### Spelverloop
-- Ronde 1: twee wissels.
-- Ronde 2: drie wissels.
-- Ronde 3: vier wissels, iets sneller.
-- Een fout antwoord geeft een korte grappige reactie en een nieuwe kans.
-- De snelheid mag volgen op een telefoon nooit oneerlijk of onmogelijk worden.
+**Beloning van uitdaging 3:** de kleur **signaalrood**, de kleur-aanwijzing voor uitdaging 4.  
+**Geschatte speelduur:** ongeveer 2 minuten.  
+**Bediening:** Wannes tikt op één van drie grote bekers op het scherm; geschikt voor iPhone in staande stand.  
+**Geen game-over:** na een fout mag Wannes opnieuw proberen. Bij herhaald vastlopen helpt de robot met een hint of toont hij de beginpositie opnieuw.
 
-**Hint:** de robot laat vóór de beweging heel even zien waar het balletje ligt.  
-**Opbrengst voor uitdaging 4:** de kleur **signaalrood**.  
-**Duur:** ongeveer 2 minuten.  
-**Nog uit te werken:** snelheden, animaties, feedback en assets.
+### De scène en de spelregels
+
+De robot staat achter een kleine goocheltafel in het speelgoedlaboratorium. Drie stevige bekers staan naast elkaar op gemarkeerde plaatsen: links, midden en rechts. De bekers hebben elk een eigen herkenbare vorm en kleur, maar de juiste beker wordt niet aangeduid met een blijvend kenmerk. Het rode balletje is het enige doelobject.
+
+Aan het begin van iedere ronde:
+1. De robot toont het rode balletje duidelijk onder één beker.
+2. De beker wordt opgetild of kort transparant getoond zodat Wannes de beginpositie goed ziet.
+3. De beker wordt teruggezet en alle drie de bekers zijn even zichtbaar.
+4. De wisselbewegingen beginnen pas wanneer Wannes klaar is; de speler hoeft niet op een startknop te drukken tijdens een animatie.
+5. De bekers wisselen onderling van plaats. De hele beweging blijft zichtbaar; er zijn geen geheime teleportaties, verdwijntrucs of bewegingen buiten het scherm.
+6. Na de laatste wissel stoppen de bekers volledig. Pas daarna kan Wannes een keuze maken.
+7. Wannes tikt op de beker waaronder hij denkt dat het balletje ligt.
+8. De gekozen beker gaat omhoog en toont of het balletje eronder ligt.
+9. Een juist antwoord voltooit de ronde. Bij een fout antwoord geeft de robot korte feedback en volgt een nieuwe poging met een opnieuw getoonde beginpositie.
+
+**Belangrijk:** de spelregels moeten visueel duidelijk maken dat de bekers zelf van plaats wisselen. De speler volgt de bekerpositie, niet een verwarrende reeks willekeurige animaties. Geen tijdslimiet voor het kiezen na afloop van de wissels.
+
+### Ronde 1 — Leer de truc
+
+**Doel:** de eerste juiste beker vinden na **2 wissels**.
+
+- Het balletje wordt zichtbaar onder één beker geplaatst.
+- De bekers wisselen twee keer van plaats.
+- De wissels zijn langzaam, met een korte pauze tussen de bewegingen.
+- De bekers volgen een duidelijk pad en overlappen elkaar niet.
+- Deze ronde leert het principe en is bewust eenvoudig.
+
+**Introductietekst van de robot:**
+> “Let goed op het rode balletje. Ik wissel de bekers twee keer. Kijk waar het balletje eindigt!”
+
+**Feedback bij een fout:**
+> “Oei, die beker is leeg! Geen probleem — kijk opnieuw waar ik het balletje verstop.”
+
+**Feedback bij succes:**
+> “Juist! Je hebt de truc door.”
+
+**Hints:**
+1. Eerste hint: “Volg één beker tegelijk met je ogen.”
+2. Tweede hint: de robot toont de beginpositie opnieuw en voert de twee wissels langzamer uit.
+3. Extra hulp: de robot vertraagt de wissels en pauzeert kort nadat elke wissel voltooid is.
+
+**Overgang:** het balletje springt kort op en neer en rolt daarna weer onder een beker voor ronde 2.
+
+### Ronde 2 — De afleiding
+
+**Doel:** de juiste beker vinden na **3 wissels**.
+
+- De bekers wisselen drie keer van plaats.
+- De animatie is iets sneller dan in ronde 1, maar elke wissel blijft afzonderlijk herkenbaar.
+- Er is een korte pauze tussen de tweede en derde wissel, zodat de reeks niet als één onleesbare beweging aanvoelt.
+- De robot probeert Wannes met een grapje af te leiden, maar de tekst verschijnt vóór of na de beweging, nooit over de bekers heen.
+- De bekers blijven steeds volledig binnen het zichtbare speelgebied.
+
+**Introductietekst van de robot:**
+> “Goed opgelet! Nu drie wissels. Laat je niet afleiden door mijn geweldige goochelstem…”
+
+**Grappige afleiding van de robot:**
+> “Psst… wist je dat robots ook kunnen goochelen? Euh… blijf vooral naar de bekers kijken!”
+
+**Feedback bij een fout:**
+> “Ha! Ik had je bijna te pakken. We doen het nog eens.”
+
+**Feedback bij succes:**
+> “Netjes! Je laat je niet zomaar afleiden.”
+
+**Hints:**
+1. Eerste hint: “Kies één beker en volg hoe die van plaats verandert.”
+2. Tweede hint: de beginpositie wordt opnieuw getoond en de drie wissels worden trager afgespeeld.
+3. Extra hulp: na elke wissel verschijnt heel kort een kleine neutrale markering op de nieuwe positie van de gevolgde beker; die verdwijnt vóór de keuze.
+
+### Ronde 3 — De meestertruc
+
+**Doel:** de juiste beker vinden na **4 wissels**. Dit is de moeilijkste ronde.
+
+- De bekers wisselen vier keer van plaats.
+- De wissels verlopen sneller dan in ronde 2, maar er blijft een korte, zichtbare overgang tussen elke wissel.
+- De laatste wissel is niet extra versneld ten opzichte van de rest; de moeilijkheid komt uit het volgen van de volledige reeks, niet uit een oneerlijke plotselinge versnelling.
+- De robot blijft stil tijdens de daadwerkelijke wissels zodat hij niet visueel of tekstueel afleidt.
+- Na de vierde wissel blijven de bekers stilstaan. Wannes krijgt alle tijd om zijn keuze te maken.
+
+**Introductietekst van de robot:**
+> “Klaar voor de meestertruc? Vier wissels. Blijf bij het rode balletje — jij kunt dit!”
+
+**Feedback bij een fout:**
+> “Bijna! Zelfs de beste goochelaars oefenen hun trucs. We proberen het nog een keer.”
+
+**Feedback bij succes:**
+> “Ongelooflijk! Je hebt alle drie de rondes gekraakt!”
+
+**Hints:**
+1. Eerste hint: “Probeer de beker te volgen in plaats van naar het balletje te zoeken.”
+2. Tweede hint: de robot toont de beginpositie opnieuw en speelt de vier wissels op het tempo van ronde 2 af.
+3. Extra hulp: de bekers wisselen opnieuw, één voor één, met een korte pauze na iedere wissel. Dit maakt de reeks eenvoudiger zonder de oplossing direct te tonen.
+
+### Regels voor eerlijke moeilijkheid
+
+- De gekozen opbouw is vast: **2 wissels → 3 wissels → 4 wissels**, met oplopende snelheid.
+- De animaties moeten in echte tests op een iPhone goed te volgen zijn; als ronde 3 te moeilijk blijkt, verlaag dan de snelheid vóór je het aantal wissels verandert.
+- De snelheid is geen reflex-test. Wannes hoeft niet tijdens een wissel te tikken en krijgt geen aftellende klok.
+- Na een fout wordt de beginpositie opnieuw getoond. Er is geen strafscore, geen verloren leven en geen terugkeer naar een eerdere uitdaging.
+- Bij herhaalde fouten wordt automatisch een hint aangeboden, maar de speler mag die negeren.
+- De beker die het balletje verbergt mag niet steeds dezelfde kleur of vaste positie hebben. De startpositie varieert zodat Wannes de truc echt moet volgen.
+- De wisselreeks moet gecontroleerd worden op geldige, visueel begrijpelijke bewegingen. Bekers mogen elkaar niet bedekken of buiten het scherm bewegen.
+- Gebruik geen stroboscopische effecten of onnodige camerabewegingen. De feedback blijft ook begrijpelijk als beweging beperkt wordt.
+
+### Beloning — signaalrood
+
+Na het succes in ronde 3 tilt de robot de juiste beker op. Het rode balletje stijgt op, verandert in een gloeiende rode lichtbol en werpt een rode lichtcirkel op de tafel. De robot scant de lichtbol en projecteert een eenvoudige rode kleurstaal met het label **SIGNAALROOD**.
+
+**Tekst van de robot:**
+> “Aha! De truc is ontmaskerd. Onthoud deze kleur: signaalrood. Je hebt nu alle drie de aanwijzingen verzameld!”
+
+De kleurstaal wordt toegevoegd aan de verzamelde aanwijzingen en blijft beschikbaar voor uitdaging 4. De ster met het oog en het woord BAL worden hier niet opnieuw uitgereikt.
+
+### Schermen en benodigde onderdelen
+
+1. **Introductiescherm:** goocheltafel, drie bekers, rode bal en korte instructie.
+2. **Speelscherm:** drie bekers, bewegingsgebied, ronde-indicator en hintknop.
+3. **Feedbackmoment:** beker gaat omhoog; bal zichtbaar of beker leeg.
+4. **Succesmoment per ronde:** korte animatie en voortgang van ronde 1/3 naar 2/3 en 3/3.
+5. **Beloningsscherm:** rode lichtbol en kleurstaal met het label SIGNAALROOD.
+
+Benodigde assets:
+- Drie eigen bekerillustraties in dezelfde retro-zeefdrukstijl.
+- Rood balletje en eventueel een subtiele schaduw.
+- Goocheltafel of afgebakend speelvlak.
+- Robotportret of klein robotfiguur voor dialoog.
+- Rood lichtbol-effect en kleurstaal voor signaalrood.
+- Eenvoudige markering voor de hintstand.
+- Korte, optionele geluiden voor bekerwissel, beker optillen en succes; het spel moet volledig begrijpelijk blijven zonder geluid.
 
 ## Uitdaging 4 — Het slot van het geheim
 
