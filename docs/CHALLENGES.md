@@ -414,8 +414,8 @@ Wannes combineert de drie aanwijzingen uit uitdagingen 1, 2 en 3 met drie bedien
 
 | Onderdeel van het slot | Aanwijzing | Herkomst |
 |---|---|---|
-| Symboolschijf | Ster met een oog | Uitdaging 1 |
-| Woordschijf | BAL | Uitdaging 2 |
+| Symboolschijf | Ster met een oog | Uitdaging 2 |
+| Woordschijf | BAL | Uitdaging 1 |
 | Kleurschijf | Signaalrood | Uitdaging 3 |
 
 Een verkeerde combinatie houdt de deur dicht, met een korte komische reactie. Wannes mag onbeperkt opnieuw proberen en kan hints krijgen. Bij de juiste combinatie gaat de deur open.
