@@ -4,7 +4,7 @@ Persoonlijk verjaardagsmysterie voor **Wannes (12)**: een goocheltrucs-avontuur 
 
 ## Huidige fase
 
-We werken eerst het volledige ontwerpdossier uit. **Er wordt nog geen gamecode ontwikkeld of aangepast in deze fase.** Zodra concept, uitdagingen, teksten, assets en techniekregels voldoende vastliggen, maken we één uitgebreide bouwopdracht (master-prompt), gevolgd door één testronde op een iPhone.
+We werken eerst het volledige ontwerpdossier uit. **Er wordt nog geen nieuwe gamecode ontwikkeld.** Het oude prototype is verwijderd omdat het niet bij het goedgekeurde spelconcept paste. Zodra concept, uitdagingen, teksten, assets en technische regels voldoende vastliggen, maken we één uitgebreide bouwopdracht (master-prompt), gevolgd door een testronde op een iPhone.
 
 ## Dossier — één bron per onderwerp
 
@@ -21,12 +21,11 @@ We werken eerst het volledige ontwerpdossier uit. **Er wordt nog geen gamecode o
 README.md                 Overzicht en startpunt
 docs/
   GAME-CONCEPT.md         Verhaal en spelstructuur
-  CHALLENGES.md           Uitdagingen en puzzels
-  DECISIONS.md            Besluiten en open punten
-  TECH-SPEC.md            Technische randvoorwaarden
-  ART-DIRECTION.md        Visuele stijl
-  ASSET-REGISTER.md       Referenties en assetstatus
-index.html                Oud prototype; niet de goedgekeurde spelbasis
+  CHALLENGES.md            Uitdagingen en puzzels
+  DECISIONS.md             Besluiten en open punten
+  TECH-SPEC.md             Technische randvoorwaarden
+  ART-DIRECTION.md         Visuele stijl
+  ASSET-REGISTER.md        Referenties en assetstatus
 ```
 
 ## Uitgangspunten
@@ -36,9 +35,9 @@ index.html                Oud prototype; niet de goedgekeurde spelbasis
 - De interface hoort bij dezelfde vintage speelgoedwereld.
 - Mobile-first, speelbaar in de browser, zonder account en gratis te hosten op GitHub Pages.
 - Alle spelertekst is Nederlands en blijft echte tekst, niet tekst die in illustraties is ingebakken.
-- Nieuwe ontwerpen zijn voorstellen totdat ze expliciet zijn goedgekeurd; controleer daarvoor `docs/DECISIONS.md`.
+- Nieuwe ontwerpen zijn voorstellen totdat ze expliciet zijn goedgekeurd; controleer daarvoor docs/DECISIONS.md.
 - Afbeeldingen die alleen in de chat zijn gegenereerd, gelden niet als bestanden in de repository. Ze moeten daadwerkelijk worden toegevoegd voordat de latere bouw ze kan gebruiken.
 
-## Nog niet bouwen
+## Geen prototype als basis
 
-Het bestaande `index.html` is een oud prototype dat een ander verhaal volgt. Het is voorlopig alleen bewaard als referentie en is **niet** de goedgekeurde basis voor de uiteindelijke game. Er wordt pas gebouwd nadat het ontwerpdossier is uitgewerkt en gecontroleerd.
+De oude index.html is verwijderd. Die prototypecode volgde een ander verhaal en is niet geschikt als basis voor de uiteindelijke game. De nieuwe game wordt pas gebouwd nadat het ontwerpdossier is uitgewerkt en gecontroleerd.
