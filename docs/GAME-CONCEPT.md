@@ -15,7 +15,7 @@ Wannes sluit af met een laatste interactieve handeling waarmee het feest begint.
 ## 2. Vastgelegde spelbeslissingen
 
 - De speler is **Wannes**; hij onderzoekt de ruimte zelf en bedient de voorwerpen rechtstreeks.
-- Het feest aan het einde is **voor Wannes**, niet voor de robot.
+- Het feest aan het einde is voor Wannes.
 - Wannes speelt het spel op zijn verjaardag zelf.
 - Het mysterie blijft aan het begin onduidelijk.
 - Het avontuur bevat vier hoofd uitdagingen: match-3, logica, een volg-minigame en het slot. De eerste drie zijn vrij te spelen in elke volgorde.
@@ -31,7 +31,7 @@ Wannes sluit af met een laatste interactieve handeling waarmee het feest begint.
 
 ### Proloog — Een geheim bericht
 
-Wannes opent het spel en ziet een kort geheim bericht dat de robot het speelgoedlab in stuurt. De robot wordt wakker. De omgeving lijkt vertrouwd, maar er zijn vreemde details: een spoor van gekleurde knopen, snippers die op confetti lijken en een deur die gesloten blijft. Het spel geeft nog niet prijs wat het doel is.
+Wannes opent het spel en ontvangt een geheim bericht dat hem naar het speelgoedlab lokt. De omgeving lijkt vertrouwd, maar er zijn vreemde details: een spoor van gekleurde knopen, snippers die op confetti lijken en een deur die gesloten blijft. Het spel geeft nog niet prijs wat het doel is.
 
 ### Uitdaging 1 — De speelgoedfabriek
 
@@ -64,7 +64,7 @@ De deur onthult een feestlocatie die de speelgoedfiguren voor Wannes hebben klaa
 De onthulling is niet het einde van de interactie. Wannes krijgt nog één eenvoudige, betekenisvolle handeling waarmee het feest begint. Mogelijke opties (keuze volgt):
 - aan een lint trekken waarna confetti en lichtjes aangaan;
 - een feestknop indrukken;
-- de taart aansnijden samen met de robot.
+- samen met de speelgoedfiguren de taart aansnijden.
 
 Daarna voeren de speelgoedfiguren een korte kaarttruc uit waarvan de uitkomst altijd “Gefeliciteerd, Wannes!” is, gevolgd door een korte feestelijke slotscène. De toon verschuift van mysterie naar warmte, humor en verrassing.
 
