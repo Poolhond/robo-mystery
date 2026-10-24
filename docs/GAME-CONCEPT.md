@@ -49,7 +49,7 @@ De kist bevat geen gouden medaille. BAL is de belangrijke opbrengst van deze uit
 
 ### Uitdaging 3 — De onmogelijke bekers
 
-Wannes volgt een rood balletje onder drie bewegende bekers. De beloning is signaalrood, de derde aanwijzing voor het grote slot.
+Wannes volgt een rood balletje onder drie bewegende bekers in drie rondes met opbouwende moeilijkheid: twee, drie en vier wissels. De wissels worden steeds iets sneller maar blijven volledig zichtbaar. De beloning is signaalrood, de derde aanwijzing voor het grote slot.
 
 ### Uitdaging 4 — Het slot van het geheim
 
