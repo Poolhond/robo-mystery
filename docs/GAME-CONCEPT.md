@@ -58,7 +58,7 @@ Wannes combineert de aanwijzingen uit de eerste drie uitdagingen:
 - symbool: ster met een oog;
 - kleur: signaalrood.
 
-De deur reageert op verkeerde combinaties, maar Wannes kan blijven proberen en hints krijgen. De juiste combinatie opent de deur.
+De deur reageert op verkeerde combinaties, maar Wannes kan blijven proberen en hints krijgen. De gekozen instellingen blijven staan. De juiste combinatie opent de deur.
 
 ### Finale — De deur gaat open
 
