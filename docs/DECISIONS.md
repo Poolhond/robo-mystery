@@ -1,6 +1,6 @@
 # ROBO MYSTERY — Beslissingen en open punten
 
-**Versie:** 0.7  
+**Versie:** 0.8  
 **Doel:** één betrouwbare plek voor besluiten en open punten, zodat de inhoud niet telkens opnieuw wordt bedacht.
 
 ## Vastgelegd
@@ -28,6 +28,9 @@
 | Uitdaging 3 — moeilijkheid | Drie rondes met respectievelijk twee, drie en vier wissels; snelheid neemt geleidelijk toe maar de beweging blijft eerlijk te volgen |
 | Uitdaging 4 — bediening | De ster met oog verschijnt automatisch na uitdaging 2; Wannes typt zelf het woord en kiest zelf een kleur; grote knop OPEN DE DEUR |
 | Uitdaging 4 — oplossing | Ster met oog (uitdaging 2), woord BAL (uitdaging 1), kleur signaalrood (uitdaging 3); onbeperkte pogingen |
+| Startscherm en wereld | De maquette is uitsluitend het startscherm. Na Start bevindt de robot zich binnen in de maquette, in de technische ruimte. |
+| Technische ruimte | De volledige ruimte is tegelijk zichtbaar op het iPhone-scherm; robot en alle vier de voorwerpen zijn tegelijk herkenbaar. Tikken op een voorwerp opent de bijbehorende interactie. |
+| Voorwerpen in de technische ruimte | Computerscherm = uitdaging 1; locker met cijfercode = uitdaging 2; tafel met bekers = uitdaging 3; grote deur = uitdaging 4. |
 | Vrije verkenning | Wannes kiest zelf de volgorde van uitdagingen 1, 2 en 3. Hij kan uitdaging 4 vanaf het begin ontdekken, maar de deur opent pas als alle drie voltooid zijn en woord/kleur juist zijn |
 | Tussentijdse voortgang | Elke uitdaging kan worden onderbroken en hervat vanaf de exacte deelstap; opgeloste puzzels, bordstanden, relevante rondevoortgang, beloningen en slotinvoer blijven bewaard |
 | Opslaan | Lokale voortgang wordt na elke betekenisvolle actie opgeslagen; herladen of later terugkomen mag geen voortgang wissen |
@@ -35,7 +38,7 @@
 
 ## Nog open — ontwerp vóór de bouw
 
-1. **Vrije laboratoriumverkenning:** bepaal de centrale ruimte, de locaties van de drie uitdagingen en hoe de robot tussen locaties beweegt.
+1. **Vrije laboratoriumverkenning:** de centrale ruimte en de vier voorwerpen liggen vast. Werk nog de exacte compositie, plaatsing en klikzones uit.
 2. **Uitdaging 2 — spelersteksten:** definitieve introductie, personagedialogen, succes- en foutfeedback en afsluiting.
 3. **Uitdaging 2 — hints:** exacte hintstappen voor de codepuzzel en het kistjesraadsel.
 4. **Uitdaging 2 — onthulling van de ster-met-oog-aanwijzing:** kies hoe de aanwijzing in de kist verschijnt (bijvoorbeeld geheim kaartje of gegraveerd plaatje). De functie blijft hetzelfde: het symbool voor uitdaging 4.
@@ -65,7 +68,7 @@ Geef assets consistente namen en leg per bestand vast voor welke scène het dien
 
 ## Werkvolgorde
 
-1. Ontwerp de vrije laboratoriumverkenning en de locaties van de drie uitdagingen.
+1. Werk de technische ruimte verder uit: exacte compositie, plaatsing en klikzones van de vier voorwerpen.
 2. Werk de resterende spelersteksten, hints, schermtoestanden en finale af.
 3. Controleer en voeg de definitieve assets toe; stem het assetregister af op het spelconcept.
 4. Controleer het volledige dossier op tegenstrijdigheden.
