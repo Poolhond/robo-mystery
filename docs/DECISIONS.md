@@ -1,6 +1,6 @@
 # ROBO MYSTERY — Beslissingen en open punten
 
-**Versie:** 0.3  
+**Versie:** 0.4  
 **Doel:** één betrouwbare plek voor besluiten en open punten, zodat de inhoud niet telkens opnieuw wordt bedacht.
 
 ## Vastgelegd
@@ -15,12 +15,12 @@
 | Platform | Mobile-first webspel, GitHub Pages, geen account |
 | Taal | Nederlands |
 | Bouwmethode | Eerst het volledige ontwerpdossier, daarna één master-prompt, daarna testen op iPhone en één gerichte fixronde |
-| Aanwijzing uit uitdaging 1 | Ster met een oog erin (voorlopige keuze) |
+| Uitdaging 1 — spelvorm | Drie eigen match-3-levels, geïnspireerd op het algemene spelprincipe van Royal Match; geen gekopieerde levels of vormgeving |\n| Uitdaging 1 — leveldoelen | Verzamel 8 rode energiecellen; verwijder 4 houten kistjes; laat de gouden energiesleutel naar de uitgang vallen |\n| Aanwijzing uit uitdaging 1 | De letters B, A en L, verdiend na elk level en samen gevormd tot het woord BAL |
 | Uitdaging 2 — structuur | Drie opeenvolgende puzzels: code opent een geheim deurtje; logisch raadsel levert een sleutel; kistjesraadsel onthult de hoofdprijs |
 | Uitdaging 2 — code | De voorgestelde cijfercode is 042 |
 | Uitdaging 2 — sleutelraadsel | Precies één uitspraak is waar; de aap heeft de sleutel |
 | Uitdaging 2 — kistjesraadsel | Precies één uitspraak is waar; het rode kistje is de juiste keuze |
-| Aanwijzing uit uitdaging 2 | **BAL**, gevonden in het rode kistje; dit is de woordaanwijzing voor uitdaging 4 |
+| Aanwijzing uit uitdaging 2 | **Ster met een oog**, gevonden in het rode kistje; dit is de symboolaanwijzing voor uitdaging 4 |
 | Gouden medaille | Niet gebruiken als inhoud van de kist; geschrapt |
 | Aanwijzing uit uitdaging 3 | Signaalrood |
 | Uitdaging 4 | Grote deur met symbool-, woord- en kleurschijf: ster met oog, BAL, signaalrood |
@@ -30,8 +30,8 @@
 
 1. **Uitdaging 2 — spelersteksten:** definitieve introductie, personagedialogen, succes- en foutfeedback en afsluiting.
 2. **Uitdaging 2 — hints:** exacte hintstappen voor de codepuzzel en het kistjesraadsel.
-3. **Uitdaging 2 — onthulling van BAL:** kies hoe de aanwijzing in de kist verschijnt (bijvoorbeeld geheim kaartje of gegraveerd plaatje). De functie blijft hetzelfde: het woord BAL voor uitdaging 4.
-4. **Uitdagingen 1 en 3:** werk interacties, teksten, oplossingen en assets verder uit.
+3. **Uitdaging 2 — onthulling van de ster-met-oog-aanwijzing:** kies hoe de aanwijzing in de kist verschijnt (bijvoorbeeld geheim kaartje of gegraveerd plaatje). De functie blijft hetzelfde: het symbool voor uitdaging 4.
+4. **Uitdaging 1 en 3:** test de definitieve match-3-startborden en werk de bekerinteractie, teksten, oplossingen en assets verder uit.
 5. **Slotscène:** bepaal wat er in het echt na het spel gebeurt en welke tekst daarbij hoort.
 6. **Feesthandeling:** kies bijvoorbeeld een feestknop of lint.
 7. **Persoonlijke boodschap:** bepaal de exacte verjaardagsboodschap en wie er spreekt.
@@ -58,8 +58,8 @@ Geef assets consistente namen en leg per bestand vast voor welke scène het dien
 ## Werkvolgorde
 
 1. Werk uitdaging 2 af in docs/CHALLENGES.md, inclusief teksten, hints en onthulling van BAL.
-2. Werk de schermenlijst en spelersteksten uit.
-3. Werk de resterende uitdagingen en de echte finale uit.
+2. Werk de schermenlijst en spelersteksten uit, inclusief de drie match-3-levels van uitdaging 1.
+3. Werk uitdaging 3, de resterende schermen en de echte finale uit.
 4. Kies de definitieve art direction en controleer het assetregister.
 5. Controleer het volledige dossier op tegenstrijdigheden.
 6. Schrijf pas daarna de master-prompt.
@@ -68,6 +68,8 @@ Geef assets consistente namen en leg per bestand vast voor welke scène het dien
 ## Belangrijke afbakening
 
 - De drie puzzels van uitdaging 2 zijn onderdelen van één hoofd uitdaging, niet drie aparte hoofd uitdagingen.
-- De kist in uitdaging 2 bevat **BAL**, de woordaanwijzing voor uitdaging 4 — geen gouden medaille.
+- Uitdaging 1 is een match-3-game met drie levels; de beloningen zijn achtereenvolgens B, A en L, samen BAL.
+- De ster met het oog is de beloning van uitdaging 2; BAL is niet langer de beloning van uitdaging 2.
+- De kist in uitdaging 2 bevat de **ster met een oog**, de symboolaanwijzing voor uitdaging 4 — geen gouden medaille. BAL komt uit uitdaging 1.
 - De oude index.html-prototypecode wordt verwijderd en mag niet als basis voor de nieuwe game worden gebruikt.
 - Er wordt geen nieuwe gamecode gebouwd zolang het volledige ontwerpdossier niet is goedgekeurd.
