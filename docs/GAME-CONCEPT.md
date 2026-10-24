@@ -1,14 +1,14 @@
 # ROBO MYSTERY — Spelconcept
 
-**Versie:** 0.6  
+**Versie:** 0.7  
 **Status:** Ontwerpfase — geen nieuwe gamecode  
-**Laatste update:** 24 oktober 2026 — uitdaging 2 afgestemd op het volledige ontwerp met code, sleutel, kistjes en aanwijzing BAL
+**Laatste update:** 24 oktober 2026 — uitdaging 1 herwerkt tot drie match-3-levels; BAL en ster-met-oog-beloning opnieuw toegewezen
 
 ## 1. Kernidee
 
 ROBO MYSTERY is een compact digitaal mysterie-avontuur voor **Wannes (12)**, bedoeld om op zijn verjaardag zelf te spelen. Wannes bestuurt een speelgoedrobot door een vreemde, speelse wereld. Hij krijgt een geheim bericht: er is iets vreemds aan de hand in het speelgoedlab, en de robot moet het onderzoeken.
 
-Wannes doorloopt vier uitdagingen met een goochelthema: observeren, logisch nadenken, volgen en combineren. De eerste drie uitdagingen leveren elk één aanwijzing voor een slot op een mysterieuze deur. Wanneer die opengaat, blijkt dat de speelgoedfiguren in het geheim een verjaardagsfeest voor Wannes hebben voorbereid. De robot is het instrument waarmee Wannes zijn eigen verrassing ontdekt.
+Wannes doorloopt vier uitdagingen met een goochel- en speelgoedlabthema: match-3-puzzels, logisch nadenken, volgen en combineren. De eerste drie uitdagingen leveren elk één aanwijzing voor een slot op een mysterieuze deur. Uitdaging 1 bestaat uit drie match-3-levels en levert de letters B, A en L op. Wanneer die opengaat, blijkt dat de speelgoedfiguren in het geheim een verjaardagsfeest voor Wannes hebben voorbereid. De robot is het instrument waarmee Wannes zijn eigen verrassing ontdekt.
 
 Wannes sluit af met een laatste interactieve handeling waarmee het feest begint.
 
@@ -22,7 +22,7 @@ Wannes sluit af met een laatste interactieve handeling waarmee het feest begint.
 - Het overkoepelende thema is goochelen: Wannes houdt van goocheltrucs, puzzels en raadsels.
 - De andere speelgoedfiguren bereiden de verrassing voor.
 - De eerste drie uitdagingen leveren samen een symbool, een woord en een kleur op.
-- De aanwijzingen voor het grote slot zijn voorlopig: ster met een oog, het woord BAL en signaalrood.
+- De aanwijzingen voor het grote slot zijn: het woord BAL uit uitdaging 1, de ster met een oog uit uitdaging 2 en signaalrood uit uitdaging 3.
 - Mobile-first, bediening met één duim, geen account, gratis op GitHub Pages.
 - De oude prototypecode is verwijderd; de uiteindelijke game wordt later vanaf een schone basis gebouwd.
 - Nieuwe gamecode wordt pas gemaakt wanneer het ontwerpdossier is uitgewerkt en goedgekeurd.
@@ -33,9 +33,9 @@ Wannes sluit af met een laatste interactieve handeling waarmee het feest begint.
 
 Wannes opent het spel en ziet een kort geheim bericht dat de robot het speelgoedlab in stuurt. De robot wordt wakker. De omgeving lijkt vertrouwd, maar er zijn vreemde details: een spoor van gekleurde knopen, snippers die op confetti lijken en een deur die gesloten blijft. Het spel geeft nog niet prijs wat het doel is.
 
-### Uitdaging 1 — De verdwenen truc
+### Uitdaging 1 — De robotfabriek
 
-Een observatiepuzzel in goochelstijl: Wannes ontdekt welk voorwerp verdwenen is. De beloning is voorlopig een ster met een oog, de eerste aanwijzing voor het grote slot. Zie docs/CHALLENGES.md.
+Wannes speelt drie korte match-3-levels in een retro-futuristisch speelgoedlaboratorium. Hij verzamelt rode energiecellen, breekt houten kistjes open en laat een gouden energiesleutel naar een uitgang vallen. Elk level levert één letter op: B, A en L. Samen vormen ze het woord BAL, de woordaanwijzing voor het grote slot. Zie docs/CHALLENGES.md.
 
 ### Uitdaging 2 — De drie raadselmeesters
 
@@ -43,7 +43,7 @@ Deze uitdaging bestaat uit drie opeenvolgende puzzels die samen één avontuur v
 
 1. Wannes kraakt de cijfercode **042** en opent een klein geheim deurtje.
 2. Achter het deurtje ontmoet hij de aap, panda en schildpad. Hun uitspraken volgen de regel dat precies één uitspraak waar is. Wannes redeneert dat de aap de messing sleutel heeft.
-3. Met de sleutel onderzoekt Wannes drie kistjes. Ook daar is precies één uitspraak waar; het rode kistje is de juiste keuze. De kist onthult het woord **BAL**, de woordaanwijzing voor het grote slot in uitdaging 4.
+3. Met de sleutel onderzoekt Wannes drie kistjes. Ook daar is precies één uitspraak waar; het rode kistje is de juiste keuze. De kist onthult de **ster met een oog**, de symboolaanwijzing voor het grote slot in uitdaging 4.
 
 De kist bevat geen gouden medaille. BAL is de belangrijke opbrengst van deze uitdaging. De drie puzzels zijn onderdelen van uitdaging 2, geen drie extra hoofd uitdagingen.
 
@@ -54,8 +54,8 @@ Wannes volgt een rood balletje onder drie bewegende bekers. De beloning is signa
 ### Uitdaging 4 — Het slot van het geheim
 
 Wannes combineert de aanwijzingen uit de eerste drie uitdagingen:
-- symbool: ster met een oog;
 - woord: BAL;
+- symbool: ster met een oog;
 - kleur: signaalrood.
 
 De deur reageert op verkeerde combinaties, maar Wannes kan blijven proberen en hints krijgen. De juiste combinatie opent de deur.
@@ -101,8 +101,9 @@ De herkenbare vormen en kleuren van de bestaande speelgoedfiguren blijven leiden
 8. De feestfinale is interactief, maar kort en toegankelijk.
 9. Teksten spreken Wannes direct aan, in het Nederlands en passend bij een twaalfjarige: speels, geen babytaal.
 10. Wannes kan niet vastlopen: elke uitdaging heeft hints en geen echte game-over.
-11. De drie puzzels van uitdaging 2 blijven een vaste ketting: code → sleutel → kistje met BAL.
-12. Het oude prototype wordt niet gebruikt als basis voor de nieuwe game.
+11. De drie puzzels van uitdaging 2 blijven een vaste ketting: code → sleutel → kistje met de ster-met-oog-aanwijzing.
+12. Uitdaging 1 bestaat uit drie match-3-levels; de letters B, A en L vormen samen de woordaanwijzing BAL.
+13. Het oude prototype wordt niet gebruikt als basis voor de nieuwe game.
 
 ## 7. Spelvorm
 
