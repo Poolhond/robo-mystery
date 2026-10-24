@@ -1,14 +1,14 @@
 # ROBO MYSTERY — Spelconcept
 
-**Versie:** 0.8  
+**Versie:** 0.9  
 **Status:** Ontwerpfase — geen nieuwe gamecode  
-**Laatste update:** 25 oktober 2026 — vrije laboratoriumverkenning; uitdaging 4 vereenvoudigd tot automatisch symbool, zelf getypt woord en zelf gekozen kleur
+**Laatste update:** 25 oktober 2026 — vrije laboratoriumverkenning met hervatbare deelvoortgang; uitdaging 4 gebruikt automatisch symbool, zelf getypt woord en zelf gekozen kleur
 
 ## 1. Kernidee
 
 ROBO MYSTERY is een compact digitaal mysterie-avontuur voor **Wannes (12)**, bedoeld om op zijn verjaardag zelf te spelen. Wannes bestuurt een speelgoedrobot door een vreemde, speelse wereld. Hij krijgt een geheim bericht: er is iets vreemds aan de hand in het speelgoedlab, en de robot moet het onderzoeken.
 
-Wannes verkent vrij een speelgoedlaboratorium en kiest zelf in welke volgorde hij de eerste drie uitdagingen speelt. De grote deur kan hij vanaf het begin ontdekken, maar hij leert gaandeweg dat hij de drie uitdagingen nodig heeft om het slot op te lossen. Uitdaging 1 bestaat uit drie match-3-levels en levert de letters B, A en L op. Wanneer die opengaat, blijkt dat de speelgoedfiguren in het geheim een verjaardagsfeest voor Wannes hebben voorbereid. De robot is het instrument waarmee Wannes zijn eigen verrassing ontdekt.
+Wannes verkent vrij een speelgoedlaboratorium en kiest zelf in welke volgorde hij de eerste drie uitdagingen speelt. Hij mag elke uitdaging halverwege verlaten en later precies verdergaan waar hij stopte. De grote deur kan hij vanaf het begin ontdekken, maar hij leert gaandeweg dat hij de drie uitdagingen nodig heeft om het slot op te lossen. Uitdaging 1 bestaat uit drie match-3-levels en levert de letters B, A en L op. Wanneer die opengaat, blijkt dat de speelgoedfiguren in het geheim een verjaardagsfeest voor Wannes hebben voorbereid. De robot is het instrument waarmee Wannes zijn eigen verrassing ontdekt.
 
 Wannes sluit af met een laatste interactieve handeling waarmee het feest begint.
 
@@ -96,6 +96,7 @@ De herkenbare vormen en kleuren van de bestaande speelgoedfiguren blijven leiden
 8. De feestfinale is interactief, maar kort en toegankelijk.
 9. Teksten spreken Wannes direct aan, in het Nederlands en passend bij een twaalfjarige: speels, geen babytaal.
 10. Wannes kan niet vastlopen: elke uitdaging heeft hints en geen echte game-over.
+14. Voortgang wordt per deelstap bewaard. Wisselen van uitdaging of het sluiten en heropenen van de browser mag geen opgeloste puzzels, verdiende aanwijzingen of lopende puzzelstand verliezen.
 11. De drie puzzels van uitdaging 2 blijven een vaste ketting: code → sleutel → kistje met de ster-met-oog-aanwijzing.
 12. Uitdaging 1 bestaat uit drie match-3-levels; de letters B, A en L vormen samen de woordaanwijzing BAL.
 13. Het oude prototype wordt niet gebruikt als basis voor de nieuwe game.
