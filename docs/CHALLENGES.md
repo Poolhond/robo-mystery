@@ -1,142 +1,189 @@
 # ROBO MYSTERY — Uitdagingen
 
-**Versie:** 0.2  
-**Status:** Ontwerp in ontwikkeling — nog niet bouwen.  
-**Laatste inhoudelijke correctie:** uitdaging 2 moet uitkomen op het geheime woord **BAL**, dat als tweede aanwijzing dient voor uitdaging 4.
+**Versie:** 0.3  
+**Status:** Ontwerpdossier in ontwikkeling — nog geen nieuwe gamecode.  
+**Focus van deze revisie:** uitdaging 2 hersteld volgens het volledige ontwerp van Michel.
 
 ## Algemene spelregels
 
-- Er zijn vier hoofd uitdagingen: observeren, logisch nadenken/raadsels, volgen en combineren.
-- De eerste drie uitdagingen leveren elk precies één aanwijzing op voor het grote slot: een symbool, het woord BAL en de kleur signaalrood.
-- Uitdaging 4 combineert die drie aanwijzingen. Geen enkele eerdere uitdaging mag de volledige combinatie verklappen.
-- Het spel is Nederlandstalig, mobile-first en speelbaar met eenvoudige tikken op een telefoon.
-- Wannes mag niet vastlopen: fouten leiden tot feedback of hints, niet tot een harde game-over.
-- Het spel blijft een mysterie tot de deur opengaat. Verjaardagsdetails worden vóór de finale subtiel gehouden.
+- Het spel bestaat uit vier hoofd uitdagingen: observatie, logica/raadsels, volgen en combineren.
+- Uitdagingen 1, 2 en 3 leveren elk één onderdeel op dat nodig is voor het slot in uitdaging 4.
+- Fouten mogen de speler niet onherroepelijk blokkeren. Geef feedback, hints en nieuwe kansen.
+- Het spel is Nederlandstalig, mobile-first en geschikt voor bediening op een iPhone.
+- De verjaardagsverrassing blijft verborgen tot de deur in uitdaging 4 opengaat.
 
 ## Uitdaging 1 — De verdwenen truc
 
-**Doel:** Wannes moet bewijzen dat hij goed kan observeren en onthouden.
+**Doel:** Wannes moet goed observeren en onthouden.
 
-De robot scant een tafel vol vreemde goochelvoorwerpen. Wannes krijgt even de tijd om alles te bekijken. Een doek valt over de tafel. Wanneer het doek weer opengaat, ontbreekt één voorwerp.
+De robot scant een tafel vol vreemde goochelvoorwerpen. Wannes krijgt kort de tijd om alles te bekijken. Een doek valt eroverheen. Wanneer het doek weer opengaat, ontbreekt één voorwerp.
 
 ### Spelverloop
 - Ronde 1: zes voorwerpen.
 - Ronde 2: zeven voorwerpen.
 - Ronde 3: acht voorwerpen.
-- De andere voorwerpen blijven op dezelfde plaats; alleen één voorwerp verdwijnt.
-- Wannes tikt op het ontbrekende voorwerp of kiest het uit duidelijke afbeeldingen.
+- De overige voorwerpen veranderen niet van plaats.
+- Wannes tikt op het ontbrekende voorwerp.
 
-**Hint:** het doek gaat kort opnieuw omhoog of de robot laat een zoeklicht over de tafel bewegen.  
-**Beloning / aanwijzing:** een **ster met een oog erin**. Dit is de voorlopige afgesproken aanwijzing voor schijf 1 van het grote slot.  
+**Hint:** de robot helpt met een kort zoeklicht of laat de scène opnieuw zien.  
+**Opbrengst voor uitdaging 4:** het symbool **ster met een oog erin** (voorlopige keuze).  
 **Duur:** ongeveer 2 minuten.  
-**Nog uit te werken:** exacte voorwerpen, kijktijd per ronde, spelersteksten, feedback en benodigde afbeeldingen.
+**Nog uit te werken:** exacte voorwerpen, kijktijden, teksten en assets.
 
-## Uitdaging 2 — De raadselmeesters
+## Uitdaging 2 — De drie raadselmeesters
 
-**Doel:** Wannes gebruikt logisch nadenken en raadsels om het geheime woord **BAL** te ontdekken.
+**Doel:** Wannes lost drie opeenvolgende puzzels op. De cijfercode opent een geheim deurtje, het logische raadsel levert een sleutel op en de laatste deductiepuzzel wijst het juiste kistje aan. In de kist zit **een aanwijzing die onderdeel is van de uitkomst van uitdaging 4**, niet een gouden medaille.
 
-Deze uitdaging bestaat uit drie opeenvolgende onderdelen. Het zijn onderdelen van uitdaging 2, niet drie aparte hoofd uitdagingen.
+**Geschatte duur:** 3–5 minuten.  
+**Bediening:** grote, duidelijke tikbare elementen; geschikt voor iPhone.  
+**Fouten:** opnieuw proberen, zonder onherroepelijke blokkade.  
+**Hints:** oplopend van subtiel naar expliciet.
 
-### Onderdeel 1 — De cijfercode en het geheime deurtje
+### Deel 1 — Het geheime deurtje: kraak de cijfercode
 
-Wannes vindt een klein gesloten deurtje met een cijfercode. Hij moet de code oplossen om het deurtje te openen. Achter het deurtje verschijnen de raadselmeesters: de aap, panda en schildpad.
+De robot ontdekt een klein metalen deurtje met een mechanisch cijferslot van drie cijfers. Wannes krijgt vijf aanwijzingen:
 
-- **Voorlopige code:** 042.
-- De code is een aparte toegangspuzzel en is niet de aanwijzing voor het grote slot.
-- De code mag het geheime woord BAL niet verklappen.
-- De puzzel moet eerlijke, controleerbare aanwijzingen bevatten; de code en alle bijbehorende hints moeten samen logisch naar één oplossing leiden.
+- **682** — één cijfer is juist én staat op de juiste plaats.
+- **614** — één cijfer is juist, maar staat op de verkeerde plaats.
+- **206** — twee cijfers zijn juist, maar staan allebei op de verkeerde plaats.
+- **738** — geen enkel cijfer komt in de code voor.
+- **780** — één cijfer is juist, maar staat op de verkeerde plaats.
 
-**Status:** 042 is een werkvoorstel uit de recente uitwerking; controleer en keur de exacte cijferpuzzel goed vóór ze definitief wordt.
+**Oplossing:** **042**.
 
-### Onderdeel 2 — De raadselmeesters
+#### Controle van de logica
+- Uit 738 volgt dat 7, 3 en 8 niet in de code zitten.
+- Uit 780 volgt dat 0 in de code zit, maar niet op positie drie.
+- Uit 206 volgen de cijfers 0 en 2, beide op andere posities dan getoond.
+- Uit 682 volgt dat 2 op positie drie staat.
+- Daardoor moet 0 op positie één staan.
+- De resterende aanwijzingen leggen 4 vast op positie twee.
 
-Achter het deurtje ontmoet Wannes de drie figuren: de aap, panda en schildpad. Zij begeleiden de raadsels. De raadsels moeten kort zijn, passen bij een slimme twaalfjarige en elk één duidelijk antwoord hebben.
+#### Interactie en feedback
+- Wannes stelt drie cijferwieltjes in.
+- Hij drukt op **OPEN**.
+- Bij een verkeerde code trilt het slot kort; hij mag opnieuw proberen.
+- De robot geeft stapsgewijs hints als Wannes vastloopt.
+- Bij 042 klikken de cijfers op hun plaats en springt het kleine deurtje open.
 
-- Er zijn drie raadsels, één per letter van het eindwoord.
-- Elk juist antwoord onthult precies één letter.
-- De letters verschijnen in de juiste volgorde en vormen samen **B – A – L**.
-- Gebruik geen raadsel met meerdere redelijke antwoorden of een woordgrap die alleen werkt door te gokken.
-- De robot kan bij twijfel helpen met oplopende hints, zonder meteen het antwoord te geven.
+### Deel 2 — De drie speelgoedfiguren: wie heeft de sleutel?
 
-**Belangrijke ontwerpregel:** de raadsels zelf moeten de letters B, A en L eerlijk opleveren. De lettertoekenning mag niet willekeurig zijn of pas achteraf worden uitgelegd.
+Achter het deurtje zitten drie figuren verstopt: de aap, panda en schildpad. Ze bewaken een sleutel.
 
-### Onderdeel 3 — Het geheime woord
+**Regel:** precies één van de drie uitspraken is waar; de andere twee zijn onwaar.
 
-Wanneer Wannes de drie raadsels oplost, ziet hij het woord **BAL** als beloning.
+- **Aap:** “De panda heeft de sleutel.”
+- **Panda:** “Ik heb de sleutel niet.”
+- **Schildpad:** “De aap heeft de sleutel niet.”
 
-- **Beloning / aanwijzing:** het geheime woord BAL, voor schijf 2 van het grote slot in uitdaging 4.
-- Er komt geen extra sleutel-en-kistjespuzzel bij: dat zou een vierde onderdeel binnen deze uitdaging introduceren en afwijken van het afgesproken ontwerp.
-- De cijfercode 042 is alleen bedoeld om het kleine deurtje te openen; de hoofdopbrengst van uitdaging 2 blijft BAL.
+**Vraag:** wie heeft de sleutel?
 
-**Hint:** de robot kan eerst twee antwoordopties uitsluiten. Verdere hints worden directer als dat nodig is.  
-**Duur:** ongeveer 2 à 3 minuten.  
-**Nog uit te werken:** de definitieve drie raadsels, antwoordopties, juiste antwoorden, lettertoekenning, hintniveaus, feedback en korte dialogen van de figuren.
+Wannes kiest de aap, panda of schildpad en bevestigt zijn antwoord.
+
+#### Oplossing en logische controle
+
+| Wie heeft de sleutel? | Uitspraak aap | Uitspraak panda | Uitspraak schildpad | Aantal ware uitspraken |
+|---|---|---|---|---:|
+| Aap | Onwaar | Waar | Onwaar | 1 |
+| Panda | Waar | Onwaar | Waar | 2 |
+| Schildpad | Onwaar | Waar | Waar | 2 |
+
+**Juiste antwoord:** de aap heeft de sleutel.
+
+#### Beloning en overgang
+De aap haalt een kleine messing sleutel achter zijn rug vandaan en zegt:
+
+> “Goed geredeneerd! Je hebt me door. Hier is de sleutel — maar je moet nog ontdekken welk kistje de moeite waard is.”
+
+De sleutel wordt automatisch als gevonden voorwerp geregistreerd; Wannes hoeft geen code te onthouden.
+
+#### Hints
+1. “Wat gebeurt er als de aap de sleutel heeft?”
+2. “Controleer hoeveel uitspraken waar zijn als de panda de sleutel heeft.”
+3. “Test alle drie de mogelijkheden. Slechts één ervan voldoet aan de regel.”
+
+### Deel 3 — De drie kistjes: vind de aanwijzing voor het grote slot
+
+De aap wijst naar drie gesloten kistjes. De sleutel past op het slot van het gekozen kistje. Op elk kistje staat een uitspraak. De regel blijft: **precies één uitspraak is waar**.
+
+- **Rood kistje:** “De hoofdprijs zit in het blauwe kistje.”
+- **Blauw kistje:** “De hoofdprijs zit niet in het blauwe kistje.”
+- **Geel kistje:** “De hoofdprijs zit niet in het rode kistje.”
+
+**Vraag:** welk kistje moet Wannes openen?
+
+#### Oplossing en logische controle
+- Als de hoofdprijs in het **rode** kistje zit: rood is onwaar, blauw is waar, geel is onwaar — precies één uitspraak is waar.
+- Als de hoofdprijs in het **blauwe** kistje zit: rood en geel zijn waar — twee uitspraken.
+- Als de hoofdprijs in het **gele** kistje zit: blauw en geel zijn waar — twee uitspraken.
+
+**Juiste antwoord:** het rode kistje.
+
+#### Interactie en beloning
+- Wannes kiest eerst een kistje en kan zijn redenering controleren.
+- De sleutel wordt pas gebruikt als hij zijn keuze bevestigt.
+- Een verkeerde keuze verbruikt de sleutel niet; Wannes kan opnieuw nadenken en een ander kistje kiezen.
+- Bij de juiste keuze draait de sleutel, klikt het slot open en gaat het deksel langzaam omhoog.
+
+**Inhoud van de kist:** een fysiek voorwerp of kaart met de aanwijzing die uitdaging 2 aan uitdaging 4 levert. De gouden medaille is geschrapt. De afgesproken aanwijzingen voor het grote slot zijn: ster met oog (uitdaging 1), **BAL** (uitdaging 2) en signaalrood (uitdaging 3). Daarom bevat de kist de aanwijzing **BAL** — bijvoorbeeld op een geheim kaartje of een bijzonder gegraveerd plaatje. De onthulling mag het woord BAL niet eerder tonen dan op dit eindmoment van uitdaging 2.
+
+**Reactie van de robot:**
+
+> “Gevonden! Jij hebt de code gekraakt, de sleutel verdiend én het juiste kistje opgespoord!”
+
+### Complete speelervaring van uitdaging 2
+
+1. Wannes kraakt de code **042**.
+2. Het geheime deurtje springt open en onthult de aap, panda en schildpad.
+3. Wannes redeneert dat de aap de sleutel heeft.
+4. De aap geeft hem de messing sleutel.
+5. Wannes onderzoekt de uitspraken op drie kistjes en kiest het rode kistje.
+6. De kist gaat open en onthult **BAL**, de aanwijzing die nodig is voor uitdaging 4.
+
+**Ontwerpregel:** de cijfercode, sleutel en kistjes zijn onderdelen van uitdaging 2. Het woord BAL is de opbrengst voor het grote slot. Voeg geen extra puzzel toe en vervang BAL niet door een gouden medaille.
 
 ## Uitdaging 3 — De onmogelijke bekers
 
-**Doel:** Wannes concentreert zich en volgt waar het balletje naartoe gaat.
+**Doel:** Wannes volgt waar een rood balletje naartoe gaat.
 
-Onder één van drie bekers ligt een rood balletje. De bekers wisselen van plaats; Wannes tikt op de beker waaronder hij het balletje verwacht.
+Onder één van drie bekers ligt een rood balletje. De bekers wisselen van plaats en Wannes tikt op de beker waaronder hij het balletje verwacht.
 
 ### Spelverloop
 - Ronde 1: twee wissels.
 - Ronde 2: drie wissels.
 - Ronde 3: vier wissels, iets sneller.
-- De wissels moeten op een telefoonscherm goed te volgen blijven.
-- Een fout antwoord geeft een korte grappige reactie en een nieuwe poging. De speler kan niet vastlopen.
+- Een fout antwoord geeft een korte grappige reactie en een nieuwe kans.
+- De snelheid mag volgen op een telefoon nooit oneerlijk of onmogelijk worden.
 
 **Hint:** de robot laat vóór de beweging heel even zien waar het balletje ligt.  
-**Beloning / aanwijzing:** de kleur **signaalrood**, voor schijf 3 van het grote slot.  
+**Opbrengst voor uitdaging 4:** de kleur **signaalrood**.  
 **Duur:** ongeveer 2 minuten.  
-**Nog uit te werken:** snelheid, animaties, pogingregels, feedback en de precieze manier waarop de kleur wordt onthuld.
+**Nog uit te werken:** snelheden, animaties, feedback en assets.
 
 ## Uitdaging 4 — Het slot van het geheim
 
-**Doel:** Wannes combineert de drie aanwijzingen uit de eerdere uitdagingen.
+Wannes combineert de drie aanwijzingen uit uitdagingen 1, 2 en 3 met drie bedieningselementen op de deur.
 
-De robot staat voor een grote, vreemde deur met drie bedieningselementen:
-1. een schijf voor het symbool;
-2. een schijf voor het woord;
-3. een schijf voor de kleur.
-
-### Voorlopige combinatie
-| Onderdeel | Aanwijzing | Komt uit |
+| Onderdeel van het slot | Aanwijzing | Herkomst |
 |---|---|---|
-| Symbool | Ster met een oog | Uitdaging 1 |
-| Woord | BAL | Uitdaging 2 |
-| Kleur | Signaalrood | Uitdaging 3 |
+| Symboolschijf | Ster met een oog | Uitdaging 1 |
+| Woordschijf | BAL | Uitdaging 2 |
+| Kleurschijf | Signaalrood | Uitdaging 3 |
 
-Deze combinatie is de centrale rode draad van het spel. De aanwijzingen moeten op de schermen herkenbaar zijn, maar het spel moet Wannes de combinatie zelf laten onthouden en invoeren.
+Een verkeerde combinatie houdt de deur dicht, met een korte komische reactie. Wannes mag onbeperkt opnieuw proberen en kan hints krijgen. Bij de juiste combinatie gaat de deur open.
 
-**Fout antwoord:** de deur blijft dicht en reageert komisch; onbeperkt opnieuw proberen.  
-**Bij de juiste combinatie:** de deur opent en onthult het verjaardagsfeest voor Wannes.  
-**Duur:** ongeveer 1 minuut.  
-**Nog uit te werken:** vorm van de drie schijven, invoerinteractie, feedback en de overgang naar de finale.
+## Finale — de feestelijke onthulling
 
-## Finale — De feestelijke onthulling
+Achter de deur bevindt zich de verrassing die de speelgoedfiguren voor Wannes hebben voorbereid. Na de onthulling voert Wannes nog één eenvoudige feestelijke handeling uit, bijvoorbeeld op een grote feestknop drukken of aan een lint trekken. Daarna verschijnen confetti en een persoonlijke verjaardagsboodschap.
 
-Achter de deur zit de feestelijke verrassing die de speelgoedfiguren voor Wannes hebben voorbereid. De robot was het instrument waarmee Wannes het geheim ontdekte.
+**Nog te beslissen:** de exacte echte slotscène, de persoonlijke boodschap en de laatste interactie.
 
-Na de onthulling voert Wannes nog één eenvoudige handeling uit, bijvoorbeeld op een grote feestknop drukken of aan een lint trekken. Daarna verschijnen confetti en een persoonlijke verjaardagsboodschap.
+## Volgende ontwerpstappen
 
-**Nog open:** de exacte echte slotscène, de persoonlijke boodschap en de laatste interactie.
+1. Werk de teksten, hints en feedback van uitdaging 2 volledig uit.
+2. Leg vast hoe BAL in de kist wordt onthuld en hoe die aanwijzing herkenbaar blijft voor uitdaging 4.
+3. Werk de schermenlijst en de benodigde assets voor uitdaging 2 uit.
+4. Werk de resterende uitdagingen, finale en persoonlijke boodschap verder uit.
+5. Controleer het hele dossier op tegenstrijdigheden en maak daarna pas de master-prompt.
 
-## Aanwijzingenoverzicht
-
-| Hoofd uitdaging | Opbrengst | Gebruik in uitdaging 4 |
-|---|---|---|
-| 1. De verdwenen truc | Ster met een oog | Schijf 1 |
-| 2. De raadselmeesters | Het woord BAL | Schijf 2 |
-| 3. De onmogelijke bekers | Signaalrood | Schijf 3 |
-| 4. Het slot van het geheim | De deur opent | Finale |
-
-## Volgende ontwerpstappen — in deze volgorde
-
-1. Werk alleen uitdaging 2 uit: ontwerp drie sterke raadsels die ondubbelzinnig B, A en L opleveren.
-2. Controleer de cijfercodepuzzel voor het kleine deurtje; bevestig of vervang code 042 op basis van een volledig sluitende puzzel.
-3. Schrijf de spelersteksten, feedback en oplopende hints voor uitdaging 2.
-4. Leg de exacte schermvolgorde en benodigde afbeeldingen voor uitdaging 2 vast.
-5. Werk daarna pas de teksten en schermen van de overige uitdagingen verder uit.
-6. Leg vóór het bouwen de persoonlijke finale, het kleurenpalet, de assets en de overige open ontwerpbeslissingen vast.
-
-**Bouwstop:** dit document is ontwerpdocumentatie. Er mag nog geen gamecode worden aangepast of gebouwd zolang het volledige dossier niet is goedgekeurd.
+**Bouwstop:** dit bestand beschrijft het ontwerp. Er wordt nog geen nieuwe gamecode gebouwd zolang het volledige dossier niet is goedgekeurd.
