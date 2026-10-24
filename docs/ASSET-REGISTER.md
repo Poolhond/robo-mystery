@@ -10,6 +10,7 @@
 | REF-03 | Overzicht met robot, signaalvogel, aap, panda, octopus, schildpad en aanvullende symbolen | Verhouding tussen personages, aanzichten en karakterbladen | Kernreferentie |
 | REF-04 | Het speelgoedlaboratorium: kleine geometrische huisjes, gestreepte schoorstenen, kleurrijke daken en een knoppenroute op een groene basis | Specifieke omgevingsconceptreferentie | Kernreferentie voor deze wereld |
 | REF-05 | Verticale robotposter met robot en kinderen, geometrische achtergrondvlakken | Aanvullende referentie voor robotpresentatie, schaal en grafische compositie | Aanvullend |
+| AST-ENV-01 | Zeefdrukillustratie van het fysieke speelgoedlaboratorium: geometrische huisjes, snoepstrooi-daken, gestreepte schoorstenen en knoppenpad op groene basis | Primaire omgevingsasset voor het speelgoedlaboratorium | Gegenereerd; afbeeldingsbestand nog niet naar de repository geüpload |
 | AST-ROBOT-01 | Nieuwe zeefdrukillustratie van de echte witte speelgoedrobot: frontaal, crème inkt, petrolschaduw, signaalrode cirkel, mosterdgele accenten en sterke verweerde druktextuur | Primaire gestileerde robotasset voor ROBO MYSTERY | Gegenereerd; wacht op plaatsing als afbeeldingsbestand in `assets/characters/` |
 
 ## Eerste uitgewerkte asset — AST-ROBOT-01
@@ -19,6 +20,14 @@
 **Stijlbehandeling:** sterke jarenzeventig-zeefdruk, verweerd crème papier, signaalrood, mosterdgeel en donker petrol; zichtbare halftoon, inktspikkels, krassen en lichte kleurplaatverschuiving.  
 **Compositie:** volledige robot, frontaal en centraal, zonder extra personages of tekst.  
 **Bestand:** de gegenereerde PNG is in deze sessie aangemaakt, maar is nog niet als binair bestand in de repository opgeslagen. De asset is daarom nog niet als definitief geregistreerd in de bestandenstructuur.
+
+## Tweede uitgewerkte asset — AST-ENV-01
+
+**Bron:** door Michel aangeleverde foto van de fysieke maquette van het speelgoedlaboratorium.  
+**Assetrichting:** behoud de huisvormen, drie gestreepte schoorstenen, daken met veelkleurige korrels, groene basis en route van knopen naar de voordeur.  
+**Stijlbehandeling:** sterke, verweerde zeefdruk op warm crème papier; signaalrood, mosterdgeel, donker petrol en diep groen; halftoon, inktspikkels en onregelmatige drukdekking.  
+**Compositie:** de volledige maquette als centraal onderwerp, met grafische cirkels op de achtergrond en een posterachtige uitsnede.  
+**Bestand:** de gegenereerde illustratie is gemaakt, maar het binaire afbeeldingsbestand is nog niet in de repository opgeslagen.
 
 ## Gedeelde kenmerken
 - Warme crème/papierkleur.
