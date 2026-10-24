@@ -1,6 +1,6 @@
 # ROBO MYSTERY — Techniekregels
 
-**Versie:** 0.2  
+**Versie:** 0.3  
 **Status:** Concept. Doel: een stabiel spel dat in één bouwopdracht gemaakt kan worden en direct werkt op een iPhone.
 
 ## 1. Platform
@@ -35,8 +35,18 @@ Alle spelertekst staat in `content.js`: raadsels, antwoorden, hints, feedback, d
 - Een verborgen resetknop (bijvoorbeeld lang indrukken op de titel) om opnieuw te beginnen.
 - Als `localStorage` niet werkt, blijft het spel speelbaar zonder opslaan.
 
-## 5. Schermstructuur
-Schermen zijn data, niet losse code: een lijst met schermen, elk met id, achtergrond, interactieve onderdelen en volgend scherm. Verwachte schermen: start, intro, lab, uitdaging 1–4, deur, feest, slot. De exacte lijst volgt in het dossier.
+## 5. Scènes, locaties en schermtoestanden
+
+Maak onderscheid tussen **locaties in de wereld** en **schermtoestanden**. De grote deur is een interactief object binnen het laboratorium, niet automatisch een aparte locatie. Het slot is een toestand/paneel dat verschijnt wanneer Wannes de deur onderzoekt; het mag niet als een tweede, losstaande deur worden behandeld.
+
+De definitieve scèneslijst wordt uitgewerkt in het dossier. De voorlopige structuur bestaat uit:
+- start en proloog;
+- één verkenbaar laboratorium met robot, drie uitdaginglocaties en de grote deur;
+- de afzonderlijke speeltoestanden van uitdaging 1, 2 en 3;
+- het slotpaneel bij de grote deur, inclusief onvolledige voortgang, foutfeedback en correcte combinatie;
+- de deuropening en feestfinale.
+
+Iedere locatie/toestand krijgt een stabiele ID, een beschrijving van wat zichtbaar is, de beschikbare acties, de mogelijke overgangen en de voortgang die bij verlaten moet worden opgeslagen. De precieze lijst wordt vastgesteld vóór de master-prompt en de bouw.
 
 ## 6. iPhone- en mobielregels
 - Alleen tikbediening; geen hover, geen rechtsklik, geen dubbelklik.
