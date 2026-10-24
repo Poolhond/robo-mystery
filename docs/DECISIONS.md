@@ -22,7 +22,7 @@
 | Uitdaging 2 — kistjesraadsel | Precies één uitspraak is waar; het rode kistje is de juiste keuze |
 | Aanwijzing uit uitdaging 2 | **Ster met een oog**, gevonden in het rode kistje; dit is de symboolaanwijzing voor uitdaging 4 |
 | Gouden medaille | Niet gebruiken als inhoud van de kist; geschrapt |
-| Aanwijzing uit uitdaging 3 | Signaalrood |
+| Aanwijzing uit uitdaging 3 | Signaalrood |\n| Uitdaging 3 — moeilijkheid | Opbouwend: ronde 1 twee wissels, ronde 2 drie wissels, ronde 3 vier wissels; snelheid neemt per ronde toe maar de beweging blijft eerlijk te volgen |
 | Uitdaging 4 | Grote deur met symbool-, woord- en kleurschijf: ster met oog, BAL, signaalrood |
 | Bouwstatus | Oude prototypecode is niet bruikbaar als basis; eerst ontwerpdossier afronden en goedkeuren |
 
@@ -31,7 +31,7 @@
 1. **Uitdaging 2 — spelersteksten:** definitieve introductie, personagedialogen, succes- en foutfeedback en afsluiting.
 2. **Uitdaging 2 — hints:** exacte hintstappen voor de codepuzzel en het kistjesraadsel.
 3. **Uitdaging 2 — onthulling van de ster-met-oog-aanwijzing:** kies hoe de aanwijzing in de kist verschijnt (bijvoorbeeld geheim kaartje of gegraveerd plaatje). De functie blijft hetzelfde: het symbool voor uitdaging 4.
-4. **Uitdaging 1 en 3:** test de definitieve match-3-startborden en werk de bekerinteractie, teksten, oplossingen en assets verder uit.
+4. **Uitdaging 1 en 3:** test de definitieve match-3-startborden en bekersnelheden op iPhone; werk teksten, oplossingen en assets verder uit.
 5. **Slotscène:** bepaal wat er in het echt na het spel gebeurt en welke tekst daarbij hoort.
 6. **Feesthandeling:** kies bijvoorbeeld een feestknop of lint.
 7. **Persoonlijke boodschap:** bepaal de exacte verjaardagsboodschap en wie er spreekt.
