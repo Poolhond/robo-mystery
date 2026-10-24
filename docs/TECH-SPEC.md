@@ -1,6 +1,6 @@
 # ROBO MYSTERY — Techniekregels
 
-**Versie:** 0.3  
+**Versie:** 0.4  
 **Status:** Concept. Doel: een stabiel spel dat in één bouwopdracht gemaakt kan worden en direct werkt op een iPhone.
 
 ## 1. Platform
