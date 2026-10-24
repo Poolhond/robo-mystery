@@ -10,6 +10,7 @@
 | REF-03 | Overzicht met robot, signaalvogel, aap, panda, octopus, schildpad en aanvullende symbolen | Verhouding tussen personages, aanzichten en karakterbladen | Kernreferentie |
 | REF-04 | Het speelgoedlaboratorium: kleine geometrische huisjes, gestreepte schoorstenen, kleurrijke daken en een knoppenroute op een groene basis | Specifieke omgevingsconceptreferentie | Kernreferentie voor deze wereld |
 | REF-05 | Verticale robotposter met robot en kinderen, geometrische achtergrondvlakken | Aanvullende referentie voor robotpresentatie, schaal en grafische compositie | Aanvullend |
+| AST-TURTLE-01 | Verweerde zeefdrukillustratie van de groene pluchen schildpad, gebaseerd op Michels foto | Karakterasset: de schildpad / geheime bewaker | Gegenereerd; afbeeldingsbestand nog niet naar de repository geüpload |
 | AST-BIRD-01 | Zeefdrukillustratie van de houten nestkast met rood-oranje zangvogel, gebaseerd op Michels foto | Karakter-/omgevingsasset voor de signaalvogel en haar nestkast | Gegenereerd; afbeeldingsbestand nog niet naar de repository geüpload |
 | AST-ENV-01 | Zeefdrukillustratie van het fysieke speelgoedlaboratorium: geometrische huisjes, snoepstrooi-daken, gestreepte schoorstenen en knoppenpad op groene basis | Primaire omgevingsasset voor het speelgoedlaboratorium | Gegenereerd; afbeeldingsbestand nog niet naar de repository geüpload |
 | AST-ROBOT-01 | Nieuwe zeefdrukillustratie van de echte witte speelgoedrobot: frontaal, crème inkt, petrolschaduw, signaalrode cirkel, mosterdgele accenten en sterke verweerde druktextuur | Primaire gestileerde robotasset voor ROBO MYSTERY | Gegenereerd; wacht op plaatsing als afbeeldingsbestand in `assets/characters/` |
@@ -36,6 +37,14 @@
 **Assetrichting:** behoud de herkenbare houten nestkast met schuin dak en de vogel die naar links kijkt; de rode kop/borst, donkere snavel en gestreepte vleugels blijven herkenningspunten.  
 **Stijlbehandeling:** sterke, verweerde jarenzeventig-zeefdruk op warm crème papier, met signaalrood, mosterdgeel, donker petrol en groen; grove halftoon, inktspikkels, krassen en lichte kleurplaatverschuiving.  
 **Compositie:** nestkast en vogel centraal, met eenvoudige geometrische kleurvlakken achter het onderwerp; geen extra tekst.  
+**Bestand:** de gegenereerde illustratie is gemaakt, maar het afbeeldingsbestand is nog niet in de repository opgeslagen.
+
+## Vierde uitgewerkte asset — AST-TURTLE-01
+
+**Bron:** door Michel aangeleverde foto van de groene pluchen schildpad.  
+**Assetrichting:** behoud het zachte, pluizige groene lijf, de brede schild, vier korte flippers, de lichte stik-/knopdetails en de grote donkere ogen.  
+**Stijlbehandeling:** sterke verweerde zeefdruk op warm crème papier; diep mosgroen en geelgroen, met signaalrode en mosterdgele drukvlakken en donker petrol; grove halftoon, korrel, inktspikkels en lichte kleurplaatverschuiving.  
+**Compositie:** schildpad centraal, als herkenbaar personage met eenvoudige geometrische achtergrondvlakken; geen extra tekst.  
 **Bestand:** de gegenereerde illustratie is gemaakt, maar het afbeeldingsbestand is nog niet in de repository opgeslagen.
 
 ## Gedeelde kenmerken
