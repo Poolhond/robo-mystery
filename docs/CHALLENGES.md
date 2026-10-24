@@ -1,8 +1,8 @@
 # ROBO MYSTERY — Uitdagingen
 
-**Versie:** 0.3  
+**Versie:** 0.4  
 **Status:** Ontwerpdossier in ontwikkeling — nog geen nieuwe gamecode.  
-**Focus van deze revisie:** uitdaging 2 hersteld volgens het volledige ontwerp van Michel.
+**Focus van deze revisie:** uitdaging 1 herwerkt tot drie match-3-levels; beloningen afgestemd op het grote slot.
 
 ## Algemene spelregels
 
@@ -12,23 +12,146 @@
 - Het spel is Nederlandstalig, mobile-first en geschikt voor bediening op een iPhone.
 - De verjaardagsverrassing blijft verborgen tot de deur in uitdaging 4 opengaat.
 
-## Uitdaging 1 — De verdwenen truc
+## Uitdaging 1 — De robotfabriek
 
-**Doel:** Wannes moet goed observeren en onthouden.
+**Status:** ontwerp vastgelegd op hoofdlijnen; nog geen gamecode.  
+**Spelvorm:** drie korte match-3-levels, geïnspireerd op het algemene spelprincipe van Royal Match. Gebruik geen gekopieerde levels, artwork, personages, interface of merkspecifieke vormgeving. De eigen wereld is een retro-futuristisch speelgoedlaboratorium in handgedrukte popartstijl.
 
-De robot scant een tafel vol vreemde goochelvoorwerpen. Wannes krijgt kort de tijd om alles te bekijken. Een doek valt eroverheen. Wanneer het doek weer opengaat, ontbreekt één voorwerp.
+**Doel in het verhaal:** de robot heeft drie energiecellen nodig om een fabriekssysteem te activeren. Wannes helpt de robot door drie opeenvolgende puzzellevels. Elk level levert één letter op. Na level 3 vormt hij het woord **BAL**. Dit is de woordaanwijzing voor het grote slot in uitdaging 4.
 
-### Spelverloop
-- Ronde 1: zes voorwerpen.
-- Ronde 2: zeven voorwerpen.
-- Ronde 3: acht voorwerpen.
-- De overige voorwerpen veranderen niet van plaats.
-- Wannes tikt op het ontbrekende voorwerp.
+**Beloning van uitdaging 1:** de letters **B**, **A** en **L**, in die volgorde, die samen **BAL** vormen.  
+**Beloning die hier vervalt:** de ster met het oog hoort niet langer bij uitdaging 1. Die wordt voortaan verdiend in **uitdaging 2**.  
+**Geschatte speelduur:** ongeveer 3 minuten, afhankelijk van het aantal pogingen.  
+**Bediening:** tik op een symbool en vervolgens op een direct aangrenzend symbool om ze te verwisselen. Het bord en alle belangrijke bediening blijven zichtbaar op een iPhone in staande stand.
 
-**Hint:** de robot helpt met een kort zoeklicht of laat de scène opnieuw zien.  
-**Opbrengst voor uitdaging 4:** het symbool **ster met een oog erin** (voorlopige keuze).  
-**Duur:** ongeveer 2 minuten.  
-**Nog uit te werken:** exacte voorwerpen, kijktijden, teksten en assets.
+### Gemeenschappelijke spelregels voor de drie levels
+
+- Het speelbord bestaat uit een compact raster van gekleurde, duidelijk herkenbare fabriekssymbolen, bijvoorbeeld rode energiecellen, gele tandwielen, blauwe bouten en groene kristallen.
+- Een geldige zet verwisselt twee horizontaal of verticaal aangrenzende symbolen.
+- Een verwisseling telt alleen als er daardoor een match van minstens drie gelijke symbolen ontstaat. Als geen match ontstaat, bewegen de symbolen terug en wordt geen zet verbruikt.
+- Een match verwijdert de passende symbolen; symbolen erboven vallen naar beneden en nieuwe symbolen vullen de lege plaatsen aan.
+- Doelobjecten en obstakels moeten visueel anders zijn dan gewone match-symbolen.
+- Het doel van het level en het aantal resterende zetten staan steeds duidelijk in beeld, zonder kleine tekst.
+- Na een geldige match zijn animaties kort en leesbaar. De speler moet kunnen zien wat verdween en wat viel.
+- Een level heeft een beperkt aantal zetten, maar mag niet onredelijk moeilijk zijn. Het ontwerp moet altijd minstens één oplosbare route hebben; bij herhaald vastlopen kan een hint de aandacht op een mogelijke match richten.
+- Er is geen game-over en geen tijdslimiet. Wannes mag rustig nadenken en opnieuw proberen.
+- Een hint mag een mogelijke zet laten oplichten, maar voert die niet automatisch uit.
+- Bij voltooiing krijgt Wannes een korte succesanimatie en de bijbehorende letter. De letter blijft zichtbaar in een vaste verzamelstrook boven of onder het bord.
+- De game bewaart voortgang lokaal zodat een onbedoelde herlaadactie geen reeds verdiende letters hoeft te wissen.
+
+### Level 1 — De energiecellen
+
+**Verhaal:** de fabriek is donker. De robot legt uit dat hij rode energiecellen moet verzamelen om het eerste circuit te activeren.
+
+**Doel:** verzamel **8 rode energiecellen** binnen **12 zetten**.
+
+**Bord en regels:**
+- Start met een raster van match-symbolen in vier soorten: rode energiecellen, gele tandwielen, blauwe bouten en groene kristallen.
+- Alleen matches van rode energiecellen tellen mee voor het doel; matches van andere symbolen blijven nuttig om het bord te veranderen en nieuwe kansen te maken.
+- De teller toont de voortgang van 0/8 tot 8/8.
+- De beginsituatie moet zo worden ingericht dat er direct minstens één geldige match mogelijk is en dat het doel haalbaar is binnen het zetlimiet.
+- Zodra de teller 8 bereikt, stopt het level direct en volgt de beloning; resterende zetten zijn een bonusgevoel, geen extra vereiste.
+
+**Hintladder:**
+1. Subtiel: één mogelijke match met rode energiecellen krijgt kort een zachte puls.
+2. Duidelijker: de robot zegt: “Probeer rode energiecellen naast elkaar te krijgen.”
+3. Expliciet: de game licht twee aangrenzende symbolen op die verwisseld kunnen worden om een geldige match te maken.
+
+**Introductietekst van de robot:**
+> “De fabriek is uitgevallen. Verzamel acht rode energiecellen. Maak rijen van minstens drie dezelfde symbolen om ze op te laden!”
+
+**Foutfeedback:**
+- Ongeldige verwisseling: “Die combinatie vormt nog geen match. Probeer twee andere symbolen.”
+- Geen rode energiecel geraakt: “Goed geprobeerd. Kijk of je ook rode energiecellen kunt laten verdwijnen.”
+
+**Succesfeedback:**
+> “Circuit één draait weer! Goed gedaan.”
+
+**Beloning:** de letter **B** verschijnt op een metalen label. De robot plaatst die in de verzamelstrook: **B _ _**.
+
+### Level 2 — De geblokkeerde tandwielen
+
+**Verhaal:** het tweede deel van de fabriek is geblokkeerd door houten transportkistjes. De tandwielen moeten weer kunnen draaien.
+
+**Doel:** verwijder **4 houten kistjes** binnen **14 zetten**.
+
+**Bord en regels:**
+- Het bord bevat match-symbolen en vier houten kistjes als obstakels.
+- De kistjes zijn geen verwisselbare match-symbolen en kunnen niet zelf worden verplaatst.
+- Een match direct naast een kistje beschadigt of verwijdert dat kistje. Elk kistje verdwijnt na één geldige match ernaast.
+- Een match die naast meerdere kistjes ligt, mag meer dan één kistje tegelijk verwijderen; de beginsituatie mag dit niet onbedoeld te makkelijk of onmogelijk maken.
+- De kistjes blokkeren de vakjes die ze bezetten. De speler moet dus nadenken over matches rond de obstakels.
+- De teller toont de voortgang van 0/4 tot 4/4; het level eindigt zodra alle vier weg zijn.
+- Het bord moet vooraf gecontroleerd worden op bereikbaarheid: alle vier kistjes moeten binnen het zetlimiet verwijderbaar zijn.
+
+**Hintladder:**
+1. Subtiel: een mogelijke match naast een kistje pulseert.
+2. Duidelijker: de robot zegt: “Maak een match naast een houten kistje om het open te breken.”
+3. Expliciet: de game licht een concrete verwisseling op die naast een kistje een match vormt.
+
+**Introductietekst van de robot:**
+> “Deze kistjes blokkeren de tandwielen. Maak matches naast de kistjes om ze weg te breken. Ruim ze alle vier op!”
+
+**Foutfeedback:**
+- Ongeldige verwisseling: “Die zet maakt geen match. Kijk eens naar de symbolen naast een kistje.”
+- Match zonder effect op kistjes: “De symbolen zijn weg, maar de kistjes staan er nog. Probeer vlak naast een kistje te spelen.”
+
+**Succesfeedback:**
+> “De tandwielen zijn vrij! De fabriek komt weer op gang.”
+
+**Beloning:** de letter **A** verschijnt op een metalen label en wordt toegevoegd aan de verzamelstrook: **B A _**.
+
+### Level 3 — De geheime uitgang
+
+**Verhaal:** het laatste circuit zit achter een afgesloten luik. De sleutelvormige energiecapsule moet naar de uitgang onderaan het bord vallen.
+
+**Doel:** laat de **gouden energiesleutel** naar de uitgang onderaan het bord vallen binnen **16 zetten**.
+
+**Bord en regels:**
+- De sleutel is een speciaal doelobject bovenaan het raster; ze is niet verwisselbaar met gewone symbolen.
+- De sleutel zakt naar beneden wanneer de vakjes eronder door matches worden vrijgemaakt. Symbolen die verdwijnen maken ruimte; de sleutel valt mee met de zwaartekracht van het bord.
+- Het level heeft een duidelijk gemarkeerde uitgang onderaan, zodat Wannes begrijpt waar de sleutel naartoe moet.
+- Gewone matches zijn nodig om de route vrij te maken. Een match vlak onder de sleutel is vaak nuttig, maar het bord moet meerdere haalbare zetten bieden.
+- De voortgang wordt visueel getoond met de sleutel en de uitgang; er hoeft geen ingewikkelde score te zijn.
+- Het level eindigt zodra de sleutel de uitgang bereikt. Bij herhaald mislukken kan het spel een hint geven of het bord opnieuw aanbieden.
+- De sleutel moet tijdens vallen zichtbaar blijven en mag niet achter effecten of interface-elementen verdwijnen.
+
+**Hintladder:**
+1. Subtiel: de vakjes direct onder de sleutel lichten kort op.
+2. Duidelijker: de robot zegt: “Maak ruimte onder de sleutel, dan kan ze naar beneden vallen.”
+3. Expliciet: een geldige match die ruimte onder de sleutel maakt, wordt aangeduid.
+
+**Introductietekst van de robot:**
+> “Daar is de energiesleutel! Maak de vakjes onder haar vrij en laat de sleutel naar de uitgang vallen.”
+
+**Foutfeedback:**
+- Ongeldige verwisseling: “Geen match deze keer. Zoek een combinatie die ruimte maakt.”
+- Match elders: “Goed! Kijk nu of je ook ruimte onder de sleutel kunt vrijmaken.”
+
+**Succesfeedback:**
+> “De uitgang is open! De fabriek is weer helemaal wakker.”
+
+**Beloning:** de letter **L** verschijnt en wordt toegevoegd aan de verzamelstrook: **B A L**.
+
+### De drie letters samen — onthulling van BAL
+
+Na level 3 schuift de verzamelstrook naar het midden van het scherm. De letters **B**, **A** en **L** komen samen op één stevig metalen plaatje. De robot zegt:
+
+> “B… A… L. Dat is je eerste geheime woord. Onthoud het goed — je hebt het later nodig!”
+
+Het woord wordt niet gekoppeld aan een gouden medaille of een extra voorwerp uit uitdaging 2. Het is de expliciete woordaanwijzing van uitdaging 1 en wordt opgeslagen in de voortgang van het spel, zodat het later bij het grote slot gebruikt kan worden.
+
+**Einde van uitdaging 1:** de robot toont een korte overgang naar het volgende mysterieuze onderdeel van het speelgoedlab. De ster met het oog wordt hier niet getoond en blijft gereserveerd als beloning van uitdaging 2.
+
+### Ontwerp- en toegankelijkheidsregels
+
+- Geen exacte nabootsing van Royal Match: gebruik alleen het algemene match-3-principe en maak eigen symbolen, doelen, animaties en teksten.
+- Vermijd kleine tegels en minieme tikzones; alle vakjes moeten comfortabel met een duim te bedienen zijn.
+- Gebruik naast kleur ook vorm of pictogram, zodat doelen niet alleen van kleurherkenning afhangen.
+- Respecteer gereduceerde beweging waar mogelijk; animaties mogen nooit de enige manier zijn om spelstatus te begrijpen.
+- Laat de speler na elke match genoeg tijd om het resultaat te zien; geen snelle automatische cascades die invoer verwarrend maken.
+- Houd de instructie kort en toon het leveldoel altijd tijdens het spelen.
+- De precieze rasterafmetingen, symbolenverdeling, zetlimieten en startborden moeten tijdens de technische uitwerking worden getest. Dit dossier legt de spelregels en doelen vast, niet de definitieve puzzelmatrices.
 
 ## Uitdaging 2 — De drie raadselmeesters
 
@@ -125,7 +248,7 @@ De aap wijst naar drie gesloten kistjes. De sleutel past op het slot van het gek
 - Een verkeerde keuze verbruikt de sleutel niet; Wannes kan opnieuw nadenken en een ander kistje kiezen.
 - Bij de juiste keuze draait de sleutel, klikt het slot open en gaat het deksel langzaam omhoog.
 
-**Inhoud van de kist:** een fysiek voorwerp of kaart met de aanwijzing die uitdaging 2 aan uitdaging 4 levert. De gouden medaille is geschrapt. De afgesproken aanwijzingen voor het grote slot zijn: ster met oog (uitdaging 1), **BAL** (uitdaging 2) en signaalrood (uitdaging 3). Daarom bevat de kist de aanwijzing **BAL** — bijvoorbeeld op een geheim kaartje of een bijzonder gegraveerd plaatje. De onthulling mag het woord BAL niet eerder tonen dan op dit eindmoment van uitdaging 2.
+**Inhoud van de kist:** een fysiek voorwerp of kaart met de aanwijzing die uitdaging 2 aan uitdaging 4 levert. De gouden medaille is geschrapt. De afgesproken aanwijzingen voor het grote slot zijn: **BAL** (uitdaging 1), ster met oog (uitdaging 2) en signaalrood (uitdaging 3). Daarom bevat de kist de ster-met-oog-aanwijzing — bijvoorbeeld op een geheim kaartje of een bijzonder gegraveerd plaatje. De onthulling mag het woord BAL niet eerder tonen dan op dit eindmoment van uitdaging 2.
 
 **Reactie van de robot:**
 
@@ -138,7 +261,7 @@ De aap wijst naar drie gesloten kistjes. De sleutel past op het slot van het gek
 3. Wannes redeneert dat de aap de sleutel heeft.
 4. De aap geeft hem de messing sleutel.
 5. Wannes onderzoekt de uitspraken op drie kistjes en kiest het rode kistje.
-6. De kist gaat open en onthult **BAL**, de aanwijzing die nodig is voor uitdaging 4.
+6. De kist gaat open en onthult de **ster met een oog**, de symboolaanwijzing die nodig is voor uitdaging 4.
 
 **Ontwerpregel:** de cijfercode, sleutel en kistjes zijn onderdelen van uitdaging 2. Het woord BAL is de opbrengst voor het grote slot. Voeg geen extra puzzel toe en vervang BAL niet door een gouden medaille.
 
@@ -180,10 +303,9 @@ Achter de deur bevindt zich de verrassing die de speelgoedfiguren voor Wannes he
 
 ## Volgende ontwerpstappen
 
-1. Werk de teksten, hints en feedback van uitdaging 2 volledig uit.
-2. Leg vast hoe BAL in de kist wordt onthuld en hoe die aanwijzing herkenbaar blijft voor uitdaging 4.
-3. Werk de schermenlijst en de benodigde assets voor uitdaging 2 uit.
-4. Werk de resterende uitdagingen, finale en persoonlijke boodschap verder uit.
-5. Controleer het hele dossier op tegenstrijdigheden en maak daarna pas de master-prompt.
+1. Werk uitdaging 3 volledig uit, inclusief regels, hints, feedback en schermen.
+2. Werk de schermenlijst en benodigde assets voor uitdaging 1 en 2 uit.
+3. Werk de resterende uitdagingen, finale en persoonlijke boodschap verder uit.
+4. Controleer het hele dossier op tegenstrijdigheden en maak daarna pas de master-prompt.
 
 **Bouwstop:** dit bestand beschrijft het ontwerp. Er wordt nog geen nieuwe gamecode gebouwd zolang het volledige dossier niet is goedgekeurd.
