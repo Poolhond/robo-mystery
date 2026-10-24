@@ -1,27 +1,27 @@
 # ROBO MYSTERY — Assetregister & referenties
 
-**Versie:** 0.2  
+**Versie:** 0.3  
 **Status:** Eerste inventaris op basis van de vijf in deze ontwerpsessie aangeleverde afbeeldingen. De originele beelden zijn in de chat beschikbaar; ze zijn nog niet als afbeeldingsbestanden in deze repository opgeslagen.
 
 | ID | Beschrijving | Hoofdfunctie | Status |
 |---|---|---|---|
-| REF-01 | Kamer 3 — The Signal Room: robot, signaalmonitor, satellietschotel, technische apparatuur, verhaalpaneel, inventaris en score | Primaire referentie voor omgevingsstijl en geïntegreerde game-interface | Kernreferentie |
-| REF-02 | Karakter-/conceptblad: The Robot, The Signal Bird, Winged Guardian, The Heart Mark en The Golden Clue | Robotontwerp, grafische karakterpresentatie, symbolen en objecten | Kernreferentie |
-| REF-03 | Overzicht met robot, signaalvogel, aap, panda, octopus, schildpad en aanvullende symbolen | Verhouding tussen personages, aanzichten en karakterbladen | Kernreferentie |
+| REF-01 | Kamer 3 — The Signal Room: signaalmonitor, satellietschotel, technische apparatuur, verhaalpaneel, inventaris en score | Primaire referentie voor omgevingsstijl en geïntegreerde game-interface | Kernreferentie |
+| REF-02 | Karakter-/conceptblad: The Signal Bird, Winged Guardian, The Heart Mark en The Golden Clue | Robotontwerp, grafische karakterpresentatie, symbolen en objecten | Kernreferentie |
+| REF-03 | Overzicht met signaalvogel, aap, panda, octopus, schildpad en aanvullende symbolen | Verhouding tussen personages, aanzichten en karakterbladen | Kernreferentie |
 | REF-04 | Het speelgoedlaboratorium: kleine geometrische huisjes, gestreepte schoorstenen, kleurrijke daken en een knoppenroute op een groene basis | Specifieke omgevingsconceptreferentie | Kernreferentie voor deze wereld |
-| REF-05 | Verticale robotposter met robot en kinderen, geometrische achtergrondvlakken | Aanvullende referentie voor robotpresentatie, schaal en grafische compositie | Aanvullend |
+| REF-05 | Verticale poster met kinderen (robotreferentie vervallen), geometrische achtergrondvlakken | Aanvullende referentie voor robotpresentatie, schaal en grafische compositie | Aanvullend |
 | AST-TURTLE-01 | Verweerde zeefdrukillustratie van de groene pluchen schildpad, gebaseerd op Michels foto | Karakterasset: de schildpad / geheime bewaker | Gegenereerd; afbeeldingsbestand nog niet naar de repository geüpload |
 | AST-BIRD-01 | Zeefdrukillustratie van de houten nestkast met rood-oranje zangvogel, gebaseerd op Michels foto | Karakter-/omgevingsasset voor de signaalvogel en haar nestkast | Gegenereerd; afbeeldingsbestand nog niet naar de repository geüpload |
 | AST-ENV-01 | Zeefdrukillustratie van het fysieke speelgoedlaboratorium: geometrische huisjes, snoepstrooi-daken, gestreepte schoorstenen en knoppenpad op groene basis | Primaire omgevingsasset voor het speelgoedlaboratorium | Gegenereerd; afbeeldingsbestand nog niet naar de repository geüpload |
-| AST-ROBOT-01 | Nieuwe zeefdrukillustratie van de echte witte speelgoedrobot: frontaal, crème inkt, petrolschaduw, signaalrode cirkel, mosterdgele accenten en sterke verweerde druktextuur | Primaire gestileerde robotasset voor ROBO MYSTERY | Gegenereerd; wacht op plaatsing als afbeeldingsbestand in `assets/characters/` |
+| AST-ROBOT-01 | Eerder gegenereerde zeefdrukillustratie van de witte speelgoedrobot | Vervallen asset; robot is volledig uit het spelconcept geschrapt | Niet gebruiken; archiefreferentie, geen gameasset |
 
-## Eerste uitgewerkte asset — AST-ROBOT-01
+## Vervallen asset — AST-ROBOT-01 (niet gebruiken)
 
-**Bron:** door Michel aangeleverde foto van de fysieke witte robot.  
-**Assetrichting:** behoud de herkenbare vorm van de echte robot: afgeronde kop, donker vizier, drie borstsensoren, power-symbool, gepantserde ledematen en grote voeten.  
-**Stijlbehandeling:** sterke jarenzeventig-zeefdruk, verweerd crème papier, signaalrood, mosterdgeel en donker petrol; zichtbare halftoon, inktspikkels, krassen en lichte kleurplaatverschuiving.  
-**Compositie:** volledige robot, frontaal en centraal, zonder extra personages of tekst.  
-**Bestand:** de gegenereerde PNG is in deze sessie aangemaakt, maar is nog niet als binair bestand in de repository opgeslagen. De asset is daarom nog niet als definitief geregistreerd in de bestandenstructuur.
+**Status:** VERVALLEN. De robot is volledig geschrapt uit het concept; de oude afbeelding mag niet in de game worden gebruikt.  
+
+
+
+**Gebruik:** niet opnemen in de game of toekomstige assetbundels.
 
 ## Tweede uitgewerkte asset — AST-ENV-01
 
