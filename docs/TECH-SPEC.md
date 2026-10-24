@@ -1,6 +1,6 @@
 # ROBO MYSTERY — Techniekregels
 
-**Versie:** 0.1  
+**Versie:** 0.2  
 **Status:** Concept. Doel: een stabiel spel dat in één bouwopdracht gemaakt kan worden en direct werkt op een iPhone.
 
 ## 1. Platform
@@ -27,8 +27,11 @@ assets/
 Alle spelertekst staat in `content.js`: raadsels, antwoorden, hints, feedback, de naam "Wannes", de slottekst en de eventuele echte opdracht aan het einde. Dit maakt aanpassen voor iedereen mogelijk zonder de spelcode te raken.
 
 ## 4. Spelstatus en opslag
-- Eén `state`-object: huidig scherm, voltooide uitdagingen, score, verzamelde aanwijzingen, gebruikte hints.
-- Opslaan in `localStorage` na elke belangrijke stap, zodat herladen of een slapende telefoon niets kost.
+- Eén `state`-object bewaart huidig scherm en locatie in het laboratorium, voltooide uitdagingen, voortgang binnen elke deelpuzzel, verzamelde aanwijzingen, ingevoerde slotgegevens en gebruikte hints.
+- Elke uitdaging moet hervatbaar zijn op de exacte deelstap. Voorbeelden: huidig match-3-bord en resterende zetten; laatst voltooide bekerronde; geopende deur, verdiende sleutel en huidige stap in de raadselketting.
+- Sla lokaal op na elke betekenisvolle actie, zoals een geldige match, een voltooide ronde, een correct opgeloste deelpuzzel, een verdiende aanwijzing of wijziging aan het slot.
+- Bij terugkeer naar een uitdaging wordt de opgeslagen toestand hersteld; begin geen uitdaging opnieuw tenzij Wannes daar bewust voor kiest.
+- Herladen, een slapende telefoon of het sluiten en later opnieuw openen van Safari mag geen voortgang kosten. Voorzie ook een veilige standaardtoestand als er nog geen opslag bestaat.
 - Een verborgen resetknop (bijvoorbeeld lang indrukken op de titel) om opnieuw te beginnen.
 - Als `localStorage` niet werkt, blijft het spel speelbaar zonder opslaan.
 
