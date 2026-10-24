@@ -125,7 +125,7 @@
 2. Duidelijker: de spel zegt: “Maak ruimte onder de sleutel, dan kan ze naar beneden vallen.”
 3. Expliciet: een geldige match die ruimte onder de sleutel maakt, wordt aangeduid.
 
-**Introductietekst van de robot:**
+**Introductietekst op het scherm:**
 > “Daar is de energiesleutel! Maak de vakjes onder haar vrij en laat de sleutel naar de uitgang vallen.”
 
 **Foutfeedback:**
@@ -280,7 +280,7 @@ De aap wijst naar drie gesloten kistjes. De sleutel past op het slot van het gek
 **Beloning van uitdaging 3:** de kleur **signaalrood**, de kleur-aanwijzing voor uitdaging 4.  
 **Geschatte speelduur:** ongeveer 2 minuten.  
 **Bediening:** Wannes tikt op één van drie grote bekers op het scherm; geschikt voor iPhone in staande stand.  
-**Geen game-over:** na een fout mag Wannes opnieuw proberen. Bij herhaald vastlopen helpt de robot met een hint of toont hij de beginpositie opnieuw.
+**Geen game-over:** na een fout mag Wannes opnieuw proberen. Bij herhaald vastlopen helpt de het spel met een hint of toont hij de beginpositie opnieuw.
 
 ### De scène en de spelregels
 
@@ -295,7 +295,7 @@ Aan het begin van iedere ronde:
 6. Na de laatste wissel stoppen de bekers volledig. Pas daarna kan Wannes een keuze maken.
 7. Wannes tikt op de beker waaronder hij denkt dat het balletje ligt.
 8. De gekozen beker gaat omhoog en toont of het balletje eronder ligt.
-9. Een juist antwoord voltooit de ronde. Bij een fout antwoord geeft de robot korte feedback en volgt een nieuwe poging met een opnieuw getoonde beginpositie.
+9. Een juist antwoord voltooit de ronde. Bij een fout antwoord geeft de het spel korte feedback en volgt een nieuwe poging met een opnieuw getoonde beginpositie.
 
 **Belangrijk:** de spelregels moeten visueel duidelijk maken dat de bekers zelf van plaats wisselen. De speler volgt de bekerpositie, niet een verwarrende reeks willekeurige animaties. Geen tijdslimiet voor het kiezen na afloop van de wissels.
 
@@ -309,7 +309,7 @@ Aan het begin van iedere ronde:
 - De bekers volgen een duidelijk pad en overlappen elkaar niet.
 - Deze ronde leert het principe en is bewust eenvoudig.
 
-**Introductietekst van de robot:**
+**Introductietekst op het scherm:**
 > “Let goed op het rode balletje. Ik wissel de bekers twee keer. Kijk waar het balletje eindigt!”
 
 **Feedback bij een fout:**
@@ -320,8 +320,8 @@ Aan het begin van iedere ronde:
 
 **Hints:**
 1. Eerste hint: “Volg één beker tegelijk met je ogen.”
-2. Tweede hint: de robot toont de beginpositie opnieuw en voert de twee wissels langzamer uit.
-3. Extra hulp: de robot vertraagt de wissels en pauzeert kort nadat elke wissel voltooid is.
+2. Tweede hint: het spel toont de beginpositie opnieuw en voert de twee wissels langzamer uit.
+3. Extra hulp: het spel vertraagt de wissels en pauzeert kort nadat elke wissel voltooid is.
 
 **Overgang:** het balletje springt kort op en neer en rolt daarna weer onder een beker voor ronde 2.
 
@@ -335,11 +335,11 @@ Aan het begin van iedere ronde:
 - Het spel probeert Wannes met een grapje af te leiden, maar de tekst verschijnt vóór of na de beweging, nooit over de bekers heen.
 - De bekers blijven steeds volledig binnen het zichtbare speelgebied.
 
-**Introductietekst van de robot:**
+**Introductietekst op het scherm:**
 > “Goed opgelet! Nu drie wissels. Laat je niet afleiden door mijn geweldige goochelstem…”
 
-**Grappige afleiding van de robot:**
-> “Psst… wist je dat robots ook kunnen goochelen? Euh… blijf vooral naar de bekers kijken!”
+**Grappige afleiding in het spel:**
+> “Psst… let goed op de bekers. Het balletje blijft ergens onder verstopt!”
 
 **Feedback bij een fout:**
 > “Ha! Ik had je bijna te pakken. We doen het nog eens.”
@@ -359,10 +359,10 @@ Aan het begin van iedere ronde:
 - De bekers wisselen vier keer van plaats.
 - De wissels verlopen sneller dan in ronde 2, maar er blijft een korte, zichtbare overgang tussen elke wissel.
 - De laatste wissel is niet extra versneld ten opzichte van de rest; de moeilijkheid komt uit het volgen van de volledige reeks, niet uit een oneerlijke plotselinge versnelling.
-- De robot blijft stil tijdens de daadwerkelijke wissels zodat hij niet visueel of tekstueel afleidt.
+- er verschijnt geen tekst tijdens de daadwerkelijke wissels zodat hij niet visueel of tekstueel afleidt.
 - Na de vierde wissel blijven de bekers stilstaan. Wannes krijgt alle tijd om zijn keuze te maken.
 
-**Introductietekst van de robot:**
+**Introductietekst op het scherm:**
 > “Klaar voor de meestertruc? Vier wissels. Blijf bij het rode balletje — jij kunt dit!”
 
 **Feedback bij een fout:**
@@ -373,7 +373,7 @@ Aan het begin van iedere ronde:
 
 **Hints:**
 1. Eerste hint: “Probeer de beker te volgen in plaats van naar het balletje te zoeken.”
-2. Tweede hint: de robot toont de beginpositie opnieuw en speelt de vier wissels op het tempo van ronde 2 af.
+2. Tweede hint: het spel toont de beginpositie opnieuw en speelt de vier wissels op het tempo van ronde 2 af.
 3. Extra hulp: de bekers wisselen opnieuw, één voor één, met een korte pauze na iedere wissel. Dit maakt de reeks eenvoudiger zonder de oplossing direct te tonen.
 
 ### Regels voor eerlijke moeilijkheid
@@ -389,9 +389,9 @@ Aan het begin van iedere ronde:
 
 ### Beloning — signaalrood
 
-Na het succes in ronde 3 tilt de robot de juiste beker op. Het rode balletje stijgt op, verandert in een gloeiende rode lichtbol en werpt een rode lichtcirkel op de tafel. De robot scant de lichtbol en projecteert een eenvoudige rode kleurstaal met het label **SIGNAALROOD**.
+Na het succes in ronde 3 tilt de het spel de juiste beker op. Het rode balletje stijgt op, verandert in een gloeiende rode lichtbol en werpt een rode lichtcirkel op de tafel. het laboratoriumsysteem analyseert de lichtbol en projecteert een eenvoudige rode kleurstaal met het label **SIGNAALROOD**.
 
-**Tekst van de robot:**
+**Tekst op het scherm:**
 > “Aha! De truc is ontmaskerd. Onthoud deze kleur: signaalrood. Je hebt nu alle drie de aanwijzingen verzameld!”
 
 De kleurstaal wordt toegevoegd aan de verzamelde aanwijzingen en blijft beschikbaar voor uitdaging 4. De ster met het oog en het woord BAL worden hier niet opnieuw uitgereikt.
@@ -408,7 +408,7 @@ Benodigde assets:
 - Drie eigen bekerillustraties in dezelfde retro-zeefdrukstijl.
 - Rood balletje en eventueel een subtiele schaduw.
 - Goocheltafel of afgebakend speelvlak.
-- Robotportret of klein robotfiguur voor dialoog.
+- het spelportret of klein het spelfiguur voor dialoog.
 - Rood lichtbol-effect en kleurstaal voor signaalrood.
 - Eenvoudige markering voor de hintstand.
 - Korte, optionele geluiden voor bekerwissel, beker optillen en succes; het spel moet volledig begrijpelijk blijven zonder geluid.
@@ -420,14 +420,14 @@ Benodigde assets:
 
 ### Vrije verkenning en ontdekking
 
-Het laboratorium is één centrale omgeving waarin Wannes de robot zelf rondstuurt. De drie uitdagingen bevinden zich op verschillende plekken. Er is geen vaste volgorde en het spel verplicht hem niet eerst een bepaalde uitdaging af te werken.
+Het laboratorium is één centrale omgeving waarin Wannes de het spel zelf rondstuurt. De drie uitdagingen bevinden zich op verschillende plekken. Er is geen vaste volgorde en het spel verplicht hem niet eerst een bepaalde uitdaging af te werken.
 
 De grote deur is ook vanaf het begin zichtbaar of vindbaar. Wannes mag ze meteen onderzoeken. Zo ontdekt hij zelf dat dit het centrale mysterie is. Het slot toont drie onderdelen:
 - een symboolvenster;
 - een invoerveld voor een woord;
 - een kleurkeuze.
 
-Bij de eerste ontdekking geeft de robot een korte reactie:
+Bij de eerste ontdekking geeft de het spel een korte reactie:
 
 > “Een geheim slot! Het lijkt erop dat het drie aanwijzingen nodig heeft. Die moeten ergens in dit laboratorium verstopt zitten.”
 
@@ -477,7 +477,7 @@ Het slot legt niet uit waar de aanwijzingen te vinden zijn. Wannes ontdekt dat d
 Onder het woordveld en de kleurkeuze staat één grote knop **OPEN DE DEUR**.
 
 - De knop is zichtbaar en gemakkelijk met één duim te bedienen.
-- Als nog niet alle drie de uitdagingen voltooid zijn, legt de robot vriendelijk uit dat het slot nog aanwijzingen mist. De deur geeft geen straf en Wannes kan meteen terug op ontdekking gaan.
+- Als nog niet alle drie de uitdagingen voltooid zijn, legt de het spel vriendelijk uit dat het slot nog aanwijzingen mist. De deur geeft geen straf en Wannes kan meteen terug op ontdekking gaan.
 - Als de uitdagingen voltooid zijn maar het woord of de kleur fout is, volgt korte mechanische feedback. Het symbool blijft staan en het woord en de kleur blijven geselecteerd.
 - Er zijn onbeperkte pogingen en geen timer, verloren levens of game-over.
 - Bij de juiste combinatie — automatisch verschenen ster met oog, woord **BAL** en kleur **signaalrood** — klikken de onderdelen vast en opent de deur.
@@ -540,7 +540,7 @@ Benodigde assets:
 - Groot woordveld en toetsenbordvriendelijke invoer.
 - Gelabelde kleurstalen, inclusief signaalrood.
 - Grote OPEN DE DEUR-knop, lampje en korte succes-/foutindicatoren.
-- Robotillustratie voor reacties en warme lichtstraal voor de finale.
+- het spelillustratie voor reacties en warme lichtstraal voor de finale.
 
 ## Finale — de feestelijke onthulling
 
