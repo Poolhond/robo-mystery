@@ -1,6 +1,6 @@
 # ROBO MYSTERY — Spelconcept
 
-**Versie:** 0.9  
+**Versie:** 1.0  
 **Status:** Ontwerpfase — geen nieuwe gamecode  
 **Laatste update:** 25 oktober 2026 — vrije laboratoriumverkenning met hervatbare deelvoortgang; uitdaging 4 gebruikt automatisch symbool, zelf getypt woord en zelf gekozen kleur
 
@@ -89,17 +89,17 @@ De herkenbare vormen en kleuren van de bestaande speelgoedfiguren blijven leiden
 1. Geef vooraf niet te veel uitleg; Wannes ontdekt het verhaal door te spelen.
 2. Elke uitdaging heeft een duidelijke functie in het avontuur.
 3. De robot blijft de rode draad door alle scènes.
-4. De uitdagingen testen verschillende vaardigheden: observeren, logisch nadenken en volgen; het slot vraagt dat Wannes zijn ontdekkingen toepast.
+4. De uitdagingen testen verschillende vaardigheden: matchen en plannen, logisch nadenken en goed observeren; het slot vraagt dat Wannes zijn ontdekkingen toepast.
 5. Aanwijzingen zijn vóór de finale mysterieus en achteraf logisch.
 6. De speelgoedfiguren mogen verdacht gedrag vertonen, maar mogen de verrassing niet te vroeg verklappen.
-7. De deur is het centrale doel dat de vier uitdagingen verbindt. Wannes kiest zelf de volgorde waarin hij het laboratorium verkent.
+7. De deur is het centrale doel dat de vier uitdagingen verbindt. Wannes kiest zelf de volgorde waarin hij de eerste drie uitdagingen verkent.
 8. De feestfinale is interactief, maar kort en toegankelijk.
 9. Teksten spreken Wannes direct aan, in het Nederlands en passend bij een twaalfjarige: speels, geen babytaal.
 10. Wannes kan niet vastlopen: elke uitdaging heeft hints en geen echte game-over.
-14. Voortgang wordt per deelstap bewaard. Wisselen van uitdaging of het sluiten en heropenen van de browser mag geen opgeloste puzzels, verdiende aanwijzingen of lopende puzzelstand verliezen.
-11. De drie puzzels van uitdaging 2 blijven een vaste ketting: code → sleutel → kistje met de ster-met-oog-aanwijzing.
+11. De drie deelpuzzels van uitdaging 2 blijven een vaste ketting: code → sleutel → kistje met de ster-met-oog-aanwijzing.
 12. Uitdaging 1 bestaat uit drie match-3-levels; de letters B, A en L vormen samen de woordaanwijzing BAL.
-13. Het oude prototype wordt niet gebruikt als basis voor de nieuwe game.
+13. Voortgang wordt per deelstap bewaard. Wisselen van uitdaging of het sluiten en opnieuw openen van de browser mag geen opgeloste puzzels, verdiende aanwijzingen of lopende puzzelstand verliezen.
+14. Het oude prototype wordt niet gebruikt als basis voor de nieuwe game.
 
 ## 7. Spelvorm
 
