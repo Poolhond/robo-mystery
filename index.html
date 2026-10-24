@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#f4e6c7">
+<title>ROBO MYSTERY — Het geheim van het speelgoedlab</title>
+<style>
+:root{--paper:#f4e6c7;--ink:#202b22;--red:#d94c35;--yellow:#e9b83f;--green:#496c49;--blue:#2d6870;--pink:#d77c83}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:Trebuchet MS,Arial,sans-serif;background-image:radial-gradient(#202b2218 .8px,transparent .8px);background-size:6px 6px}
+button{font:inherit;cursor:pointer}
+.wrap{max-width:760px;margin:auto;min-height:100svh;padding:20px 16px 32px;display:flex;flex-direction:column;gap:14px}
+.top{display:flex;justify-content:space-between;align-items:center;font-size:11px;font-weight:900;letter-spacing:.16em;text-transform:uppercase}
+.stamp{border:2px solid var(--ink);padding:5px 8px;transform:rotate(-3deg)}
+h1{font-size:clamp(42px,11vw,78px);line-height:.82;letter-spacing:-.075em;margin:8px 0 0;font-weight:1000;text-transform:uppercase}
+h1 span{color:var(--red);display:block;text-shadow:2px 2px 0 var(--ink)}
+.sub{font-size:14px;line-height:1.45;max-width:38ch;margin:0}
+.scene{position:relative;overflow:hidden;border:3px solid var(--ink);border-radius:4px;background:#e8bd55;min-height:300px;aspect-ratio:1.2/1;box-shadow:6px 6px 0 var(--ink)}
+.scene:before{content:"";position:absolute;inset:0;background:radial-gradient(#202b2222 1px,transparent 1px);background-size:5px 5px;pointer-events:none;z-index:5}
+.backwall{position:absolute;inset:0 0 24% 0;background:#f4e6c7;border-bottom:4px solid var(--ink)}
+.window{position:absolute;top:9%;left:7%;width:27%;height:37%;background:var(--blue);border:4px solid var(--ink);box-shadow:inset 0 0 0 5px #f4e6c7}
+.window:before,.window:after{content:"";position:absolute;background:var(--paper);z-index:1}.window:before{width:4px;height:100%;left:50%}.window:after{height:4px;width:100%;top:50%}
+.shelf{position:absolute;top:49%;left:4%;width:37%;height:7%;background:var(--red);border:3px solid var(--ink)}
+.jar{position:absolute;bottom:100%;width:17%;height:45px;border:3px solid var(--ink);background:var(--yellow);border-radius:5px 5px 2px 2px}
+.jar:after{content:"";position:absolute;top:-8px;left:18%;width:64%;height:7px;background:var(--ink)}
+.jar.j1{left:10%}.jar.j2{left:42%;background:var(--blue);height:35px}.jar.j3{left:72%;background:var(--green);height:51px}
+.pipe{position:absolute;right:13%;top:0;width:17%;height:55%;background:repeating-linear-gradient(0deg,var(--red) 0 16px,var(--paper) 16px 31px);border:4px solid var(--ink);border-top:0}
+.pipe:after{content:"";position:absolute;left:-10px;top:0;width:calc(100% + 20px);height:12px;background:var(--ink)}
+.roof{position:absolute;right:5%;top:47%;width:34%;height:0;border-left:54px solid transparent;border-right:54px solid transparent;border-bottom:45px solid var(--red);filter:drop-shadow(0 3px 0 var(--ink))}
+.bench{position:absolute;bottom:22%;left:7%;width:86%;height:9%;background:var(--green);border:4px solid var(--ink)}
+.bench:before,.bench:after{content:"";position:absolute;top:100%;height:55px;width:12px;background:var(--ink)}.bench:before{left:10%}.bench:after{right:10%}
+.path{position:absolute;bottom:0;left:0;width:100%;height:27%;background:var(--green);border-top:4px solid var(--ink)}
+.buttons{position:absolute;bottom:4%;left:5%;right:5%;display:flex;justify-content:space-around;transform:rotate(-3deg)}
+.dot{width:20px;height:20px;border:3px solid var(--ink);border-radius:50%;background:var(--red);box-shadow:1px 2px 0 var(--ink)}.dot:nth-child(2n){background:var(--yellow);margin-top:13px}.dot:nth-child(3n){background:var(--blue);margin-top:5px}
+.robot{position:absolute;left:41%;bottom:25%;width:20%;height:32%;z-index:2}
+.robot .head{position:absolute;left:10%;top:0;width:80%;height:51%;border:4px solid var(--ink);border-radius:12px;background:var(--paper);box-shadow:inset 0 -9px 0 #d8c7a3}
+.robot .eye{position:absolute;top:35%;width:13%;height:13%;background:var(--ink);border-radius:50%}.robot .eye.e1{left:29%}.robot .eye.e2{right:29%}
+.robot .antenna{position:absolute;top:-15%;left:48%;height:18%;width:4px;background:var(--ink)}.robot .antenna:after{content:"";position:absolute;top:-5px;left:-4px;width:10px;height:10px;border-radius:50%;background:var(--red);border:2px solid var(--ink)}
+.robot .body{position:absolute;top:53%;left:18%;width:64%;height:36%;background:var(--blue);border:4px solid var(--ink);border-radius:5px}
+.robot .body:after{content:"";position:absolute;left:36%;top:23%;width:25%;height:25%;border-radius:50%;background:var(--yellow);border:2px solid var(--ink)}
+.robot .leg{position:absolute;bottom:0;width:14%;height:15%;background:var(--ink)}.robot .leg.l1{left:28%}.robot .leg.l2{right:28%}
+.caption{position:absolute;top:6%;right:5%;z-index:6;background:var(--paper);border:2px solid var(--ink);padding:6px 8px;font-size:10px;font-weight:900;letter-spacing:.08em;transform:rotate(3deg)}
+.panel{border:3px solid var(--ink);background:var(--paper);padding:14px;box-shadow:4px 4px 0 var(--ink)}
+.panel h2{font-size:18px;text-transform:uppercase;letter-spacing:-.04em;margin:0 0 7px}
+.panel p{font-size:14px;line-height:1.45;margin:0}
+.actions{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.primary,.secondary{border:3px solid var(--ink);padding:14px 12px;font-weight:1000;text-transform:uppercase;letter-spacing:.04em;box-shadow:4px 4px 0 var(--ink);transition:transform .12s,box-shadow .12s}
+.primary{background:var(--red);color:#fff}.secondary{background:var(--yellow);color:var(--ink)}
+.primary:active,.secondary:active{transform:translate(3px,3px);box-shadow:1px 1px 0 var(--ink)}
+#message{display:none}
+.clues{display:none;grid-template-columns:repeat(2,1fr);gap:9px}
+.clue{border:3px solid var(--ink);background:#fff4dc;padding:12px 10px;text-align:left;box-shadow:3px 3px 0 var(--ink);min-height:95px}
+.clue strong{display:block;font-size:15px;text-transform:uppercase;margin-bottom:5px}.clue span{font-size:12px;line-height:1.35;display:block}
+.clue.selected{background:var(--yellow);outline:3px solid var(--red)}
+.status{display:flex;align-items:center;justify-content:space-between;font-size:11px;font-weight:900;text-transform:uppercase;letter-spacing:.08em}
+footer{text-align:center;font-size:10px;font-weight:900;letter-spacing:.12em;text-transform:uppercase;padding-top:5px}
+@media(min-width:620px){.wrap{padding:28px 24px}.scene{aspect-ratio:1.65/1}.clues{grid-template-columns:repeat(4,1fr)}}
+</style>
+</head>
+<body>
+<main class="wrap">
+  <div class="top"><span>Een interactief speelgoedmysterie</span><span class="stamp">Dossier 001</span></div>
+  <h1>ROBO <span>MYSTERY</span></h1>
+  <p class="sub">Er is iets vreemds gebeurd in het speelgoedlab. De robot is wakker… maar zijn geheugen is leeg.</p>
+  <section class="scene" aria-label="Illustratie van een kleurrijk speelgoedlaboratorium">
+    <div class="backwall"></div><div class="window"></div>
+    <div class="pipe"></div><div class="roof"></div>
+    <div class="shelf"><i class="jar j1"></i><i class="jar j2"></i><i class="jar j3"></i></div>
+    <div class="robot"><div class="antenna"></div><div class="head"><i class="eye e1"></i><i class="eye e2"></i></div><div class="body"></div><i class="leg l1"></i><i class="leg l2"></i></div>
+    <div class="bench"></div><div class="path"><div class="buttons"><i class="dot"></i><i class="dot"></i><i class="dot"></i><i class="dot"></i><i class="dot"></i><i class="dot"></i><i class="dot"></i><i class="dot"></i></div></div>
+    <div class="caption">LABORATORIUM 7B</div>
+  </section>
+  <section class="panel" id="intro"><h2>Jouw missie</h2><p>Ontdek wie de geheime robotcode heeft verstopt. Onderzoek de sporen, verzamel aanwijzingen en herstel het geheugen van ROBO.</p></section>
+  <section class="panel" id="message" aria-live="polite"><h2 id="msgTitle">Onderzoek gestart</h2><p id="msgText">Kies een spoor om het lab te onderzoeken.</p></section>
+  <div class="actions" id="startActions"><button class="primary" id="start">Start onderzoek ↗</button><button class="secondary" id="rules">Hoe speel je?</button></div>
+  <div class="clues" id="clues">
+    <button class="clue" data-clue="a"><strong>01 — De werkbank</strong><span>Er ligt een glinsterend schroefje naast de robot.</span></button>
+    <button class="clue" data-clue="b"><strong>02 — De plantenpot</strong><span>In de aarde zit een klein stukje blauw papier.</span></button>
+    <button class="clue" data-clue="c"><strong>03 — De knoppenbaan</strong><span>Een rij gekleurde knoppen lijkt een patroon te vormen.</span></button>
+    <button class="clue" data-clue="d"><strong>04 — De voorraadkast</strong><span>Een kastdeur staat op een kier. Iets piept binnenin.</span></button>
+  </div>
+  <div class="status"><span id="progress">4 sporen wachten op jou</span><span>✦ Denk als een detective</span></div>
+  <footer>Handgemaakt mysterie • Open je ogen, volg de sporen</footer>
+</main>
+<script>
+const start=document.querySelector('#start'), rules=document.querySelector('#rules'), clues=document.querySelector('#clues'), intro=document.querySelector('#intro'), message=document.querySelector('#message'), msgTitle=document.querySelector('#msgTitle'), msgText=document.querySelector('#msgText'), progress=document.querySelector('#progress');
+let found=new Set();
+start.addEventListener('click',()=>{clues.style.display='grid';message.style.display='block';intro.style.display='none';document.querySelector('#startActions').style.display='none';msgTitle.textContent='Onderzoek gestart';msgText.textContent='Kies de sporen één voor één. Elk spoor onthult een stukje van het mysterie.';});
+rules.addEventListener('click',()=>{message.style.display='block';msgTitle.textContent='Hoe speel je?';msgText.textContent='Tik op “Start onderzoek”. Onderzoek daarna de vier plekken in het lab. Lees de aanwijzingen goed: later vormen ze samen de geheime code!';});
+document.querySelectorAll('.clue').forEach(btn=>btn.addEventListener('click',()=>{const id=btn.dataset.clue;found.add(id);btn.classList.add('selected');const notes={a:['Een robotvingerafdruk!','Het schroefje past precies in een leeg vakje op de robot. Iemand heeft hem open gemaakt.'],b:['Een geheim bericht!','Op het blauwe papiertje staat: “Volg de kleuren, niet de cijfers.”'],c:['Een kleurenpatroon!','De knoppen vormen rood – geel – blauw – groen. Onthoud die volgorde.'],d:['Een verborgen helper!','In de kast zit een mini-speelgoedmuis. Hij piept vier keer en wijst naar de robot.']};msgTitle.textContent=notes[id][0];msgText.textContent=notes[id][1];progress.textContent=found.size===4?'Alle sporen gevonden — code ontdekt!':found.size+' van de 4 sporen onderzocht';if(found.size===4){msgTitle.textContent='Mysterie opgelost… bijna!';msgText.textContent='Je hebt alle aanwijzingen verzameld. De geheime code is de kleurenvolgorde: ROOD – GEEL – BLAUW – GROEN. ROBO’s geheugen begint terug te komen!';}}));
+</script>
+</body>
+</html>
