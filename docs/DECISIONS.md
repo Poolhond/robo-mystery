@@ -1,6 +1,6 @@
 # ROBO MYSTERY — Beslissingen en open punten
 
-**Versie:** 0.8  
+**Versie:** 0.9  
 **Doel:** één betrouwbare plek voor besluiten en open punten, zodat de inhoud niet telkens opnieuw wordt bedacht.
 
 ## Vastgelegd
@@ -8,7 +8,8 @@
 | Onderwerp | Beslissing |
 |---|---|
 | Speler | Wannes (12), speelt het spel op zijn verjaardag zelf |
-| Rol van de robot | Wannes bestuurt de robot; de robot is zijn instrument |
+| Hoofdpersonage | Geen bestuurbare robot of vervangend hoofdpersonage; Wannes onderzoekt de ruimte zelf |
+| Robot | Volledig geschrapt uit verhaal, scènes, interface en assetplanning |
 | Feest | De onthulling aan het einde is voor Wannes |
 | Thema | Goochelen: trucjes, puzzels en raadsels |
 | Opbouw | Vrije verkenning van het laboratorium; uitdagingen 1–3 in zelfgekozen volgorde; uitdaging 4 is de grote deur en het slot |
@@ -28,8 +29,8 @@
 | Uitdaging 3 — moeilijkheid | Drie rondes met respectievelijk twee, drie en vier wissels; snelheid neemt geleidelijk toe maar de beweging blijft eerlijk te volgen |
 | Uitdaging 4 — bediening | De ster met oog verschijnt automatisch na uitdaging 2; Wannes typt zelf het woord en kiest zelf een kleur; grote knop OPEN DE DEUR |
 | Uitdaging 4 — oplossing | Ster met oog (uitdaging 2), woord BAL (uitdaging 1), kleur signaalrood (uitdaging 3); onbeperkte pogingen |
-| Startscherm en wereld | De maquette is uitsluitend het startscherm. Na Start bevindt de robot zich binnen in de maquette, in de technische ruimte. |
-| Technische ruimte | De volledige ruimte is tegelijk zichtbaar op het iPhone-scherm; robot en alle vier de voorwerpen zijn tegelijk herkenbaar. Tikken op een voorwerp opent de bijbehorende interactie. |
+| Startscherm en wereld | De maquette is uitsluitend het startscherm. Na Start onderzoekt Wannes zelf de technische ruimte. |
+| Technische ruimte | De volledige ruimte is tegelijk zichtbaar op het iPhone-scherm; alle vier de voorwerpen zijn tegelijk herkenbaar. Tikken op een voorwerp opent de bijbehorende interactie. |
 | Voorwerpen in de technische ruimte | Computerscherm = uitdaging 1; locker met cijfercode = uitdaging 2; tafel met bekers = uitdaging 3; grote deur = uitdaging 4. |
 | Vrije verkenning | Wannes kiest zelf de volgorde van uitdagingen 1, 2 en 3. Hij kan uitdaging 4 vanaf het begin ontdekken, maar de deur opent pas als alle drie voltooid zijn en woord/kleur juist zijn |
 | Tussentijdse voortgang | Elke uitdaging kan worden onderbroken en hervat vanaf de exacte deelstap; opgeloste puzzels, bordstanden, relevante rondevoortgang, beloningen en slotinvoer blijven bewaard |
@@ -55,7 +56,7 @@
 
 ## Assets die nog moeten worden gecontroleerd of gemaakt
 
-- Robot, aap, panda, schildpad en regenboogoctopus.
+- Aap, panda, schildpad en regenboogoctopus; geen robot.
 - Achtergronden per uitdaging.
 - Klein metalen deurtje en groot slot/deur.
 - Cijferwieltjes en OPEN-knop.
@@ -86,4 +87,5 @@ Geef assets consistente namen en leg per bestand vast voor welke scène het dien
 - De ster met het oog is de beloning van uitdaging 2; BAL is niet langer de beloning van uitdaging 2.
 - De kist in uitdaging 2 bevat de **ster met een oog**, de symboolaanwijzing voor uitdaging 4 — geen gouden medaille. BAL komt uit uitdaging 1.
 - De oude index.html-prototypecode wordt verwijderd en mag niet als basis voor de nieuwe game worden gebruikt.
+- De robot is volledig geschrapt en mag niet terugkeren in teksten, hints, scènes, illustraties of finale.
 - Er wordt geen nieuwe gamecode gebouwd zolang het volledige ontwerpdossier niet is goedgekeurd.
