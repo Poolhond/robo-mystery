@@ -1,6 +1,6 @@
 # ROBO MYSTERY — Techniekregels
 
-**Versie:** 0.4  
+**Versie:** 0.5  
 **Status:** Concept. Doel: een stabiel spel dat in één bouwopdracht gemaakt kan worden en direct werkt op een iPhone.
 
 ## 1. Platform
@@ -15,7 +15,7 @@ style.css           # alle stijlen en kleurvariabelen
 game.js             # spelogica
 content.js          # alle teksten, raadsels, antwoorden, personalisatie
 assets/
-  characters/       # robot, schildpad, aap, panda, octopus, vogel
+  characters/       # aap, schildpad, panda, octopus, vogel (geen robot)
   rooms/            # laboratorium en andere scènes
   ui/               # knoppen, kaders, iconen, texturen
   audio/            # (optioneel) geluiden
@@ -41,7 +41,7 @@ Maak onderscheid tussen **locaties in de wereld** en **schermtoestanden**. De gr
 
 De definitieve scèneslijst wordt uitgewerkt in het dossier. De voorlopige structuur bestaat uit:
 - start en proloog;
-- één verkenbaar laboratorium met robot, drie uitdaginglocaties en de grote deur;
+- één verkenbaar laboratorium met drie uitdaginglocaties en de grote deur;
 - de afzonderlijke speeltoestanden van uitdaging 1, 2 en 3;
 - het slotpaneel bij de grote deur, inclusief onvolledige voortgang, foutfeedback en correcte combinatie;
 - de deuropening en feestfinale.
