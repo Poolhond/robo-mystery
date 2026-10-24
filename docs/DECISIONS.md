@@ -1,6 +1,6 @@
 # ROBO MYSTERY — Beslissingen en open punten
 
-**Versie:** 0.4  
+**Versie:** 0.5  
 **Doel:** één betrouwbare plek voor besluiten en open punten, zodat de inhoud niet telkens opnieuw wordt bedacht.
 
 ## Vastgelegd
@@ -11,7 +11,7 @@
 | Rol van de robot | Wannes bestuurt de robot; de robot is zijn instrument |
 | Feest | De onthulling aan het einde is voor Wannes |
 | Thema | Goochelen: trucjes, puzzels en raadsels |
-| Opbouw | Vier hoofd uitdagingen, één grote deur, onthulling en interactieve finale |
+| Opbouw | Vrije verkenning van het laboratorium; drie uitdagingen in zelfgekozen volgorde; grote deur en interactieve finale |
 | Platform | Mobile-first webspel, GitHub Pages, geen account |
 | Taal | Nederlands |
 | Bouwmethode | Eerst het volledige ontwerpdossier, daarna één master-prompt, daarna testen op iPhone en één gerichte fixronde |
@@ -22,25 +22,28 @@
 | Uitdaging 2 — kistjesraadsel | Precies één uitspraak is waar; het rode kistje is de juiste keuze |
 | Aanwijzing uit uitdaging 2 | **Ster met een oog**, gevonden in het rode kistje; dit is de symboolaanwijzing voor uitdaging 4 |
 | Gouden medaille | Niet gebruiken als inhoud van de kist; geschrapt |
-| Aanwijzing uit uitdaging 3 | Signaalrood |\n| Uitdaging 3 — moeilijkheid | Opbouwend: ronde 1 twee wissels, ronde 2 drie wissels, ronde 3 vier wissels; snelheid neemt per ronde toe maar de beweging blijft eerlijk te volgen |\n| Uitdaging 4 — bediening | Combinatie van mechanische symboolschijf, woordkeuze en kleurenschijf; grote knop OPEN DE DEUR |\n| Uitdaging 4 — juiste instellingen | Ster met oog (uitdaging 2), BAL (uitdaging 1), signaalrood (uitdaging 3); verkeerde pogingen behouden de instellingen |
-| Uitdaging 4 | Grote deur met symbool-, woord- en kleurschijf: ster met oog, BAL, signaalrood |
+| Aanwijzing uit uitdaging 3 | Signaalrood |\n| Uitdaging 3 — moeilijkheid | Opbouwend: ronde 1 twee wissels, ronde 2 drie wissels, ronde 3 vier wissels; snelheid neemt per ronde toe maar de beweging blijft eerlijk te volgen |\n| Uitdaging 4 — bediening | Symbool verschijnt automatisch; Wannes typt zelf het woord en kiest zelf een kleur; grote knop OPEN DE DEUR |\n| Uitdaging 4 — juiste instellingen | Automatische ster met oog (uitdaging 2), zelf getypt BAL (uitdaging 1), zelf gekozen signaalrood (uitdaging 3); onbeperkte pogingen |
+| Uitdaging 4 | Deur vanaf het begin te ontdekken; pas oplosbaar na de drie uitdagingen. Symbool verschijnt automatisch; Wannes typt BAL en kiest signaalrood |
 | Bouwstatus | Oude prototypecode is niet bruikbaar als basis; eerst ontwerpdossier afronden en goedkeuren |
+
+| Vrije verkenning | Wannes kiest zelf de volgorde van uitdagingen 1, 2 en 3; uitdaging 4 kan hij vanaf het begin ontdekken, maar niet openen vóór alle drie voltooid zijn |
 
 ## Nog open — ontwerp vóór de bouw
 
-1. **Uitdaging 2 — spelersteksten:** definitieve introductie, personagedialogen, succes- en foutfeedback en afsluiting.
-2. **Uitdaging 2 — hints:** exacte hintstappen voor de codepuzzel en het kistjesraadsel.
-3. **Uitdaging 2 — onthulling van de ster-met-oog-aanwijzing:** kies hoe de aanwijzing in de kist verschijnt (bijvoorbeeld geheim kaartje of gegraveerd plaatje). De functie blijft hetzelfde: het symbool voor uitdaging 4.
-4. **Uitdaging 1 en 3:** test de definitieve match-3-startborden en bekersnelheden op iPhone; werk teksten, oplossingen en assets verder uit.
-5. **Slotscène:** bepaal wat er in het echt na het spel gebeurt en welke tekst daarbij hoort.
-6. **Feesthandeling:** kies bijvoorbeeld een feestknop of lint.
-7. **Persoonlijke boodschap:** bepaal de exacte verjaardagsboodschap en wie er spreekt.
-8. **Spelnaam:** ROBO MYSTERY is de huidige werktitel.
-9. **Kleurenset:** kies één definitieve set als enige bron. Er bestaan verschillende voorstellen in art direction en oudere prototypebestanden.
-10. **Lettertype:** systeemlettertypen met een zwaar, grafisch karakter; geen externe fonts.
-11. **Puntentelling:** beslis of score nodig is; voortgang mag nooit door score worden geblokkeerd.
-12. **Assets:** bepaal welke referentiebeelden gebruikt worden en voeg definitieve afbeeldingsbestanden echt toe aan de repository.
-13. **Dossiercontrole:** stem spelconcept, uitdagingen, techniek, art direction en assetregister op elkaar af vóór de master-prompt.
+1. **Vrije laboratoriumverkenning:** bepaal de centrale ruimte, de locaties van de drie uitdagingen en hoe de robot tussen locaties beweegt.
+2. **Uitdaging 2 — spelersteksten:** definitieve introductie, personagedialogen, succes- en foutfeedback en afsluiting.
+3. **Uitdaging 2 — hints:** exacte hintstappen voor de codepuzzel en het kistjesraadsel.
+4. **Uitdaging 2 — onthulling van de ster-met-oog-aanwijzing:** kies hoe de aanwijzing in de kist verschijnt (bijvoorbeeld geheim kaartje of gegraveerd plaatje). De functie blijft hetzelfde: het symbool voor uitdaging 4.
+5. **Uitdaging 1 en 3:** test de definitieve match-3-startborden en bekersnelheden op iPhone; werk teksten, oplossingen en assets verder uit.
+6. **Slotscène:** bepaal wat er in het echt na het spel gebeurt en welke tekst daarbij hoort.
+7. **Feesthandeling:** kies bijvoorbeeld een feestknop of lint.
+8. **Persoonlijke boodschap:** bepaal de exacte verjaardagsboodschap en wie er spreekt.
+9. **Spelnaam:** ROBO MYSTERY is de huidige werktitel.
+10. **Kleurenset:** kies één definitieve set als enige bron. Er bestaan verschillende voorstellen in art direction en oudere prototypebestanden.
+11. **Lettertype:** systeemlettertypen met een zwaar, grafisch karakter; geen externe fonts.
+12. **Puntentelling:** beslis of score nodig is; voortgang mag nooit door score worden geblokkeerd.
+13. **Assets:** bepaal welke referentiebeelden gebruikt worden en voeg definitieve afbeeldingsbestanden echt toe aan de repository.
+14. **Dossiercontrole:** stem spelconcept, uitdagingen, techniek, art direction en assetregister op elkaar af vóór de master-prompt.
 
 ## Assets die nog moeten worden gecontroleerd of gemaakt
 
@@ -68,6 +71,9 @@ Geef assets consistente namen en leg per bestand vast voor welke scène het dien
 ## Belangrijke afbakening
 
 - De drie puzzels van uitdaging 2 zijn onderdelen van één hoofd uitdaging, niet drie aparte hoofd uitdagingen.
+- Wannes kiest zelf de volgorde van uitdagingen 1, 2 en 3; het laboratorium is vrij te verkennen.
+- Uitdaging 4 is vanaf het begin te ontdekken maar pas op te lossen na voltooiing van alle drie de andere uitdagingen.
+- Bij uitdaging 4 verschijnt de ster met het oog automatisch na uitdaging 2. Wannes typt zelf BAL en kiest zelf signaalrood.
 - Uitdaging 1 is een match-3-game met drie levels; de beloningen zijn achtereenvolgens B, A en L, samen BAL.
 - De ster met het oog is de beloning van uitdaging 2; BAL is niet langer de beloning van uitdaging 2.
 - De kist in uitdaging 2 bevat de **ster met een oog**, de symboolaanwijzing voor uitdaging 4 — geen gouden medaille. BAL komt uit uitdaging 1.
