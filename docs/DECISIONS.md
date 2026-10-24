@@ -1,6 +1,6 @@
 # ROBO MYSTERY — Beslissingen en open punten
 
-**Versie:** 0.6  
+**Versie:** 0.7  
 **Doel:** één betrouwbare plek voor besluiten en open punten, zodat de inhoud niet telkens opnieuw wordt bedacht.
 
 ## Vastgelegd
@@ -11,24 +11,27 @@
 | Rol van de robot | Wannes bestuurt de robot; de robot is zijn instrument |
 | Feest | De onthulling aan het einde is voor Wannes |
 | Thema | Goochelen: trucjes, puzzels en raadsels |
-| Opbouw | Vrije verkenning van het laboratorium; drie uitdagingen in zelfgekozen volgorde; grote deur en interactieve finale |
+| Opbouw | Vrije verkenning van het laboratorium; uitdagingen 1–3 in zelfgekozen volgorde; uitdaging 4 is de grote deur en het slot |
 | Platform | Mobile-first webspel, GitHub Pages, geen account |
 | Taal | Nederlands |
-| Bouwmethode | Eerst het volledige ontwerpdossier, daarna één master-prompt, daarna testen op iPhone en één gerichte fixronde |
-| Uitdaging 1 — spelvorm | Drie eigen match-3-levels, geïnspireerd op het algemene spelprincipe van Royal Match; geen gekopieerde levels of vormgeving |\n| Uitdaging 1 — leveldoelen | Verzamel 8 rode energiecellen; verwijder 4 houten kistjes; laat de gouden energiesleutel naar de uitgang vallen |\n| Aanwijzing uit uitdaging 1 | De letters B, A en L, verdiend na elk level en samen gevormd tot het woord BAL |
-| Uitdaging 2 — structuur | Drie opeenvolgende puzzels: code opent een geheim deurtje; logisch raadsel levert een sleutel; kistjesraadsel onthult de hoofdprijs |
-| Uitdaging 2 — code | De voorgestelde cijfercode is 042 |
+| Bouwmethode | Eerst het volledige ontwerpdossier afronden en goedkeuren, daarna één master-prompt, bouwen en testen op iPhone |
+| Uitdaging 1 — spelvorm | Drie eigen match-3-levels, geïnspireerd op het algemene spelprincipe van match-3-games; geen gekopieerde levels of vormgeving |
+| Uitdaging 1 — leveldoelen | Verzamel 8 rode energiecellen; verwijder 4 houten kistjes; laat de gouden energiesleutel naar de uitgang vallen |
+| Aanwijzing uit uitdaging 1 | De letters B, A en L, verdiend na elk level en samen gevormd tot het woord BAL |
+| Uitdaging 2 — structuur | Drie opeenvolgende deelpuzzels: code opent een geheim deurtje; logisch raadsel levert een messing sleutel; kistjesraadsel onthult de ster-met-oog-aanwijzing |
+| Uitdaging 2 — code | De cijfercode is 042 |
 | Uitdaging 2 — sleutelraadsel | Precies één uitspraak is waar; de aap heeft de sleutel |
 | Uitdaging 2 — kistjesraadsel | Precies één uitspraak is waar; het rode kistje is de juiste keuze |
-| Aanwijzing uit uitdaging 2 | **Ster met een oog**, gevonden in het rode kistje; dit is de symboolaanwijzing voor uitdaging 4 |
-| Gouden medaille | Niet gebruiken als inhoud van de kist; geschrapt |
-| Aanwijzing uit uitdaging 3 | Signaalrood |\n| Uitdaging 3 — moeilijkheid | Opbouwend: ronde 1 twee wissels, ronde 2 drie wissels, ronde 3 vier wissels; snelheid neemt per ronde toe maar de beweging blijft eerlijk te volgen |\n| Uitdaging 4 — bediening | Symbool verschijnt automatisch; Wannes typt zelf het woord en kiest zelf een kleur; grote knop OPEN DE DEUR |\n| Uitdaging 4 — juiste instellingen | Automatische ster met oog (uitdaging 2), zelf getypt BAL (uitdaging 1), zelf gekozen signaalrood (uitdaging 3); onbeperkte pogingen |
-| Uitdaging 4 | Deur vanaf het begin te ontdekken; pas oplosbaar na de drie uitdagingen. Symbool verschijnt automatisch; Wannes typt BAL en kiest signaalrood |
-| Bouwstatus | Oude prototypecode is niet bruikbaar als basis; eerst ontwerpdossier afronden en goedkeuren |
-
-| Vrije verkenning | Wannes kiest zelf de volgorde van uitdagingen 1, 2 en 3; uitdaging 4 kan hij vanaf het begin ontdekken, maar niet openen vóór alle drie voltooid zijn |
-| Tussentijdse voortgang | Elke uitdaging is onderbreekbaar en hervatbaar vanaf de exacte deelstap; opgeloste puzzels, bordstanden, pogingen waar relevant, verdiende aanwijzingen en slotinvoer blijven bewaard |
-| Opslaan | Lokale voortgang opslaan na elke betekenisvolle actie; herladen of later terugkomen mag geen voortgang wissen |
+| Aanwijzing uit uitdaging 2 | Ster met een oog, gevonden in het rode kistje; het symbool verschijnt automatisch op het slot van uitdaging 4 |
+| Gouden medaille | Geschrapt; niet gebruiken als beloning of inhoud van het kistje |
+| Aanwijzing uit uitdaging 3 | Signaalrood |
+| Uitdaging 3 — moeilijkheid | Drie rondes met respectievelijk twee, drie en vier wissels; snelheid neemt geleidelijk toe maar de beweging blijft eerlijk te volgen |
+| Uitdaging 4 — bediening | De ster met oog verschijnt automatisch na uitdaging 2; Wannes typt zelf het woord en kiest zelf een kleur; grote knop OPEN DE DEUR |
+| Uitdaging 4 — oplossing | Ster met oog (uitdaging 2), woord BAL (uitdaging 1), kleur signaalrood (uitdaging 3); onbeperkte pogingen |
+| Vrije verkenning | Wannes kiest zelf de volgorde van uitdagingen 1, 2 en 3. Hij kan uitdaging 4 vanaf het begin ontdekken, maar de deur opent pas als alle drie voltooid zijn en woord/kleur juist zijn |
+| Tussentijdse voortgang | Elke uitdaging kan worden onderbroken en hervat vanaf de exacte deelstap; opgeloste puzzels, bordstanden, relevante rondevoortgang, beloningen en slotinvoer blijven bewaard |
+| Opslaan | Lokale voortgang wordt na elke betekenisvolle actie opgeslagen; herladen of later terugkomen mag geen voortgang wissen |
+| Bouwstatus | Oude prototypecode is niet bruikbaar als basis; er wordt geen gamecode gebouwd vóór goedkeuring van het volledige dossier |
 
 ## Nog open — ontwerp vóór de bouw
 
@@ -54,7 +57,7 @@
 - Klein metalen deurtje en groot slot/deur.
 - Cijferwieltjes en OPEN-knop.
 - Messing sleutel.
-- Drie kistjes (rood, blauw, geel) en het BAL-aanwijzingsobject.
+- Drie kistjes (rood, blauw, geel) en de ster-met-oog-aanwijzing in het rode kistje.
 - Drie bekers en rood balletje.
 - Doek, goochelvoorwerpen, knoppen, iconen en finale-/feestscène.
 
@@ -62,13 +65,12 @@ Geef assets consistente namen en leg per bestand vast voor welke scène het dien
 
 ## Werkvolgorde
 
-1. Werk uitdaging 2 af in docs/CHALLENGES.md, inclusief teksten, hints en onthulling van BAL.
-2. Werk de schermenlijst en spelersteksten uit, inclusief de drie match-3-levels van uitdaging 1.
-3. Werk uitdaging 3, de resterende schermen en de echte finale uit.
-4. Kies de definitieve art direction en controleer het assetregister.
-5. Controleer het volledige dossier op tegenstrijdigheden.
-6. Schrijf pas daarna de master-prompt.
-7. Bouw de nieuwe game vanaf een schone basis, test op iPhone en voer één gerichte fixronde uit.
+1. Ontwerp de vrije laboratoriumverkenning en de locaties van de drie uitdagingen.
+2. Werk de resterende spelersteksten, hints, schermtoestanden en finale af.
+3. Controleer en voeg de definitieve assets toe; stem het assetregister af op het spelconcept.
+4. Controleer het volledige dossier op tegenstrijdigheden.
+5. Schrijf pas daarna de master-prompt.
+6. Bouw de nieuwe game vanaf een schone basis, test op iPhone en voer één gerichte fixronde uit.
 
 ## Belangrijke afbakening
 
