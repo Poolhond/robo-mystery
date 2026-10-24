@@ -37,7 +37,7 @@
 **Assetrichting:** behoud de herkenbare houten nestkast met schuin dak en de vogel die naar links kijkt; de rode kop/borst, donkere snavel en gestreepte vleugels blijven herkenningspunten.  
 **Stijlbehandeling:** sterke, verweerde jarenzeventig-zeefdruk op warm crème papier, met signaalrood, mosterdgeel, donker petrol en groen; grove halftoon, inktspikkels, krassen en lichte kleurplaatverschuiving.  
 **Compositie:** nestkast en vogel centraal, met eenvoudige geometrische kleurvlakken achter het onderwerp; geen extra tekst.  
-**Bestand:** de gegenereerde illustratie is gemaakt, maar het afbeeldingsbestand is nog niet in de repository opgeslagen.
+**Bestand:** herziene geïsoleerde versie gegenereerd; het afbeeldingsbestand is nog niet in de repository opgeslagen.
 
 ## Vierde uitgewerkte asset — AST-TURTLE-01
 
