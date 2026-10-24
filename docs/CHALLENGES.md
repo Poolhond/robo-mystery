@@ -1,13 +1,14 @@
 # ROBO MYSTERY — Uitdagingen
 
-**Versie:** 0.5  
+**Versie:** 0.6  
 **Status:** Ontwerpdossier in ontwikkeling — nog geen nieuwe gamecode.  
-**Focus van deze revisie:** uitdaging 1 herwerkt tot drie match-3-levels; beloningen afgestemd op het grote slot.
+**Focus van deze revisie:** vrije verkenning van het laboratorium; uitdaging 4 vereenvoudigd tot woord en kleur, met automatische symboolherkenning.
 
 ## Algemene spelregels
 
-- Het spel bestaat uit vier hoofd uitdagingen: match-3-puzzels, logica/raadsels, volgen en combineren.
-- Uitdagingen 1, 2 en 3 leveren elk één onderdeel op dat nodig is voor het slot in uitdaging 4.
+- Het laboratorium is één verkenbare omgeving. Wannes kiest zelf in welke volgorde hij uitdaging 1, 2 en 3 speelt.
+- De grote deur en uitdaging 4 zijn vanaf het begin te ontdekken, maar kunnen pas volledig worden opgelost wanneer uitdagingen 1, 2 en 3 voltooid zijn.
+- Uitdagingen 1, 2 en 3 leveren samen een woord, een symbool en een kleur op. Het symbool verschijnt automatisch op het slot zodra uitdaging 2 voltooid is.
 - Fouten mogen de speler niet onherroepelijk blokkeren. Geef feedback, hints en nieuwe kansen.
 - Het spel is Nederlandstalig, mobile-first en geschikt voor bediening op een iPhone.
 - De verjaardagsverrassing blijft verborgen tot de deur in uitdaging 4 opengaat.
@@ -248,7 +249,7 @@ De aap wijst naar drie gesloten kistjes. De sleutel past op het slot van het gek
 - Een verkeerde keuze verbruikt de sleutel niet; Wannes kan opnieuw nadenken en een ander kistje kiezen.
 - Bij de juiste keuze draait de sleutel, klikt het slot open en gaat het deksel langzaam omhoog.
 
-**Inhoud van de kist:** een fysiek voorwerp of kaart met de aanwijzing die uitdaging 2 aan uitdaging 4 levert. De gouden medaille is geschrapt. De afgesproken aanwijzingen voor het grote slot zijn: **BAL** (uitdaging 1), ster met oog (uitdaging 2) en signaalrood (uitdaging 3). Daarom bevat de kist de ster-met-oog-aanwijzing — bijvoorbeeld op een geheim kaartje of een bijzonder gegraveerd plaatje. De onthulling mag het woord BAL niet eerder tonen dan op dit eindmoment van uitdaging 2.
+**Inhoud van de kist:** een fysiek voorwerp of kaart met de aanwijzing die uitdaging 2 aan uitdaging 4 levert. De gouden medaille is geschrapt. De afgesproken aanwijzingen voor het grote slot zijn: **BAL** (uitdaging 1), ster met oog (uitdaging 2) en signaalrood (uitdaging 3). Daarom bevat de kist de ster-met-oog-aanwijzing — bijvoorbeeld op een geheim kaartje of een bijzonder gegraveerd plaatje. De onthulling van de ster met het oog hoort bij uitdaging 2. Het woord BAL wordt uitsluitend in uitdaging 1 verdiend.
 
 **Reactie van de robot:**
 
@@ -263,7 +264,7 @@ De aap wijst naar drie gesloten kistjes. De sleutel past op het slot van het gek
 5. Wannes onderzoekt de uitspraken op drie kistjes en kiest het rode kistje.
 6. De kist gaat open en onthult de **ster met een oog**, de symboolaanwijzing die nodig is voor uitdaging 4.
 
-**Ontwerpregel:** de cijfercode, sleutel en kistjes zijn onderdelen van uitdaging 2. Het woord BAL is de opbrengst voor het grote slot. Voeg geen extra puzzel toe en vervang BAL niet door een gouden medaille.
+**Ontwerpregel:** de cijfercode, sleutel en kistjes zijn onderdelen van uitdaging 2. De ster met het oog is de symboolaanwijzing voor het grote slot. Het woord BAL komt uitsluitend uit uitdaging 1. Voeg geen extra puzzel toe en vervang de ster niet door een gouden medaille.
 
 ## Uitdaging 3 — De onmogelijke bekers
 
@@ -410,150 +411,131 @@ Benodigde assets:
 
 ## Uitdaging 4 — Het slot van het geheim
 
-**Status:** ontwerpvoorstel uitgewerkt; gekozen bediening: **combinatie van een mechanische symboolschijf, een woordkeuze en een kleurenschijf**.  
-**Doel:** Wannes gebruikt de drie aanwijzingen uit de eerdere uitdagingen om de grote deur van het speelgoedlaboratorium te openen. Dit is de laatste puzzel vóór de verjaardagsverrassing.
+**Status:** herwerkt volgens het principe van vrije verkenning.  
+**Doel:** Wannes ontdekt de grote deur wanneer hij daar zelf naartoe wandelt. Hij ziet dat het slot aanwijzingen uit het laboratorium nodig heeft. Het symbool wordt automatisch ingevuld zodra uitdaging 2 voltooid is; aan het slot moet Wannes alleen nog het woord typen en een kleur kiezen.
 
-### Verhaal en introductie
+### Vrije verkenning en ontdekking
 
-Na uitdaging 3 brengt de robot Wannes naar een zware metalen deur achter in het speelgoedlaboratorium. Op de deur zitten drie grote bedieningselementen. Er brandt een zwak lampje en vanuit de andere kant klinkt een onduidelijk geluid.
+Het laboratorium is één centrale omgeving waarin Wannes de robot zelf rondstuurt. De drie uitdagingen bevinden zich op verschillende plekken. Er is geen vaste volgorde en het spel verplicht hem niet eerst een bepaalde uitdaging af te werken.
 
-**Introductietekst van de robot:**
+De grote deur is ook vanaf het begin zichtbaar of vindbaar. Wannes mag ze meteen onderzoeken. Zo ontdekt hij zelf dat dit het centrale mysterie is. Het slot toont drie onderdelen:
+- een symboolvenster;
+- een invoerveld voor een woord;
+- een kleurkeuze.
 
-> “Dit is de geheime deur. Je hebt onderweg drie aanwijzingen verzameld. Volgens mij horen ze bij deze drie sloten. Kun jij ze op de juiste manier combineren?”
+Bij de eerste ontdekking geeft de robot een korte reactie:
 
-De deur toont de drie onderdelen naast elkaar, in één duidelijke horizontale volgorde op een mobiel scherm. De interface blijft in staande stand bruikbaar; bij weinig ruimte mogen de onderdelen onder elkaar staan.
+> “Een geheim slot! Het lijkt erop dat het drie aanwijzingen nodig heeft. Die moeten ergens in dit laboratorium verstopt zitten.”
 
-### De drie slotonderdelen
+Het slot legt niet uit waar de aanwijzingen te vinden zijn. Wannes ontdekt dat door de rest van het laboratorium te verkennen en de uitdagingen in een zelfgekozen volgorde op te lossen.
 
-#### 1. Mechanische symboolschijf
+### Hoe het slot reageert op voortgang
 
-- Een grote ronde schijf met duidelijke klikstappen en een centrale aanwijzer.
-- Wannes tikt op de schijf of op een duidelijke pijl om telkens één symbool verder te draaien.
-- De schijf toont een beperkt aantal symbolen: bijvoorbeeld maan, sleutel, tandwiel, ster met oog en bliksemschicht.
-- De symbolen zijn grafisch verschillend en niet alleen door kleur te onderscheiden.
-- De juiste instelling is de **ster met een oog**, gevonden in uitdaging 2.
-- De gekozen positie blijft staan wanneer Wannes een andere bediening aanpast.
+- **Voor uitdaging 2 is opgelost:** het symboolvenster toont een neutrale lege vorm of een oningevuld silhouet. Zodra Wannes uitdaging 2 voltooit en de ster met het oog vindt, verschijnt dit symbool automatisch op het slot. Wannes hoeft het niet zelf te kiezen.
+- **Voor uitdaging 1 is opgelost:** het woordveld blijft beschikbaar, maar Wannes moet zelf het woord **BAL** intypen. Het spel geeft geen automatische invulling. Een hint kan hem herinneren aan de letters die hij verzameld heeft.
+- **Voor uitdaging 3 is opgelost:** Wannes kan een kleur kiezen, maar de juiste kleur **signaalrood** moet hij zelf selecteren.
+- De deur kan pas openen als alle drie de uitdagingen voltooid zijn én het juiste woord en de juiste kleur zijn ingevoerd of gekozen. Het symbool is automatisch aanwezig als gevolg van uitdaging 2.
+- Wannes kan uitdaging 4 op elk moment bezoeken en opnieuw bezoeken. De deur blijft zichtbaar als doel, zodat hij zelf kan beslissen wanneer hij terugkeert.
 
-**Feedback bij bediening:** een korte mechanische klik en een kleine beweging van de wijzer. De animatie mag de tik niet blokkeren of onnodig lang duren.
+### De drie onderdelen van het slot
 
-#### 2. Woordkeuze
+#### 1. Automatisch symbool — ster met een oog
 
-- Een compact woordvenster met twee grote pijltjes: vorige en volgende.
-- Wannes bladert door korte woorden die duidelijk leesbaar zijn op een iPhone.
-- Mogelijke woorden zijn bijvoorbeeld **ROBOT**, **TRUC**, **KIST**, **BAL** en **FEEST**.
-- De juiste keuze is **BAL**, gevormd met de letters uit de drie levels van uitdaging 1.
-- Het woord wordt als tekst weergegeven; het is niet nodig om letters één voor één in te voeren.
-- Woorden worden volledig getoond en mogen niet horizontaal afgekapt worden.
+- Het symboolvenster maakt zichtbaar dat het slot een symbool verwacht.
+- Zodra uitdaging 2 is voltooid, verschijnt de **ster met een oog** automatisch in het venster met een korte mechanische klik.
+- Er is geen symboolschijf en geen extra keuze nodig.
+- Als uitdaging 2 nog niet voltooid is, toont het venster een lege omtrek en eventueel een subtiele indicatie dat er nog iets ontbreekt.
+- De ster met een oog is dus een voortgangsbeloning, geen handeling die Wannes aan de deur moet uitvoeren.
 
-**Feedback bij bediening:** het woord schuift kort naar de volgende keuze. De tekst blijft groot en hoog contrast houden.
+#### 2. Zelf het woord typen
 
-#### 3. Kleurenschijf
+- Wannes krijgt één duidelijk invoerveld met het label **GEHEIM WOORD**.
+- Hij typt zelf het woord dat hij in uitdaging 1 heeft ontdekt: **BAL**.
+- Gebruik een groot invoerveld en een duidelijk toetsenbord op de telefoon. Hoofdletters en kleine letters worden gelijk behandeld; spaties voor of na het woord worden genegeerd.
+- Het spel vult het woord niet automatisch in, ook niet nadat uitdaging 1 is voltooid.
+- Bij een fout antwoord blijft zijn invoer staan zodat hij ze eenvoudig kan aanpassen.
 
-- Een ronde schijf met een beperkt aantal duidelijke kleurstalen.
-- Wannes tikt op de schijf of gebruikt een pijl om door de kleuren te bladeren.
-- De mogelijke kleuren zijn bijvoorbeeld blauw, geel, groen, paars en signaalrood.
-- De juiste instelling is **signaalrood**, onthuld door het rode balletje in uitdaging 3.
-- Iedere kleurstaal krijgt naast de kleur een naam of eenvoudig herkenbaar symbool, zodat de oplossing niet uitsluitend op kleurherkenning berust.
+**Hint bij vastlopen:** “Welke drie letters kreeg je in de robotfabriek?”
 
-**Feedback bij bediening:** de schijf klikt naar de volgende positie en het lampje op de deur neemt tijdelijk de gekozen kleur aan.
+#### 3. Zelf een kleur kiezen
 
-### De knop OPEN DE DEUR
+- Wannes krijgt een kleine selectie grote, duidelijk gelabelde kleurstalen.
+- Hij kiest zelf één kleur. De juiste kleur is **signaalrood**, de aanwijzing uit uitdaging 3.
+- Iedere kleur heeft naast de kleur zelf ook een tekstlabel, zodat kleurherkenning niet de enige manier is om de keuze te begrijpen.
+- De kleur wordt niet automatisch gekozen na uitdaging 3.
+- Zijn keuze blijft geselecteerd tot hij een andere kleur kiest.
 
-Onder de drie onderdelen staat één grote knop met het label **OPEN DE DEUR**.
+**Hint bij vastlopen:** “Denk aan het balletje dat je onder de bekers moest volgen.”
 
-- De knop blijft zichtbaar zonder dat Wannes hoeft te scrollen als het scherm dat toelaat.
-- Bij een tik worden alle drie de instellingen gecontroleerd.
-- Een verkeerde combinatie veroorzaakt een korte mechanische dreun, een kleine trilling of een knipperend lampje. Gebruik geen lange of agressieve foutanimatie.
-- De ingestelde keuzes blijven staan; Wannes hoeft niet opnieuw te beginnen.
-- De robot reageert met een korte grap, bijvoorbeeld: “Hmm. De deur is het duidelijk niet mee eens. Probeer de aanwijzingen nog eens.”
-- Wannes kan onbeperkt nieuwe combinaties proberen.
-- Bij de juiste combinatie klikken de drie onderdelen vast en begint de openingsanimatie.
+### Knop OPEN DE DEUR en controle
 
-### Juiste combinatie
+Onder het woordveld en de kleurkeuze staat één grote knop **OPEN DE DEUR**.
 
-| Onderdeel | Juiste instelling | Herkomst |
+- De knop is zichtbaar en gemakkelijk met één duim te bedienen.
+- Als nog niet alle drie de uitdagingen voltooid zijn, legt de robot vriendelijk uit dat het slot nog aanwijzingen mist. De deur geeft geen straf en Wannes kan meteen terug op ontdekking gaan.
+- Als de uitdagingen voltooid zijn maar het woord of de kleur fout is, volgt korte mechanische feedback. Het symbool blijft staan en het woord en de kleur blijven geselecteerd.
+- Er zijn onbeperkte pogingen en geen timer, verloren levens of game-over.
+- Bij de juiste combinatie — automatisch verschenen ster met oog, woord **BAL** en kleur **signaalrood** — klikken de onderdelen vast en opent de deur.
+
+### Juiste oplossing en herkomst
+
+| Onderdeel | Hoe het wordt ingevuld | Herkomst |
 |---|---|---|
-| Mechanische symboolschijf | Ster met een oog | Uitdaging 2 |
-| Woordkeuze | BAL | Uitdaging 1 |
-| Kleurenschijf | Signaalrood | Uitdaging 3 |
+| Symbool | Verschijnt automatisch | Uitdaging 2 |
+| Woord | Wannes typt **BAL** | Uitdaging 1 |
+| Kleur | Wannes kiest **signaalrood** | Uitdaging 3 |
 
-**Belangrijk:** deze herkomst is leidend voor alle ontwerpdocumenten. De volgorde van de bediening is symbool, woord, kleur; de volgorde waarin Wannes de aanwijzingen heeft verdiend, is BAL, ster-met-oog, signaalrood.
+De drie uitdagingen mogen in elke volgorde worden gespeeld. De volgorde van oplossen verandert niets aan de oplossing van het slot.
 
-### Hints in drie stappen
+### Hints en feedback
 
-Hints worden pas aangeboden als Wannes erom vraagt of na meerdere mislukte pogingen. De speler kan zelf blijven nadenken en hoeft hints niet te gebruiken.
+Hints verschijnen als Wannes erom vraagt of na meerdere mislukte pogingen.
 
-1. **Subtiele hint:** “Je hebt al drie aanwijzingen gevonden. Kijk eens naar je verzameling.”
-2. **Gerichte hint:** “Je hebt een symbool, een woord en een kleur nodig. Welke drie waren dat ook alweer?”
-3. **Expliciete hint:** de game toont de drie verzamelde aanwijzingen naast de bijbehorende bedieningselementen, zonder de instellingen automatisch te wijzigen.
+1. **Subtiele hint:** “Je hebt al dingen ontdekt in het laboratorium. Kijk wat je al weet.”
+2. **Gerichte hint:** “Het symbool wordt voor je bewaard. Het woord moet je zelf typen en de kleur moet je zelf kiezen.”
+3. **Expliciete hint:** de game herinnert Wannes aan de drie bronnen: de robotfabriek, het kistjesraadsel en de bekers.
 
-Als Wannes na de derde hint nog hulp nodig heeft, kan de robot de juiste onderdelen één voor één aanwijzen. Hij verandert de instellingen niet zelf: Wannes voert de laatste handelingen uit.
+**Bij een onvolledige verzameling:**
 
-### Feedbackteksten
+> “Er ontbreekt nog een aanwijzing. Ga gerust verder op ontdekkingstocht — je kunt altijd terugkomen.”
 
-**Na een foute combinatie:**
+**Bij een fout woord of verkeerde kleur:**
 
-> “Klik… brom… nee, nog niet. De drie aanwijzingen moeten precies goed staan.”
+> “Klik… brom… nog niet juist. Kijk nog eens naar wat je ontdekt hebt.”
 
-**Na de eerste hint:**
+**Bij de juiste oplossing:**
 
-> “Denk terug aan wat je in het speelgoedlab hebt ontdekt.”
+> “Dat is hem! Jij hebt alle aanwijzingen gevonden én het geheim ontrafeld!”
 
-**Na de tweede hint:**
-
-> “Eén aanwijzing is een symbool. Eén is een woord. En één is een kleur.”
-
-**Bij de juiste combinatie:**
-
-> “Dat is hem! De drie aanwijzingen passen samen!”
-
-Daarna:
-- De symboolschijf klikt vast.
-- Het woordvenster licht kort op.
-- De kleurenschijf vult zich met signaalrood.
-- Het lampje boven de deur verandert naar de vooraf vastgelegde successtatus.
-- De deur trilt licht en schuift langzaam open.
-
-### Spanningsopbouw en overgang naar de finale
-
-De deur gaat niet meteen met confetti open. Eerst ontstaat een kort stil moment: de deur schuift een stukje open, er komt warm licht door de opening en er klinkt zacht gefluister of geritsel.
-
-De robot zegt:
+Daarna klinkt een korte mechanische klik, licht het slot op en schuift de deur langzaam open. Eerst valt warm licht door de kier en klinkt zacht gefluister of geritsel. De robot zegt:
 
 > “Wacht eens… Ik denk dat ze daarbinnen op jou staan te wachten.”
 
-Daarna gaat de deur helemaal open en begint de feestelijke onthulling. De inhoud van de verrassing blijft verborgen tot dit moment.
+Daarna gaat de deur helemaal open en begint de verjaardagsfinale.
 
-### Mobiele bediening en toegankelijkheid
+### Mobiele bediening en benodigde schermen
 
 - Ontwerp voor iPhone in staande stand en bediening met één duim.
-- Gebruik grote tikzones, duidelijke labels en hoog contrast.
-- Geef elke schijf zowel een visuele als een tekstuele aanduiding.
-- Gebruik geen timer, strafscore, verloren levens of reset na een fout.
-- Alle gekozen instellingen blijven staan tot Wannes ze zelf wijzigt.
-- Animaties zijn kort, voorspelbaar en mogen geen noodzakelijke informatie verbergen.
-- Als beweging beperkt moet worden, blijven de veranderingen begrijpelijk met eenvoudige overgangen of directe toestandswissels.
-- De deur moet ook zonder geluid volledig te begrijpen zijn.
+- Gebruik een groot tekstveld, duidelijke kleurstalen en hoog contrast.
+- Toon het symbool als voortgangsstatus, niet als interactieve keuze.
+- De deur blijft toegankelijk vanuit het laboratorium, ook als nog niet alle uitdagingen zijn opgelost.
+- Animaties zijn kort en mogen geen noodzakelijke informatie verbergen.
 
-### Schermen en benodigde assets
-
-1. **Introductiescherm:** de gesloten geheime deur, robot en korte introductie.
-2. **Slotbediening:** symboolschijf, woordkeuze, kleurenschijf en knop OPEN DE DEUR.
-3. **Foutfeedback:** korte reactie van deur en robot, met instellingen behouden.
-4. **Hintweergave:** de verzamelde aanwijzingen en optionele nadruk op het relevante onderdeel.
-5. **Deur opent:** mechanische beweging en warm licht, gevolgd door de overgang naar de finale.
+Schermen en toestanden:
+1. **Eerste ontdekking:** gesloten deur en slot met lege aanwijzingsstatussen.
+2. **Slot in voortgang:** symbool verschijnt automatisch wanneer uitdaging 2 voltooid wordt.
+3. **Woord en kleur invoeren:** groot invoerveld, kleurstalen en OPEN DE DEUR-knop.
+4. **Nog aanwijzingen nodig:** vriendelijke melding en terugkeer naar vrije verkenning.
+5. **Fout antwoord:** korte feedback zonder invoer of keuze te wissen.
+6. **Deur opent:** mechanische beweging, warm licht en overgang naar de finale.
 
 Benodigde assets:
 - Grote deur in gesloten, gedeeltelijk geopende en open toestand.
-- Mechanische symboolschijf met eigen symbolen.
-- Woordvenster met pijlen.
-- Kleurenschijf met duidelijke kleurstalen en labels.
-- Grote OPEN DE DEUR-knop.
-- Lampje, mechanische details en korte succes-/foutindicatoren.
-- Robotillustratie voor de introductie en dialogen.
-- Warme lichtstraal voor de overgang naar de finale.
-
-**Nog open na dit voorstel:** de definitieve lijst met symbolen en woorden, de exacte deurillustratie en de concrete verjaardagsverrassing achter de deur. De kernlogica en de bediening zijn met dit voorstel vastgelegd.
+- Symboolvenster met lege status en ster-met-oog-status.
+- Groot woordveld en toetsenbordvriendelijke invoer.
+- Gelabelde kleurstalen, inclusief signaalrood.
+- Grote OPEN DE DEUR-knop, lampje en korte succes-/foutindicatoren.
+- Robotillustratie voor reacties en warme lichtstraal voor de finale.
 
 ## Finale — de feestelijke onthulling
 
@@ -563,9 +545,9 @@ Achter de deur bevindt zich de verrassing die de speelgoedfiguren voor Wannes he
 
 ## Volgende ontwerpstappen
 
-1. Werk uitdaging 3 volledig uit, inclusief regels, hints, feedback en schermen.
-2. Werk de schermenlijst en benodigde assets voor uitdaging 1 en 2 uit.
-3. Werk de resterende uitdagingen, finale en persoonlijke boodschap verder uit.
+1. Ontwerp de vrije laboratoriumverkenning en de plekken waar Wannes de drie uitdagingen ontdekt.
+2. Werk de schermenlijst en benodigde assets voor uitdaging 1, 2 en 3 uit.
+3. Werk de finale en persoonlijke boodschap verder uit.
 4. Controleer het hele dossier op tegenstrijdigheden en maak daarna pas de master-prompt.
 
 **Bouwstop:** dit bestand beschrijft het ontwerp. Er wordt nog geen nieuwe gamecode gebouwd zolang het volledige dossier niet is goedgekeurd.
