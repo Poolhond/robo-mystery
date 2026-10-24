@@ -1,6 +1,6 @@
 # ROBO MYSTERY — Assetregister & referenties
 
-**Versie:** 0.1  
+**Versie:** 0.2  
 **Status:** Eerste inventaris op basis van de vijf in deze ontwerpsessie aangeleverde afbeeldingen. De originele beelden zijn in de chat beschikbaar; ze zijn nog niet als afbeeldingsbestanden in deze repository opgeslagen.
 
 | ID | Beschrijving | Hoofdfunctie | Status |
@@ -46,6 +46,18 @@
 **Stijlbehandeling:** sterke verweerde zeefdruk op warm crème papier; diep mosgroen en geelgroen, met signaalrode en mosterdgele drukvlakken en donker petrol; grove halftoon, korrel, inktspikkels en lichte kleurplaatverschuiving.  
 **Compositie:** schildpad centraal, als herkenbaar personage met eenvoudige geometrische achtergrondvlakken; geen extra tekst.  
 **Bestand:** de gegenereerde illustratie is gemaakt, maar het afbeeldingsbestand is nog niet in de repository opgeslagen.
+
+## Nog te maken of te bevestigen game-assets
+
+De volgende lijst beschrijft assets die inhoudelijk nodig kunnen zijn voor de huidige uitdagingen. Ze zijn niet automatisch al als bestanden aanwezig in de repository. Definitieve selectie en prioriteit volgen na het uitwerken van de laboratoriumroute.
+
+- Match-3-symbolen: rode energiecel, geel tandwiel, blauwe bout, groen kristal, houten kistje en gouden energiesleutel.
+- Uitdaging 2: codepaneel, geheim deurtje, messing sleutel, aap, panda, schildpad, drie gekleurde kistjes en de ster-met-oog-aanwijzing in het rode kistje.
+- Uitdaging 3: goocheltafel, drie bekers, rood balletje en kleurstaal voor signaalrood.
+- Uitdaging 4: grote deur, leeg symboolvenster, ster-met-oog-status, woordveld, gelabelde kleurstalen en OPEN DE DEUR-knop.
+- Finale: feestomgeving, confetti/lichtaccenten en de personages die daadwerkelijk in de finale worden gebruikt.
+
+**Beloningsconsistentie:** BAL wordt uitsluitend verdiend in uitdaging 1. Uitdaging 2 levert de ster met een oog op. Uitdaging 3 levert signaalrood op. Gebruik daarom geen assetomschrijving zoals “BAL-aanwijzingsobject” voor uitdaging 2.
 
 ## Gedeelde kenmerken
 - Warme crème/papierkleur.
