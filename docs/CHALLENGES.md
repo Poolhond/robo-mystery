@@ -1,12 +1,14 @@
 # ROBO MYSTERY — Uitdagingen
 
-**Versie:** 0.6  
+**Versie:** 0.7  
 **Status:** Ontwerpdossier in ontwikkeling — nog geen nieuwe gamecode.  
 **Focus van deze revisie:** vrije verkenning van het laboratorium; uitdaging 4 vereenvoudigd tot woord en kleur, met automatische symboolherkenning.
 
 ## Algemene spelregels
 
 - Het laboratorium is één verkenbare omgeving. Wannes kiest zelf in welke volgorde hij uitdaging 1, 2 en 3 speelt.
+- Wannes mag een uitdaging op elk moment verlaten en later hervatten. De game bewaart de exacte voortgang binnen elke uitdaging, niet alleen de status voltooid/niet voltooid.
+- Alle opgeloste deelpuzzels, verdiende letters en aanwijzingen blijven bewaard bij het wisselen van uitdaging, het herladen van de pagina en het opnieuw openen van het spel.
 - De grote deur en uitdaging 4 zijn vanaf het begin te ontdekken, maar kunnen pas volledig worden opgelost wanneer uitdagingen 1, 2 en 3 voltooid zijn.
 - Uitdagingen 1, 2 en 3 leveren samen een woord, een symbool en een kleur op. Het symbool verschijnt automatisch op het slot zodra uitdaging 2 voltooid is.
 - Fouten mogen de speler niet onherroepelijk blokkeren. Geef feedback, hints en nieuwe kansen.
@@ -38,7 +40,8 @@
 - Er is geen game-over en geen tijdslimiet. Wannes mag rustig nadenken en opnieuw proberen.
 - Een hint mag een mogelijke zet laten oplichten, maar voert die niet automatisch uit.
 - Bij voltooiing krijgt Wannes een korte succesanimatie en de bijbehorende letter. De letter blijft zichtbaar in een vaste verzamelstrook boven of onder het bord.
-- De game bewaart voortgang lokaal zodat een onbedoelde herlaadactie geen reeds verdiende letters hoeft te wissen.
+- De game bewaart voortgang lokaal na elke geldige zet en bij elke belangrijke wijziging, zodat een onbedoelde herlaadactie geen reeds verdiende letters of de huidige puzzelstand wist.
+- Als Wannes de robotfabriek verlaat en terugkomt, gaat hij verder vanaf het huidige level, met dezelfde bordstand, resterende zetten en verzamelde voortgang. Een level wordt alleen opnieuw gestart als Wannes daar zelf voor kiest of expliciet om een reset vraagt.
 
 ### Level 1 — De energiecellen
 
@@ -247,6 +250,7 @@ De aap wijst naar drie gesloten kistjes. De sleutel past op het slot van het gek
 - Wannes kiest eerst een kistje en kan zijn redenering controleren.
 - De sleutel wordt pas gebruikt als hij zijn keuze bevestigt.
 - Een verkeerde keuze verbruikt de sleutel niet; Wannes kan opnieuw nadenken en een ander kistje kiezen.
+- Als Wannes de uitdaging verlaat nadat hij de sleutel heeft verdiend, blijft de sleutel beschikbaar en blijft het kistjesraadsel onopgelost klaarstaan. Na terugkeer hoeft hij de eerdere puzzels niet opnieuw te doen.
 - Bij de juiste keuze draait de sleutel, klikt het slot open en gaat het deksel langzaam omhoog.
 
 **Inhoud van de kist:** een fysiek voorwerp of kaart met de aanwijzing die uitdaging 2 aan uitdaging 4 levert. De gouden medaille is geschrapt. De afgesproken aanwijzingen voor het grote slot zijn: **BAL** (uitdaging 1), ster met oog (uitdaging 2) en signaalrood (uitdaging 3). Daarom bevat de kist de ster-met-oog-aanwijzing — bijvoorbeeld op een geheim kaartje of een bijzonder gegraveerd plaatje. De onthulling van de ster met het oog hoort bij uitdaging 2. Het woord BAL wordt uitsluitend in uitdaging 1 verdiend.
@@ -434,7 +438,8 @@ Het slot legt niet uit waar de aanwijzingen te vinden zijn. Wannes ontdekt dat d
 - **Voor uitdaging 2 is opgelost:** het symboolvenster toont een neutrale lege vorm of een oningevuld silhouet. Zodra Wannes uitdaging 2 voltooit en de ster met het oog vindt, verschijnt dit symbool automatisch op het slot. Wannes hoeft het niet zelf te kiezen.
 - **Voor uitdaging 1 is opgelost:** het woordveld blijft beschikbaar, maar Wannes moet zelf het woord **BAL** intypen. Het spel geeft geen automatische invulling. Een hint kan hem herinneren aan de letters die hij verzameld heeft.
 - **Voor uitdaging 3 is opgelost:** Wannes kan een kleur kiezen, maar de juiste kleur **signaalrood** moet hij zelf selecteren.
-- De deur kan pas openen als alle drie de uitdagingen voltooid zijn én het juiste woord en de juiste kleur zijn ingevoerd of gekozen. Het symbool is automatisch aanwezig als gevolg van uitdaging 2.
+- De deur kan pas openen als alle drie de uitdagingen voltooid zijn én het juiste woord en de juiste kleur zijn ingevoerd of gekozen.
+- Het woord dat Wannes al heeft getypt en de kleur die hij al heeft geselecteerd, blijven bewaard als hij het slot verlaat. Hij kan later terugkeren zonder zijn invoer kwijt te zijn. Het symbool is automatisch aanwezig als gevolg van uitdaging 2.
 - Wannes kan uitdaging 4 op elk moment bezoeken en opnieuw bezoeken. De deur blijft zichtbaar als doel, zodat hij zelf kan beslissen wanneer hij terugkeert.
 
 ### De drie onderdelen van het slot
