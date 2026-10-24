@@ -410,15 +410,150 @@ Benodigde assets:
 
 ## Uitdaging 4 — Het slot van het geheim
 
-Wannes combineert de drie aanwijzingen uit uitdagingen 1, 2 en 3 met drie bedieningselementen op de deur.
+**Status:** ontwerpvoorstel uitgewerkt; gekozen bediening: **combinatie van een mechanische symboolschijf, een woordkeuze en een kleurenschijf**.  
+**Doel:** Wannes gebruikt de drie aanwijzingen uit de eerdere uitdagingen om de grote deur van het speelgoedlaboratorium te openen. Dit is de laatste puzzel vóór de verjaardagsverrassing.
 
-| Onderdeel van het slot | Aanwijzing | Herkomst |
+### Verhaal en introductie
+
+Na uitdaging 3 brengt de robot Wannes naar een zware metalen deur achter in het speelgoedlaboratorium. Op de deur zitten drie grote bedieningselementen. Er brandt een zwak lampje en vanuit de andere kant klinkt een onduidelijk geluid.
+
+**Introductietekst van de robot:**
+
+> “Dit is de geheime deur. Je hebt onderweg drie aanwijzingen verzameld. Volgens mij horen ze bij deze drie sloten. Kun jij ze op de juiste manier combineren?”
+
+De deur toont de drie onderdelen naast elkaar, in één duidelijke horizontale volgorde op een mobiel scherm. De interface blijft in staande stand bruikbaar; bij weinig ruimte mogen de onderdelen onder elkaar staan.
+
+### De drie slotonderdelen
+
+#### 1. Mechanische symboolschijf
+
+- Een grote ronde schijf met duidelijke klikstappen en een centrale aanwijzer.
+- Wannes tikt op de schijf of op een duidelijke pijl om telkens één symbool verder te draaien.
+- De schijf toont een beperkt aantal symbolen: bijvoorbeeld maan, sleutel, tandwiel, ster met oog en bliksemschicht.
+- De symbolen zijn grafisch verschillend en niet alleen door kleur te onderscheiden.
+- De juiste instelling is de **ster met een oog**, gevonden in uitdaging 2.
+- De gekozen positie blijft staan wanneer Wannes een andere bediening aanpast.
+
+**Feedback bij bediening:** een korte mechanische klik en een kleine beweging van de wijzer. De animatie mag de tik niet blokkeren of onnodig lang duren.
+
+#### 2. Woordkeuze
+
+- Een compact woordvenster met twee grote pijltjes: vorige en volgende.
+- Wannes bladert door korte woorden die duidelijk leesbaar zijn op een iPhone.
+- Mogelijke woorden zijn bijvoorbeeld **ROBOT**, **TRUC**, **KIST**, **BAL** en **FEEST**.
+- De juiste keuze is **BAL**, gevormd met de letters uit de drie levels van uitdaging 1.
+- Het woord wordt als tekst weergegeven; het is niet nodig om letters één voor één in te voeren.
+- Woorden worden volledig getoond en mogen niet horizontaal afgekapt worden.
+
+**Feedback bij bediening:** het woord schuift kort naar de volgende keuze. De tekst blijft groot en hoog contrast houden.
+
+#### 3. Kleurenschijf
+
+- Een ronde schijf met een beperkt aantal duidelijke kleurstalen.
+- Wannes tikt op de schijf of gebruikt een pijl om door de kleuren te bladeren.
+- De mogelijke kleuren zijn bijvoorbeeld blauw, geel, groen, paars en signaalrood.
+- De juiste instelling is **signaalrood**, onthuld door het rode balletje in uitdaging 3.
+- Iedere kleurstaal krijgt naast de kleur een naam of eenvoudig herkenbaar symbool, zodat de oplossing niet uitsluitend op kleurherkenning berust.
+
+**Feedback bij bediening:** de schijf klikt naar de volgende positie en het lampje op de deur neemt tijdelijk de gekozen kleur aan.
+
+### De knop OPEN DE DEUR
+
+Onder de drie onderdelen staat één grote knop met het label **OPEN DE DEUR**.
+
+- De knop blijft zichtbaar zonder dat Wannes hoeft te scrollen als het scherm dat toelaat.
+- Bij een tik worden alle drie de instellingen gecontroleerd.
+- Een verkeerde combinatie veroorzaakt een korte mechanische dreun, een kleine trilling of een knipperend lampje. Gebruik geen lange of agressieve foutanimatie.
+- De ingestelde keuzes blijven staan; Wannes hoeft niet opnieuw te beginnen.
+- De robot reageert met een korte grap, bijvoorbeeld: “Hmm. De deur is het duidelijk niet mee eens. Probeer de aanwijzingen nog eens.”
+- Wannes kan onbeperkt nieuwe combinaties proberen.
+- Bij de juiste combinatie klikken de drie onderdelen vast en begint de openingsanimatie.
+
+### Juiste combinatie
+
+| Onderdeel | Juiste instelling | Herkomst |
 |---|---|---|
-| Symboolschijf | Ster met een oog | Uitdaging 2 |
-| Woordschijf | BAL | Uitdaging 1 |
-| Kleurschijf | Signaalrood | Uitdaging 3 |
+| Mechanische symboolschijf | Ster met een oog | Uitdaging 2 |
+| Woordkeuze | BAL | Uitdaging 1 |
+| Kleurenschijf | Signaalrood | Uitdaging 3 |
 
-Een verkeerde combinatie houdt de deur dicht, met een korte komische reactie. Wannes mag onbeperkt opnieuw proberen en kan hints krijgen. Bij de juiste combinatie gaat de deur open.
+**Belangrijk:** deze herkomst is leidend voor alle ontwerpdocumenten. De volgorde van de bediening is symbool, woord, kleur; de volgorde waarin Wannes de aanwijzingen heeft verdiend, is BAL, ster-met-oog, signaalrood.
+
+### Hints in drie stappen
+
+Hints worden pas aangeboden als Wannes erom vraagt of na meerdere mislukte pogingen. De speler kan zelf blijven nadenken en hoeft hints niet te gebruiken.
+
+1. **Subtiele hint:** “Je hebt al drie aanwijzingen gevonden. Kijk eens naar je verzameling.”
+2. **Gerichte hint:** “Je hebt een symbool, een woord en een kleur nodig. Welke drie waren dat ook alweer?”
+3. **Expliciete hint:** de game toont de drie verzamelde aanwijzingen naast de bijbehorende bedieningselementen, zonder de instellingen automatisch te wijzigen.
+
+Als Wannes na de derde hint nog hulp nodig heeft, kan de robot de juiste onderdelen één voor één aanwijzen. Hij verandert de instellingen niet zelf: Wannes voert de laatste handelingen uit.
+
+### Feedbackteksten
+
+**Na een foute combinatie:**
+
+> “Klik… brom… nee, nog niet. De drie aanwijzingen moeten precies goed staan.”
+
+**Na de eerste hint:**
+
+> “Denk terug aan wat je in het speelgoedlab hebt ontdekt.”
+
+**Na de tweede hint:**
+
+> “Eén aanwijzing is een symbool. Eén is een woord. En één is een kleur.”
+
+**Bij de juiste combinatie:**
+
+> “Dat is hem! De drie aanwijzingen passen samen!”
+
+Daarna:
+- De symboolschijf klikt vast.
+- Het woordvenster licht kort op.
+- De kleurenschijf vult zich met signaalrood.
+- Het lampje boven de deur verandert naar de vooraf vastgelegde successtatus.
+- De deur trilt licht en schuift langzaam open.
+
+### Spanningsopbouw en overgang naar de finale
+
+De deur gaat niet meteen met confetti open. Eerst ontstaat een kort stil moment: de deur schuift een stukje open, er komt warm licht door de opening en er klinkt zacht gefluister of geritsel.
+
+De robot zegt:
+
+> “Wacht eens… Ik denk dat ze daarbinnen op jou staan te wachten.”
+
+Daarna gaat de deur helemaal open en begint de feestelijke onthulling. De inhoud van de verrassing blijft verborgen tot dit moment.
+
+### Mobiele bediening en toegankelijkheid
+
+- Ontwerp voor iPhone in staande stand en bediening met één duim.
+- Gebruik grote tikzones, duidelijke labels en hoog contrast.
+- Geef elke schijf zowel een visuele als een tekstuele aanduiding.
+- Gebruik geen timer, strafscore, verloren levens of reset na een fout.
+- Alle gekozen instellingen blijven staan tot Wannes ze zelf wijzigt.
+- Animaties zijn kort, voorspelbaar en mogen geen noodzakelijke informatie verbergen.
+- Als beweging beperkt moet worden, blijven de veranderingen begrijpelijk met eenvoudige overgangen of directe toestandswissels.
+- De deur moet ook zonder geluid volledig te begrijpen zijn.
+
+### Schermen en benodigde assets
+
+1. **Introductiescherm:** de gesloten geheime deur, robot en korte introductie.
+2. **Slotbediening:** symboolschijf, woordkeuze, kleurenschijf en knop OPEN DE DEUR.
+3. **Foutfeedback:** korte reactie van deur en robot, met instellingen behouden.
+4. **Hintweergave:** de verzamelde aanwijzingen en optionele nadruk op het relevante onderdeel.
+5. **Deur opent:** mechanische beweging en warm licht, gevolgd door de overgang naar de finale.
+
+Benodigde assets:
+- Grote deur in gesloten, gedeeltelijk geopende en open toestand.
+- Mechanische symboolschijf met eigen symbolen.
+- Woordvenster met pijlen.
+- Kleurenschijf met duidelijke kleurstalen en labels.
+- Grote OPEN DE DEUR-knop.
+- Lampje, mechanische details en korte succes-/foutindicatoren.
+- Robotillustratie voor de introductie en dialogen.
+- Warme lichtstraal voor de overgang naar de finale.
+
+**Nog open na dit voorstel:** de definitieve lijst met symbolen en woorden, de exacte deurillustratie en de concrete verjaardagsverrassing achter de deur. De kernlogica en de bediening zijn met dit voorstel vastgelegd.
 
 ## Finale — de feestelijke onthulling
 
