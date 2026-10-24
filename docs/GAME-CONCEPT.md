@@ -1,20 +1,20 @@
 # ROBO MYSTERY — Spelconcept
 
-**Versie:** 1.1  
+**Versie:** 1.2  
 **Status:** Ontwerpfase — geen nieuwe gamecode  
-**Laatste update:** 25 oktober 2026 — maquette als startscherm, volledige technische ruimte met vier interactieve voorwerpen
+**Laatste update:** 25 oktober 2026 — concept herzien: robot geschrapt, speler onderzoekt zelf het laboratorium
 
 ## 1. Kernidee
 
-ROBO MYSTERY is een compact digitaal mysterie-avontuur voor **Wannes (12)**, bedoeld om op zijn verjaardag zelf te spelen. Wannes bestuurt een speelgoedrobot door een vreemde, speelse wereld. Hij krijgt een geheim bericht: er is iets vreemds aan de hand in het speelgoedlab, en de robot moet het onderzoeken.
+ROBO MYSTERY is een compact digitaal mysterie-avontuur voor **Wannes (12)**, bedoeld om op zijn verjaardag zelf te spelen. Wannes onderzoekt zelf een vreemde, speelse speelgoedwereld na een geheim bericht dat hem naar het laboratorium lokt. Er is iets vreemds aan de hand en hij moet zelf ontdekken wat er achter de gesloten deur verborgen zit.
 
-Wannes ziet eerst de volledige maquette als startscherm. Na Start bevindt de robot zich binnen in die maquette, in een technische ruimte. De volledige ruimte blijft tegelijk zichtbaar op het iPhone-scherm: de robot, het computerscherm voor uitdaging 1, de locker met cijfercode voor uitdaging 2, de tafel met bekers voor uitdaging 3 en de grote deur voor uitdaging 4. Wannes tikt op een voorwerp om de bijbehorende interactie te openen. Hij kiest zelf in welke volgorde hij de eerste drie uitdagingen speelt. Hij mag elke uitdaging halverwege verlaten en later precies verdergaan waar hij stopte. De grote deur kan hij vanaf het begin ontdekken, maar hij leert gaandeweg dat hij de drie uitdagingen nodig heeft om het slot op te lossen. Uitdaging 1 bestaat uit drie match-3-levels en levert de letters B, A en L op. Wanneer die opengaat, blijkt dat de speelgoedfiguren in het geheim een verjaardagsfeest voor Wannes hebben voorbereid. De robot is het instrument waarmee Wannes zijn eigen verrassing ontdekt.
+Wannes ziet eerst de volledige maquette als startscherm. Na Start onderzoekt Wannes zelf de technische ruimte. De volledige ruimte blijft tegelijk zichtbaar op het iPhone-scherm: het computerscherm voor uitdaging 1, de locker met cijfercode voor uitdaging 2, de tafel met bekers voor uitdaging 3 en de grote deur voor uitdaging 4. Wannes tikt op een voorwerp om de bijbehorende interactie te openen. Hij kiest zelf in welke volgorde hij de eerste drie uitdagingen speelt. Hij mag elke uitdaging halverwege verlaten en later precies verdergaan waar hij stopte. De grote deur kan hij vanaf het begin ontdekken, maar hij leert gaandeweg dat hij de drie uitdagingen nodig heeft om het slot op te lossen. Uitdaging 1 bestaat uit drie match-3-levels en levert de letters B, A en L op. Wanneer die opengaat, blijkt dat de speelgoedfiguren in het geheim een verjaardagsfeest voor Wannes hebben voorbereid. Wannes ontdekt de verrassing zelf door de aanwijzingen te verzamelen en het slot te openen.
 
 Wannes sluit af met een laatste interactieve handeling waarmee het feest begint.
 
 ## 2. Vastgelegde spelbeslissingen
 
-- De speler is **Wannes**; hij bestuurt de robot als zijn handen en ogen.
+- De speler is **Wannes**; hij onderzoekt de ruimte zelf en bedient de voorwerpen rechtstreeks.
 - Het feest aan het einde is **voor Wannes**, niet voor de robot.
 - Wannes speelt het spel op zijn verjaardag zelf.
 - Het mysterie blijft aan het begin onduidelijk.
@@ -33,7 +33,7 @@ Wannes sluit af met een laatste interactieve handeling waarmee het feest begint.
 
 Wannes opent het spel en ziet een kort geheim bericht dat de robot het speelgoedlab in stuurt. De robot wordt wakker. De omgeving lijkt vertrouwd, maar er zijn vreemde details: een spoor van gekleurde knopen, snippers die op confetti lijken en een deur die gesloten blijft. Het spel geeft nog niet prijs wat het doel is.
 
-### Uitdaging 1 — De robotfabriek
+### Uitdaging 1 — De speelgoedfabriek
 
 Wannes speelt drie korte match-3-levels in een retro-futuristisch speelgoedlaboratorium. Hij verzamelt rode energiecellen, breekt houten kistjes open en laat een gouden energiesleutel naar een uitgang vallen. Elk level levert één letter op: B, A en L. Samen vormen ze het woord BAL, de woordaanwijzing voor het grote slot. Zie docs/CHALLENGES.md.
 
@@ -57,7 +57,7 @@ Wannes kan de deur op elk moment onderzoeken. Hij ontdekt dat er drie aanwijzing
 
 ### Finale — De deur gaat open
 
-De deur onthult een feestlocatie die de speelgoedfiguren voor Wannes hebben klaargemaakt. De aap, panda, schildpad en regenboogoctopus zijn erbij. Ze roepen “Gefeliciteerd, Wannes!” De robot stapt opzij voor het verjaardagskind. De eerdere aanwijzingen blijken onderdelen van het geheime plan.
+De deur onthult een feestlocatie die de speelgoedfiguren voor Wannes hebben klaargemaakt. De aap, panda, schildpad en regenboogoctopus zijn erbij. Ze roepen “Gefeliciteerd, Wannes!” De eerdere aanwijzingen blijken onderdelen van het geheime plan.
 
 ## 4. De interactieve feestfinale
 
@@ -66,7 +66,7 @@ De onthulling is niet het einde van de interactie. Wannes krijgt nog één eenvo
 - een feestknop indrukken;
 - de taart aansnijden samen met de robot.
 
-Daarna doet de robot een kaarttruc waarvan de uitkomst altijd “Gefeliciteerd, Wannes!” is, gevolgd door een korte feestelijke slotscène. De toon verschuift van mysterie naar warmte, humor en verrassing.
+Daarna voeren de speelgoedfiguren een korte kaarttruc uit waarvan de uitkomst altijd “Gefeliciteerd, Wannes!” is, gevolgd door een korte feestelijke slotscène. De toon verschuift van mysterie naar warmte, humor en verrassing.
 
 ### Echte slotscène (nog open)
 
@@ -76,7 +76,6 @@ Het laatste scherm kan een echte opdracht bevatten voor na het spel (“Draai je
 
 De speelgoedfiguren vormen samen het geheime organisatieteam. Hun rollen zijn voorlopig.
 
-- **De robot:** instrument van Wannes; hij is de rode draad door alle scènes.
 - **Schildpad:** bewaakt een aanwijzing en vraagt Wannes goed op te letten.
 - **Aap:** zorgt voor humor en bewaakt de sleutel in uitdaging 2.
 - **Panda:** bewaakt een patroon of raadsel.
@@ -88,7 +87,7 @@ De herkenbare vormen en kleuren van de bestaande speelgoedfiguren blijven leiden
 
 1. Geef vooraf niet te veel uitleg; Wannes ontdekt het verhaal door te spelen.
 2. Elke uitdaging heeft een duidelijke functie in het avontuur.
-3. De robot blijft de rode draad door alle scènes.
+3. De aanwijzingen en de gesloten deur vormen de rode draad door alle scènes.
 4. De uitdagingen testen verschillende vaardigheden: matchen en plannen, logisch nadenken en goed observeren; het slot vraagt dat Wannes zijn ontdekkingen toepast.
 5. Aanwijzingen zijn vóór de finale mysterieus en achteraf logisch.
 6. De speelgoedfiguren mogen verdacht gedrag vertonen, maar mogen de verrassing niet te vroeg verklappen.
@@ -103,7 +102,7 @@ De herkenbare vormen en kleuren van de bestaande speelgoedfiguren blijven leiden
 
 ## 7. Spelvorm
 
-Een compact point-and-click-avontuur: de maquette is uitsluitend het startscherm. Na Start speelt alles zich af in de technische ruimte binnen de maquette. De volledige ruimte, robot en vier interactieve voorwerpen blijven tegelijk zichtbaar; Wannes tikt op een voorwerp om de bijbehorende interactie te openen. Geschikt voor een telefoon; de technische randvoorwaarden staan in docs/TECH-SPEC.md. Streefduur: ongeveer 8 tot 12 minuten.
+Een compact point-and-click-avontuur: de maquette is uitsluitend het startscherm. Na Start speelt alles zich af in de technische ruimte binnen de maquette. De volledige ruimte en vier interactieve voorwerpen blijven tegelijk zichtbaar; Wannes tikt op een voorwerp om de bijbehorende interactie te openen. Geschikt voor een telefoon; de technische randvoorwaarden staan in docs/TECH-SPEC.md. Streefduur: ongeveer 8 tot 12 minuten.
 
 ## 8. Nog te beslissen
 
