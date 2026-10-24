@@ -1,14 +1,14 @@
 # ROBO MYSTERY — Spelconcept
 
-**Versie:** 1.0  
+**Versie:** 1.1  
 **Status:** Ontwerpfase — geen nieuwe gamecode  
-**Laatste update:** 25 oktober 2026 — vrije laboratoriumverkenning met hervatbare deelvoortgang; uitdaging 4 gebruikt automatisch symbool, zelf getypt woord en zelf gekozen kleur
+**Laatste update:** 25 oktober 2026 — maquette als startscherm, volledige technische ruimte met vier interactieve voorwerpen
 
 ## 1. Kernidee
 
 ROBO MYSTERY is een compact digitaal mysterie-avontuur voor **Wannes (12)**, bedoeld om op zijn verjaardag zelf te spelen. Wannes bestuurt een speelgoedrobot door een vreemde, speelse wereld. Hij krijgt een geheim bericht: er is iets vreemds aan de hand in het speelgoedlab, en de robot moet het onderzoeken.
 
-Wannes verkent vrij een speelgoedlaboratorium en kiest zelf in welke volgorde hij de eerste drie uitdagingen speelt. Hij mag elke uitdaging halverwege verlaten en later precies verdergaan waar hij stopte. De grote deur kan hij vanaf het begin ontdekken, maar hij leert gaandeweg dat hij de drie uitdagingen nodig heeft om het slot op te lossen. Uitdaging 1 bestaat uit drie match-3-levels en levert de letters B, A en L op. Wanneer die opengaat, blijkt dat de speelgoedfiguren in het geheim een verjaardagsfeest voor Wannes hebben voorbereid. De robot is het instrument waarmee Wannes zijn eigen verrassing ontdekt.
+Wannes ziet eerst de volledige maquette als startscherm. Na Start bevindt de robot zich binnen in die maquette, in een technische ruimte. De volledige ruimte blijft tegelijk zichtbaar op het iPhone-scherm: de robot, het computerscherm voor uitdaging 1, de locker met cijfercode voor uitdaging 2, de tafel met bekers voor uitdaging 3 en de grote deur voor uitdaging 4. Wannes tikt op een voorwerp om de bijbehorende interactie te openen. Hij kiest zelf in welke volgorde hij de eerste drie uitdagingen speelt. Hij mag elke uitdaging halverwege verlaten en later precies verdergaan waar hij stopte. De grote deur kan hij vanaf het begin ontdekken, maar hij leert gaandeweg dat hij de drie uitdagingen nodig heeft om het slot op te lossen. Uitdaging 1 bestaat uit drie match-3-levels en levert de letters B, A en L op. Wanneer die opengaat, blijkt dat de speelgoedfiguren in het geheim een verjaardagsfeest voor Wannes hebben voorbereid. De robot is het instrument waarmee Wannes zijn eigen verrassing ontdekt.
 
 Wannes sluit af met een laatste interactieve handeling waarmee het feest begint.
 
@@ -103,7 +103,7 @@ De herkenbare vormen en kleuren van de bestaande speelgoedfiguren blijven leiden
 
 ## 7. Spelvorm
 
-Een compact point-and-click-avontuur: Wannes tikt op plekken en voorwerpen om de robot ernaartoe te sturen, onderzoekt interactieve elementen en speelt minigames. Geschikt voor een telefoon; de technische randvoorwaarden staan in docs/TECH-SPEC.md. Streefduur: ongeveer 8 tot 12 minuten.
+Een compact point-and-click-avontuur: de maquette is uitsluitend het startscherm. Na Start speelt alles zich af in de technische ruimte binnen de maquette. De volledige ruimte, robot en vier interactieve voorwerpen blijven tegelijk zichtbaar; Wannes tikt op een voorwerp om de bijbehorende interactie te openen. Geschikt voor een telefoon; de technische randvoorwaarden staan in docs/TECH-SPEC.md. Streefduur: ongeveer 8 tot 12 minuten.
 
 ## 8. Nog te beslissen
 
