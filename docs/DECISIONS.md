@@ -1,6 +1,6 @@
 # ROBO MYSTERY — Beslissingen en open punten
 
-**Versie:** 0.5  
+**Versie:** 0.6  
 **Doel:** één betrouwbare plek voor besluiten en open punten, zodat de inhoud niet telkens opnieuw wordt bedacht.
 
 ## Vastgelegd
@@ -27,6 +27,8 @@
 | Bouwstatus | Oude prototypecode is niet bruikbaar als basis; eerst ontwerpdossier afronden en goedkeuren |
 
 | Vrije verkenning | Wannes kiest zelf de volgorde van uitdagingen 1, 2 en 3; uitdaging 4 kan hij vanaf het begin ontdekken, maar niet openen vóór alle drie voltooid zijn |
+| Tussentijdse voortgang | Elke uitdaging is onderbreekbaar en hervatbaar vanaf de exacte deelstap; opgeloste puzzels, bordstanden, pogingen waar relevant, verdiende aanwijzingen en slotinvoer blijven bewaard |
+| Opslaan | Lokale voortgang opslaan na elke betekenisvolle actie; herladen of later terugkomen mag geen voortgang wissen |
 
 ## Nog open — ontwerp vóór de bouw
 
@@ -72,6 +74,7 @@ Geef assets consistente namen en leg per bestand vast voor welke scène het dien
 
 - De drie puzzels van uitdaging 2 zijn onderdelen van één hoofd uitdaging, niet drie aparte hoofd uitdagingen.
 - Wannes kiest zelf de volgorde van uitdagingen 1, 2 en 3; het laboratorium is vrij te verkennen.
+- Wannes mag midden in een uitdaging stoppen en naar een andere gaan. Elke uitdaging hervat op de precieze plek waar hij gebleven was, ook na het sluiten en opnieuw openen van het spel.
 - Uitdaging 4 is vanaf het begin te ontdekken maar pas op te lossen na voltooiing van alle drie de andere uitdagingen.
 - Bij uitdaging 4 verschijnt de ster met het oog automatisch na uitdaging 2. Wannes typt zelf BAL en kiest zelf signaalrood.
 - Uitdaging 1 is een match-3-game met drie levels; de beloningen zijn achtereenvolgens B, A en L, samen BAL.
