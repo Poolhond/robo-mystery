@@ -22,7 +22,7 @@
 | Uitdaging 2 — kistjesraadsel | Precies één uitspraak is waar; het rode kistje is de juiste keuze |
 | Aanwijzing uit uitdaging 2 | **Ster met een oog**, gevonden in het rode kistje; dit is de symboolaanwijzing voor uitdaging 4 |
 | Gouden medaille | Niet gebruiken als inhoud van de kist; geschrapt |
-| Aanwijzing uit uitdaging 3 | Signaalrood |\n| Uitdaging 3 — moeilijkheid | Opbouwend: ronde 1 twee wissels, ronde 2 drie wissels, ronde 3 vier wissels; snelheid neemt per ronde toe maar de beweging blijft eerlijk te volgen |
+| Aanwijzing uit uitdaging 3 | Signaalrood |\n| Uitdaging 3 — moeilijkheid | Opbouwend: ronde 1 twee wissels, ronde 2 drie wissels, ronde 3 vier wissels; snelheid neemt per ronde toe maar de beweging blijft eerlijk te volgen |\n| Uitdaging 4 — bediening | Combinatie van mechanische symboolschijf, woordkeuze en kleurenschijf; grote knop OPEN DE DEUR |\n| Uitdaging 4 — juiste instellingen | Ster met oog (uitdaging 2), BAL (uitdaging 1), signaalrood (uitdaging 3); verkeerde pogingen behouden de instellingen |
 | Uitdaging 4 | Grote deur met symbool-, woord- en kleurschijf: ster met oog, BAL, signaalrood |
 | Bouwstatus | Oude prototypecode is niet bruikbaar als basis; eerst ontwerpdossier afronden en goedkeuren |
 
