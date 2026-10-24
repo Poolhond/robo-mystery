@@ -1,6 +1,6 @@
 # ROBO MYSTERY — Uitdagingen
 
-**Versie:** 0.7  
+**Versie:** 0.8  
 **Status:** Ontwerpdossier in ontwikkeling — nog geen nieuwe gamecode.  
 **Focus van deze revisie:** vrije verkenning van het laboratorium; uitdaging 4 vereenvoudigd tot woord en kleur, met automatische symboolherkenning.
 
@@ -15,12 +15,12 @@
 - Het spel is Nederlandstalig, mobile-first en geschikt voor bediening op een iPhone.
 - De verjaardagsverrassing blijft verborgen tot de deur in uitdaging 4 opengaat.
 
-## Uitdaging 1 — De robotfabriek
+## Uitdaging 1 — De speelgoedfabriek
 
 **Status:** ontwerp vastgelegd op hoofdlijnen; nog geen gamecode.  
 **Spelvorm:** drie korte match-3-levels, geïnspireerd op het algemene spelprincipe van Royal Match. Gebruik geen gekopieerde levels, artwork, personages, interface of merkspecifieke vormgeving. De eigen wereld is een retro-futuristisch speelgoedlaboratorium in handgedrukte popartstijl.
 
-**Doel in het verhaal:** de robot heeft drie energiecellen nodig om een fabriekssysteem te activeren. Wannes helpt de robot door drie opeenvolgende puzzellevels. Elk level levert één letter op. Na level 3 vormt hij het woord **BAL**. Dit is de woordaanwijzing voor het grote slot in uitdaging 4.
+**Doel in het verhaal:** het fabriekssysteem is uitgevallen. Wannes herstelt het zelf door drie opeenvolgende puzzellevels. Elk level levert één letter op. Na level 3 vormt hij het woord **BAL**. Dit is de woordaanwijzing voor het grote slot in uitdaging 4.
 
 **Beloning van uitdaging 1:** de letters **B**, **A** en **L**, in die volgorde, die samen **BAL** vormen.  
 **Beloning die hier vervalt:** de ster met het oog hoort niet langer bij uitdaging 1. Die wordt voortaan verdiend in **uitdaging 2**.  
@@ -41,11 +41,11 @@
 - Een hint mag een mogelijke zet laten oplichten, maar voert die niet automatisch uit.
 - Bij voltooiing krijgt Wannes een korte succesanimatie en de bijbehorende letter. De letter blijft zichtbaar in een vaste verzamelstrook boven of onder het bord.
 - De game bewaart voortgang lokaal na elke geldige zet en bij elke belangrijke wijziging, zodat een onbedoelde herlaadactie geen reeds verdiende letters of de huidige puzzelstand wist.
-- Als Wannes de robotfabriek verlaat en terugkomt, gaat hij verder vanaf het huidige level, met dezelfde bordstand, resterende zetten en verzamelde voortgang. Een level wordt alleen opnieuw gestart als Wannes daar zelf voor kiest of expliciet om een reset vraagt.
+- Als Wannes de speelgoedfabriek verlaat en terugkomt, gaat hij verder vanaf het huidige level, met dezelfde bordstand, resterende zetten en verzamelde voortgang. Een level wordt alleen opnieuw gestart als Wannes daar zelf voor kiest of expliciet om een reset vraagt.
 
 ### Level 1 — De energiecellen
 
-**Verhaal:** de fabriek is donker. De robot legt uit dat hij rode energiecellen moet verzamelen om het eerste circuit te activeren.
+**Verhaal:** de fabriek is donker. Een bericht op de laboratoriummonitor legt uit dat rode energiecellen nodig zijn om het eerste circuit te activeren.
 
 **Doel:** verzamel **8 rode energiecellen** binnen **12 zetten**.
 
@@ -58,10 +58,10 @@
 
 **Hintladder:**
 1. Subtiel: één mogelijke match met rode energiecellen krijgt kort een zachte puls.
-2. Duidelijker: de robot zegt: “Probeer rode energiecellen naast elkaar te krijgen.”
+2. Duidelijker: de laboratoriummonitor toont: “Probeer rode energiecellen naast elkaar te krijgen.”
 3. Expliciet: de game licht twee aangrenzende symbolen op die verwisseld kunnen worden om een geldige match te maken.
 
-**Introductietekst van de robot:**
+**Introductietekst op de laboratoriummonitor:**
 > “De fabriek is uitgevallen. Verzamel acht rode energiecellen. Maak rijen van minstens drie dezelfde symbolen om ze op te laden!”
 
 **Foutfeedback:**
@@ -71,7 +71,7 @@
 **Succesfeedback:**
 > “Circuit één draait weer! Goed gedaan.”
 
-**Beloning:** de letter **B** verschijnt op een metalen label. De robot plaatst die in de verzamelstrook: **B _ _**.
+**Beloning:** de letter **B** verschijnt op een metalen label. De letter wordt toegevoegd aan de verzamelstrook: **B _ _**.
 
 ### Level 2 — De geblokkeerde tandwielen
 
@@ -90,10 +90,10 @@
 
 **Hintladder:**
 1. Subtiel: een mogelijke match naast een kistje pulseert.
-2. Duidelijker: de robot zegt: “Maak een match naast een houten kistje om het open te breken.”
+2. Duidelijker: het spel zegt: “Maak een match naast een houten kistje om het open te breken.”
 3. Expliciet: de game licht een concrete verwisseling op die naast een kistje een match vormt.
 
-**Introductietekst van de robot:**
+**Introductietekst van het spel:**
 > “Deze kistjes blokkeren de tandwielen. Maak matches naast de kistjes om ze weg te breken. Ruim ze alle vier op!”
 
 **Foutfeedback:**
@@ -122,7 +122,7 @@
 
 **Hintladder:**
 1. Subtiel: de vakjes direct onder de sleutel lichten kort op.
-2. Duidelijker: de robot zegt: “Maak ruimte onder de sleutel, dan kan ze naar beneden vallen.”
+2. Duidelijker: de spel zegt: “Maak ruimte onder de sleutel, dan kan ze naar beneden vallen.”
 3. Expliciet: een geldige match die ruimte onder de sleutel maakt, wordt aangeduid.
 
 **Introductietekst van de robot:**
@@ -139,13 +139,13 @@
 
 ### De drie letters samen — onthulling van BAL
 
-Na level 3 schuift de verzamelstrook naar het midden van het scherm. De letters **B**, **A** en **L** komen samen op één stevig metalen plaatje. De robot zegt:
+Na level 3 schuift de verzamelstrook naar het midden van het scherm. De letters **B**, **A** en **L** komen samen op één stevig metalen plaatje. De laboratoriummonitor toont:
 
 > “B… A… L. Dat is je eerste geheime woord. Onthoud het goed — je hebt het later nodig!”
 
 Het woord wordt niet gekoppeld aan een gouden medaille of een extra voorwerp uit uitdaging 2. Het is de expliciete woordaanwijzing van uitdaging 1 en wordt opgeslagen in de voortgang van het spel, zodat het later bij het grote slot gebruikt kan worden.
 
-**Einde van uitdaging 1:** de robot toont een korte overgang naar het volgende mysterieuze onderdeel van het speelgoedlab. De ster met het oog wordt hier niet getoond en blijft gereserveerd als beloning van uitdaging 2.
+**Einde van uitdaging 1:** het spel toont een korte overgang naar het volgende mysterieuze onderdeel van het speelgoedlab. De ster met het oog wordt hier niet getoond en blijft gereserveerd als beloning van uitdaging 2.
 
 ### Ontwerp- en toegankelijkheidsregels
 
@@ -168,7 +168,7 @@ Het woord wordt niet gekoppeld aan een gouden medaille of een extra voorwerp uit
 
 ### Deel 1 — Het geheime deurtje: kraak de cijfercode
 
-De robot ontdekt een klein metalen deurtje met een mechanisch cijferslot van drie cijfers. Wannes krijgt vijf aanwijzingen:
+Wannes ontdekt een klein metalen deurtje met een mechanisch cijferslot van drie cijfers. Wannes krijgt vijf aanwijzingen:
 
 - **682** — één cijfer is juist én staat op de juiste plaats.
 - **614** — één cijfer is juist, maar staat op de verkeerde plaats.
@@ -190,7 +190,7 @@ De robot ontdekt een klein metalen deurtje met een mechanisch cijferslot van dri
 - Wannes stelt drie cijferwieltjes in.
 - Hij drukt op **OPEN**.
 - Bij een verkeerde code trilt het slot kort; hij mag opnieuw proberen.
-- De robot geeft stapsgewijs hints als Wannes vastloopt.
+- Het spel geeft stapsgewijs hints als Wannes vastloopt.
 - Bij 042 klikken de cijfers op hun plaats en springt het kleine deurtje open.
 
 ### Deel 2 — De drie speelgoedfiguren: wie heeft de sleutel?
@@ -255,7 +255,7 @@ De aap wijst naar drie gesloten kistjes. De sleutel past op het slot van het gek
 
 **Inhoud van de kist:** een fysiek voorwerp of kaart met de aanwijzing die uitdaging 2 aan uitdaging 4 levert. De gouden medaille is geschrapt. De afgesproken aanwijzingen voor het grote slot zijn: **BAL** (uitdaging 1), ster met oog (uitdaging 2) en signaalrood (uitdaging 3). Daarom bevat de kist de ster-met-oog-aanwijzing — bijvoorbeeld op een geheim kaartje of een bijzonder gegraveerd plaatje. De onthulling van de ster met het oog hoort bij uitdaging 2. Het woord BAL wordt uitsluitend in uitdaging 1 verdiend.
 
-**Reactie van de robot:**
+**Reactie van het spel:**
 
 > “Gevonden! Jij hebt de code gekraakt, de sleutel verdiend én het juiste kistje opgespoord!”
 
@@ -275,7 +275,7 @@ De aap wijst naar drie gesloten kistjes. De sleutel past op het slot van het gek
 **Status:** ontwerp uitgewerkt; moeilijkheid gekozen: **opbouwend**.  
 **Spelvorm:** een klassieke bekers-truc in drie rondes. Wannes volgt één rood balletje terwijl drie bekers van plaats wisselen. De beweging wordt per ronde iets sneller, maar blijft volledig zichtbaar en eerlijk te volgen.
 
-**Doel in het verhaal:** de robot toont een goocheltruc die de kleur van het laatste onderdeel van het grote slot onthult. Wannes moet het balletje volgen en de juiste beker kiezen in alle drie de rondes.
+**Doel in het verhaal:** het laboratoriumsysteem toont een goocheltruc die de kleur van het laatste onderdeel van het grote slot onthult. Wannes moet het balletje volgen en de juiste beker kiezen in alle drie de rondes.
 
 **Beloning van uitdaging 3:** de kleur **signaalrood**, de kleur-aanwijzing voor uitdaging 4.  
 **Geschatte speelduur:** ongeveer 2 minuten.  
@@ -284,10 +284,10 @@ De aap wijst naar drie gesloten kistjes. De sleutel past op het slot van het gek
 
 ### De scène en de spelregels
 
-De robot staat achter een kleine goocheltafel in het speelgoedlaboratorium. Drie stevige bekers staan naast elkaar op gemarkeerde plaatsen: links, midden en rechts. De bekers hebben elk een eigen herkenbare vorm en kleur, maar de juiste beker wordt niet aangeduid met een blijvend kenmerk. Het rode balletje is het enige doelobject.
+Een kleine goocheltafel staat in het speelgoedlaboratorium. Drie stevige bekers staan naast elkaar op gemarkeerde plaatsen: links, midden en rechts. De bekers hebben elk een eigen herkenbare vorm en kleur, maar de juiste beker wordt niet aangeduid met een blijvend kenmerk. Het rode balletje is het enige doelobject.
 
 Aan het begin van iedere ronde:
-1. De robot toont het rode balletje duidelijk onder één beker.
+1. Het spel toont het rode balletje duidelijk onder één beker.
 2. De beker wordt opgetild of kort transparant getoond zodat Wannes de beginpositie goed ziet.
 3. De beker wordt teruggezet en alle drie de bekers zijn even zichtbaar.
 4. De wisselbewegingen beginnen pas wanneer Wannes klaar is; de speler hoeft niet op een startknop te drukken tijdens een animatie.
@@ -332,7 +332,7 @@ Aan het begin van iedere ronde:
 - De bekers wisselen drie keer van plaats.
 - De animatie is iets sneller dan in ronde 1, maar elke wissel blijft afzonderlijk herkenbaar.
 - Er is een korte pauze tussen de tweede en derde wissel, zodat de reeks niet als één onleesbare beweging aanvoelt.
-- De robot probeert Wannes met een grapje af te leiden, maar de tekst verschijnt vóór of na de beweging, nooit over de bekers heen.
+- Het spel probeert Wannes met een grapje af te leiden, maar de tekst verschijnt vóór of na de beweging, nooit over de bekers heen.
 - De bekers blijven steeds volledig binnen het zichtbare speelgebied.
 
 **Introductietekst van de robot:**
@@ -460,7 +460,7 @@ Het slot legt niet uit waar de aanwijzingen te vinden zijn. Wannes ontdekt dat d
 - Het spel vult het woord niet automatisch in, ook niet nadat uitdaging 1 is voltooid.
 - Bij een fout antwoord blijft zijn invoer staan zodat hij ze eenvoudig kan aanpassen.
 
-**Hint bij vastlopen:** “Welke drie letters kreeg je in de robotfabriek?”
+**Hint bij vastlopen:** “Welke drie letters kreeg je in de speelgoedfabriek?”
 
 #### 3. Zelf een kleur kiezen
 
@@ -498,7 +498,7 @@ Hints verschijnen als Wannes erom vraagt of na meerdere mislukte pogingen.
 
 1. **Subtiele hint:** “Je hebt al dingen ontdekt in het laboratorium. Kijk wat je al weet.”
 2. **Gerichte hint:** “Het symbool wordt voor je bewaard. Het woord moet je zelf typen en de kleur moet je zelf kiezen.”
-3. **Expliciete hint:** de game herinnert Wannes aan de drie bronnen: de robotfabriek, het kistjesraadsel en de bekers.
+3. **Expliciete hint:** de game herinnert Wannes aan de drie bronnen: de speelgoedfabriek, het kistjesraadsel en de bekers.
 
 **Bij een onvolledige verzameling:**
 
@@ -512,7 +512,7 @@ Hints verschijnen als Wannes erom vraagt of na meerdere mislukte pogingen.
 
 > “Dat is hem! Jij hebt alle aanwijzingen gevonden én het geheim ontrafeld!”
 
-Daarna klinkt een korte mechanische klik, licht het slot op en schuift de deur langzaam open. Eerst valt warm licht door de kier en klinkt zacht gefluister of geritsel. De robot zegt:
+Daarna klinkt een korte mechanische klik, licht het slot op en schuift de deur langzaam open. Eerst valt warm licht door de kier en klinkt zacht gefluister of geritsel. Het spel zegt:
 
 > “Wacht eens… Ik denk dat ze daarbinnen op jou staan te wachten.”
 
