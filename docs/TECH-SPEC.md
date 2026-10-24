@@ -1,0 +1,71 @@
+# ROBO MYSTERY — Techniekregels
+
+**Versie:** 0.1  
+**Status:** Concept. Doel: een stabiel spel dat in één bouwopdracht gemaakt kan worden en direct werkt op een iPhone.
+
+## 1. Platform
+- Statische website, gratis gehost op GitHub Pages.
+- Mobile-first, bedoeld voor iPhone Safari (portret). Moet ook werken op iPad en desktop.
+- Geen account, geen server, geen externe diensten.
+
+## 2. Bestandsstructuur
+```
+index.html          # structuur van het spel
+style.css           # alle stijlen en kleurvariabelen
+game.js             # spelogica
+content.js          # alle teksten, raadsels, antwoorden, personalisatie
+assets/
+  characters/       # robot, schildpad, aap, panda, octopus, vogel
+  rooms/            # laboratorium en andere scènes
+  ui/               # knoppen, kaders, iconen, texturen
+  audio/            # (optioneel) geluiden
+```
+- Alle verwijzingen zijn **relatief** (`assets/...`), nooit beginnend met `/`, zodat het op GitHub Pages werkt.
+- Geen frameworks, geen bibliotheken, geen externe lettertypen of scripts.
+
+## 3. Eén bron voor teksten en personalisatie
+Alle spelertekst staat in `content.js`: raadsels, antwoorden, hints, feedback, de naam "Wannes", de slottekst en de eventuele echte opdracht aan het einde. Dit maakt aanpassen voor iedereen mogelijk zonder de spelcode te raken.
+
+## 4. Spelstatus en opslag
+- Eén `state`-object: huidig scherm, voltooide uitdagingen, score, verzamelde aanwijzingen, gebruikte hints.
+- Opslaan in `localStorage` na elke belangrijke stap, zodat herladen of een slapende telefoon niets kost.
+- Een verborgen resetknop (bijvoorbeeld lang indrukken op de titel) om opnieuw te beginnen.
+- Als `localStorage` niet werkt, blijft het spel speelbaar zonder opslaan.
+
+## 5. Schermstructuur
+Schermen zijn data, niet losse code: een lijst met schermen, elk met id, achtergrond, interactieve onderdelen en volgend scherm. Verwachte schermen: start, intro, lab, uitdaging 1–4, deur, feest, slot. De exacte lijst volgt in het dossier.
+
+## 6. iPhone- en mobielregels
+- Alleen tikbediening; geen hover, geen rechtsklik, geen dubbelklik.
+- Raakvlakken minimaal 44×44 px.
+- Gebruik `100svh` en `env(safe-area-inset-*)` zodat niets achter de notch of onderbalk verdwijnt.
+- Viewport: `width=device-width, initial-scale=1, viewport-fit=cover`.
+- Geen horizontale scroll. Tekst blijft leesbaar op een smal scherm (minimaal 16 px voor lopende tekst).
+- Geluid start pas na de eerste tik van Wannes. Het spel moet ook zonder geluid volledig te spelen zijn.
+- Voorkom dubbeltik-zoom en per ongeluk selecteren van tekst (`touch-action`, `user-select`).
+
+## 7. Prestaties en robuustheid
+- Afbeeldingen maximaal ongeveer 1200 px breed, bij voorkeur PNG of WebP; één keer vooraf laden.
+- Als een afbeelding niet laadt, blijft de interactie bruikbaar (kleurvlak of tekstlabel als noodoplossing).
+- Animaties mogen sterk zijn, maar respecteren `prefers-reduced-motion`.
+- Elke uitdaging werkt zonder dat een andere uitdaging nodig is om te laden.
+- Geen eindeloze lussen of timers die doorlopen op een ander scherm.
+
+## 8. Stijl in code
+- Kleuren als CSS-variabelen op één plek in `style.css`. De definitieve kleurenset moet nog worden gekozen; zie `docs/DECISIONS.md`.
+- Interface in de zeefdrukstijl uit `docs/ART-DIRECTION.md` (kaders, knoppen, paneel).
+- Essentiële tekst is echte HTML-tekst, nooit alleen in een afbeelding.
+
+## 9. Testen (na de bouw)
+Op een echte iPhone controleren:
+- Het spel laadt snel en zonder fouten.
+- Start tot en met slotscène is uit te spelen, ook met fouten en hints.
+- Herladen halverwege verliest niets.
+- Alle knoppen zijn met één duim te bereiken en te raken.
+- Tekst is overal leesbaar en past op het scherm.
+- Geluid, als aanwezig, werkt pas na tikken en kan uit.
+
+## 10. Wat niet gebouwd wordt
+- Geen accounts, ranglijsten of netwerkfuncties.
+- Geen advertenties of tracking.
+- Geen aankopen of externe links, behalve eventueel een duidelijke link terug naar het begin.
