@@ -1,14 +1,14 @@
 # ROBO MYSTERY — Spelconcept
 
-**Versie:** 0.5  
-**Status:** Ontwerpfase — geen codeontwikkeling  
-**Laatste update:** 24 oktober 2026 — Wannes is speler én verjaardagskind; goochelthema toegevoegd
+**Versie:** 0.6  
+**Status:** Ontwerpfase — geen nieuwe gamecode  
+**Laatste update:** 24 oktober 2026 — uitdaging 2 afgestemd op het volledige ontwerp met code, sleutel, kistjes en aanwijzing BAL
 
 ## 1. Kernidee
 
 ROBO MYSTERY is een compact digitaal mysterie-avontuur voor **Wannes (12)**, bedoeld om op zijn verjaardag zelf te spelen. Wannes bestuurt een speelgoedrobot door een vreemde, speelse wereld. Hij krijgt een geheim bericht: er is iets vreemds aan de hand in het speelgoedlab, en de robot moet het onderzoeken.
 
-Wannes doorloopt vier uitdagingen met een goochelthema (observeren, raden, volgen, combineren). Elke uitdaging brengt de robot dichter bij een mysterieuze deur. Wanneer die opengaat, blijkt dat de speelgoedfiguren in het geheim een verjaardagsfeest voor **Wannes** hebben voorbereid. De robot was het instrument waarmee Wannes zijn eigen verrassing ontdekte.
+Wannes doorloopt vier uitdagingen met een goochelthema: observeren, logisch nadenken, volgen en combineren. De eerste drie uitdagingen leveren elk één aanwijzing voor een slot op een mysterieuze deur. Wanneer die opengaat, blijkt dat de speelgoedfiguren in het geheim een verjaardagsfeest voor Wannes hebben voorbereid. De robot is het instrument waarmee Wannes zijn eigen verrassing ontdekt.
 
 Wannes sluit af met een laatste interactieve handeling waarmee het feest begint.
 
@@ -18,35 +18,51 @@ Wannes sluit af met een laatste interactieve handeling waarmee het feest begint.
 - Het feest aan het einde is **voor Wannes**, niet voor de robot.
 - Wannes speelt het spel op zijn verjaardag zelf.
 - Het mysterie blijft aan het begin onduidelijk.
-- Het avontuur bevat vier uitdagingen: een mix van observatiepuzzel, raadsels, minigame en combinatiepuzzel.
-- Het overkoepelende thema is **goochelen** (Wannes houdt van goocheltrucs, puzzels en raadsels).
+- Het avontuur bevat vier hoofd uitdagingen: observatie, logica, een volg-minigame en het combineren van aanwijzingen.
+- Het overkoepelende thema is goochelen: Wannes houdt van goocheltrucs, puzzels en raadsels.
 - De andere speelgoedfiguren bereiden de verrassing voor.
-- De vier uitdagingen leiden naar één gesloten deur.
-- Het openen van de deur onthult het verjaardagsfeest.
-- De speler voert na de onthulling nog een interactieve handeling uit (lint, feestknop of taart; keuze nog open).
-- De wereld is geïnspireerd op het handgemaakte speelgoedlaboratorium en de bestaande karakterreferenties.
+- De eerste drie uitdagingen leveren samen een symbool, een woord en een kleur op.
+- De aanwijzingen voor het grote slot zijn voorlopig: ster met een oog, het woord BAL en signaalrood.
 - Mobile-first, bediening met één duim, geen account, gratis op GitHub Pages.
-- De gamecode wordt pas gemaakt wanneer het dossier af is.
+- De oude prototypecode is verwijderd; de uiteindelijke game wordt later vanaf een schone basis gebouwd.
+- Nieuwe gamecode wordt pas gemaakt wanneer het ontwerpdossier is uitgewerkt en goedgekeurd.
 
 ## 3. Verhaal
 
 ### Proloog — Een geheim bericht
-Wannes opent het spel en ziet een kort bericht (geschreven als een geheime opdracht) dat de robot het speelgoedlab in stuurt. De robot wordt wakker. De omgeving lijkt vertrouwd, maar er zijn vreemde details: een spoor van gekleurde knopen, snippers die op confetti lijken, een deur die gesloten blijft. Het spel geeft nog niet prijs wat het doel is.
 
-### Uitdaging 1 — Het spoor ("Wat is er verdwenen?")
-Een observatiepuzzel in goochelstijl. Zie `docs/CHALLENGES.md`.
+Wannes opent het spel en ziet een kort geheim bericht dat de robot het speelgoedlab in stuurt. De robot wordt wakker. De omgeving lijkt vertrouwd, maar er zijn vreemde details: een spoor van gekleurde knopen, snippers die op confetti lijken en een deur die gesloten blijft. Het spel geeft nog niet prijs wat het doel is.
 
-### Uitdaging 2 — Het raadsel
-De speelgoedfiguren geven raadsels waarvan de antwoorden letters of een woord opleveren.
+### Uitdaging 1 — De verdwenen truc
 
-### Uitdaging 3 — Het mechanisme ("De goochelbekers")
-De actievere minigame: volg het bekertje. Het mechanisme opent de weg naar het laatste deel van het lab.
+Een observatiepuzzel in goochelstijl: Wannes ontdekt welk voorwerp verdwenen is. De beloning is voorlopig een ster met een oog, de eerste aanwijzing voor het grote slot. Zie docs/CHALLENGES.md.
 
-### Uitdaging 4 — De laatste sleutel
-Wannes combineert de aanwijzingen uit de eerste drie uitdagingen om het slot op de deur te openen.
+### Uitdaging 2 — De drie raadselmeesters
+
+Deze uitdaging bestaat uit drie opeenvolgende puzzels die samen één avontuur vormen:
+
+1. Wannes kraakt de cijfercode **042** en opent een klein geheim deurtje.
+2. Achter het deurtje ontmoet hij de aap, panda en schildpad. Hun uitspraken volgen de regel dat precies één uitspraak waar is. Wannes redeneert dat de aap de messing sleutel heeft.
+3. Met de sleutel onderzoekt Wannes drie kistjes. Ook daar is precies één uitspraak waar; het rode kistje is de juiste keuze. De kist onthult het woord **BAL**, de woordaanwijzing voor het grote slot in uitdaging 4.
+
+De kist bevat geen gouden medaille. BAL is de belangrijke opbrengst van deze uitdaging. De drie puzzels zijn onderdelen van uitdaging 2, geen drie extra hoofd uitdagingen.
+
+### Uitdaging 3 — De onmogelijke bekers
+
+Wannes volgt een rood balletje onder drie bewegende bekers. De beloning is signaalrood, de derde aanwijzing voor het grote slot.
+
+### Uitdaging 4 — Het slot van het geheim
+
+Wannes combineert de aanwijzingen uit de eerste drie uitdagingen:
+- symbool: ster met een oog;
+- woord: BAL;
+- kleur: signaalrood.
+
+De deur reageert op verkeerde combinaties, maar Wannes kan blijven proberen en hints krijgen. De juiste combinatie opent de deur.
 
 ### Finale — De deur gaat open
-De deur onthult een feestlocatie die de speelgoedfiguren zelf hebben klaargemaakt. De aap, panda, schildpad en regenboogoctopus zijn erbij. Ze roepen "Gefeliciteerd, Wannes!" De robot stapt opzij voor het verjaardagskind. Het spoor, de vreemde machine en de aanwijzingen blijken onderdelen van het geheime plan.
+
+De deur onthult een feestlocatie die de speelgoedfiguren voor Wannes hebben klaargemaakt. De aap, panda, schildpad en regenboogoctopus zijn erbij. Ze roepen “Gefeliciteerd, Wannes!” De robot stapt opzij voor het verjaardagskind. De eerdere aanwijzingen blijken onderdelen van het geheime plan.
 
 ## 4. De interactieve feestfinale
 
@@ -55,18 +71,19 @@ De onthulling is niet het einde van de interactie. Wannes krijgt nog één eenvo
 - een feestknop indrukken;
 - de taart aansnijden samen met de robot.
 
-Daarna doet de robot een **kaarttruc** waarvan de uitkomst altijd "Gefeliciteerd, Wannes!" is, gevolgd door een korte feestelijke slotscène. De toon verschuift van mysterie naar warmte, humor en verrassing.
+Daarna doet de robot een kaarttruc waarvan de uitkomst altijd “Gefeliciteerd, Wannes!” is, gevolgd door een korte feestelijke slotscène. De toon verschuift van mysterie naar warmte, humor en verrassing.
 
 ### Echte slotscène (nog open)
-Het laatste scherm kan een echte opdracht bevatten voor na het spel ("Draai je om", "Ga naar de woonkamer", …). Dit hangt af van wat Wannes in het echt wacht. De tekst staat later op één plek in het spel zodat die eenvoudig aanpasbaar is. Zie `docs/DECISIONS.md`.
+
+Het laatste scherm kan een echte opdracht bevatten voor na het spel (“Draai je om”, “Ga naar de woonkamer”, …). Dit hangt af van wat Wannes in het echt wacht. De tekst moet later op één centrale plek in de game-inhoud staan zodat die eenvoudig aanpasbaar is. Zie docs/DECISIONS.md.
 
 ## 5. Personages
 
 De speelgoedfiguren vormen samen het geheime organisatieteam. Hun rollen zijn voorlopig.
 
-- **De robot:** instrument van Wannes in het spel; hij is de rode draad door alle scènes.
-- **Schildpad:** laat een spoor of stille aanwijzing achter.
-- **Aap:** zorgt voor humor en afleiding.
+- **De robot:** instrument van Wannes; hij is de rode draad door alle scènes.
+- **Schildpad:** bewaakt een aanwijzing en vraagt Wannes goed op te letten.
+- **Aap:** zorgt voor humor en bewaakt de sleutel in uitdaging 2.
 - **Panda:** bewaakt een patroon of raadsel.
 - **Regenboogoctopus:** helpt bij de kleurrijke feestversiering.
 
@@ -75,31 +92,35 @@ De herkenbare vormen en kleuren van de bestaande speelgoedfiguren blijven leiden
 ## 6. Verhaalregels
 
 1. Geef vooraf niet te veel uitleg; Wannes ontdekt het verhaal door te spelen.
-2. Elke uitdaging heeft een functie in het avontuur en levert een aanwijzing op.
+2. Elke uitdaging heeft een duidelijke functie in het avontuur.
 3. De robot blijft de rode draad door alle scènes.
-4. Varieer de uitdagingen: observeren, logisch nadenken, handelen en eerdere informatie combineren.
+4. De uitdagingen testen verschillende vaardigheden: observeren, logisch nadenken, volgen en combineren.
 5. Aanwijzingen zijn vóór de finale mysterieus en achteraf logisch.
-6. De speelgoedfiguren mogen verdacht gedrag vertonen maar mogen de verrassing niet te vroeg verklappen. Verjaardagsdetails (snippers, slingers) blijven subtiel tot de deur opengaat.
+6. De speelgoedfiguren mogen verdacht gedrag vertonen, maar mogen de verrassing niet te vroeg verklappen.
 7. De deur is het centrale doel dat de vier uitdagingen verbindt.
 8. De feestfinale is interactief, maar kort en toegankelijk.
-9. Teksten spreken Wannes direct aan, in het Nederlands, in een toon die past bij een 12-jarige: speels, geen babytaal.
-10. Wannes kan niet vastlopen: elke uitdaging heeft hints en geen echte game over.
+9. Teksten spreken Wannes direct aan, in het Nederlands en passend bij een twaalfjarige: speels, geen babytaal.
+10. Wannes kan niet vastlopen: elke uitdaging heeft hints en geen echte game-over.
+11. De drie puzzels van uitdaging 2 blijven een vaste ketting: code → sleutel → kistje met BAL.
+12. Het oude prototype wordt niet gebruikt als basis voor de nieuwe game.
 
 ## 7. Spelvorm
 
-Een compact point-and-click-avontuur: Wannes tikt op plekken en voorwerpen om de robot ernaartoe te sturen, onderzoekt interactieve elementen en speelt de minigames. Geschikt voor een telefoon; de exacte technische keuzes staan in `docs/TECH-SPEC.md`. Streefduur: ongeveer 8 tot 12 minuten.
+Een compact point-and-click-avontuur: Wannes tikt op plekken en voorwerpen om de robot ernaartoe te sturen, onderzoekt interactieve elementen en speelt minigames. Geschikt voor een telefoon; de technische randvoorwaarden staan in docs/TECH-SPEC.md. Streefduur: ongeveer 8 tot 12 minuten.
 
 ## 8. Nog te beslissen
 
-- De exacte raadsels, antwoorden en het sleutelwoord (zie `docs/CHALLENGES.md`).
-- De definitieve rollen van de speelgoedfiguren.
+- De exacte spelersteksten, feedback en hintniveaus van de uitdagingen.
+- De manier waarop de ster-met-oog-aanwijzing en BAL worden onthuld en visueel onthouden.
+- De exacte vorm van het grote slot en de drie schijven.
+- De definitieve rollen van de speelgoedfiguren buiten uitdaging 2.
 - Welke interactieve handeling het feest start.
 - Of er een echte opdracht aan het einde komt, en welke.
-- De inhoud van de slotscène en de persoonlijke boodschap.
-- Naam van het spel.
+- De inhoud van de persoonlijke boodschap.
+- Definitieve spelnaam, kleurenset en assets.
 
 ## 9. Volgende ontwerpfase
 
-Werk `docs/CHALLENGES.md` uit tot alle raadsels, antwoorden, hints en teksten vastliggen. Daarna schermenlijst en teksten, dan de master-prompt.
+Werk het volledige dossier verder uit: spelersteksten, hints, schermenlijst, assets en finale. Controleer daarna alle documenten op tegenstrijdigheden. Pas als het dossier compleet en goedgekeurd is, wordt de master-prompt geschreven.
 
-**Geen code bouwen zolang het dossier niet af is.**
+**Geen nieuwe gamecode bouwen zolang het dossier niet af is.**
