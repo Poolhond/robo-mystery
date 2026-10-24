@@ -6,6 +6,7 @@ Creatief gameproject in de voorbereidingsfase.
 We werken eerst het ontwerpdossier uit. **Er wordt nog geen code ontwikkeld of aangepast als onderdeel van deze fase.**
 
 ## Documentatie
+- [Spelconcept](docs/GAME-CONCEPT.md) — verhaal, spelstructuur, personages en interactieve finale.
 - [Art Direction & Style Guide](docs/ART-DIRECTION.md) — visuele identiteit, kleurpalet, sterke verweerde zeefdruktextuur, interfaceprincipes en assetregels.
 - [Assetregister en referenties](docs/ASSET-REGISTER.md) — inventaris van de beschikbare referentiebeelden en hun rol in het dossier.
 
