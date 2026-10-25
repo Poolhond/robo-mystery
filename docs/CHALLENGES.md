@@ -119,7 +119,7 @@
 - Het level heeft een duidelijk gemarkeerde uitgang onderaan, zodat Wannes begrijpt waar de sleutel naartoe moet.
 - Gewone matches zijn nodig om de route vrij te maken. Een match vlak onder de sleutel is vaak nuttig, maar het bord moet meerdere haalbare zetten bieden.
 - De voortgang wordt visueel getoond met de sleutel en de uitgang; er hoeft geen ingewikkelde score te zijn.
-- Het level eindigt zodra de sleutel de uitgang bereikt. Bij herhaald mislukken kan het spel een hint geven of het bord opnieuw aanbieden.
+- Het level eindigt zodra de sleutel de uitgang bereikt. Wannes kan zelf een hint vragen via de `?`-knop of bewust kiezen om het bord opnieuw te proberen.
 - De sleutel moet tijdens vallen zichtbaar blijven en mag niet achter effecten of interface-elementen verdwijnen.
 
 **Hintladder:**
@@ -194,7 +194,7 @@ Wannes ontdekt een klein metalen deurtje met een mechanisch cijferslot van drie 
 - Wannes stelt drie cijferwieltjes in.
 - Hij drukt op **OPEN**.
 - Bij een verkeerde code trilt het slot kort; hij mag opnieuw proberen.
-- Het spel geeft stapsgewijs hints als Wannes vastloopt.
+- Wannes kan zelf stapsgewijs hints aanvragen via de vaste `?`-knop.
 - Bij 042 klikken de cijfers op hun plaats en springt het kleine deurtje open.
 
 ### Deel 2 — De drie speelgoedfiguren: wie heeft de sleutel?
@@ -388,7 +388,7 @@ Aan het begin van iedere ronde:
 - De animaties moeten in echte tests op een iPhone goed te volgen zijn; als ronde 3 te moeilijk blijkt, verlaag dan de snelheid vóór je het aantal wissels verandert.
 - De snelheid is geen reflex-test. Wannes hoeft niet tijdens een wissel te tikken en krijgt geen aftellende klok.
 - Na een fout wordt de beginpositie opnieuw getoond. Er is geen strafscore, geen verloren leven en geen terugkeer naar een eerdere uitdaging.
-- Bij herhaalde fouten wordt automatisch een hint aangeboden, maar de speler mag die negeren.
+- Ook na herhaalde fouten verschijnt geen automatische hint. Wannes kiest zelf of hij de `?`-knop gebruikt.
 - De beker die het balletje verbergt mag niet steeds dezelfde kleur of vaste positie hebben. De startpositie varieert zodat Wannes de truc echt moet volgen.
 - De wisselreeks moet gecontroleerd worden op geldige, visueel begrijpelijke bewegingen. Bekers mogen elkaar niet bedekken of buiten het scherm bewegen.
 - Gebruik geen stroboscopische effecten of onnodige camerabewegingen. De feedback blijft ook begrijpelijk als beweging beperkt wordt.
