@@ -12,7 +12,7 @@
 - Elke uitdaging heeft een eigen hintstatus. Hints verschijnen alleen na tik op `?`. Het gedeelde hintpaneel volgt de regels in `TECH-SPEC.md`.
 - Een schermwissel sluit overlays visueel, maar wist geen puzzelvoortgang. Teruggaan brengt Wannes naar dezelfde werkplaats.
 - De drie hoofduitdagingen kunnen in elke volgorde worden gestart. De deur is vanaf het begin onderzoekbaar.
-- Geen score, levens, timer, straf of automatische hint. De drie match-3-levels hebben wel vaste zetlimieten zoals in `CHALLENGES.md`, maar geen game-over: bij vastlopen kan Wannes opnieuw proberen.
+- Geen score, levens, timer, straf of automatische hint. Match-3-zetlimieten zijn levelspecifiek: Level 1 heeft geen zettenlimiet; andere levels volgen uitsluitend de limiet die in `CHALLENGES.md` is vastgelegd. Er is geen game-over.
 - Alle teksten hieronder zijn de voorgestelde definitieve spelersteksten voor het dossier. Ze mogen pas als bouwtekst worden gebruikt nadat dit document als geheel is goedgekeurd.
 
 ## 2. Scherm-ID's en deeltoestanden
@@ -43,10 +43,10 @@ De drie easter eggs zijn optioneel, herhaalbaar en wijzigen geen hoofdvoortgang.
 
 | Toestand-ID | Wat zichtbaar is | Actie / overgang | Tekst / feedback |
 |---|---|---|---|
-| `M-01` | Computer zoomt in; toont niveau, doel, zetten en letterstrook | Start bord → `M-02` | Intro per niveau staat in `CHALLENGES.md` |
+| `M-01` | Computer zoomt in; toont niveau, doel, relevante voortgang en letterstrook. Een zettenaantal verschijnt alleen als het actieve level een zettenlimiet heeft. | Start bord → `M-02` | Intro per niveau staat in `CHALLENGES.md` |
 | `M-02` | Actief bord, teller, zetten, `?` en terugknop | Selecteer tegel → `M-03` | Geen extra tekst |
 | `M-03` | Eerste tegel geselecteerd | Tik aangrenzende tegel → controle zet; tik dezelfde/andere tegel → selectie bijwerken | Geen extra tekst |
-| `M-04` | Ongeldige niet-matchende verwisseling keert terug | Bord keert terug naar `M-02`; geen zet afgetrokken | “Die combinatie vormt nog geen match. Probeer twee andere symbolen.” |
+| `M-04` | Ongeldige niet-matchende verwisseling keert terug | Bord keert terug naar `M-02`; geen zet afgetrokken. De feedback volgt de actieve levelbeschrijving. In Level 1 keren de vlakken zonder foutmeldingstekst terug. | Geen algemene fouttekst; gebruik alleen tekst die voor het actieve level expliciet is vastgelegd. |
 | `M-05` | Geldige match wordt verwijderd; symbolen vallen en bord vult aan | Na animatie → `M-02`, tenzij doel bereikt | Als match geen leveldoel helpt, gebruik de passende foutfeedback uit `CHALLENGES.md` |
 | `M-06` | Leveldoel bereikt; korte succesreactie | Toon letter → `M-07` | Succesfeedback van het betreffende level |
 | `M-07` | Letterbeloning en voortgangsstrook | Niveau 1 → niveau 2; niveau 2 → niveau 3; niveau 3 → `M-08` | “Circuit één draait weer! Goed gedaan.” / “De tandwielen zijn vrij! De fabriek komt weer op gang.” / “De uitgang is open! De fabriek is weer helemaal wakker.” |
