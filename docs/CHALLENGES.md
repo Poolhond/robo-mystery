@@ -544,9 +544,9 @@ Benodigde assets:
 
 ## Finale — de feestelijke onthulling
 
-Achter de deur bevindt zich de verrassing die de speelgoedfiguren voor Wannes hebben voorbereid. Na de onthulling voert Wannes nog één eenvoudige feestelijke handeling uit, bijvoorbeeld op een grote feestknop drukken of aan een lint trekken. Daarna verschijnen confetti en een persoonlijke verjaardagsboodschap.
+Achter de deur bevindt zich de verrassing die de speelgoedfiguren voor Wannes hebben voorbereid. Na de onthulling drukt Wannes op de grote rode feestknop. Die activeert de lichtjes en confetti; daarna verschijnt de persoonlijke verjaardagsboodschap.
 
-**Nog te beslissen:** de exacte echte slotscène, de persoonlijke boodschap en de laatste interactie.
+**Nog te beslissen:** de exacte tekst van de persoonlijke verjaardagsboodschap en de opdracht die Wannes na het digitale spel naar de echte verrassing leidt. De finalehandeling ligt vast: Wannes drukt op de grote rode feestknop.
 
 ## Volgende ontwerpstappen
 
