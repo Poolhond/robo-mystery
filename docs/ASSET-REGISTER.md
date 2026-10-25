@@ -1,11 +1,15 @@
 # ROBO MYSTERY — Assetregister & referenties
 
-**Versie:** 0.7  
+**Versie:** 0.8  
 **Status:** Eerste inventaris op basis van de vijf in deze ontwerpsessie aangeleverde afbeeldingen. De originele beelden zijn in de chat beschikbaar; ze zijn nog niet als afbeeldingsbestanden in deze repository opgeslagen.
 
 | ID | Beschrijving | Hoofdfunctie | Status |
 | AST-TITLE-01 | Verticale vintage zeefdrukposter voor het beginscherm: snoepfabriek, gestreepte schoorstenen, rook, gloeiende ramen, titel en startknop; geen personages | Beginscherm / title screen voor iPhone 9:19,5 | Concept goedgekeurd; afbeeldingsbestand nog uploaden |
 |---|---|---|---|
+| AST-DECOR-01 | Rood hart met opgeheven handen en stralen, minimalistische vintage zeefdruk | Decorstuk voor de controlekamer | Ontwerp uitgewerkt; afbeeldingsbestand nog uploaden |
+| AST-DECOR-02 | Houten vogelhuisje met rood-oranje, gefacetteerde vogel die uit de opening kijkt | Decorstuk voor de controlekamer | Ontwerp uitgewerkt; afbeeldingsbestand nog uploaden |
+| AST-DECOR-03 | Mechanische bouwsteen-vogel met roestoranje lichaam, donkerblauwe uitgespreide vleugels en ronde blauwe displaybasis | Decorstuk voor de controlekamer | Ontwerp uitgewerkt; afbeeldingsbestand nog uploaden |
+| AST-DECOR-04 | Vleesetende bekerplant in witte en turquoise kweekkast met opengeklapt deksel | Decorstuk voor de controlekamer | Ontwerp uitgewerkt; afbeeldingsbestand nog uploaden |
 | REF-01 | Kamer 3 — The Signal Room: signaalmonitor, satellietschotel, technische apparatuur, verhaalpaneel, inventaris en score | Primaire referentie voor omgevingsstijl en geïntegreerde game-interface | Kernreferentie |
 | REF-02 | Karakter-/conceptblad: The Signal Bird, Winged Guardian, The Heart Mark en The Golden Clue | Karakterpresentatie, symbolen en objecten | Kernreferentie |
 | REF-03 | Overzicht met signaalvogel, aap, panda, octopus, schildpad en aanvullende symbolen | Verhouding tussen personages, aanzichten en karakterbladen | Kernreferentie |
@@ -199,3 +203,23 @@ Een eerste gezamenlijke conceptsheet is gegenereerd om de samenhang van de drie 
 - **Animatieplan:** de poster zelf blijft statisch; later kunnen rook, fabrieklichtjes en startknop afzonderlijk subtiel bewegen.
 - **Status:** ontwerp goedgekeurd als richting; de gegenereerde afbeelding is nog niet als bestand in de repository opgeslagen.
 - **Belangrijk:** als de knop in de afbeelding behouden blijft, moet later worden beslist of de volledige poster als één klikbaar vlak werkt of dat de knop grafisch wordt afgedekt/vervangen door een echte toegankelijke HTML-knop. De animaties en bediening mogen niet in de afbeeldingspixels worden ingebakken.
+
+
+## Decorassets voor de controlekamer — uploadpaden
+
+De vier onderstaande illustraties zijn afzonderlijke decorassets. Gebruik de exacte bestandsnamen en paden bij het uploaden naar GitHub.
+
+| Asset-ID | Bestandsnaam | Repositorypad |
+|---|---|---|
+| AST-DECOR-01 | `AST-DECOR-01-red-heart.png` | `assets/decor/AST-DECOR-01-red-heart.png` |
+| AST-DECOR-02 | `AST-DECOR-02-birdhouse.png` | `assets/decor/AST-DECOR-02-birdhouse.png` |
+| AST-DECOR-03 | `AST-DECOR-03-mechanical-bird.png` | `assets/decor/AST-DECOR-03-mechanical-bird.png` |
+| AST-DECOR-04 | `AST-DECOR-04-pitcher-terrarium.png` | `assets/decor/AST-DECOR-04-pitcher-terrarium.png` |
+
+### Uploadafspraken
+
+- De vier bestanden zijn conceptillustraties in dezelfde vintage vector-/zeefdrukrichting als de game.
+- Elk object blijft een zelfstandige asset die later afzonderlijk in de controlekamer kan worden geplaatst.
+- Status is **ontwerp uitgewerkt; nog niet als afbeeldingsbestand in de repository opgeslagen**.
+- Gebruik de paden exact zoals hierboven; maak indien nodig eerst de map `assets/decor/` aan.
+- De gegenereerde illustraties hebben momenteel een crèmekleurige achtergrond; ze zijn niet transparant.
