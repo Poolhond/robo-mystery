@@ -1,6 +1,6 @@
 # De mysterieuze fabriek — Beslissingen en open punten
 
-**Versie:** 0.9  
+**Versie:** 1.0  
 **Doel:** één betrouwbare plek voor besluiten en open punten, zodat de inhoud niet telkens opnieuw wordt bedacht.
 
 ## Vastgelegd
@@ -16,7 +16,8 @@
 | Platform | Mobile-first webspel, GitHub Pages, geen account |
 | Taal | Nederlands |
 | Bouwmethode | Eerst het volledige ontwerpdossier afronden en goedkeuren, daarna één master-prompt, bouwen en testen op iPhone |
-| Uitleg aan de speler | Minimale uitleg: korte mysterieuze introductie; Wannes ontdekt bediening en doelen grotendeels zelf. Hints zijn beschikbaar wanneer hij vastloopt. |
+| Uitleg aan de speler | Minimale uitleg: korte mysterieuze introductie; Wannes ontdekt bediening en doelen grotendeels zelf. |
+| Hintsysteem | Combinatie: een discrete hintknop én een automatische hint na meerdere mislukte pogingen. Hints verschijnen in drie stappen, van subtiele aanwijzing tot duidelijkere hulp. Geen game-over en onbeperkt opnieuw proberen. |
 | Uitdaging 1 — spelvorm | Drie eigen match-3-levels, geïnspireerd op het algemene spelprincipe van match-3-games; geen gekopieerde levels of vormgeving |
 | Uitdaging 1 — leveldoelen | Verzamel 8 rode energiecellen; verwijder 4 houten kistjes; laat de gouden energiesleutel naar de uitgang vallen |
 | Aanwijzing uit uitdaging 1 | De letters B, A en L, verdiend na elk level en samen gevormd tot het woord BAL |
