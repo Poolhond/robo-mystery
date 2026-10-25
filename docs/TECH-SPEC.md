@@ -121,7 +121,7 @@ Deze regels zijn al goedgekeurd en mogen tijdens implementatie niet opnieuw ontw
 ## 7. Puzzelbetrouwbaarheid
 
 - De inhoudelijke regels en correcte oplossingen staan in `docs/CHALLENGES.md`; deze technische specificatie verandert ze niet.
-- Match-3-borden moeten oplosbaar zijn volgens de vastgelegde regels. Genereer geen onoplosbaar bord. Als er geen geldige zet bestaat, herstel of genereer het bord opnieuw op een gecontroleerde manier zonder eerder behaalde voortgang kwijt te raken.
+- Match-3-borden moeten speelbaar blijven volgens de regels per level. Level 1 gebruikt willekeurige aanvulling en onbeperkte zetten. Als er geen geldige zet bestaat, herschik het bord tot het geen automatische matches bevat en minstens één geldige zet heeft, zonder eerder behaalde voortgang kwijt te raken.
 - Controleer een match en de resulterende toestand vóór die als voortgang wordt opgeslagen. Voorkom dubbele verwerking van één tik.
 - Bij bekers moet de actuele balpositie ondubbelzinnig worden bijgehouden; de animatie mag de logische positie niet wijzigen of verbergen.
 - Foute invoer geeft duidelijke feedback en wist geen eerder verdiende aanwijzingen of voltooide uitdagingen.
@@ -181,7 +181,7 @@ Deze specificatie legt de technische randvoorwaarden vast, maar is op zichzelf g
 - de precieze klikzones en posities van de vier hoofdobjecten en drie easter eggs;
 - controle en goedkeuring van alle spelersteksten, hintteksten en feedback in [`docs/SCREEN-SPEC.md`](SCREEN-SPEC.md) en [`docs/CHALLENGES.md`](CHALLENGES.md);
 - controle dat de scherm-/subtoestanden uit [`docs/SCREEN-SPEC.md`](SCREEN-SPEC.md) alle noodzakelijke overgangen en herstelgevallen dekken;
-- de definitieve match-3-startmatrices plus solver-/testbewijs voor oplosbaarheid binnen de zetlimieten;
+- de definitieve match-3-startmatrices plus solver-/testbewijs volgens de regels per level; level 1 gebruikt willekeurige aanvulling en heeft geen zetlimiet (zie `LEVEL-1-ENERGIECELLEN.md` en `tests/level1_simulation.py`);
 - de uiteindelijke statusvelden tegen alle concrete puzzelstappen;
 - de volledige acceptatietestlijst tegen de goedgekeurde ontwerpbeslissingen.
 
