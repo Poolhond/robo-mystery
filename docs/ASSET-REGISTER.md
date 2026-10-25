@@ -3,6 +3,17 @@
 **Versie:** 1.4  
 **Status:** De elf beeldbestanden zijn geordend onder `assets/` en hebben de extensie `.png`. De beeldbytes zijn bij het verplaatsen niet gewijzigd. De mechanische vogel blijft buiten gebruik totdat Michel die asset expliciet goedkeurt.
 
+## Bindende gebruiksregel: assets zijn inspiratiebronnen
+
+De bestanden in `assets/` zijn **geen letterlijke inventaris van wat er in het spel moet verschijnen**. Ze geven de ontwikkelaar herkenbare visuele aanknopingspunten voor het genereren van een eigen, samenhangende spelwereld. Gebruik de assets niet automatisch als ongewijzigde plaatjes in de game.
+
+- Hergebruik herkenbare eigenschappen van de speelgoedfiguren en goedgekeurde elementen, zoals silhouet, kleur, proporties en onderscheidende details.
+- Genereer waar nodig nieuwe scènes, achtergronden, decorstukken, animaties en spelobjecten die passen bij het spelconcept en de art direction.
+- De ontwikkelaar mag compositie, schaal, pose en context aanpassen; de referentie hoeft niet letterlijk te worden nagebouwd.
+- Niet elk object uit een referentie hoeft in het spel te verschijnen. De plaats en functie van interactieve elementen worden bepaald door het goedgekeurde spelconcept.
+- Een uitgesloten of niet-goedgekeurd ontwerp, in het bijzonder de mechanische vogel, mag niet worden gebruikt zonder expliciete toestemming.
+- Behoud de identiteit van belangrijke personages; maak geen generieke vervangingen die hun herkenbare kenmerken verliezen.
+
 | ID | Beschrijving | Hoofdfunctie | Status |
 |---|---|---|---|
 | AST-TITLE-01 | Verticale vintage zeefdrukposter voor het beginscherm: snoepfabriek, gestreepte schoorstenen, rook, gloeiende ramen, titel en startknop; geen personages | Beginscherm / title screen voor iPhone 9:19,5 | Concept goedgekeurd; bestand `assets/title-screen/AST-TITLE-01-title-poster.png` aanwezig; PNG-formaat bevestigd door Michel |
