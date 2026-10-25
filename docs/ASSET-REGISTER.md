@@ -1,6 +1,6 @@
 # De mysterieuze fabriek — Assetregister & referenties
 
-**Versie:** 0.9  
+**Versie:** 1.0  
 **Status:** Inventaris in opschoning. De repository bevat negen geüploade afbeeldingsbestanden in de hoofdmap. Ze zijn nog niet naar de definitieve `assets/`-structuur verplaatst en hun dubbele extensies moeten worden gecontroleerd.
 
 | ID | Beschrijving | Hoofdfunctie | Status |
@@ -9,8 +9,8 @@
 | AST-DECOR-01 | Rood hart met opgeheven handen en stralen, minimalistische vintage zeefdruk | Decorstuk voor de controlekamer | Ontwerp uitgewerkt; bestand aanwezig in repository-root, nog te ordenen |
 | AST-DECOR-02 | Houten vogelhuisje met rood-oranje, gefacetteerde vogel die uit de opening kijkt | Decorstuk voor de controlekamer | Ontwerp uitgewerkt; gelijknamig bestand aanwezig in repository-root, nog te ordenen |
 | AST-DECOR-03 | Mechanische bouwsteen-vogel met roestoranje lichaam, donkerblauwe uitgespreide vleugels en ronde blauwe displaybasis | Decorstuk voor de controlekamer | Ontwerp uitgewerkt; bestand aanwezig in repository-root, nog te ordenen |
-| AST-DECOR-04 | Vleesetende bekerplant in witte en turquoise kweekkast met opengeklapt deksel | Decorstuk voor de controlekamer | Ontwerp uitgewerkt; bestand aanwezig in repository-root, nog te ordenen |
-| REF-01 | Kamer 3 — The Signal Room: signaalmonitor, satellietschotel, technische apparatuur, verhaalpaneel, inventaris en score | Primaire referentie voor omgevingsstijl en geïntegreerde game-interface | Kernreferentie |
+| AST-DECOR-04 | Vleesetende bekerplant in witte en turquoise kweekkast met opengeklapt deksel | Decorstuk en interactieve easter egg in de controlekamer | Ontwerp uitgewerkt; bestand aanwezig in repository-root, nog te ordenen |
+| AST-ROOM-01 | De door Michel aangeleverde verticale afbeelding van de controlekamer: computer links, hoge groene cijfercode-locker in het midden, grote rode deur rechts en tafel met drie bekers vooraan. Bevat ook het hartkunstwerk en de vleesetende plant. | **Vaste visuele basis van de speelruimte** en referentie voor de posities van de vier hoofdobjecten en drie easter eggs | Door Michel bevestigd als dé ruimte; de afbeelding is in deze conversatie aanwezig. Nog controleren of de definitieve export als bestand in de repository staat en daarna pas organiseren |\n| REF-01 | Kamer 3 — The Signal Room: signaalmonitor, satellietschotel, technische apparatuur, verhaalpaneel, inventaris en score | Primaire referentie voor omgevingsstijl en geïntegreerde game-interface | Kernreferentie |
 | REF-02 | Karakter-/conceptblad: The Signal Bird, Winged Guardian, The Heart Mark en The Golden Clue | Karakterpresentatie, symbolen en objecten | Kernreferentie |
 | REF-03 | Overzicht met signaalvogel, aap, panda, octopus, schildpad en aanvullende symbolen | Verhouding tussen personages, aanzichten en karakterbladen | Kernreferentie |
 | REF-04 | Het speelgoedlaboratorium: kleine geometrische huisjes, gestreepte schoorstenen, kleurrijke daken en een knoppenroute op een groene basis | Specifieke omgevingsconceptreferentie | Kernreferentie voor deze wereld |
@@ -27,7 +27,7 @@
 | AST-RIDDERUS-01 | Definitieve losse illustratie RidderUs, minimalistische vectorvorm met sterke verweerde zeefdruk | Gameasset voor uitdaging 2 en eventuele finale | Klaar om te uploaden; bestandsnaam hieronder vastgelegd |
 | AST-SCHILDJE-01 | Definitieve losse illustratie Schildje, minimalistische vectorvorm met sterke verweerde zeefdruk | Gameasset voor uitdaging 2 en eventuele finale | Klaar om te uploaden; bestandsnaam hieronder vastgelegd |
 
-## Vervallen asset — AST-ROBOT-01 (niet gebruiken)
+## Vaste omgevingsreferentie — AST-ROOM-01\n\n**Beslissing:** Michel heeft bevestigd dat de aangeleverde afbeelding met de controlekamer de speelruimte is. Ontwerp geen alternatieve kamer en verander de compositie niet opnieuw zonder expliciete toestemming. Gebruik deze afbeelding als de vaste visuele basis.\n\n**Hoofdobjecten en locaties:** computer links (uitdaging 1), hoge groene locker met cijfercode in het midden (uitdaging 2), grote rode deur rechts (uitdaging 4) en tafel met drie bekers vooraan (uitdaging 3). De vleesetende plant en het hartkunstwerk zijn decorstukken met interactieve easter eggs. De schuif/lade voor de pandasurprise moet als interactieve zone worden toegewezen aan een bestaande kast of lade in deze ruimte; voeg daarvoor niet zomaar een nieuw meubel toe.\n\n**Belangrijk:** de afbeelding is goedgekeurd als ruimte en compositie. De exacte klikzones, zoomtoestanden en mobiele bediening worden later in het dossier beschreven. Dit is nog geen toestemming om code te bouwen.\n\n## Vervallen asset — AST-ROBOT-01 (niet gebruiken)
 
 **Status:** VERVALLEN. De robot is volledig geschrapt uit het concept; de oude afbeelding mag niet in de game worden gebruikt.  
 
