@@ -133,6 +133,8 @@ De gewone hint 3 blijft een laatste denkstap en verklapt het antwoord niet. De e
 | `D-07` | Deur opent; warme lichtkier, geen extra interactie | Automatische overgang naar `F-01` | “Wacht eens… Ik denk dat ze daarbinnen op jou staan te wachten.” |
 | `D-08` | Hintpaneel | Eigen hintstatus voor slot | Hint 1: “Je hebt al dingen ontdekt in het laboratorium. Kijk wat je al weet.” Hint 2: “Het symbool wordt voor je bewaard. Het woord moet je zelf typen en de kleur moet je zelf kiezen.” Hint 3: “Het woord komt uit de speelgoedfabriek, het symbool uit het kistjesraadsel en de kleur uit de bekers.” |
 
+**Toon oplossing — deur/slot, na bevestiging:** toon de volledige combinatie: het ster-met-oog-symbool is al automatisch ingevuld, het geheime woord is **BAL** en de juiste kleur is **signaalrood**. Markeer eerst het woordveld en daarna de kleurstaal; Wannes typt **BAL** en kiest **signaalrood** zelf. De deur wordt niet automatisch geopend: Wannes drukt zelf op **OPEN DE DEUR**.
+
 ### F — Finale
 
 | Toestand-ID | Wat zichtbaar is | Actie / overgang | Tekst / feedback |
