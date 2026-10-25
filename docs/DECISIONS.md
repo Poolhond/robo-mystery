@@ -1,6 +1,6 @@
 # De mysterieuze fabriek — Beslissingen en open punten
 
-**Versie:** 8.5  
+**Versie:** 8.6  
 **Doel:** één betrouwbare plek voor goedgekeurde besluiten en open punten, zodat de inhoud niet telkens opnieuw wordt bedacht.
 
 ## Dossierstatus en bronvolgorde
@@ -118,14 +118,14 @@ Bronvolgorde: (1) dit beslissingsdocument voor goedkeuring/open status, (2) `CHA
 
 ## Nog open — ontwerp vóór de bouw
 
-1. **Vrije laboratoriumverkenning:** de speelse werkplaats en de vier hoofdvoorwerpen liggen vast. Werk nog de exacte compositie, plaatsing en klikzones uit. De drie easter eggs zijn gekozen; werk hun timing, animaties en klikzones uit zonder dat ze de hoofdvoortgang blokkeren.
-2. **Uitdaging 2 — spelersteksten:** definitieve introductie, personagedialogen, succes- en foutfeedback en afsluiting.
+1. **Vrije laboratoriumverkenning — inhoudelijk vastgelegd:** de goedgekeurde controlekamerreferentie is de vaste compositiebasis; computer links, groene locker centraal, bekertafel vooraan en rode deur rechts blijven tegelijk zichtbaar. Hartkunst en vleesetende plant blijven op hun herkenbare plekken; de panda zit in een lade/schuif. De niet-overlappende klikzones worden op basis van de werkelijke beeldcontouren technisch ingemeten tijdens de bouw. De timing en het gedrag van de drie optionele easter eggs zijn beschreven in `SCREEN-SPEC.md`; tijdens de bouw moeten ze getest worden.
+2. **Uitdaging 2 — spelersteksten:** introducties, uitspraken, hints, succesfeedback en de beloningsreactie staan in `CHALLENGES.md` en `SCREEN-SPEC.md`. Dit is geen open inhoudskeuze meer; controleer alleen op concrete tegenstrijdigheden tijdens de dossiercontrole.
 3. **Uitdaging 2 — hints:** de hintstappen en oplossingshulp zijn al uitgewerkt in `CHALLENGES.md` en `SCREEN-SPEC.md`. Controleer ze bij de eindcontrole op consistentie; schrijf ze niet opnieuw tenzij er een concrete tegenstrijdigheid wordt gevonden.
-4. **Uitdaging 2 — onthulling van de ster-met-oog-aanwijzing:** kies hoe de aanwijzing in de kist verschijnt (bijvoorbeeld geheim kaartje of gegraveerd plaatje). De functie blijft hetzelfde: het symbool voor uitdaging 4.
-5. **Uitdaging 1 en 3:** test de definitieve match-3-startborden en bekersnelheden op iPhone; werk teksten, oplossingen en assets verder uit.
+4. **Uitdaging 2 — vorm van de ster-met-oog-aanwijzing:** de functie en inhoud liggen vast; alleen de drager is nog niet goedgekeurd. Voorstel: een klein, plat, vintage gedrukt kaartje in het rode kistje, zodat het symbool duidelijk leesbaar is en aansluit bij de zeefdrukstijl. Dit voorstel blijft open tot Michel de vorm bevestigt.
+5. **Uitdaging 1 en 3 — technische validatie:** geldige match-3-beginborden genereren, cascades/herstel testen en bekersnelheden op iPhone afstellen zijn verantwoordelijkheden van de gameontwikkelaar tijdens de bouw. Ze hoeven niet vooraf als matrices of technische waarden in het dossier te worden uitgewerkt.
 6. **Titelvormgeving:** de werktitel is vastgelegd als *De mysterieuze fabriek*. De definitieve grafische titeluitwerking kan later worden gemaakt; de naamkeuze zelf staat niet meer open.
 7. **Puntentelling — BESLIST:** geen punten, totaalscore of highscore. De speler ziet de voortgang uitsluitend via de bestaande spelobjecten, leveldoelen, verdiende letters en aanwijzingen. Dit is geen open ontwerpkeuze meer.
-8. **Assets:** de aanwezige afbeeldingen zijn door Michel gecontroleerd en de mappenstructuur is vastgelegd. Bepaal alleen welke aanvullende spelassets de ontwikkelaar nog moet tekenen of genereren en zorg dat de referenties als inspiratie voor een samenhangende wereld worden gebruikt.
+8. **Assets:** de aanwezige afbeeldingen en mappenstructuur zijn gecontroleerd. De assets zijn inspiratie, geen verplichte letterlijke scherminhoud. De ontwikkelaar bepaalt tijdens de bouw welke aanvullende assets nodig zijn, behoudt herkenbare personagekenmerken en maakt de wereld visueel samenhangend.
 9. **Dossiercontrole:** stem spelconcept, uitdagingen, techniek, art direction en assetregister op elkaar af vóór de master-prompt.
 
 **Reeds vastgelegd, geen open keuze:** het kleurpalet staat vast zoals beschreven in `ART-DIRECTION.md`. De typografie gebruikt systeemlettertypen met een zwaar, grafisch karakter; er komen geen externe fonts. De finalehandeling, de exacte verjaardagsboodschap en het ontbreken van een extra opdracht na de boodschap zijn eveneens beslist en mogen niet opnieuw als open keuzes worden behandeld.
@@ -146,12 +146,11 @@ Geef assets consistente namen en leg per bestand vast voor welke scène het dien
 
 ## Werkvolgorde
 
-1. Werk de technische ruimte verder uit: exacte compositie, plaatsing en niet-overlappende klikzones van de vier hoofdvoorwerpen en de drie reeds gekozen easter eggs.
-2. Werk de resterende spelersteksten, hints, schermtoestanden en finale af.
-3. Stem het assetregister af op het spelconcept en bepaal alleen welke aanvullende spelassets nog nodig zijn.
-4. Controleer het volledige dossier op tegenstrijdigheden.
-5. Schrijf pas daarna de master-prompt.
-6. Bouw de nieuwe game vanaf een schone basis, test op iPhone en voer één gerichte fixronde uit.
+1. Controleer de resterende schermteksten en toestanden op concrete tegenstrijdigheden; schrijf reeds vastgelegde spelersteksten niet opnieuw.
+2. Laat Michel de enige resterende inhoudelijke vormkeuze bevestigen: hoe de ster-met-oog-aanwijzing fysiek in het rode kistje verschijnt. Het voorgestelde standaardontwerp is een klein vintage gedrukt kaartje.
+3. Stem `GAME-CONCEPT.md`, `CHALLENGES.md`, `SCREEN-SPEC.md`, `TECH-SPEC.md`, `ART-DIRECTION.md` en `ASSET-REGISTER.md` volledig op elkaar af.
+4. Leg de resterende technische validatie en assetgeneratie bij de gameontwikkelaar; dit zijn geen voorafgaande dossierkeuzes.
+5. Schrijf pas na dossiergoedkeuring de master-prompt. Daarna pas bouwen en testen.
 
 ## Belangrijke afbakening
 
