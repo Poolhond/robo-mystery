@@ -85,7 +85,7 @@ De bestanden in `assets/` zijn **geen letterlijke inventaris van wat er in het s
 
 De volgende lijst beschrijft assets die inhoudelijk nodig kunnen zijn voor de huidige uitdagingen. Ze zijn niet automatisch al als bestanden aanwezig in de repository. Definitieve selectie en prioriteit volgen na het uitwerken van de laboratoriumroute.
 
-- Match-3-symbolen: rode energiecel, geel tandwiel, blauwe bout, groen kristal, houten kistje en gouden energiesleutel.
+- Match-3-doelobjecten en obstakels: rode energiecellen als doel in level 1, houten kistjes als obstakels in level 2 en gouden energiesleutel als doelobject in level 3. De gewone verwisselbare tegels zijn uitsluitend effen kleurvlakken zonder symbolen, pictogrammen, letters of illustraties. De energiecellen, kistjes en sleutel zijn afzonderlijke visuele doelobjecten waar het levelontwerp ze vereist.
 - Uitdaging 2: codepaneel, geheim deurtje, messing sleutel, aap, panda, schildpad, drie gekleurde kistjes en een klein, plat vintage gedrukt kaartje met de ster-met-oog-aanwijzing in het rode kistje. Het kaartje is een benodigde spelasset; ontwerp/generatie gebeurt tijdens de bouw.
 - Uitdaging 3: goocheltafel, drie bekers, rood balletje en kleurstaal voor signaalrood.
 - Uitdaging 4: grote deur, leeg symboolvenster, ster-met-oog-status, woordveld, gelabelde kleurstalen en OPEN DE DEUR-knop.
@@ -118,7 +118,7 @@ Controleer de originele bestanden één voor één, bevestig de rol van elke ref
 
 ## Karakterset uitdaging 2 — hoofdrolfiguren (nieuw dossieronderdeel)
 
-**Status:** visuele uitwerking gestart; onderstaande richtlijnen zijn voorstellen op basis van de vier nieuw aangeleverde beelden. Dit legt de karakteridentiteit en assetbehoeften vast, maar keurt de uiteindelijke game-assets nog niet goed. Er is nog geen gamecode gebouwd.
+**Status:** de onderstaande richtlijnen bewaren de karakteridentiteit uit de referentiebeelden. De drie losse zeefdrukillustraties van Charlie, RidderUs en Schildje zijn inmiddels aanwezig in de repository en door Michel gecontroleerd; zie de actuele paden in de tabel hieronder. De bronbeschrijvingen blijven bruikbaar als identiteitseisen, maar de oude bestandsnaamvoorstellen en de historische planningstekst zijn niet leidend.
 
 ### REF-CHAR-02 — Groepsreferentie: Charlie, RidderUs en Schildje
 
@@ -177,7 +177,7 @@ Controleer de originele bestanden één voor één, bevestig de rol van elke ref
 - **Geen tekst ingebakken:** namen, dialogen en puzzeltekst worden later als echte game-tekst toegevoegd.
 - **Consistentie:** ogen, contouren, textuursterkte en belichting moeten tussen de drie losse assets overeenkomen.
 - **Gebruik:** uitdaging 2 heeft de figuren nodig in een leesbare raadselopstelling. Maak hun gezichten en silhouettes op iPhone-formaat herkenbaar; druktextuur mag belangrijke trekken niet verbergen.
-- **Status:** deze vier karakterreferenties zijn nog niet eenduidig als losse, goedgekeurde exports in de repository geïdentificeerd. De huidige elf afbeeldingsbestanden bevatten wel de drie losse basisillustraties; controleer nog of aanvullende posevarianten nodig zijn.
+- **Status:** de drie losse basisillustraties zijn geïdentificeerd, aanwezig en door Michel gecontroleerd. Aanvullende posevarianten zijn niet vereist voor de dossierafronding; de ontwikkelaar kan tijdens de bouw bepalen of extra varianten technisch nodig zijn.
 
 
 ## Hoofdrolfiguren — uitdaging 2
@@ -195,7 +195,7 @@ De drie losse illustraties staan al in de repository. De onderstaande `.jpg`-pad
 - ID's zijn stabiel en worden niet gewijzigd als later een export wordt vervangen.
 - Bij een latere transparante of opgeschoonde export krijgt die een aparte variantnaam, bijvoorbeeld `-transparent.png`; overschrijf het origineel niet stilzwijgend.
 - Deze versie is de gekozen karakterstijl: minimalistische vectorvormen met sterke, verweerde zeefdruktextuur.
-- Status: ontwerp beschreven; de huidige basisillustraties zijn aanwezig op PNG-paden, maar de overeenkomst met de bedoelde definitieve exports moet nog visueel worden bevestigd.
+- Status: de huidige basisillustraties zijn aanwezig op de PNG-paden hierboven en door Michel gecontroleerd. Behandel deze bestanden als de goedgekeurde basisassets; verander of overschrijf ze niet stilzwijgend.
 
 ## Gekozen afwerking — karakterconceptsheet
 
@@ -209,7 +209,7 @@ Een eerste gezamenlijke conceptsheet is gegenereerd om de samenhang van de drie 
 3. Schildje: brede groene pluchen schildvorm, korte flippers en grote donkere ogen blijven behouden.
 4. Alle drie: duidelijke silhouette en gezichtsdetails ondanks de zware inkttextuur.
 5. Export: één losse basisasset per figuur, bij voorkeur met transparante achtergrond; geen ingebakken labels of tekst.
-6. Status: concept in beoordeling; pas na afzonderlijke controle worden de losse bestanden als goedgekeurde assets geregistreerd.
+6. Status: conceptsheet blijft een stijl- en samenhangsreferentie; de drie afzonderlijke basisassets zijn aanwezig en door Michel gecontroleerd. De conceptsheet vervangt die losse assets niet.
 
 
 ## AST-TITLE-01 — Beginschermposter
