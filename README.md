@@ -19,7 +19,7 @@ Gebruik deze documenten als projectdossier:
 - [Scherm- en toestandspecificatie](docs/SCREEN-SPEC.md) — gedetailleerde scherm-ID's, puzzel-deeltoestanden, teksten, hints, fout/succesfeedback en finaleovergangen.
 - [Art Direction & Style Guide](docs/ART-DIRECTION.md) — visuele identiteit, kleuren, zeefdruktextuur en interface.
 - [Assetregister en referenties](docs/ASSET-REGISTER.md) — beeldreferenties, asset-ID's, status en ontbrekende bestanden.
-- [Assetaudit — 25 oktober 2026](docs/ASSET-AUDIT-2026-10-25.md) — momentopname van de negen geüploade afbeeldingen en het voorgestelde doelpad per bestand.
+- [Assetaudit — 25 oktober 2026](docs/ASSET-AUDIT-2026-10-25.md) — momentopname van de elf aanwezige afbeeldingsbestanden en het voorgestelde doelpad per bestand.
 
 ## Welke informatie is leidend?
 
@@ -47,7 +47,7 @@ Bij een tegenstrijdigheid tussen documenten mag de ontwikkelaar geen goedgekeurd
 
 ## Assets: huidige stand
 
-De elf bestaande afbeeldingsbestanden zijn geordend onder de afgesproken `assets/`-mappen en hebben gewone `.png`-bestandsnamen. De nieuwe speelgoedlaboratorium- en panda-assets zijn toegevoegd; de mechanische vogel blijft buiten de goedgekeurde spelcompositie.
+De repository bevat momenteel elf afbeeldingsbestanden onder `assets/`. De README en het assetregister zijn bijgewerkt op basis van de actuele GitHub-bestandslijst. De nestkastillustratie `AST-DECOR-02-birdhouse.png` is aanwezig; een afzonderlijke export voor `AST-BIRD-01` is niet teruggevonden. De mechanische vogel is aanwezig als bestand, maar uitgesloten van de spelcompositie.
 
 Volgende assetstap: controleer de afmetingen, transparantie en visuele inhoud en bepaal welke assets nog ontbreken. De bestaande afbeeldingen zijn niet geconverteerd of overschreven.
 
