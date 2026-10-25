@@ -114,7 +114,7 @@ Een compact point-and-click-avontuur: de maquette is uitsluitend het startscherm
 ## 8. Nog uit te werken vóór de bouw
 
 - De spelersteksten, feedback en hints staan uitgewerkt in `docs/SCREEN-SPEC.md` en `docs/CHALLENGES.md`; controleer ze bij de eindcontrole op concrete tegenstrijdigheden. Hints verschijnen uitsluitend wanneer Wannes zelf op `?` drukt; de voortgang wordt per puzzelscherm onthouden.
-- De enige resterende inhoudelijke vormkeuze is hoe de ster-met-oog-aanwijzing in het rode kistje verschijnt. Voorstel: een klein, plat vintage gedrukt kaartje; dit blijft ter bevestiging door Michel open.
+- De vorm van de ster-met-oog-aanwijzing is beslist: een klein, plat vintage gedrukt kaartje in het rode kistje. De resterende dossiercontrole gaat alleen nog over concrete tegenstrijdigheden, ontbrekende specificaties en volledigheid.
 - De plaatsing van de hoofdvoorwerpen en easter eggs volgt de goedgekeurde controlekamerreferentie en staat inhoudelijk vast. De ontwikkelaar meet tijdens de bouw de niet-overlappende klikzones in op basis van de werkelijke beeldcontouren.
 - Geldige match-3-beginborden, cascades, vastloperherstel en bekersnelheden op iPhone zijn technische testverantwoordelijkheden van de ontwikkelaar, geen open dossierkeuzes.
 - De aanwezige assets zijn inspiratiebronnen, geen verplichte letterlijke scherminhoud. De ontwikkelaar bepaalt tijdens de bouw welke aanvullende assets nodig zijn.
@@ -124,6 +124,6 @@ De slotwerking, feestknop, finalevolgorde, boodschap, speelduur, kleurpalet en t
 
 ## 9. Volgende ontwerpfase
 
-Bevestig eerst de voorgestelde vorm van de ster-met-oog-aanwijzing. Controleer daarna `CHALLENGES.md`, `SCREEN-SPEC.md`, `TECH-SPEC.md`, `ART-DIRECTION.md` en `ASSET-REGISTER.md` op concrete tegenstrijdigheden met de goedgekeurde beslissingen. Zodra het volledige dossier consistent is en Michel het goedkeurt, wordt de master-prompt geschreven.
+Controleer `DECISIONS.md`, `CHALLENGES.md`, `SCREEN-SPEC.md`, `TECH-SPEC.md`, `ART-DIRECTION.md` en `ASSET-REGISTER.md` op concrete tegenstrijdigheden met de goedgekeurde beslissingen. Zodra het volledige dossier consistent is en Michel het goedkeurt, wordt de master-prompt geschreven.
 
 **Geen nieuwe gamecode bouwen zolang het dossier niet af is.**
