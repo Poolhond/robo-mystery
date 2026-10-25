@@ -1,6 +1,6 @@
 # De mysterieuze fabriek — Uitdagingen
 
-**Versie:** 1.0  
+**Versie:** 1.1  
 **Status:** Uitgewerkt voorontwerp; nog niet bouwklaar. Er wordt nog geen gamecode gebouwd.  
 **Focus van deze revisie:** vrije verkenning van het laboratorium; uitdaging 4 vereenvoudigd tot woord en kleur, met automatische symboolherkenning.
 
@@ -160,6 +160,8 @@ Het woord wordt niet gekoppeld aan een gouden medaille of een extra voorwerp uit
 - De precieze rasterafmetingen, symbolenverdeling, zetlimieten en startborden moeten tijdens de technische uitwerking worden getest. Dit dossier legt de spelregels en doelen vast, niet de definitieve puzzelmatrices.
 
 ## Uitdaging 2 — De drie raadselmeesters
+
+**Visuele presentatie:** de volledige uitdaging blijft verbonden aan de bestaande hoge groene locker in de controlekamer. Na aantikken zoomt het beeld in op de locker. De code wordt ingevoerd op/aan de locker; na het openen van het kleine geheime deurtje verschijnen de personages in de opening. Het sleutel- en kistjesraadsel worden vervolgens binnen dezelfde ingezoomde scène getoond, in de vastgelegde verweerde jarenzeventig-zeefdrukstijl. Geen los modern spelvenster. Een duidelijke terugknop brengt Wannes terug naar dezelfde controlekamer.
 
 **Doel:** Wannes lost drie opeenvolgende puzzels op. De cijfercode opent een geheim deurtje, het logische raadsel levert een sleutel op en de laatste deductiepuzzel wijst het juiste kistje aan. In de kist zit **een aanwijzing die onderdeel is van de uitkomst van uitdaging 4**, niet een gouden medaille.
 
