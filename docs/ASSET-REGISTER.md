@@ -1,7 +1,7 @@
 # De mysterieuze fabriek — Assetregister & referenties
 
 **Versie:** 1.4  
-**Status:** De elf beeldbestanden zijn geordend onder `assets/` en hebben de extensie `.png`. De beeldbytes zijn bij het verplaatsen niet gewijzigd. De mechanische vogel is uitgesloten van het spel en mag niet worden gebruikt.
+**Status:** Inventaris van de aanwezige beeldbestanden en hun rol als inspiratiebron. Michel heeft de aangeleverde afbeeldingen gecontroleerd. De ontwikkelaar bepaalt tijdens de bouw welke assets en eventuele aanvullingen nodig zijn. De mechanische vogel is uitgesloten van het spel en mag niet worden gebruikt.
 
 ## Bindende gebruiksregel: assets zijn inspiratiebronnen
 
@@ -69,7 +69,7 @@ De bestanden in `assets/` zijn **geen letterlijke inventaris van wat er in het s
 **Assetrichting:** behoud de herkenbare houten nestkast met schuin dak en de vogel die naar links kijkt; de rode kop/borst, donkere snavel en gestreepte vleugels blijven herkenningspunten.  
 **Stijlbehandeling:** sterke, verweerde jarenzeventig-zeefdruk op warm crème papier, met signaalrood, mosterdgeel, donker petrol en groen; grove halftoon, inktspikkels, krassen en lichte kleurplaatverschuiving.  
 **Compositie:** nestkast en vogel centraal, met eenvoudige geometrische kleurvlakken achter het onderwerp; geen extra tekst.  
-**Bestand:** een afzonderlijke geïsoleerde export is niet teruggevonden in de huidige repositorytree. Het aanwezige vogelhuisje staat onder assets/decor/AST-DECOR-02-birdhouse.png; bevestig eerst of dit inhoudelijk de bedoelde asset is.
+**Bestand:** een afzonderlijke geïsoleerde export is niet teruggevonden in de huidige repositorytree. Het aanwezige vogelhuisje staat onder assets/decor/AST-DECOR-02-birdhouse.png; behandel dit als referentie/inspiratie; de mechanische vogel zelf is uitgesloten van het spel.
 
 ## Vierde uitgewerkte asset — AST-TURTLE-01
 
