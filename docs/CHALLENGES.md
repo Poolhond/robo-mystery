@@ -130,7 +130,8 @@ Het paneel verschijnt direct onder de `?`-knop, is smal en gebruikt dezelfde ge�
 
 - **Hint 1 — subtiel:** laat één mogelijke zet met rode energiecellen kort pulseren. Tekst: **“Kijk eens welke rode energiecellen je samen kunt brengen.”**
 - **Hint 2 — duidelijker:** tekst: **“Twee aangrenzende stukken wisselen kan een rij van drie of meer dezelfde stukken maken. Rode energiecellen vullen je teller.”** Er mag een passende kandidaatcombinatie kort oplichten, zonder de zet uit te voeren.
-- **Hint 3 — oplossing:** na bevestiging tekst: **“Tik eerst op het rode stuk dat ik heb omlijnd en daarna op het aangrenzende stuk dat ook oplicht. Zo maak je een geldige match.”** De twee relevante stukken krijgen een dunne pulserende contour. De contour blijft staan totdat Wannes die actie uitvoert. Een verkeerde aanraking geeft geen extra waarschuwing of straf; de puzzel reageert zoals gewoonlijk en de contour blijft staan.
+- **Hint 3 — laatste denkstap:** tekst: **“Je hoeft niet alleen rode stukken te zoeken: denk na over welke wissel een rij van minstens drie gelijke stukken maakt én rode energiecellen laat verdwijnen.”** Een mogelijke rode match mag kort oplichten, maar de exacte wissel wordt nog niet aangewezen.
+- **Toon oplossing — na bevestiging:** tekst: **“Tik eerst op het rode stuk met de contour en daarna op het aangrenzende stuk dat oplicht.”** Markeer beide stukken met een dunne pulserende contour. De contour blijft staan tot Wannes de wissel uitvoert; de zet wordt nooit automatisch uitgevoerd. Een verkeerde aanraking geeft geen extra waarschuwing of straf.
 
 #### 8. Introductie- en feedbackteksten
 
@@ -267,7 +268,8 @@ De hintbediening en het gedrag van het paneel zijn hetzelfde als in Level 1. Hin
 
 - **Hint 1 — subtiel:** laat een mogelijke match naast een kistje kort pulseren. Tekst: **“Kijk eens wat er vlak naast de houten kistjes gebeurt.”**
 - **Hint 2 — duidelijker:** tekst: **“Maak een match naast een houten kistje om het weg te breken.”** Een mogelijke match naast een kistje mag kort oplichten.
-- **Hint 3 — oplossing:** na bevestiging tekst: **“Tik eerst op het kleurvlak dat ik heb omlijnd en daarna op het aangrenzende kleurvlak dat ook oplicht. Zo maak je een match naast een kistje.”** De twee betrokken vlakken krijgen een dunne pulserende contour die blijft staan tot Wannes de aangegeven actie uitvoert.
+- **Hint 3 — laatste denkstap:** tekst: **“Kijk niet alleen naar de kleurvlakken: welke match kan ook een houten kistje raken?”** Een mogelijke zone naast een kistje mag kort oplichten, zonder de exacte wissel aan te wijzen.
+- **Toon oplossing — na bevestiging:** tekst: **“Tik eerst op het kleurvlak met de contour en daarna op het aangrenzende kleurvlak dat oplicht. Daarmee maak je een match naast het kistje.”** Markeer beide vlakken met een dunne pulserende contour die blijft staan tot Wannes de wissel uitvoert.
 
 Na hint 3 verandert **VOLGENDE HINT** in **TOON OPLOSSING**. Eerst verschijnt de bevestiging **“Wil je de oplossing zien?”** met **BEKIJKEN** en **TERUG**. TERUG brengt hem terug naar hint 3. Een verkeerde aanraking geeft geen extra straf of waarschuwing; de contour blijft bij de juiste onderdelen.
 
@@ -406,7 +408,8 @@ De hintbediening en het gedrag van het paneel zijn hetzelfde als in Level 1 en L
 
 - **Hint 1 — subtiel:** laat de vakjes direct onder de sleutel kort pulseren. Tekst: **“Kijk eens wat er onder de gouden sleutel zit.”**
 - **Hint 2 — duidelijker:** tekst: **“Maak ruimte onder de sleutel, dan kan ze naar beneden vallen.”** De relevante vakjes of een mogelijke match eronder mogen kort oplichten.
-- **Hint 3 — oplossing:** na bevestiging tekst: **“Tik eerst op het kleurvlak dat ik heb omlijnd en daarna op het aangrenzende kleurvlak dat ook oplicht. Zo maak je ruimte onder de sleutel.”** De twee betrokken vlakken krijgen een dunne pulserende contour die blijft staan tot Wannes de aangegeven actie uitvoert.
+- **Hint 3 — laatste denkstap:** tekst: **“Zoek een match die kleurvlakken onder de sleutel verwijdert; daarna kan de zwaartekracht het werk doen.”** De vakjes onder de sleutel mogen kort oplichten, maar de exacte wissel wordt nog niet aangewezen.
+- **Toon oplossing — na bevestiging:** tekst: **“Tik eerst op het kleurvlak met de contour en daarna op het aangrenzende kleurvlak dat oplicht. Deze match maakt ruimte onder de sleutel.”** Markeer beide vlakken met een dunne pulserende contour die blijft staan tot Wannes de wissel uitvoert.
 
 Na hint 3 verandert **VOLGENDE HINT** in **TOON OPLOSSING**. Eerst verschijnt de bevestiging **“Wil je de oplossing zien?”** met **BEKIJKEN** en **TERUG**. TERUG brengt hem terug naar hint 3. Een verkeerde aanraking geeft geen extra straf of waarschuwing; de contour blijft bij de juiste onderdelen.
 
@@ -546,7 +549,9 @@ De sleutel wordt automatisch als gevonden voorwerp geregistreerd; Wannes hoeft g
 #### Hints
 1. “Wat gebeurt er als Charlie de sleutel heeft?”
 2. “Controleer hoeveel uitspraken waar zijn als RidderUs de sleutel heeft.”
-3. “Test alle drie de mogelijkheden. Slechts één ervan voldoet aan de regel.”
+3. “Maak voor elke figuur een rijtje en tel de ware uitspraken. Welke mogelijkheid voldoet aan de regel?”
+
+**Toon oplossing — na bevestiging:** toon de drie mogelijkheden met per uitspraak waar/onwaar. Markeer de rij waarin precies één uitspraak waar is en zeg: **“Charlie heeft de sleutel.”** Wannes kiest daarna zelf Charlie om verder te gaan.
 
 ### Deel 3 — De drie kistjes: vind de aanwijzing voor het grote slot
 
@@ -557,6 +562,13 @@ Charlie wijst naar drie gesloten kistjes. De sleutel past op het slot van het ge
 - **Geel kistje:** “De hoofdprijs zit niet in het rode kistje.”
 
 **Vraag:** welk kistje moet Wannes openen?
+
+#### Hints
+1. “Test eerst wat er gebeurt als de hoofdprijs in het rode kistje zit.”
+2. “Tel bij elke mogelijke kistlocatie hoeveel uitspraken waar zijn.”
+3. “Vergelijk de drie mogelijkheden en zoek de enige waarbij precies één uitspraak waar is.”
+
+**Toon oplossing — na bevestiging:** toon de drie mogelijke locaties met per kistje welke uitspraken waar zijn. Markeer het rode kistje en leg kort uit dat alleen die keuze precies één ware uitspraak oplevert. Wannes kiest en bevestigt het rode kistje zelf.
 
 #### Oplossing en logische controle
 - Als de hoofdprijs in het **rode** kistje zit: rood is onwaar, blauw is waar, geel is onwaar — precies één uitspraak is waar.
@@ -642,7 +654,9 @@ Aan het begin van iedere ronde:
 **Hints:**
 1. Eerste hint: “Volg één beker tegelijk met je ogen.”
 2. Tweede hint: het spel toont de beginpositie opnieuw en voert de twee wissels langzamer uit.
-3. Extra hulp: het spel vertraagt de wissels en pauzeert kort nadat elke wissel voltooid is.
+3. **Hint 3 — laatste denkstap:** het spel vertraagt de wissels en pauzeert kort nadat elke wissel voltooid is. De juiste beker wordt niet aangewezen.
+
+**Toon oplossing — na bevestiging:** toon de startpositie opnieuw en speel de twee wissels één voor één vertraagd af. Markeer daarna subtiel de beker waaronder het balletje ligt. Tekst: **“Tik op de beker met de contour.”** Wannes kiest de beker zelf.
 
 **Overgang:** het balletje springt kort op en neer en rolt daarna weer onder een beker voor ronde 2.
 
@@ -671,7 +685,9 @@ Aan het begin van iedere ronde:
 **Hints:**
 1. Eerste hint: “Kies één beker en volg hoe die van plaats verandert.”
 2. Tweede hint: de beginpositie wordt opnieuw getoond en de drie wissels worden trager afgespeeld.
-3. Extra hulp: na elke wissel verschijnt heel kort een kleine neutrale markering op de nieuwe positie van de gevolgde beker; die verdwijnt vóór de keuze.
+3. **Hint 3 — laatste denkstap:** na elke wissel verschijnt heel kort een kleine neutrale markering op de nieuwe positie van de gevolgde beker; die verdwijnt vóór de keuze. De markering verraadt niet waar het balletje uiteindelijk ligt.
+
+**Toon oplossing — na bevestiging:** toon de beginpositie opnieuw en speel de drie wissels één voor één vertraagd af. Markeer daarna subtiel de juiste beker. Tekst: **“Tik op de beker met de contour.”** Wannes kiest de beker zelf.
 
 ### Ronde 3 — De meestertruc
 
@@ -695,7 +711,9 @@ Aan het begin van iedere ronde:
 **Hints:**
 1. Eerste hint: “Probeer de beker te volgen in plaats van naar het balletje te zoeken.”
 2. Tweede hint: het spel toont de beginpositie opnieuw en speelt de vier wissels op het tempo van ronde 2 af.
-3. Extra hulp: de bekers wisselen opnieuw, één voor één, met een korte pauze na iedere wissel. Dit maakt de reeks eenvoudiger zonder de oplossing direct te tonen.
+3. **Hint 3 — laatste denkstap:** de bekers wisselen opnieuw één voor één, met een korte pauze na iedere wissel. De juiste beker wordt niet aangewezen.
+
+**Toon oplossing — na bevestiging:** toon de beginpositie opnieuw en speel de vier wissels één voor één vertraagd af. Markeer daarna subtiel de juiste beker. Tekst: **“Tik op de beker met de contour.”** Wannes kiest de beker zelf.
 
 ### Regels voor eerlijke moeilijkheid
 
