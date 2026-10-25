@@ -36,8 +36,8 @@ De bestanden in `assets/` zijn **geen letterlijke inventaris van wat er in het s
 | CHAR-RIDDERUS-01 | Oranje figuur met cyaan vizier, grijze helm met verticale openingen en gele pompon; geen armen | Karakterreferentie voor het logische raadsel in uitdaging 2 | Referentie uit chat; losse goedgekeurde asset nog te maken |
 | CHAR-SCHILDJE-01 | Groene pluchen schildpad met breed schild, korte flippers en grote donkere ogen | Karakterreferentie voor het logische raadsel in uitdaging 2 | Referentie uit chat; losse goedgekeurde asset nog te maken |
 | AST-CHARLIE-01 | Definitieve losse illustratie Charlie, minimalistische vectorvorm met sterke verweerde zeefdruk | Gameasset voor uitdaging 2 en eventuele finale | Aanwezig in de repository; gecontroleerd door Michel |
-| AST-RIDDERUS-01 | Definitieve losse illustratie RidderUs, minimalistische vectorvorm met sterke verweerde zeefdruk | Gameasset voor uitdaging 2 en eventuele finale | Klaar om te uploaden; bestandsnaam hieronder vastgelegd |
-| AST-SCHILDJE-01 | Definitieve losse illustratie Schildje, minimalistische vectorvorm met sterke verweerde zeefdruk | Gameasset voor uitdaging 2 en eventuele finale | Klaar om te uploaden; bestandsnaam hieronder vastgelegd |
+| AST-RIDDERUS-01 | Definitieve losse illustratie RidderUs, minimalistische vectorvorm met sterke verweerde zeefdruk | Gameasset voor uitdaging 2 en eventuele finale | Aanwezig in de repository; gecontroleerd door Michel |
+| AST-SCHILDJE-01 | Definitieve losse illustratie Schildje, minimalistische vectorvorm met sterke verweerde zeefdruk | Gameasset voor uitdaging 2 en eventuele finale | Aanwezig in de repository; gecontroleerd door Michel |
 
 ## Vaste omgevingsreferentie — AST-ROOM-01
 
