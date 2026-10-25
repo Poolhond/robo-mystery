@@ -91,21 +91,20 @@ Deze matrix is geverifieerd als startbord: **geen automatische match** en **22 g
 
 De referentiesimulatie in `tests/level1_simulation.py` gebruikt dezelfde matrix en willekeurige aanvulling. Bij iedere stap kiest de test willekeurig één van de beschikbare geldige zetten. De test stopt zodra minstens 10 rode symbolen verzameld zijn. Als er geen geldige zetten meer zijn, wordt de shuffle-regel toegepast.
 
-Resultaat van **10.000 onafhankelijke, seeded testpartijen**:
+Resultaat van **1.000 onafhankelijke, seeded testpartijen**, opnieuw uitgevoerd tijdens de huidige implementatiestap:
 
 | Controle | Resultaat |
 |---|---:|
-| Partijen die het doel bereikten | 10.000 / 10.000 |
+| Partijen die het doel bereikten | 1.000 / 1.000 |
 | Partijen die automatisch moesten herschikken | 0 |
-| Gemiddeld aantal geldige zetten | 4,98 |
+| Gemiddeld aantal geldige zetten | 5,05 |
 | Mediaan aantal geldige zetten | 5 |
 | 95e percentiel | 9 zetten |
-| Langste geteste partij | 16 zetten |
+| Langste geteste partij | 14 zetten |
 | Startmatches | 0 |
 | Geldige zetten bij de start | 22 |
 
-Deze cijfers beschrijven de geteste willekeurige-zetstrategie, geen garantie dat elke denkbare spelerskeuze binnen een bepaald aantal zetten klaar is. Er is geen maximum aantal zetten. Omdat elke willekeurige partij uiteindelijk het doel bereikte in de steekproef, is het doel goed bereikbaar; een statistische test is echter geen wiskundig bewijs voor alle oneindig lange mogelijke spelverlopen.
-
+De eerdere tabel met 10.000 partijen kon in deze werksessie niet volledig opnieuw worden uitgevoerd en geldt daarom niet als opnieuw geverifieerd resultaat. De 1.000 partijen hierboven zijn wel daadwerkelijk uitgevoerd met seeds 0 t/m 999. Ze testen de willekeurige-zetstrategie, niet elke mogelijke keuze die een speler kan maken. Een steekproef is geen wiskundig bewijs voor alle spelverlopen.
 ## Acceptatiecriteria vóór inbouw in de game
 
 1. Bord is exact 5 × 7.
@@ -123,4 +122,4 @@ Deze cijfers beschrijven de geteste willekeurige-zetstrategie, geen garantie dat
 13. Alle bediening past op iPhone-portret met ruime tikvlakken.
 14. De testharness draait 10.000 seeded simulaties zonder vastlopen of mislukte voltooiing.
 
-**Scope:** dit document en de tests specificeren en controleren het principe van level 1. Dit is geen goedkeuring om de volledige game te bouwen; de productie-implementatie moet dezelfde regels volgen en opnieuw getest worden.
+**Speelbare proef:** [prototype/level-1-energiecellen.html](../prototype/level-1-energiecellen.html) is een zelfstandig speelbare browserproef met deze basisregels. Het is nog niet geïntegreerd in de volledige fabriek, slaat nog geen voortgang op en is nog niet op een echte iPhone getest. De proef en de referentiesimulatie moeten vóór integratie nog doorlopen worden met de acceptatiecriteria hierboven.
