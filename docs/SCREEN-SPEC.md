@@ -1,7 +1,7 @@
 # De mysterieuze fabriek — Scherm- en toestandspecificatie
 
 **Versie:** 1.4  
-**Status:** Werkdocument voor dossiercontrole; geen toestemming om gamecode te bouwen.  
+**Status:** Schermspecificatie voor de finale dossiercontrole. Geen gamecode bouwen vóór expliciete goedkeuring van het volledige dossier.  
 **Doel:** elk zichtbaar scherm, elke betekenisvolle deeltoestand, overgang, tekst en herstelregel beschrijven voordat de master-prompt wordt geschreven.
 
 ## 1. Globale regels
