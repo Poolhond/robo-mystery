@@ -142,7 +142,7 @@ Bronvolgorde: (1) dit beslissingsdocument voor goedkeuring/open status, (2) `CHA
 - Doek, goochelvoorwerpen, knoppen, iconen en finale-/feestscène.
 - De drie gekozen easter eggs: (1) pandaschuif in het meubel, (2) vlieg en vleesetende plant, (3) dansend hartkunstwerk. De exacte klikzones en timing moeten nog worden uitgewerkt.
 
-Geef assets consistente namen en leg per bestand vast voor welke scène het dient. De negen huidige rootbestanden zijn geüpload, maar niet alle in het assetregister genoemde exports zijn daarmee aanwezig; onderscheid bestaande bestanden van concepten en nog te maken exports.
+Geef assets consistente namen en leg per bestand vast voor welke scène het dient. De actuele repository bevat elf afbeeldingsbestanden onder `assets/`; ze staan niet meer als negen losse bestanden in de root. Een afzonderlijke export voor `AST-BIRD-01` is niet teruggevonden. Onderscheid aanwezige bestanden, inspiratiebronnen, uitgesloten assets en nog te maken exports. De mechanische vogel is uitgesloten van het spel.
 
 ## Werkvolgorde
 
