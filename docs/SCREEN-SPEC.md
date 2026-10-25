@@ -1,13 +1,13 @@
 # De mysterieuze fabriek — Scherm- en toestandspecificatie
 
-**Versie:** 1.3  
+**Versie:** 1.4  
 **Status:** Werkdocument voor dossiercontrole; geen toestemming om gamecode te bouwen.  
 **Doel:** elk zichtbaar scherm, elke betekenisvolle deeltoestand, overgang, tekst en herstelregel beschrijven voordat de master-prompt wordt geschreven.
 
 ## 1. Globale regels
 
 - De speler ziet Nederlandse teksten; spreek Wannes direct aan, speels maar niet kinderachtig.
-- De game is volledig stil. Geen audio, stem, trilfeedback of browsermelding als spelmechaniek. Een fout mag niet alleen via beweging of kleur worden aangegeven.
+- De game is volledig stil. Geen audio, stem, haptische/trilfeedback of browsermelding als spelmechaniek. Fouten en succes worden uitsluitend visueel getoond; gebruik zo nodig vorm, positie en korte animatie samen zodat feedback niet alleen van kleur afhangt.
 - Alle schermen zijn ontworpen voor iPhone-portret en tikbediening. Hoofdacties hebben grote tikvlakken.
 - Elke uitdaging heeft een eigen hintstatus. Hints verschijnen alleen na tik op `?`. Het gedeelde hintpaneel volgt de regels in `TECH-SPEC.md`.
 - Een schermwissel sluit overlays visueel, maar wist geen puzzelvoortgang. Teruggaan brengt Wannes naar dezelfde werkplaats.
@@ -129,8 +129,8 @@ De gewone hint 3 blijft een laatste denkstap en verklapt het antwoord niet. De e
 | `D-03` | Slotstatus: ster-met-oog automatisch aanwezig indien uitdaging 2 af; woordveld en kleurstalen | Invoer bewaren; OPEN DE DEUR → `D-04` | Label: **GEHEIM WOORD**; knop: **OPEN DE DEUR** |
 | `D-04` | Nog minstens één uitdaging onvoltooid | Meld ontbrekende aanwijzing; geen voortgang verloren | “Er ontbreekt nog een aanwijzing. Ga gerust verder op ontdekkingstocht — je kunt altijd terugkomen.” |
 | `D-05` | Alle uitdagingen voltooid, woord en/of kleur onjuist | Foutfeedback; behoud invoer/keuze | “Klik… brom… nog niet juist. Kijk nog eens naar wat je ontdekt hebt.” |
-| `D-06` | Combinatie juist | Vergrendeling klikt; deur opent naar donkere feestzaal | “Dat is hem! Jij hebt alle aanwijzingen gevonden én het geheim ontrafeld!” |
-| `D-07` | Deur opent; warme lichtkier, geen extra interactie | Automatische overgang naar `F-01` | “Wacht eens… Ik denk dat ze daarbinnen op jou staan te wachten.” |
+| `D-06` | Combinatie juist | De vergrendeling beweegt zichtbaar; deur opent naar de donkere, stille feestzaal → `F-01` | Geen dialoog of extra tekst; uitsluitend visuele feedback |
+| `D-07` | Vervallen — geen aparte tussenstaat | De deuropening gaat rechtstreeks over naar `F-01` | Geen tekst. De feestzaal blijft donker en stil tot Wannes zelf op de rode feestknop drukt. |
 | `D-08` | Hintpaneel | Eigen hintstatus voor slot | Hint 1: “Je hebt al dingen ontdekt in het laboratorium. Kijk wat je al weet.” Hint 2: “Het symbool wordt voor je bewaard. Het woord moet je zelf typen en de kleur moet je zelf kiezen.” Hint 3: “Het woord komt uit de speelgoedfabriek, het symbool uit het kistjesraadsel en de kleur uit de bekers.” |
 
 **Toon oplossing — deur/slot, na bevestiging:** toon de volledige combinatie: het ster-met-oog-symbool is al automatisch ingevuld, het geheime woord is **BAL** en de juiste kleur is **signaalrood**. Markeer eerst het woordveld en daarna de kleurstaal; Wannes typt **BAL** en kiest **signaalrood** zelf. De deur wordt niet automatisch geopend: Wannes drukt zelf op **OPEN DE DEUR**.
@@ -146,7 +146,7 @@ De gewone hint 3 blijft een laatste denkstap en verklapt het antwoord niet. De e
 | `F-05` | Zelfde rustige feestbeeld; tweede boodschap verschijnt onder/na de eerste | Finale blijft zichtbaar; spel eindigt zonder extra actie | **“Dat verdient een cadeau.”** |
 | `F-06` | Finale hersteld na herladen | Herstel naar rustig eindbeeld met beide teksten; feestanimatie niet opnieuw afspelen | Beide eindteksten zichtbaar |
 
-**Finaleregels:** de tik op de rode feestknop is de laatste interactieve handeling. De twee boodschappen verschijnen vanzelf en in deze volgorde. Geen extra knop, kaarttruc, opdracht, raadsel, geluids- of trilfeedback.
+**Finaleregels:** de combinatie opent de deur zonder extra dialoog. De feestzaal blijft donker en stil tot Wannes op de grote rode feestknop tikt. Die tik is de laatste interactieve handeling. De twee boodschappen verschijnen vanzelf en in deze volgorde. Geen extra knop, kaarttruc, opdracht, raadsel, geluid of haptische feedback.
 
 ## 3. Gedeelde overlay- en feedbacktoestanden
 
