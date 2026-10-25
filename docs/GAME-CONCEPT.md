@@ -1,6 +1,6 @@
 # De mysterieuze fabriek — Spelconcept
 
-**Versie:** 2.0  
+**Versie:** 2.1  
 **Status:** Voorontwerp; nog geen bouwklaar dossier en geen nieuwe gamecode  
 **Laatste update:** 25 oktober 2026 — startbeleving vastgelegd als vrije ontdekking; werktitel gewijzigd naar De mysterieuze fabriek; robot geschrapt
 
@@ -57,7 +57,7 @@ Wannes volgt een rood balletje onder drie bewegende bekers in drie rondes met op
 
 ### Uitdaging 4 — Het slot van het geheim
 
-Wannes kan de deur op elk moment onderzoeken. Hij ontdekt dat er drie aanwijzingen nodig zijn, maar de deur opent pas wanneer alle drie de uitdagingen voltooid zijn. De ster met een oog verschijnt automatisch op het slot na uitdaging 2. Wannes typt zelf BAL en kiest zelf signaalrood. Verkeerde invoer geeft feedback zonder straf; hij kan onbeperkt proberen.
+Wannes kan de deur op elk moment onderzoeken. Als hij erop tikt, schuift/zoomt het beeld naar de deur zodat die centraal staat. Vanaf de eerste keer toont het slot visueel drie benodigde onderdelen — symbool, woord en kleur — zodat duidelijk is dat er drie dingen nodig zijn om de deur te openen. De uitleg is zo veel mogelijk visueel en bevat zo weinig mogelijk tekst. De ster met een oog verschijnt automatisch op het slot na uitdaging 2. Wannes typt zelf BAL en kiest zelf signaalrood. Verkeerde invoer geeft korte, liefst visuele feedback zonder straf; hij kan onbeperkt proberen.
 
 ### Finale — De deur gaat open
 
