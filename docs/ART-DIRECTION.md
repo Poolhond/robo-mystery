@@ -239,7 +239,7 @@ De drie hoofdrolfiguren zijn **Charlie**, **RidderUs** en **Schildje**. Hun echt
 - Bovenaan: titel **DE MYSTERIEUZE FABRIEK**, in grote, compacte retroletters; donker petrol voor de eerste regel en signaalrood voor FABRIEK.
 - Daaronder een korte mysterieuze teaser, bijvoorbeeld: **ER IS IETS VREEMDS AAN DE HAND...**
 - Middenvlak: de handgemaakte speelgoedfabriek als centrale illustratie, met geometrische huisjes, snoepstrooidaken, gestreepte schoorstenen en de groene basis. Gebruik de aangeleverde foto van Michels fysieke model als inhoudelijke referentie en de bestaande posterillustratie als stijlinspiratie.
-- De drie hoofdfiguren kunnen onderaan vóór de fabriek staan, maar blijven kleiner dan de fabriek en de titel.
+- **Geen personages op de titelposter.** Charlie, RidderUs en Schildje blijven verborgen tot Wannes het avontuur begint; zie §18. De fabriek en de mysterieuze omgeving dragen de compositie.
 - Onderaan: één brede, contrastrijke actieknop met het label **START HET AVONTUUR**, plus een kleine hint **TIK OM BINNEN TE GAAN**.
 - Houd rekening met de iPhone-statusbalk, afgeronde hoeken en veilige zones; titel en startknop mogen niet tegen de schermrand vallen.
 
