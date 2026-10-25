@@ -1,12 +1,12 @@
 # De mysterieuze fabriek — Spelconcept
 
-**Versie:** 1.8  
+**Versie:** 1.9  
 **Status:** Voorontwerp; nog geen bouwklaar dossier en geen nieuwe gamecode  
-**Laatste update:** 25 oktober 2026 — werktitel gewijzigd naar De mysterieuze fabriek; robot geschrapt, speler onderzoekt zelf het laboratorium
+**Laatste update:** 25 oktober 2026 — startbeleving vastgelegd als vrije ontdekking; werktitel gewijzigd naar De mysterieuze fabriek; robot geschrapt
 
 ## 1. Kernidee
 
-De mysterieuze fabriek is een compact digitaal mysterie-avontuur voor **Wannes (12)**, bedoeld om op zijn verjaardag zelf te spelen. Wannes onderzoekt zelf een vreemde, speelse speelgoedwereld na een geheim bericht dat hem naar het laboratorium lokt. Er is iets vreemds aan de hand en hij moet zelf ontdekken wat er achter de gesloten deur verborgen zit.
+De mysterieuze fabriek is een compact digitaal mysterie-avontuur voor **Wannes (12)**, bedoeld om op zijn verjaardag zelf te spelen. Wannes ontdekt zelf een vreemde, speelse speelgoedwereld. Na Start ziet hij meteen de volledige technische werkplaats en kiest hij zelf wat hij onderzoekt. Er is iets vreemds aan de hand en hij moet zelf ontdekken wat er achter de gesloten deur verborgen zit.
 
 Wannes ziet eerst de volledige maquette als startscherm. Na Start onderzoekt Wannes zelf de technische ruimte. De volledige ruimte blijft tegelijk zichtbaar op het iPhone-scherm: het computerscherm voor uitdaging 1, de locker met cijfercode voor uitdaging 2, de tafel met bekers voor uitdaging 3 en de grote deur voor uitdaging 4. Wannes tikt op een voorwerp; het spel zoomt in en opent een apart volledig scherm voor de bijbehorende interactie. Hij kiest zelf in welke volgorde hij de eerste drie uitdagingen speelt. Hij mag elke uitdaging halverwege verlaten en later precies verdergaan waar hij stopte. De grote deur kan hij vanaf het begin ontdekken, maar hij leert gaandeweg dat hij de drie uitdagingen nodig heeft om het slot op te lossen. Uitdaging 1 bestaat uit drie match-3-levels en levert de letters B, A en L op. Wanneer die opengaat, blijkt dat de speelgoedfiguren in het geheim een verjaardagsfeest voor Wannes hebben voorbereid. Wannes ontdekt de verrassing zelf door de aanwijzingen te verzamelen en het slot te openen.
 
@@ -18,10 +18,10 @@ Wannes sluit af met een laatste interactieve handeling waarmee het feest begint.
 - Visuele richting van de fabriek: een speelse technische ruimte/werkplaats met vier verspreid geplaatste, maar tegelijk zichtbare interactieve hoofdvoorwerpen. Bedieningspanelen, meetinstrumenten, kabels en metalen lockers geven karakter zonder de ruimte rommelig te maken. Alle vier de voorwerpen blijven tegelijk zichtbaar en herkenbaar op het iPhone-scherm; de sfeer is mysterieus maar niet griezelig.
 - Interactie: aantikken zoomt in op het gekozen voorwerp en opent een apart volledig scherm voor de uitdaging. Een duidelijke terugknop brengt Wannes terug naar dezelfde technische ruimte.
 - De speler is **Wannes**; hij onderzoekt de ruimte zelf en bedient de voorwerpen rechtstreeks.
-- Uitlegstijl: minimaal en mysterieus. Wannes ontdekt bediening en doelen grotendeels zelf; hints zijn beschikbaar wanneer hij vastloopt.
+- Startbeleving: vrije ontdekking. Na Start ziet Wannes de volledige werkplaats en kiest zelf welk voorwerp hij onderzoekt; er is geen verplichte introductiescène of vooraf opgelegde route. Uitleg blijft minimaal en verschijnt alleen waar die bij een voorwerp of uitdaging nodig is. Hints zijn beschikbaar wanneer hij vastloopt.
 - Het feest aan het einde is voor Wannes.
 - Wannes speelt het spel op zijn verjaardag zelf.
-- Het mysterie blijft aan het begin onduidelijk.
+- Het mysterie blijft aan het begin onduidelijk; de speler ontdekt de ruimte zonder verplichte proloog.
 - Het avontuur bevat vier hoofduitdagingen: match-3, logica, een volg-minigame en het slot. De eerste drie zijn vrij te spelen in elke volgorde.
 - Het overkoepelende thema is goochelen: Wannes houdt van goocheltrucs, puzzels en raadsels.
 - De andere speelgoedfiguren bereiden de verrassing voor.
@@ -33,9 +33,9 @@ Wannes sluit af met een laatste interactieve handeling waarmee het feest begint.
 
 ## 3. Verhaal
 
-### Proloog — Een geheim bericht
+### Start — De werkplaats ontdekken
 
-Wannes opent het spel en ontvangt een geheim bericht dat hem naar het speelgoedlab lokt. De omgeving lijkt vertrouwd, maar er zijn vreemde details: een spoor van gekleurde knopen, snippers die op confetti lijken en een deur die gesloten blijft. Het spel geeft nog niet prijs wat het doel is.
+Na het beginscherm komt Wannes rechtstreeks in de volledige technische werkplaats terecht. Er is geen verplichte proloog of geheim bericht dat hem eerst een route oplegt. De ruimte zelf wekt nieuwsgierigheid: vreemde details, aanwijzingen in de omgeving en een deur die gesloten blijft. Wannes kiest zelf welk voorwerp hij als eerste onderzoekt. Korte uitleg verschijnt pas wanneer die nodig is bij een gekozen voorwerp of uitdaging.
 
 ### Uitdaging 1 — De speelgoedfabriek
 
