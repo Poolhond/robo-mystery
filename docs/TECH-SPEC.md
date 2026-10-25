@@ -1,7 +1,7 @@
-# ROBO MYSTERY — Techniekregels
+# De mysterieuze fabriek — Techniekregels
 
-**Versie:** 0.5  
-**Status:** Concept. Doel: een stabiel spel dat in één bouwopdracht gemaakt kan worden en direct werkt op een iPhone.
+**Versie:** 0.6  
+**Status:** Conceptuele technische randvoorwaarden; nog geen definitieve implementatiespecificatie. Deze regels moeten vóór de master-prompt worden aangevuld met een concrete schermenlijst, statusmodel en acceptatietests.
 
 ## 1. Platform
 - Statische website, gratis gehost op GitHub Pages.
@@ -65,7 +65,7 @@ Iedere locatie/toestand krijgt een stabiele ID, een beschrijving van wat zichtba
 - Geen eindeloze lussen of timers die doorlopen op een ander scherm.
 
 ## 8. Stijl in code
-- Kleuren als CSS-variabelen op één plek in `style.css`. De definitieve kleurenset moet nog worden gekozen; zie `docs/DECISIONS.md`.
+- Kleuren als CSS-variabelen op één plek in `style.css`. Het palet is vastgelegd in `docs/ART-DIRECTION.md`.
 - Interface in de zeefdrukstijl uit `docs/ART-DIRECTION.md` (kaders, knoppen, paneel).
 - Essentiële tekst is echte HTML-tekst, nooit alleen in een afbeelding.
 
@@ -82,3 +82,8 @@ Op een echte iPhone controleren:
 - Geen accounts, ranglijsten of netwerkfuncties.
 - Geen advertenties of tracking.
 - Geen aankopen of externe links, behalve eventueel een duidelijke link terug naar het begin.
+
+
+## 11. Status van deze specificatie
+
+Dit document beschrijft de beoogde richting en is nog geen volledige bouwopdracht. Voor de master-prompt moeten minimaal de exacte scherm-/toestandslijst, de vorm van de opgeslagen spelstatus, herstelgedrag bij ontbrekende of beschadigde opslag, de regels voor oplosbare match-3-borden en concrete acceptatietests worden vastgelegd. Een ontwikkelaar mag deze open punten niet oplossen door ongemerkt nieuwe spelregels te verzinnen.
