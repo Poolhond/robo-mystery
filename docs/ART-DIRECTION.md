@@ -1,6 +1,6 @@
 # De mysterieuze fabriek — Art Direction & Style Guide
 
-**Versie:** 0.4  
+**Versie:** 0.5  
 **Status:** Ontwerpfase — concept herzien, geen codeontwikkeling  
 **Primaire stijlkeuzes:** sterk verweerde zeefdruk; interface geïntegreerd in de vintage posterwereld.
 
@@ -200,3 +200,19 @@ De artistieke richting en het kleurenpalet zijn vastgelegd. Dit document is nog 
 Volgende stap: inventariseer de originele afbeeldingen en leg per bestand vast welke rol het speelt, welke eigenschappen definitief zijn, welke elementen afzonderlijk nodig zijn en welke beelden nog ontbreken.
 
 **Geen codeontwikkeling voordat het visuele dossier, de assetinventaris en het functionele spelconcept voldoende zijn uitgewerkt.**
+
+
+## 15. Karakterassets — uitdaging 2: identiteit boven stijl
+
+De drie hoofdrolfiguren zijn **Charlie**, **RidderUs** en **Schildje**. Hun echte bronbeelden en de groepsreferentie bepalen de karakteridentiteit. De zeefdrukstijl is een behandeling van die bestaande vormen, geen aanleiding om ze opnieuw te ontwerpen. Zie `docs/ASSET-REGISTER.md` voor de afzonderlijke karakterfiches en bronbestanden.
+
+### Richtlijnen voor deze set
+- Houd de personages als drie afzonderlijke assets beschikbaar; een gezamenlijke poster geldt alleen als groeps-/compositiereferentie.
+- Gebruik dezelfde verweerde druktaal, contoursterkte, papierbehandeling en halftoonkwaliteit bij alle drie.
+- Behoud eigen herkenningskleuren waar nodig: Charlie's oranje jas, RidderUs' oranje lijf en cyaan vizier, Schildjes mosgroene pluche.
+- Character exports horen bij voorkeur een transparante achtergrond te hebben zodat ze in de interface en scènes opnieuw te gebruiken zijn. Gebruik geen nieuwe decoratieve achtergrond in losse exports.
+- Maak gezichten en silhouetten op klein mobiel formaat leesbaar. Gebruik grovere textuur op grote kleurvlakken en spaarzamer rond ogen, snuit, vizieropeningen en naden.
+- Geen tekst, naamlabels of dialoog in de afbeelding bakken; de game toont echte tekst apart.
+- Varianten voor emotie of houding zijn ondergeschikt aan de basistekening. Pas eerst de frontale basissectie goed voordat varianten gemaakt worden.
+- Geen nieuwe eigenschappen toevoegen of verwijderen zonder afzonderlijke ontwerpbeslissing.
+- Deze richtlijn legt de art direction vast; de nieuwe exports blijven concept tot ze visueel beoordeeld en expliciet goedgekeurd zijn.
