@@ -21,8 +21,8 @@
 
 | Toestand-ID | Wat zichtbaar is | Actie / overgang | Tekst |
 |---|---|---|---|
-| `T-01` | Vintage fabrieksposter, geen personages of herkenbare personagesilhouetten | START → `W-01`; bij opgeslagen voortgang VERDER SPELEN → herstelde toestand | Knop: **START** of **VERDER SPELEN** |
-| `T-02` | Bevestigingsdialoog boven poster | Opnieuw beginnen → `T-03`; TERUG sluit dialoog | “Wil je opnieuw beginnen? Je huidige voortgang wordt gewist.” Knoppen: **OPNIEUW BEGINNEN**, **TERUG** |
+| `T-01` | Vintage fabrieksposter, geen personages of verborgen interactieve easter egg | Zonder voortgang: **START ONDERZOEK** → `W-01`. Met voortgang: **VERDER ONDERZOEKEN** → herstelde toestand; **OPNIEUW BEGINNEN** → `T-02` | Zonder voortgang staat alleen **START ONDERZOEK**. Met voortgang staan **VERDER ONDERZOEKEN** en **OPNIEUW BEGINNEN** |
+| `T-02` | Bevestigingsdialoog boven poster | Bevestigen → `T-03`; TERUG sluit dialoog | “Wil je opnieuw beginnen? Je huidige voortgang wordt gewist.” Knoppen: **OPNIEUW BEGINNEN**, **TERUG** |
 | `T-03` | Verse starttoestand | Bevestiging voltooid → `W-01` | Geen extra tekst nodig |
 | `T-04` | Herstelmelding bij ongeldige/beschadigde opslag | Kies opnieuw beginnen → schone `W-01`; TERUG laat herstelkeuze staan | “Je voortgang kon niet worden hersteld.” / “Je kunt opnieuw beginnen, maar je oude voortgang is mogelijk niet meer bruikbaar.” Knoppen: **OPNIEUW BEGINNEN**, **TERUG** |
 | `T-05` | Tijdelijke sessie als opslag niet beschikbaar is | START opent werkplaats | “Voortgang kan op dit toestel niet betrouwbaar worden bewaard. Als je het spel sluit, kun je je voortgang verliezen.” |
