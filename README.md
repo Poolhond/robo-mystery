@@ -4,40 +4,43 @@ Persoonlijk verjaardagsmysterie voor **Wannes (12)**: een avontuur in een myster
 
 ## Huidige fase
 
-We werken eerst het volledige ontwerpdossier uit. **Er wordt nog geen nieuwe gamecode ontwikkeld.** Het oude prototype is verwijderd omdat het niet bij het goedgekeurde spelconcept paste. Zodra concept, uitdagingen, teksten, assets en technische regels voldoende vastliggen, maken we één uitgebreide bouwopdracht (master-prompt), gevolgd door een testronde op een iPhone.
+**Voorontwerp en dossieropschoning. Er wordt nog geen gamecode gebouwd.** Eerst maken we de documenten onderling consistent en werken we daarna samen de nog openstaande ontwerpkeuzes af. Pas na expliciete goedkeuring volgt de master-prompt en de bouw.
 
-## Dossier — één bron per onderwerp
+## Dossier — bron per onderwerp
 
 - [Spelconcept](docs/GAME-CONCEPT.md) — verhaal, spelstructuur, personages en finale.
 - [Uitdagingen](docs/CHALLENGES.md) — vier uitdagingen, interactie, oplossingen, hints en aanwijzingen.
-- [Beslissingen en open punten](docs/DECISIONS.md) — wat vastligt, wat nog openstaat en wat vóór de bouw nodig is.
+- [Beslissingen en open punten](docs/DECISIONS.md) — leidend overzicht van vastgelegde keuzes en open beslissingen.
 - [Techniekregels](docs/TECH-SPEC.md) — beoogde technische aanpak en kwaliteitsregels voor de latere bouw.
 - [Art Direction & Style Guide](docs/ART-DIRECTION.md) — visuele identiteit, kleuren, zeefdruktextuur en interface.
-- [Assetregister en referenties](docs/ASSET-REGISTER.md) — referenties, assets, status en ontbrekende bestanden.
+- [Assetregister en referenties](docs/ASSET-REGISTER.md) — referenties, bestanden, status en ontbrekende assets.
 
-## Mappenstructuur
+## Welke informatie is leidend?
 
-```
-README.md                 Overzicht en startpunt
-docs/
-  GAME-CONCEPT.md         Verhaal en spelstructuur
-  CHALLENGES.md            Uitdagingen en puzzels
-  DECISIONS.md             Besluiten en open punten
-  TECH-SPEC.md             Technische randvoorwaarden
-  ART-DIRECTION.md         Visuele stijl
-  ASSET-REGISTER.md        Referenties en assetstatus
-```
+1. `docs/DECISIONS.md` is leidend voor expliciet goedgekeurde ontwerpkeuzes en voor wat nog openstaat.
+2. `docs/CHALLENGES.md` beschrijft de uitgewerkte werking van de puzzels, maar mag goedgekeurde keuzes niet tegenspreken.
+3. `docs/GAME-CONCEPT.md` beschrijft het verhaal en de overkoepelende spelstructuur.
+4. `docs/TECH-SPEC.md` beschrijft technische randvoorwaarden; het is nog geen definitief implementatieplan.
+5. `docs/ART-DIRECTION.md` beschrijft de visuele richting.
+6. `docs/ASSET-REGISTER.md` beschrijft de rol en status van beeldbestanden en referenties.
+
+Bij een tegenstrijdigheid wordt niet stilzwijgend gegokt: noteer die in `docs/DECISIONS.md` als open punt en los ze op vóór de master-prompt.
 
 ## Uitgangspunten
 
-- De originele ROBO MYSTERY-referenties zijn leidend.
-- Beeldtaal: retrofuturistische sciencefiction met handgedrukte jarenzeventig-popart en sterk verweerde zeefdruktextuur.
-- De interface hoort bij dezelfde vintage speelgoedwereld.
-- Mobile-first, speelbaar in de browser, zonder account en gratis te hosten op GitHub Pages.
-- Alle spelertekst is Nederlands en blijft echte tekst, niet tekst die in illustraties is ingebakken.
-- Nieuwe ontwerpen zijn voorstellen totdat ze expliciet zijn goedgekeurd; controleer daarvoor docs/DECISIONS.md.
-- Afbeeldingen die alleen in de chat zijn gegenereerd, gelden niet als bestanden in de repository. Ze moeten daadwerkelijk worden toegevoegd voordat de latere bouw ze kan gebruiken.
+- Geen bestuurbaar hoofdpersonage en geen robotpersonage; Wannes onderzoekt zelf de wereld.
+- De maquette is het beginscherm. Na Start verschijnt de speelse technische ruimte.
+- De eerste drie uitdagingen zijn in vrije volgorde speelbaar; de grote deur kan vroeg worden onderzocht.
+- De aanwijzingen voor de deur zijn **BAL** (uitdaging 1), **ster met oog** (uitdaging 2) en **signaalrood** (uitdaging 3).
+- Beeldtaal: retrofuturistische speelgoedwereld, handgedrukte jarenzeventig-popart en sterk verweerde zeefdruk.
+- Mobile-first, Nederlandstalig, statisch gehost op GitHub Pages; geen account, server of externe bibliotheken.
+- Voortgang moet lokaal bewaard blijven en hervatbaar zijn.
+- Nieuwe ontwerpen zijn voorstellen totdat ze expliciet zijn goedgekeurd.
+
+## Bestanden en assets
+
+De repository bevat momenteel negen afbeeldingsbestanden in de hoofdmap. Ze zijn daadwerkelijk geüpload, maar staan nog niet in de beoogde `assets/`-mappenstructuur en hebben namen met dubbele extensies. Het assetregister moet bij de volgende assetronde op de werkelijke bestandsnamen en het juiste bestandstype worden afgestemd. Verplaats of hernoem ze niet zonder de verwijzingen en het register tegelijk bij te werken.
 
 ## Geen prototype als basis
 
-De oude index.html is verwijderd. Die prototypecode volgde een ander verhaal en is niet geschikt als basis voor de uiteindelijke game. De nieuwe game wordt pas gebouwd nadat het ontwerpdossier is uitgewerkt en gecontroleerd.
+De oude prototypecode is geen basis voor de uiteindelijke game. De nieuwe game wordt vanaf een schone structuur gebouwd nadat het dossier is opgeschoond, de open keuzes zijn afgerond en de specificatie is goedgekeurd.
