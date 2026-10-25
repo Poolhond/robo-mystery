@@ -2,53 +2,47 @@
 
 ## Samenvatting
 
-De elf bestaande afbeeldingsbestanden zijn geordend in de afgesproken `assets/`-mappen. Volgens Michel zijn alle elf bestanden PNG-afbeeldingen. De bestandsnamen zijn opgeschoond zodat ze eindigen op `.png`. De bestaande Git-blobs zijn behouden: de beeldbytes zijn niet opnieuw opgeslagen, geconverteerd of overschreven. Alleen paden, bestandsnamen en documentatie zijn gewijzigd.
+De actuele GitHub-bestandsstructuur bevat **elf afbeeldingsbestanden** onder `assets/`. De eerdere verwijzing naar negen bestanden was verouderd. Deze audit bevestigt de paden en GitHub-bestandsgrootten, maar niet de werkelijke afbeeldingsafmetingen, transparantie of visuele inhoud. Die moeten worden gecontroleerd door de ontwikkelaar of met een afzonderlijke beeldinspectie.
 
-Controleer nog de afmetingen, transparantie en visuele overeenkomst tijdens de technische assetcontrole.
+De extensie `.png` is de naam in de repository; alleen op basis van een padnaam kan het werkelijke bestandsformaat niet worden bewezen. Er zijn in deze audit geen afbeeldingen geconverteerd, hernoemd, verplaatst of verwijderd.
 
 ## Huidige bestanden en paden
 
 | Huidig repositorypad | Asset | Status / volgende actie |
 |---|---|---|
-| `assets/characters/charlie/AST-CHARLIE-01-charlie-screenprint.png` | Charlie | Verplaatst zonder bestandsinhoud te wijzigen; afmetingen en visuele overeenkomst controleren |
-| `assets/characters/ridderus/AST-RIDDERUS-01-ridderus-screenprint.png` | RidderUs | Verplaatst zonder bestandsinhoud te wijzigen; werkelijk formaat en visuele overeenkomst controleren |
-| `assets/characters/schildje/AST-SCHILDJE-01-schildje-screenprint.png` | Schildje | Verplaatst zonder bestandsinhoud te wijzigen; werkelijk formaat en visuele overeenkomst controleren |
-| `assets/title-screen/AST-TITLE-01-title-poster.png` | Titelposter | Verplaatst; afmetingen en definitieve export controleren |
-| `assets/rooms/control-room/AST-ROOM-01-control-room-reference.png` | Goedgekeurde controlekamerreferentie | Verplaatst; afmetingen controleren. Gebruik als vaste kamercompositie |
-| `assets/decor/AST-DECOR-01-red-heart.png` | Rood hart | Verplaatst; afmetingen en definitieve export controleren |
-| `assets/decor/AST-DECOR-02-birdhouse.png` | Vogelhuisje met vogel | Verplaatst; afmetingen en visuele overeenkomst controleren |
-| `assets/decor/AST-DECOR-03-mechanical-bird.png` | Mechanische vogel | Veilig bewaard als asset, maar niet in de spelcompositie gebruiken zonder expliciete goedkeuring |
-| `assets/decor/AST-DECOR-04-pitcher-terrarium.png` | Vleesetende bekerplant | Verplaatst; bestandstype en definitieve export controleren |
+| `assets/characters/charlie/AST-CHARLIE-01-charlie-screenprint.png` | Charlie | Aanwezig; visuele overeenkomst, werkelijke afmetingen en formaat controleren |
+| `assets/characters/ridderus/AST-RIDDERUS-01-ridderus-screenprint.png` | RidderUs | Aanwezig; visuele overeenkomst, werkelijke afmetingen en formaat controleren |
+| `assets/characters/schildje/AST-SCHILDJE-01-schildje-screenprint.png` | Schildje | Aanwezig; visuele overeenkomst, werkelijke afmetingen en formaat controleren |
+| `assets/characters/panda/AST-PANDA-01-panda-screenprint.png` | Panda | Aanwezig; visuele inhoud en rol als optioneel personage controleren |
+| `assets/title-screen/AST-TITLE-01-title-poster.png` | Titelposter | Aanwezig; compositie, afmetingen en werkelijke bestandstype controleren |
+| `assets/rooms/control-room/AST-ROOM-01-control-room-reference.png` | Vaste controlekamerreferentie | Aanwezig; vaste ruimtecompositie, afmetingen en werkelijke bestandstype controleren |
+| `assets/rooms/toy-laboratory/AST-ENV-01.png` | Speelgoedlaboratorium / maquette | Aanwezig; inhoud en rol als referentie verifiëren |
+| `assets/decor/AST-DECOR-01-red-heart.png` | Rood hart | Aanwezig; visuele inhoud en formaat controleren |
+| `assets/decor/AST-DECOR-02-birdhouse.png` | Vogelhuisje met vogel | Aanwezig; dit is het aanwezige vogelhuisje; niet automatisch gelijkstellen aan de aparte asset-ID AST-BIRD-01 |
+| `assets/decor/AST-DECOR-03-mechanical-bird.png` | Mechanische vogel | Aanwezig, maar uitgesloten van de spelcompositie; niet gebruiken zonder expliciete goedkeuring |
+| `assets/decor/AST-DECOR-04-pitcher-terrarium.png` | Vleesetende bekerplant | Aanwezig; visuele inhoud en formaat controleren |
 
-| `assets/rooms/toy-laboratory/AST-ENV-01.png` | Speelgoedlaboratorium (AST-ENV-01) | Nieuw toegevoegd; afmetingen en visuele overeenkomst controleren |
-| `assets/characters/panda/AST-PANDA-01-panda-screenprint.png` | Panda-knuffel | Nieuw toegevoegd; afmetingen en visuele overeenkomst controleren |
+## Belangrijke bevindingen en documentatiecorrecties
 
-## Wat is uitgevoerd
+1. **Bestandenaantal:** de huidige tree bevat elf afbeeldingsbestanden. Verwijzingen naar negen bestanden zijn verouderd en moeten niet meer worden gebruikt.
+2. **Nestkast/vogel:** `AST-DECOR-02-birdhouse.png` bestaat. Een afzonderlijk bestand dat aantoonbaar overeenkomt met `AST-BIRD-01` is niet in de huidige tree teruggevonden. De registertekst die zegt dat de herziene geïsoleerde versie in de repository-root staat, is daarom niet bevestigd en mag niet als feit worden behandeld.
+3. **Speelgoedlaboratorium:** `assets/rooms/toy-laboratory/AST-ENV-01.png` bestaat; de visuele inhoud en precieze status moeten nog worden bekeken.
+4. **Personagebestanden:** de huidige drie basisillustraties staan op PNG-paden. Oudere tekst met voorgestelde JPEG- of WebP-paden beschrijft geen huidige bestanden en mag niet worden opgevat als bewijs dat die varianten aanwezig zijn.
+5. **Mechanische vogel:** het bestand wordt veilig bewaard, maar hoort niet in de game zonder expliciete goedkeuring.
+6. **Inspiratie versus game-assets:** aanwezigheid in de repository betekent niet automatisch dat een afbeelding letterlijk in het spel moet worden gebruikt of dat de asset definitief is goedgekeurd.
 
-- De elf bestaande afbeeldingen zijn naar hun doelmappen verplaatst door de oorspronkelijke Git-blobs te hergebruiken.
-- De oorspronkelijke bytes zijn behouden; de bestandsnamen zijn opgeschoond en er is geen beeldconversie uitgevoerd.
-- De mappenstructuur sluit nu aan bij het assetregister en de technische specificatie.
-- De mechanische vogel blijft buiten de goedgekeurde gamecompositie.
-- De assetregister- en README-verwijzingen zijn bijgewerkt naar de huidige paden.
+## Bindende gebruiksregel
 
-## Wat nog gecontroleerd moet worden
+De afbeeldingen zijn inspiratiebronnen voor een eigen, samenhangende spelwereld. De ontwikkelaar moet herkenbare kenmerken behouden waar die belangrijk zijn, maar mag compositie, schaal, uitsnede en context aanpassen. Nieuwe achtergronden, animaties en spelobjecten mogen worden gegenereerd waar nodig. Alles moet visueel op elkaar aansluiten en goed schalen op een mobiel scherm. Geen uitgesloten ontwerp gebruiken.
 
-1. Open elk bestand en controleer het werkelijke formaat, de afmetingen en de visuele inhoud.
-2. Controleer dat de drie karakterillustraties overeenkomen met de goedgekeurde versies.
-3. Controleer de titelposter en controlekamerreferentie als beeld, niet alleen op bestandsnaam.
-4. Optimaliseer later de bestanden voor mobiel gebruik als dat nodig is. Bewaar de originele masters; converteer of verklein niet destructief.
-5. Werk het assetregister bij als een bestand een afwijkende inhoud heeft of als er een definitieve variant wordt aangeleverd.
+## Nog te controleren tijdens de technische bouw
 
-## Belangrijke ontwerpafspraken
+- Werkelijke beeldformaten, pixelafmetingen, transparantie en bestandsgrootte in bytes.
+- Visuele overeenkomst van personages met de goedgekeurde referenties.
+- Gebruik van de controlekamerafbeelding als vaste compositiereferentie, met afzonderlijke interactieve zones.
+- Welke ontbrekende puzzelobjecten beter als schaalbare interface/CSS-vormen kunnen worden gemaakt en welke een illustratie nodig hebben.
+- Of een afzonderlijke `AST-BIRD-01`-export nog moet worden aangeleverd of bewust niet nodig is.
 
-- De afbeelding van de controlekamer is de vaste basis van de speelruimte. De computer, groene locker, bekertafel en rode deur moeten als afzonderlijke interactieve zones werken.
-- De mechanische vogel is niet goedgekeurd voor plaatsing in de kamer en mag niet automatisch worden ingezet.
-- De robot is geschrapt uit het spelconcept en mag niet worden toegevoegd.
-- Conceptreferentie, goedgekeurd ontwerp, aanwezig bestand en daadwerkelijk gebruikte game-asset zijn verschillende statussen. Houd die uit elkaar.
+## Wijzigingsgrens
 
-## Nog niet als definitief bestand aangetroffen
-
-
-- Eventuele ontbrekende losse karaktervarianten of aanvullende illustraties die echt nodig blijken voor het verhaal.
-
-De gameontwikkelaar mag eenvoudige interface-elementen en puzzelobjecten zelf tekenen met CSS of andere ingebouwde technieken als dat visueel voldoende is. Maak geen extra afbeeldingsbestanden aan wanneer een eenvoudige, schaalbare interfacevorm beter werkt.
+Deze audit corrigeert alleen de documentatie. Er zijn geen beeldbestanden verwijderd, overschreven, geconverteerd of verplaatst. De mechanische vogel blijft behouden als uitgesloten bestand.
