@@ -1,6 +1,6 @@
 # ROBO MYSTERY — Assetregister & referenties
 
-**Versie:** 0.5  
+**Versie:** 0.6  
 **Status:** Eerste inventaris op basis van de vijf in deze ontwerpsessie aangeleverde afbeeldingen. De originele beelden zijn in de chat beschikbaar; ze zijn nog niet als afbeeldingsbestanden in deze repository opgeslagen.
 
 | ID | Beschrijving | Hoofdfunctie | Status |
@@ -18,6 +18,9 @@
 | CHAR-CHARLIE-01 | Echte pluchen Charlie, bruine aap met lichtbruine snuit en oranje jas met twee knopen | Karakterreferentie voor het logische raadsel in uitdaging 2 | Referentie uit chat; losse goedgekeurde asset nog te maken |
 | CHAR-RIDDERUS-01 | Oranje figuur met cyaan vizier, grijze helm met verticale openingen en gele pompon; geen armen | Karakterreferentie voor het logische raadsel in uitdaging 2 | Referentie uit chat; losse goedgekeurde asset nog te maken |
 | CHAR-SCHILDJE-01 | Groene pluchen schildpad met breed schild, korte flippers en grote donkere ogen | Karakterreferentie voor het logische raadsel in uitdaging 2 | Referentie uit chat; losse goedgekeurde asset nog te maken |
+| AST-CHARLIE-01 | Definitieve losse illustratie Charlie, minimalistische vectorvorm met sterke verweerde zeefdruk | Gameasset voor uitdaging 2 en eventuele finale | Klaar om te uploaden; bestandsnaam hieronder vastgelegd |
+| AST-RIDDERUS-01 | Definitieve losse illustratie RidderUs, minimalistische vectorvorm met sterke verweerde zeefdruk | Gameasset voor uitdaging 2 en eventuele finale | Klaar om te uploaden; bestandsnaam hieronder vastgelegd |
+| AST-SCHILDJE-01 | Definitieve losse illustratie Schildje, minimalistische vectorvorm met sterke verweerde zeefdruk | Gameasset voor uitdaging 2 en eventuele finale | Klaar om te uploaden; bestandsnaam hieronder vastgelegd |
 
 ## Vervallen asset — AST-ROBOT-01 (niet gebruiken)
 
@@ -149,6 +152,24 @@ Controleer de originele bestanden één voor één, bevestig de rol van elke ref
 - **Gebruik:** uitdaging 2 heeft de figuren nodig in een leesbare raadselopstelling. Maak hun gezichten en silhouettes op iPhone-formaat herkenbaar; druktextuur mag belangrijke trekken niet verbergen.
 - **Status:** de vier beelden zijn referenties uit de chat en zijn nog niet als assets in de repository opgeslagen. De definitieve exports moeten afzonderlijk worden toegevoegd en daarna hier met exacte bestandsnamen worden geregistreerd.
 
+
+## Uploadklare hoofdrolfiguren — uitdaging 2
+
+De drie losse illustraties zijn aangeleverd en krijgen onderstaande stabiele asset-ID's en repositorypaden. Gebruik deze bestandsnamen exact wanneer de bestanden naar GitHub worden geüpload.
+
+| Asset-ID | Personage | Repositorypad / bestandsnaam |
+|---|---|---|
+| AST-CHARLIE-01 | Charlie | `assets/characters/charlie/AST-CHARLIE-01-charlie-screenprint.jpg` |
+| AST-RIDDERUS-01 | RidderUs | `assets/characters/ridderus/AST-RIDDERUS-01-ridderus-screenprint.jpg` |
+| AST-SCHILDJE-01 | Schildje | `assets/characters/schildje/AST-SCHILDJE-01-schildje-screenprint.jpg` |
+
+**Bestandsafspraken**
+- Formaat: JPEG zoals aangeleverd; de huidige beelden bevatten een crème papierachtergrond, dus ze zijn niet transparant.
+- Richtmaat: 1024 × 1536 px, staand.
+- ID's zijn stabiel en worden niet gewijzigd als later een export wordt vervangen.
+- Bij een latere transparante of opgeschoonde export krijgt die een aparte variantnaam, bijvoorbeeld `-transparent.png`; overschrijf het origineel niet stilzwijgend.
+- Deze versie is de gekozen karakterstijl: minimalistische vectorvormen met sterke, verweerde zeefdruktextuur.
+- Status: klaar om te uploaden, maar nog niet aanwezig als afbeeldingsbestand in de repository.
 
 ## Gekozen afwerking — karakterconceptsheet
 
