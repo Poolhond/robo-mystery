@@ -1,6 +1,6 @@
 # De mysterieuze fabriek — Beslissingen en open punten
 
-**Versie:** 1.6  
+**Versie:** 1.7  
 **Doel:** één betrouwbare plek voor besluiten en open punten, zodat de inhoud niet telkens opnieuw wordt bedacht.
 
 ## Vastgelegd
@@ -16,6 +16,7 @@
 | Verjaardagsboodschap | Na de feestknop feliciteren de speelgoedfiguren Wannes samen met een warme, speelse boodschap. De exacte tekst wordt later uitgewerkt. |
 | Echte verrassing na het spel | Na de digitale onthulling krijgt Wannes een korte opdracht die naar een echte verrassing leidt. De exacte formulering en eventuele bestemming worden later bepaald. |
 | Puzzelmoeilijkheid | Leuk uitdagend: Wannes moet nadenken en goed observeren. De moeilijkheid bouwt eerlijk op; hints helpen wanneer hij vastloopt. Geen puzzel mag de voortgang blokkeren. |
+| Speelduur — ontwerpbeslissing 15 | **Optie B — gebalanceerd.** Reken op ongeveer 2 minuten per hoofd uitdaging, met extra tijd voor de drie match-3-levels en de finale. De totale speelduur blijft een richtwaarde; puzzels mogen niet gehaast aanvoelen en hints moeten de voortgang toegankelijk houden. |
 | Thema | Een mysterieuze speelgoedfabriek met goocheltrucs, puzzels en raadsels |
 | Opbouw | Vrije verkenning van het laboratorium; uitdagingen 1–3 in zelfgekozen volgorde; uitdaging 4 is de grote deur en het slot |
 | Platform | Mobile-first webspel, GitHub Pages, geen account |
