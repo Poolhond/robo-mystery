@@ -63,9 +63,9 @@ De computer wordt de speelruimte; het spel verschijnt niet als een modern venste
 
 De monitor zelf toont één samenhangende, verticale spelcompositie:
 
-1. **Kop van het scherm:** een klein technisch label met de naam **ENERGIECIRCUIT 01**. De voortgang **0/8** en de resterende zetten **12** staan in grote, duidelijk leesbare cijfers. De voortgang is informatie, geen decoratie.
+1. **Kop van het scherm:** een klein technisch label met de naam **ENERGIECIRCUIT 01**. De voortgang **0/10** staat in grote, duidelijk leesbare cijfers. Er is geen zettenlimiet en geen tijdslimiet. De voortgang is informatie, geen decoratie.
 2. **Centrale speelruimte:** één compact raster met vier soorten fabriekssymbolen. Dit is het grootste en belangrijkste onderdeel van het scherm. Het bord moet op een iPhone in staande stand zichtbaar en bedienbaar blijven; belangrijke informatie mag niet buiten het scherm vallen.
-3. **Korte opdracht:** een kleine strook op de monitor toont: **VERZAMEL 8 RODE ENERGIECELLEN**. De opdracht blijft beschikbaar tijdens het spelen, maar mag het bord niet verdringen.
+3. **Korte opdracht:** een kleine strook op de monitor toont: **VERZAMEL 10 RODE ENERGIECELLEN**. De opdracht blijft beschikbaar tijdens het spelen, maar mag het bord niet verdringen.
 4. **Bediening:** een duidelijke `?`-knop voor hints. Een knop om het level opnieuw te starten mag bestaan, maar mag niet even dominant zijn als het bord of de opdracht. Opnieuw starten wist alleen de huidige levelpoging na een bewuste keuze.
 5. **Beloning:** de letter B wordt pas bij succes prominent getoond. Vóór succes kan er een kleine vaste verzamelstrook met de positie van de drie letters zichtbaar zijn: **_ _ _**. De strook maakt duidelijk dat de levelbeloningen samen één woord vormen, maar verklapt BAL niet vooraf.
 
@@ -89,11 +89,11 @@ Het bord bevat alleen de vier genoemde symbolen. De definitieve rasterafmetingen
 - Er is onmiddellijk minstens één geldige zet.
 - Een geldige zet betekent dat de verwisseling twee horizontaal of verticaal direct aangrenzende stukken betreft en een match van minstens drie gelijke stukken oplevert.
 - Het startbord bevat geen automatische match die al verdwijnt voordat Wannes een actie uitvoert.
-- Er bestaat een aantoonbaar haalbare route naar 8 rode energiecellen binnen de limiet van 12 zetten.
+- Het doel van 10 rode energiecellen is haalbaar zonder zettenlimiet.
 - De eerste kans is begrijpelijk zonder dat het spel automatisch een zet uitvoert.
 - Als het bord geen geldige zet meer heeft, wordt het op een gecontroleerde manier opnieuw geschud. Dit mag de verzamelde voortgang en resterende zetten niet willekeurig veranderen.
 
-De startmatrix wordt niet willekeurig gegenereerd zonder controle. Als nieuwe borden worden gebruikt, moet de game controleren op een mogelijke zet en op redelijke haalbaarheid. Het level mag niet door een ongelukkige willekeurige vulling onoplosbaar worden.
+Het speelbord start met een gecontroleerde beginopstelling, maar daarna worden nieuwe symbolen willekeurig aangevuld — niet volgens een vooraf vastgelegde of herhalende aanvulvolgorde. De willekeur moet echt zijn binnen de gekozen verdeling van de vier symbolen. De game controleert na het aanvullen of er geldige zetten mogelijk blijven; als er geen geldige zet meer is, wordt het bord opnieuw geschud zonder verzamelde energiecellen te verliezen. Omdat er geen zettenlimiet is, hoeft het spel geen vooraf bepaalde reeks zetten af te dwingen om het doel haalbaar te maken.
 
 #### 5. Spelregels tijdens het spelen
 
@@ -104,9 +104,9 @@ De startmatrix wordt niet willekeurig gegenereerd zonder controle. Als nieuwe bo
 5. Alleen verwijderde **rode energiecellen** verhogen de teller. Matches van tandwielen, bouten of kristallen tellen niet voor het doel, maar mogen het bord veranderen en nieuwe kansen creëren.
 6. De stukken erboven vallen naar beneden om de open vakken te vullen; nieuwe symbolen komen van boven het bord binnen.
 7. Als de vallende stukken nog een match veroorzaken, wordt die cascade verwerkt. De animatie blijft rustig en leesbaar: eerst verdwijnt de match, vervolgens vallen de stukken, daarna is de nieuwe toestand duidelijk. Er is geen snelle opeenstapeling van effecten die Wannes het overzicht ontneemt.
-8. De teller telt het aantal verzamelde rode energiecellen op en blijft altijd zichtbaar. Hij gaat niet terug wanneer later opnieuw rode cellen verschijnen.
-9. Het level eindigt onmiddellijk zodra de teller **8/8** bereikt. Er hoeft geen extra zet te worden gedaan en de resterende zetten zijn niet relevant voor de voltooiing.
-10. Er is geen timer, geen levenssysteem, geen straf en geen game-over. De resterende zetten geven alleen de puzzelstructuur aan. Als de limiet op is vóór het doel bereikt is, biedt het spel rustig aan om het level opnieuw te proberen; de algehele gamevoortgang of eerder verdiende letters worden niet gewist.
+8. De teller telt het aantal verzamelde rode energiecellen op en blijft altijd zichtbaar, van 0/10 tot 10/10. Hij gaat niet terug wanneer later opnieuw rode cellen verschijnen.
+9. Het level eindigt onmiddellijk zodra de teller **10/10** bereikt. Er hoeft geen extra actie te worden gedaan.
+10. Er is geen timer, geen zettenlimiet, geen levenssysteem, geen straf en geen game-over. Wannes mag rustig blijven spelen tot hij 10 rode energiecellen heeft verzameld. Hij hoeft het level niet opnieuw te starten omdat er te veel zetten zijn gebruikt.
 
 #### 6. Bewegings- en feedbackstijl
 
@@ -119,7 +119,7 @@ Alle reacties zijn kort en hebben een duidelijk doel. De animaties ondersteunen 
 - **Andere symbolen verdwijnen:** een eenvoudige korte verdwijnreactie in dezelfde stijl.
 - **Stukken vallen:** duidelijk van boven naar beneden, met een klein gevoel van gewicht. Geen overmatige stuiter.
 - **Cascade:** iedere volgende match volgt logisch op de vorige; Wannes krijgt visueel tijd om te begrijpen wat er gebeurt.
-- **Doel bereikt:** het circuit op de monitor licht op en de teller bereikt 8/8. Daarna sluit de hintweergave automatisch en speelt een korte succesanimatie af.
+- **Doel bereikt:** het circuit op de monitor licht op en de teller bereikt 10/10. Daarna sluit de hintweergave automatisch en speelt een korte succesanimatie af.
 
 #### 7. Hints voor dit level
 
@@ -138,7 +138,7 @@ Het paneel verschijnt direct onder de `?`-knop, is smal en gebruikt dezelfde ge�
 > **ENERGIECIRCUIT 01**  
 > De fabriek is uitgevallen. Verzamel 8 rode energiecellen om het eerste circuit opnieuw te starten. Verwissel aangrenzende stukken en maak rijen van minstens drie dezelfde symbolen.
 
-De tekst staat in een duidelijk paneel op de monitor en verdringt het bord niet. Zodra Wannes begint te spelen, blijft alleen de korte opdracht **VERZAMEL 8 RODE ENERGIECELLEN** als vaste herinnering zichtbaar.
+De tekst staat in een duidelijk paneel op de monitor en verdringt het bord niet. Zodra Wannes begint te spelen, blijft alleen de korte opdracht **VERZAMEL 10 RODE ENERGIECELLEN** als vaste herinnering zichtbaar.
 
 **Feedback bij een verwisseling die geen match maakt:** geen foutmeldingstekst; de stukken keren gewoon terug. Dit voorkomt overbodige meldingen en sluit aan bij de afgesproken visuele feedback bij fouten.
 
@@ -157,7 +157,7 @@ Een verlichte lijn loopt door het circuit op de monitor. De letter **B** wordt d
 #### 9. Wat er bij succes verandert
 
 - Het bord stopt en er worden geen nieuwe stukken meer toegevoegd.
-- De teller blijft op **8/8** staan.
+- De teller blijft op **10/10** staan.
 - Het circuit licht op met een korte, duidelijke animatie.
 - De letter **B** verschijnt als een stevig, grafisch metalen label dat past bij de computerillustratie.
 - De verzamelstrook verandert van **_ _ _** naar **B _ _**.
