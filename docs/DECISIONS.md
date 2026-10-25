@@ -48,7 +48,7 @@
 7. **Feesthandeling:** kies bijvoorbeeld een feestknop of lint.
 8. **Persoonlijke boodschap:** bepaal de exacte verjaardagsboodschap en wie er spreekt.
 9. **Spelnaam:** De mysterieuze fabriek is de gekozen werktitel. De definitieve titelvormgeving kan later nog worden uitgewerkt.
-10. **Kleurenset:** kies één definitieve set als enige bron. Er bestaan verschillende voorstellen in art direction en oudere prototypebestanden.
+10. **Kleurenset:** definitief gekozen palet (zie Art Direction): oud papier `#F3DDA8`, signaalrood `#D94330`, mosterdgeel `#E9B638`, donker petrol `#174B56`, bosgroen `#28513D`, inktzwart `#292A24`.
 11. **Lettertype:** systeemlettertypen met een zwaar, grafisch karakter; geen externe fonts.
 12. **Puntentelling:** beslis of score nodig is; voortgang mag nooit door score worden geblokkeerd.
 13. **Assets:** bepaal welke referentiebeelden gebruikt worden en voeg definitieve afbeeldingsbestanden echt toe aan de repository.
