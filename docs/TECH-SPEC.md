@@ -1,6 +1,6 @@
 # De mysterieuze fabriek — Technische specificatie
 
-**Versie:** 1.1  
+**Versie:** 1.2  
 **Status:** Dossier-specificatie vóór de bouw. Dit document legt de technische randvoorwaarden vast; het is geen toestemming om al spelcode te bouwen.  
 **Samenhang:** `docs/GAME-CONCEPT.md`, `docs/CHALLENGES.md`, `docs/DECISIONS.md` en `docs/ART-DIRECTION.md` zijn leidend voor respectievelijk spelverloop, puzzels, goedgekeurde ontwerpkeuzes en visuele stijl. Bij tegenstrijdigheid moet de afwijking eerst in het dossier worden opgelost.
 
@@ -80,7 +80,7 @@ Bewaar één versieerbaar statusobject. De definitieve interne namen mogen versc
 - huidige scherm en terugkeerlocatie in de werkplaats;
 - voltooiingsstatus van elk van de drie uitdagingen;
 - exacte voortgang per uitdaging, inclusief relevante deelstappen;
-- match-3-niveau, bord, zetten en reeds behaalde letters;
+- match-3-niveau, exacte bordstand, lopende animatie-/doelstatus en reeds behaalde letters; alle drie levels hebben geen zettenlimiet of timer;
 - locker-/logicapuzzelstappen, gevonden sleutel en ster-met-oog-aanwijzing;
 - bekerronde, aantal wissels en huidige positie van de rode bal;
 - invoerstatus van BAL en signaalrood, inclusief of de deur geopend is;
@@ -121,7 +121,7 @@ Deze regels zijn al goedgekeurd en mogen tijdens implementatie niet opnieuw ontw
 ## 7. Puzzelbetrouwbaarheid
 
 - De inhoudelijke regels en correcte oplossingen staan in `docs/CHALLENGES.md`; deze technische specificatie verandert ze niet.
-- Match-3-borden moeten oplosbaar zijn volgens de vastgelegde regels. Genereer geen onoplosbaar bord. Als er geen geldige zet bestaat, herstel of genereer het bord opnieuw op een gecontroleerde manier zonder eerder behaalde voortgang kwijt te raken.
+- Match-3-borden moeten oplosbaar zijn volgens de vastgelegde regels. Alle drie levels gebruiken een raster van 5 × 7, vier effen kleurvlakken zonder symbolen, willekeurige aanvulling en geen zettenlimiet, timer of straf. Genereer geen onoplosbaar bord. Als er geen geldige zet bestaat, schud het bord gecontroleerd opnieuw zonder eerder behaalde voortgang of verwijderde doelobjecten kwijt te raken.
 - Controleer een match en de resulterende toestand vóór die als voortgang wordt opgeslagen. Voorkom dubbele verwerking van één tik.
 - Bij bekers moet de actuele balpositie ondubbelzinnig worden bijgehouden; de animatie mag de logische positie niet wijzigen of verbergen.
 - Foute invoer geeft duidelijke feedback en wist geen eerder verdiende aanwijzingen of voltooide uitdagingen.
@@ -152,7 +152,7 @@ De implementatie is pas klaar wanneer alle onderstaande controles zijn geslaagd:
 
 1. **Start:** START opent de werkplaats; VERDER SPELEN verschijnt bij geldige opgeslagen voortgang; “Opnieuw beginnen” vraagt bevestiging.
 2. **Vrije volgorde:** de drie uitdagingen kunnen in iedere volgorde worden gespeeld.
-3. **Match-3:** alle drie niveaus zijn oplosbaar; correcte en ongeldige zetten geven passende feedback; behaalde letters en bordstatus blijven bewaard.
+3. **Match-3:** Level 1 verzamelt 10 rode energiecellen en geeft B; Level 2 verwijdert 5 houten kistjes en geeft A; Level 3 laat de gouden sleutel naar de uitgang onderaan vallen en geeft L. Alle drie gebruiken 5 × 7 en hebben geen zettenlimiet of timer; geldige/ongeldige zetten, animaties, aanvulling, cascades en herstel werken correct; letters en exacte bordstatus blijven bewaard.
 4. **Locker:** code 042, personagelogica, kistlogica, sleutel en ster-met-oog volgen exact het uitdagingen-dossier.
 5. **Bekers:** de drie rondes volgen de vastgelegde wisselaantallen; de balpositie en ronde blijven correct na terugkeer en herladen.
 6. **Deur:** kan vroeg worden bekeken maar opent niet vóór voltooiing van alle uitdagingen; correcte combinatie opent de deur, foutieve combinatie wist geen voortgang.
