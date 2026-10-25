@@ -1,6 +1,6 @@
 # De mysterieuze fabriek — Beslissingen en open punten
 
-**Versie:** 3.1  
+**Versie:** 3.2  
 **Doel:** één betrouwbare plek voor goedgekeurde besluiten en open punten, zodat de inhoud niet telkens opnieuw wordt bedacht.
 
 ## Dossierstatus en bronvolgorde
@@ -23,6 +23,7 @@ Bronvolgorde: (1) dit beslissingsdocument voor goedkeuring/open status, (2) `CHA
 | Finalehandeling | Wannes drukt op een grote rode feestknop. Die activeert de lichtjes en confetti en vormt de laatste interactieve handeling van het spel. |
 | Verjaardagsboodschap | Na de feestknop feliciteren de speelgoedfiguren Wannes samen met een warme, speelse boodschap. De exacte tekst wordt later uitgewerkt. |
 | Echte verrassing na het spel | Na de digitale onthulling krijgt Wannes een korte opdracht die naar een echte verrassing leidt. De exacte formulering en eventuele bestemming worden later bepaald. |
+| Voortgang zichtbaar maken — ontwerpbeslissing 20 | **Optie A — alleen het voorwerp verandert.** Na voltooiing krijgt het bestaande voorwerp een subtiele visuele verandering die de voortgang toont. Geen extra sterretjes, badges of interface-elementen op de werkplaats. |
 | Beloning na een uitdaging — ontwerpbeslissing 19 | **Optie C — alleen visueel.** Na het oplossen verschijnt een korte, sobere succesanimatie in de verweerde zeefdrukstijl. De verdiende letter of aanwijzing blijft zichtbaar als bewijs van voortgang. Geen geluidseffect nodig. |
 | Puzzelmoeilijkheid | Leuk uitdagend: Wannes moet nadenken en goed observeren. De moeilijkheid bouwt eerlijk op; hints helpen wanneer hij vastloopt. Geen puzzel mag de voortgang blokkeren. |
 | Speelduur — ontwerpbeslissing 15 | **Optie B — gebalanceerd.** Reken op ongeveer 2 minuten per hoofd uitdaging, met extra tijd voor de drie match-3-levels en de finale. De totale speelduur blijft een richtwaarde; puzzels mogen niet gehaast aanvoelen en hints moeten de voortgang toegankelijk houden. |
