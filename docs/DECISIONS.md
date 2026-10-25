@@ -1,6 +1,6 @@
 # De mysterieuze fabriek — Beslissingen en open punten
 
-**Versie:** 1.1  
+**Versie:** 1.2  
 **Doel:** één betrouwbare plek voor besluiten en open punten, zodat de inhoud niet telkens opnieuw wordt bedacht.
 
 ## Vastgelegd
@@ -11,6 +11,7 @@
 | Speler | Wannes (12), speelt het spel op zijn verjaardag zelf |
 | Hoofdpersonage | Wannes onderzoekt de ruimte zelf; er is geen bestuurbaar hoofdpersonage |
 | Feest | De onthulling aan het einde is voor Wannes |
+| Finale-onthulling | De deur zwaait open en onthult een verborgen verjaardagsfeest met de speelgoedfiguren, slingers, confetti en warm licht. De sfeer verschuift van mysterie naar een warme, feestelijke verrassing. |
 | Thema | Een mysterieuze speelgoedfabriek met goocheltrucs, puzzels en raadsels |
 | Opbouw | Vrije verkenning van het laboratorium; uitdagingen 1–3 in zelfgekozen volgorde; uitdaging 4 is de grote deur en het slot |
 | Platform | Mobile-first webspel, GitHub Pages, geen account |
