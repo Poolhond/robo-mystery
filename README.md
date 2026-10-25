@@ -47,9 +47,9 @@ Bij een tegenstrijdigheid tussen documenten mag de ontwikkelaar geen goedgekeurd
 
 ## Assets: huidige stand
 
-De negen bestaande afbeeldingsbestanden zijn nu geordend onder de afgesproken `assets/`-mappen. De oorspronkelijke Git-blobs en bestandsnamen zijn behouden; de dubbele extensies zijn bewust niet opgeschoond omdat het werkelijke bestandstype nog moet worden gecontroleerd. De mechanische vogel blijft buiten de goedgekeurde spelcompositie.
+De negen bestaande afbeeldingsbestanden zijn geordend onder de afgesproken `assets/`-mappen en hebben nu gewone `.png`-bestandsnamen. Michel heeft bevestigd dat het PNG-bestanden zijn. Alleen de paden en namen zijn gewijzigd; de bestaande beeldbytes zijn behouden. De mechanische vogel blijft buiten de goedgekeurde spelcompositie.
 
-Volgende assetstap: controleer de werkelijke bestandstypen, afmetingen en visuele inhoud. Verwijder, converteer of overschrijf geen origineel voordat een gecontroleerde variant is gevalideerd.
+Volgende assetstap: controleer de afmetingen, transparantie en visuele inhoud en bepaal welke assets nog ontbreken. De bestaande afbeeldingen zijn niet geconverteerd of overschreven.
 
 ## Waarom er nog geen gamecode is
 

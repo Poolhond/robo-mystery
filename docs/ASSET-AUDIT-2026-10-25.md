@@ -4,21 +4,21 @@
 
 De negen bestaande afbeeldingsbestanden zijn nu geordend in de afgesproken `assets/`-mappen. De bestanden zijn als bestaande Git-blobs verplaatst: de afbeeldingsbytes zijn niet opnieuw opgeslagen, geconverteerd of overschreven. De oude rootpaden zijn uit de huidige versie van de repository verwijderd.
 
-De oorspronkelijke bestandsnamen zijn bewust behouden, inclusief de verwarrende dubbele extensies zoals `.jpg.PNG` en `.png.PNG`. Die namen bewijzen niet wat het werkelijke bestandstype is. Controleer de bytes en beeldafmetingen tijdens de zelfstandige technische assetcontrole; pas daarna mogen extensies worden opgeschoond. Bewaar de originele bestanden totdat de gecontroleerde bestanden correct openen.
+De oorspronkelijke bestandsnamen zijn bewust behouden, inclusief de verwarrende oude dubbele extensies zoals `.jpg.PNG` en `.png.PNG`. Die namen bewijzen niet wat het PNG-formaat is. Controleer de bytes en beeldafmetingen tijdens de zelfstandige technische assetcontrole; pas daarna mogen extensies worden opgeschoond. Bewaar de originele bestanden totdat de gecontroleerde bestanden correct openen.
 
 ## Huidige bestanden en paden
 
 | Huidig repositorypad | Asset | Status / volgende actie |
 |---|---|---|
-| `assets/characters/charlie/AST-CHARLIE-01-charlie-screenprint.jpg.PNG` | Charlie | Verplaatst zonder bestandsinhoud te wijzigen; werkelijk formaat en visuele overeenkomst controleren |
-| `assets/characters/ridderus/AST-RIDDERUS-01-ridderus-screenprint.jpg.PNG` | RidderUs | Verplaatst zonder bestandsinhoud te wijzigen; werkelijk formaat en visuele overeenkomst controleren |
-| `assets/characters/schildje/AST-SCHILDJE-01-schildje-screenprint.jpg.PNG` | Schildje | Verplaatst zonder bestandsinhoud te wijzigen; werkelijk formaat en visuele overeenkomst controleren |
-| `assets/title-screen/AST-TITLE-01-title-poster.jpg.PNG` | Titelposter | Verplaatst; werkelijke bestandstype en definitieve export controleren |
-| `assets/rooms/control-room/AST-ROOM-01-control-room-reference.png.PNG` | Goedgekeurde controlekamerreferentie | Verplaatst; werkelijke bestandstype controleren. Gebruik als vaste kamercompositie |
-| `assets/decor/AST-DECOR-01-red-heart.png.PNG` | Rood hart | Verplaatst; bestandstype en definitieve export controleren |
-| `assets/decor/AST-DECOR-02-birdhouse.png.PNG` | Vogelhuisje met vogel | Verplaatst; bestandstype en visuele overeenkomst controleren |
-| `assets/decor/AST-DECOR-03-mechanical-bird.png.PNG` | Mechanische vogel | Veilig bewaard als asset, maar niet in de spelcompositie gebruiken zonder expliciete goedkeuring |
-| `assets/decor/AST-DECOR-04-pitcher-terrarium.png.PNG` | Vleesetende bekerplant | Verplaatst; bestandstype en definitieve export controleren |
+| `assets/characters/charlie/AST-CHARLIE-01-charlie-screenprint.png` | Charlie | Verplaatst zonder bestandsinhoud te wijzigen; werkelijk formaat en visuele overeenkomst controleren |
+| `assets/characters/ridderus/AST-RIDDERUS-01-ridderus-screenprint.png` | RidderUs | Verplaatst zonder bestandsinhoud te wijzigen; werkelijk formaat en visuele overeenkomst controleren |
+| `assets/characters/schildje/AST-SCHILDJE-01-schildje-screenprint.png` | Schildje | Verplaatst zonder bestandsinhoud te wijzigen; werkelijk formaat en visuele overeenkomst controleren |
+| `assets/title-screen/AST-TITLE-01-title-poster.png` | Titelposter | Verplaatst; PNG-formaat en definitieve export controleren |
+| `assets/rooms/control-room/AST-ROOM-01-control-room-reference.png` | Goedgekeurde controlekamerreferentie | Verplaatst; PNG-formaat controleren. Gebruik als vaste kamercompositie |
+| `assets/decor/AST-DECOR-01-red-heart.png` | Rood hart | Verplaatst; bestandstype en definitieve export controleren |
+| `assets/decor/AST-DECOR-02-birdhouse.png` | Vogelhuisje met vogel | Verplaatst; bestandstype en visuele overeenkomst controleren |
+| `assets/decor/AST-DECOR-03-mechanical-bird.png` | Mechanische vogel | Veilig bewaard als asset, maar niet in de spelcompositie gebruiken zonder expliciete goedkeuring |
+| `assets/decor/AST-DECOR-04-pitcher-terrarium.png` | Vleesetende bekerplant | Verplaatst; bestandstype en definitieve export controleren |
 
 ## Wat is uitgevoerd
 
