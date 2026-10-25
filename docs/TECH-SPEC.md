@@ -15,7 +15,7 @@ style.css           # alle stijlen en kleurvariabelen
 game.js             # spelogica
 content.js          # alle teksten, raadsels, antwoorden, personalisatie
 assets/
-  characters/       # aap, schildpad, panda, octopus, vogel (geen robot)
+  characters/       # aap, schildpad, panda, octopus en signaalvogel
   rooms/            # laboratorium en andere scènes
   ui/               # knoppen, kaders, iconen, texturen
   audio/            # (optioneel) geluiden
