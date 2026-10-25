@@ -1,6 +1,6 @@
 # De mysterieuze fabriek — Beslissingen en open punten
 
-**Versie:** 4.5  
+**Versie:** 4.6  
 **Doel:** één betrouwbare plek voor goedgekeurde besluiten en open punten, zodat de inhoud niet telkens opnieuw wordt bedacht.
 
 ## Dossierstatus en bronvolgorde
@@ -21,8 +21,8 @@ Bronvolgorde: (1) dit beslissingsdocument voor goedkeuring/open status, (2) `CHA
 | Feest | De onthulling aan het einde is voor Wannes |
 | Finale-onthulling | De deur zwaait open en onthult een verborgen verjaardagsfeest met de speelgoedfiguren, slingers, confetti en warm licht. De sfeer verschuift van mysterie naar een warme, feestelijke verrassing. |
 | Finalehandeling | Wannes drukt op een grote rode feestknop. Die activeert de lichtjes en confetti en vormt de laatste interactieve handeling van het spel. |
-| Verjaardagsboodschap | Na de feestknop feliciteren de speelgoedfiguren Wannes samen met een warme, speelse boodschap. De exacte tekst wordt later uitgewerkt. |
-| Echte verrassing na het spel | Na de digitale onthulling krijgt Wannes een korte opdracht die naar een echte verrassing leidt. De exacte formulering en eventuele bestemming worden later bepaald. |
+| Verjaardagsboodschap — ontwerpbeslissing 34 | Na het indrukken van de feestknop verschijnt in het rustige eindbeeld de persoonlijke boodschap: **“Proficiat Wannes! Dat verdient een cadeau.”** De boodschap is kort, duidelijk en vormt de overgang naar de echte verrassing. |
+| Echte verrassing na het spel | De persoonlijke boodschap “Proficiat Wannes! Dat verdient een cadeau.” wijst erop dat er een echt cadeau volgt. Er is geen extra opdracht of raadsel nodig in het eindbeeld. |
 | Duur van de finale — ontwerpbeslissing 33 | **Optie C — onthulling en rustig eindbeeld.** Na de druk op de feestknop springen de lichten aan en volgt een korte feestelijke animatie met confetti. Daarna wordt de scène rustiger; de speelgoedfiguren en de verjaardagsboodschap blijven duidelijk zichtbaar. Geen verdere actie is nodig. |
 | Geluid — ontwerpbeslissing 32 | **Optie A — helemaal geen geluid.** Het spel gebruikt uitsluitend beeld, beweging en animatie. Geen geluidseffecten en geen achtergrondmuziek, ook niet in de finale. De feestelijke onthulling moet volledig visueel werken. |
 | Deuropening en finale — ontwerpbeslissing 31 | **Optie C, met aangepaste timing.** Zodra de combinatie klopt, zwaait de grote deur open, maar de feestzaal erachter is nog donker en stil. De grote rode feestknop is zichtbaar. Pas wanneer Wannes erop drukt, springen de lichten aan en barst het feest los met confetti en de speelgoedfiguren. De knop is de laatste interactieve handeling van het spel. |
