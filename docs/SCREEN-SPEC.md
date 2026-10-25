@@ -174,10 +174,10 @@ De gewone hint 3 blijft een laatste denkstap en verklapt het antwoord niet. De e
 
 ## 5. Open verificaties — niet stilzwijgend als afgerond markeren
 
-1. **Match-3:** de exacte drie startmatrices moeten worden vastgelegd en met een solver/testprocedure op oplosbaarheid worden gecontroleerd volgens de gekozen spelregels. De huidige doelen zijn nog geen bewijs van oplosbaarheid; er zijn geen zetlimieten.
+1. **Match-3 — verantwoordelijkheid ontwikkelaar:** de ontwikkelaar genereert tijdens de bouw geldige, speelbare beginborden en test de cascades en herstelpaden. Het vooraf vastleggen van vaste matrices of apart solverbewijs is geen dossiervereiste.
 2. **Bekers:** concrete wisselroutes en snelheden moeten op iPhone-portret worden getest; elke animatie moet dezelfde permutatie opleveren als de interne logica.
 3. **Visuele compositie:** exacte klikzones en plaatsing van de vier hoofdobjecten en drie easter eggs moeten nog worden vastgelegd.
-4. **Assets:** werkelijke bestandstypen en definitieve locaties moeten worden gecontroleerd voordat de schermen aan specifieke afbeeldingen worden gekoppeld.
+4. **Assets — gecontroleerd door Michel:** gebruik de aanwezige assets op de bestaande repositorypaden en volgens het assetregister. De ontwikkelaar bepaalt tijdens de bouw hoe ze passend worden geschaald en in scènes verwerkt; herhaal de visuele controle niet.
 5. **Hintconsistentie — GECONTROLEERD:** de drie gewone hints zijn gescheiden van **TOON OPLOSSING** in de puzzelbeschrijvingen. Hint 3 blijft een denkstap of extra hulp; de exacte actie of het exacte antwoord verschijnt pas na bevestiging. De bijbehorende oplossingshulp is vastgelegd in CHALLENGES.md en dit document. Bij technische bouw moet worden getest dat de interface deze scheiding volgt.
 
 ## 6. Bouwstop
