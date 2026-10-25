@@ -1,6 +1,6 @@
-# ROBO MYSTERY
+# De mysterieuze fabriek
 
-Persoonlijk verjaardagsmysterie voor **Wannes (12)**: een goocheltrucs-avontuur in een handgemaakte speelgoedwereld. Wannes onderzoekt zelf het speelgoedlaboratorium en ontdekt uiteindelijk het verjaardagsfeest dat voor hem is voorbereid.
+Persoonlijk verjaardagsmysterie voor **Wannes (12)**: een avontuur in een mysterieuze speelgoedfabriek vol goocheltrucs, puzzels en raadsels. Wannes onderzoekt zelf het speelgoedlaboratorium en ontdekt uiteindelijk het verjaardagsfeest dat voor hem is voorbereid.
 
 ## Huidige fase
 
