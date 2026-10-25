@@ -108,7 +108,7 @@ Bronvolgorde: (1) dit beslissingsdocument voor goedkeuring/open status, (2) `CHA
 | Vrije verkenning | Wannes kiest zelf de volgorde van uitdagingen 1, 2 en 3. Hij kan uitdaging 4 vanaf het begin ontdekken, maar de deur opent pas als alle drie voltooid zijn en woord/kleur juist zijn |
 | Tussentijdse voortgang | Elke uitdaging kan worden onderbroken en hervat vanaf de exacte deelstap; opgeloste puzzels, bordstanden, relevante rondevoortgang, beloningen en slotinvoer blijven bewaard. Eén vaste terugknop brengt Wannes terug naar exact dezelfde controlekamer. Bij terugkeer blijft alle onafgewerkte voortgang bewaard, zodat hij later op exact dezelfde deelstap verdergaat. |
 | Opslaan | Lokale voortgang wordt na elke betekenisvolle actie opgeslagen; herladen of later terugkomen mag geen voortgang wissen |
-| Karakterset uitdaging 2 | **Charlie, RidderUs en Schildje** zijn de vastgelegde karakterset voor het raadsel. De bijbehorende bestanden staan inmiddels in de repository-root, maar bestandstype, visuele overeenkomst en definitieve goedkeuring moeten nog worden gecontroleerd. Belangrijk: `CHALLENGES.md` gebruikt momenteel de aap, panda en schildpad in het logische raadsel; de koppeling tussen die rollen en de goedgekeurde karakterset is nog niet opgelost. Zie `docs/ASSET-REGISTER.md`. |
+| Karakterset uitdaging 2 | **Charlie, RidderUs en Schildje** zijn de drie personages in het sleutelraadsel. Charlie is de aap en heeft de sleutel; RidderUs zegt “Ik heb de sleutel niet”; Schildje zegt “Charlie heeft de sleutel niet”. De panda hoort niet bij dit raadsel: die piept alleen even uit een lade als optionele easter egg en is aanwezig op het verjaardagsfeest. De losse bestanden staan in de repository-root, maar bestandstype, visuele overeenkomst en definitieve goedkeuring moeten nog worden gecontroleerd. Zie `docs/ASSET-REGISTER.md`. |
 | Karakterafwerking — optie A | Gekozen: sterke, uitgesproken verweerde jarenzeventig-zeefdruk met zichtbare korrel, inktspikkels, slijtage en subtiele drukregistratie. Herkenbare gezichtsdetails en silhouetten blijven helder. De groepssheet is alleen een conceptreferentie; losse karakterassets moeten apart worden beoordeeld. |
 | Bouwstatus | Oude prototypecode is niet bruikbaar als basis; er wordt geen gamecode gebouwd vóór goedkeuring van het volledige dossier |
 
@@ -162,3 +162,8 @@ Geef assets consistente namen en leg per bestand vast voor welke scène het dien
 - De oude index.html-prototypecode wordt verwijderd en mag niet als basis voor de nieuwe game worden gebruikt.
 - Er is geen robotpersonage; de oude robotasset is vervallen en mag niet in de game worden gebruikt.
 - Er wordt geen nieuwe gamecode gebouwd zolang het volledige ontwerpdossier niet is goedgekeurd.
+
+
+## Vastgelegde verduidelijking — personageverdeling uitdaging 2
+
+**Optie B bevestigd door Michel:** het sleutelraadsel gebruikt Charlie (aap), RidderUs en Schildje (schildpad). Charlie heeft de sleutel. De panda is geen deelnemer aan het raadsel; hij piept alleen even uit de schuif/lade als optionele easter egg en is ook aanwezig op het verjaardagsfeest in de finale. Deze rolverdeling is beslist en mag niet opnieuw als open keuze worden behandeld.
