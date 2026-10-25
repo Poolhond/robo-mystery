@@ -86,7 +86,7 @@ De bestanden in `assets/` zijn **geen letterlijke inventaris van wat er in het s
 De volgende lijst beschrijft assets die inhoudelijk nodig kunnen zijn voor de huidige uitdagingen. Ze zijn niet automatisch al als bestanden aanwezig in de repository. Definitieve selectie en prioriteit volgen na het uitwerken van de laboratoriumroute.
 
 - Match-3-symbolen: rode energiecel, geel tandwiel, blauwe bout, groen kristal, houten kistje en gouden energiesleutel.
-- Uitdaging 2: codepaneel, geheim deurtje, messing sleutel, aap, panda, schildpad, drie gekleurde kistjes en de ster-met-oog-aanwijzing in het rode kistje.
+- Uitdaging 2: codepaneel, geheim deurtje, messing sleutel, aap, panda, schildpad, drie gekleurde kistjes en een klein, plat vintage gedrukt kaartje met de ster-met-oog-aanwijzing in het rode kistje. Het kaartje is een benodigde spelasset; ontwerp/generatie gebeurt tijdens de bouw.
 - Uitdaging 3: goocheltafel, drie bekers, rood balletje en kleurstaal voor signaalrood.
 - Uitdaging 4: grote deur, leeg symboolvenster, ster-met-oog-status, woordveld, gelabelde kleurstalen en OPEN DE DEUR-knop.
 - Finale: feestomgeving, confetti/lichtaccenten en de personages die daadwerkelijk in de finale worden gebruikt.
