@@ -314,35 +314,143 @@ De tandwielen op het monitorpaneel komen met een korte illustratieve beweging op
 
 ### Level 3 — De geheime uitgang
 
-**Verhaal:** het laatste circuit zit achter een afgesloten luik. De sleutelvormige energiecapsule moet naar de uitgang onderaan het bord vallen.
+**Status:** inhoudelijke levelbeschrijving; nog geen gamecode. Dit level bouwt verder op dezelfde match-3-basis als Level 1 en Level 2. De spelpresentatie, bediening, raster, kleuren, animaties, hints, opslag en algemene regels blijven gelijk. Het nieuwe doel is om de **gouden energiesleutel naar de uitgang onderaan het bord te laten vallen**.
 
-**Doel:** laat de **gouden energiesleutel** naar de uitgang onderaan het bord vallen binnen **16 zetten**.
+#### 1. Verhaal en bedoeling
 
-**Bord en regels:**
-- De sleutel is een speciaal doelobject bovenaan het raster; ze is niet verwisselbaar met gewone symbolen.
-- De sleutel zakt naar beneden wanneer de vakjes eronder door matches worden vrijgemaakt. Symbolen die verdwijnen maken ruimte; de sleutel valt mee met de zwaartekracht van het bord.
-- Het level heeft een duidelijk gemarkeerde uitgang onderaan, zodat Wannes begrijpt waar de sleutel naartoe moet.
-- Gewone matches zijn nodig om de route vrij te maken. Een match vlak onder de sleutel is vaak nuttig, maar het bord moet meerdere haalbare zetten bieden.
-- De voortgang wordt visueel getoond met de sleutel en de uitgang; er hoeft geen ingewikkelde score te zijn.
-- Het level eindigt zodra de sleutel de uitgang bereikt. Wannes kan zelf een hint vragen via de `?`-knop of bewust kiezen om het bord opnieuw te proberen.
-- De sleutel moet tijdens vallen zichtbaar blijven en mag niet achter effecten of interface-elementen verdwijnen.
+De eerste twee delen van de fabriek zijn hersteld. Het laatste circuit is echter nog afgesloten. Een gouden energiesleutel zit vast bovenaan het circuit. Wannes moet de kleurvlakken eronder met matches verwijderen zodat de sleutel door het bord naar de uitgang onderaan kan zakken.
 
-**Hintladder:**
-1. Subtiel: de vakjes direct onder de sleutel lichten kort op.
-2. Duidelijker: het spel zegt: “Maak ruimte onder de sleutel, dan kan ze naar beneden vallen.”
-3. Expliciet: een geldige match die ruimte onder de sleutel maakt, wordt aangeduid.
+Dit level draait niet om een kleur verzamelen of kistjes opruimen. Wannes maakt matches van minstens drie gelijke effen kleurvlakken om ruimte te maken in de kolom onder de sleutel. De sleutel is een doelobject en geen gewoon speelstuk.
 
-**Introductietekst op het scherm:**
-> “Daar is de energiesleutel! Maak de vakjes onder haar vrij en laat de sleutel naar de uitgang vallen.”
+Wanneer de sleutel de uitgang bereikt, verdient Wannes de letter **L**. De letterstrook wordt **B A L** en vormt het woord dat hij later nodig heeft bij de grote deur.
 
-**Foutfeedback:**
-- Ongeldige verwisseling: “Geen match deze keer. Zoek een combinatie die ruimte maakt.”
-- Match elders: “Goed! Kijk nu of je ook ruimte onder de sleutel kunt vrijmaken.”
+#### 2. Wat Wannes op het iPhone-scherm ziet
+
+De computer blijft de speelruimte. De camera zoomt in op dezelfde retro-computermonitor als in Level 1 en Level 2. De metalen behuizing, knoppen, schroeven en kabels blijven zichtbaar. Het spel blijft geïntegreerd in de verweerde jarenzeventig-zeefdrukstijl en verschijnt niet als een los modern gamevenster.
+
+De verticale spelcompositie blijft dezelfde als bij de vorige twee levels:
+
+1. **Kop van het scherm:** het label **GEHEIME UITGANG 03** en een duidelijke illustratie van de gouden energiesleutel.
+2. **Centrale speelruimte:** hetzelfde vaste raster van **5 kolommen × 7 rijen** (35 vakken).
+3. **Doel en uitgang:** de sleutel begint bovenaan het raster. Onderaan is een duidelijk herkenbare uitgang gemarkeerd. De kolom waarin de sleutel zich bevindt en de route naar beneden moeten in één oogopslag te begrijpen zijn.
+4. **Korte opdracht:** **LAAT DE GOUDEN SLEUTEL NAAR DE UITGANG VALLEN** blijft zichtbaar tijdens het spelen.
+5. **Bediening:** dezelfde hintknop met vraagteken en dezelfde terugknop. Er is geen zettenlimiet en geen tijdslimiet. Als opnieuw starten beschikbaar is, vraagt het spel eerst om bevestiging en wordt alleen de huidige levelpoging gereset.
+6. **Beloning:** de letter L verschijnt pas wanneer de sleutel de uitgang bereikt. De letterstrook toont vooraf **B A _** en na succes **B A L**.
+
+Gebruik hetzelfde goedgekeurde kleurpalet: oud papier `#F3DDA8`, signaalrood `#D94330`, mosterdgeel `#E9B638`, donker petrol `#174B56`, bosgroen `#28513D` en inktzwart `#292A24`. De gouden sleutel mag een gedrukte mosterdgele/goudkleurige vorm krijgen met een donkere contour; geen glanzende 3D-metaalrender of gradient. Alle tekst en het doel blijven goed leesbaar.
+
+#### 3. Speelstukken, sleutel en uitgang
+
+De gewone speelstukken blijven dezelfde **effen kleurvlakken zonder symbolen of pictogrammen** als in Level 1 en Level 2:
+
+- Signaalrood.
+- Mosterdgeel.
+- Donker petrol/blauw.
+- Bosgroen.
+
+Gewone kleurvlakken zijn verwisselbaar en hebben een sobere, duidelijke rand. Ze bevatten geen letters, symbolen, pictogrammen of illustraties.
+
+De **gouden energiesleutel** is het enige speciale doelobject. Ze is visueel duidelijk te onderscheiden van de kleurvlakken, blijft tijdens het vallen zichtbaar en kan niet worden geselecteerd of verwisseld. De sleutel neemt één rasterpositie in en valt uitsluitend verticaal naar beneden wanneer de route onder haar vrij is. De **uitgang** is duidelijk onderaan het raster aangeduid en is geen gewoon speelvak of verwisselbaar object.
+
+#### 4. Bord en beginsituatie
+
+Het bord gebruikt hetzelfde vaste raster als de vorige levels: **5 kolommen × 7 rijen**, in totaal 35 vakken. De rasterafmeting verandert niet.
+
+De beginsituatie bevat gewone kleurvlakken en één gouden energiesleutel bovenaan het bord. De uitgang bevindt zich onderaan in dezelfde kolom als de sleutel. De exacte beginmatrix wordt later technisch vastgelegd en getest. De beginsituatie moet aan de volgende voorwaarden voldoen:
+
+- Er is vanaf de start minstens één geldige zet.
+- Er zijn geen automatische matches voordat Wannes zelf een zet uitvoert.
+- De sleutel begint bovenaan en de uitgang bevindt zich onderaan dezelfde kolom.
+- De sleutel kan de uitgang bereiken door geldige matches en zwaartekracht; er is geen verborgen handeling of speciale knop nodig.
+- Het bord biedt meer dan één haalbare zet, zodat Wannes niet afhankelijk is van één onduidelijke verplichte zet.
+- De startopstelling is uitdagend genoeg om het doel te begrijpen en te plannen, maar niet onnodig moeilijk.
+- Als het bord geen geldige zet meer heeft, wordt het gecontroleerd opnieuw geschud zonder de sleutelpositie, de uitgang of de voortgang onbedoeld te veranderen.
+
+Na de gecontroleerde beginopstelling worden nieuwe kleurvlakken willekeurig aangevuld, niet volgens een vooraf vastgelegde of herhalende aanvulvolgorde. Na aanvullen controleert het spel of er geldige zetten mogelijk zijn. Als die ontbreken, wordt het bord opnieuw geschud. De sleutel blijft een afzonderlijk doelobject en wordt niet willekeurig opnieuw geplaatst.
+
+#### 5. Spelregels tijdens het spelen
+
+1. Wannes tikt een kleurvlak aan en daarna een direct aangrenzend kleurvlak, horizontaal of verticaal.
+2. Alleen een verwisseling die een match van minstens drie gelijke kleurvlakken oplevert, is geldig.
+3. Als de verwisseling geen match oplevert, keren de twee vlakken terug naar hun oorspronkelijke plaats. Er wordt geen straf of foutmeldingstekst getoond.
+4. Bij een geldige match verdwijnen de drie of meer gelijke kleurvlakken.
+5. Wanneer een match vakjes onder de sleutel vrijmaakt, valt de sleutel zichtbaar naar beneden door de vrijgekomen ruimte. Ze valt zo ver als de ononderbroken route onder haar toelaat.
+6. De sleutel valt niet door kleurvlakken die nog op het bord liggen en wordt niet zijwaarts verplaatst door gewone zwaartekracht.
+7. De kleurvlakken boven lege vakken vallen naar beneden en nieuwe kleurvlakken komen van boven het raster binnen. De sleutel blijft op haar actuele positie tenzij er ruimte onder haar vrijkomt.
+8. Als het aanvullen een nieuwe match oplevert, wordt die als cascade verwerkt. Nadat de cascade is afgehandeld, wordt opnieuw gecontroleerd of de sleutel verder naar beneden kan vallen.
+9. De sleutel mag niet verdwijnen achter een vallend kleurvlak, een animatie of een interface-element. De speler moet haar actuele positie tijdens elke stap kunnen volgen.
+10. Er is geen zettenlimiet, timer, levenssysteem, straf of game-over. Wannes mag rustig proberen tot de sleutel de uitgang bereikt.
+11. Het level eindigt zodra de sleutel de uitgang onderaan bereikt. Er is geen extra actie nodig.
+
+#### 6. Bewegings- en feedbackstijl
+
+De animaties volgen dezelfde duidelijke, stapsgewijze aanpak als Level 1 en Level 2:
+
+- **Kleurvlak aangetikt:** een korte, duidelijke selectie-indicatie.
+- **Ongeldige verwisseling:** de vlakken schuiven soepel terug; geen straf en geen foutmeldingstekst.
+- **Geldige verwisseling:** de vlakken wisselen zichtbaar van plaats.
+- **Match:** de betrokken kleurvlakken krijgen eerst een korte gezamenlijke nadruk, zodat Wannes ziet welke combinatie telt.
+- **Kleurvlakken verdwijnen:** de vlakken lossen zichtbaar op of worden met een korte drukinkt-/energieflits uit het bord gehaald.
+- **Sleutel valt:** de sleutel beweegt zichtbaar en vloeiend naar beneden, blijft tijdens de hele beweging in beeld en stopt duidelijk wanneer ze door een gevuld vak wordt tegengehouden of de uitgang bereikt.
+- **Vallen en aanvullen:** gewone kleurvlakken zakken zichtbaar in lege vakken; nieuwe vlakken komen van boven binnen. Ze teleporteren niet.
+- **Cascade:** de huidige beweging wordt eerst afgerond en de nieuwe bordstand blijft even leesbaar voordat een volgende match wordt geaccentueerd. Daarna wordt de positie van de sleutel opnieuw gecontroleerd.
+- **Doel bereikt:** de sleutel valt in de uitgang, de uitgang licht op en het circuit komt tot leven. Daarna speelt de succesanimatie af.
+
+Animaties moeten begrijpelijk blijven op iPhone in staande stand. De sleutelbeweging is een belangrijk onderdeel van het spelmechanisme en mag niet te snel verlopen of door andere effecten worden verborgen.
+
+#### 7. Hints voor dit level
+
+De hintbediening en het gedrag van het paneel zijn hetzelfde als in Level 1 en Level 2. Hints verschijnen alleen als Wannes zelf op de hintknop tikt. De hintvoortgang wordt voor dit scherm bewaard; bij terugkeer ziet hij de laatst bekeken hint. Het paneel blijft open tot Wannes opnieuw op de hintknop tikt en sluit automatisch bij succes. De oplossingshint voert nooit zelf een zet uit.
+
+- **Hint 1 — subtiel:** laat de vakjes direct onder de sleutel kort pulseren. Tekst: **“Kijk eens wat er onder de gouden sleutel zit.”**
+- **Hint 2 — duidelijker:** tekst: **“Maak ruimte onder de sleutel, dan kan ze naar beneden vallen.”** De relevante vakjes of een mogelijke match eronder mogen kort oplichten.
+- **Hint 3 — oplossing:** na bevestiging tekst: **“Tik eerst op het kleurvlak dat ik heb omlijnd en daarna op het aangrenzende kleurvlak dat ook oplicht. Zo maak je ruimte onder de sleutel.”** De twee betrokken vlakken krijgen een dunne pulserende contour die blijft staan tot Wannes de aangegeven actie uitvoert.
+
+Na hint 3 verandert **VOLGENDE HINT** in **TOON OPLOSSING**. Eerst verschijnt de bevestiging **“Wil je de oplossing zien?”** met **BEKIJKEN** en **TERUG**. TERUG brengt hem terug naar hint 3. Een verkeerde aanraking geeft geen extra straf of waarschuwing; de contour blijft bij de juiste onderdelen.
+
+#### 8. Introductie- en feedbackteksten
+
+**Introductie op de monitor:**
+
+> **GEHEIME UITGANG 03**  
+> Daar is de gouden energiesleutel! Maak de vakjes onder haar vrij en laat de sleutel naar de uitgang onderaan vallen.
+
+Zodra Wannes begint te spelen, blijft de korte opdracht **LAAT DE GOUDEN SLEUTEL NAAR DE UITGANG VALLEN** als vaste herinnering zichtbaar.
+
+**Ongeldige verwisseling:** geen foutmeldingstekst; de vlakken keren terug.
+
+**Geldige match die de sleutel niet verder laat vallen:** geen extra melding na elke match. De sleutel blijft op haar huidige plek en de speler kan een nieuwe kans zoeken.
 
 **Succesfeedback:**
-> “De uitgang is open! De fabriek is weer helemaal wakker.”
 
-**Beloning:** de letter **L** verschijnt en wordt toegevoegd aan de verzamelstrook: **B A L**.
+> **DE UITGANG IS OPEN!**
+
+De sleutel valt zichtbaar in de uitgang. Het circuit licht op en de fabriek wordt grafisch wakker. Daarna verschijnt de letter **L** als een metalen label dat past bij de bestaande computerillustratie.
+
+#### 9. Wat er bij succes verandert
+
+- Het bord stopt; er worden geen nieuwe kleurvlakken meer toegevoegd.
+- De sleutel blijft zichtbaar in de uitgang.
+- Het circuit licht op en de fabriek komt visueel tot leven.
+- De letter **L** verschijnt op een metalen label.
+- De verzamelstrook verandert van **B A _** naar **B A L**.
+- De beloning en de voltooide status worden lokaal opgeslagen.
+- Wannes krijgt zelf de keuze om terug te gaan naar de werkplaats; hij wordt niet automatisch naar het grote slot gestuurd.
+- Als hij de uitdaging verlaat of het spel opnieuw opent, blijft Level 3 voltooid en blijft de letter L zichtbaar.
+- Nadat de drie match-3-levels voltooid zijn, wordt uitdaging 1 als geheel voltooid en kan Wannes het woord **BAL** gebruiken bij de grote deur.
+
+#### 10. Wat niet in Level 3 thuishoort
+
+- Geen doel om rode kleurvlakken te verzamelen; dat hoort bij Level 1.
+- Geen houten kistjes om te verwijderen; die horen bij Level 2.
+- Geen zettenlimiet, timer, levens, straf of game-over.
+- Geen symbolen of pictogrammen op de gewone kleurvlakken.
+- Geen handmatige bediening van de sleutel en geen knop om haar naar beneden te duwen.
+- Geen ster met een oog of medaille; die aanwijzing hoort bij uitdaging 2.
+- Geen afwijkende interface of nieuwe beeldtaal ten opzichte van Level 1 en Level 2.
+
+**Te testen vóór de latere bouw:** de exacte beginmatrix, de geldige zetmogelijkheden, het pad van de sleutel naar de uitgang, de volgorde van vallen/aanvullen/cascades en de garantie dat de sleutel nooit vast komt te zitten door een onoplosbare bordtoestand.
+
 
 ### De drie letters samen — onthulling van BAL
 
