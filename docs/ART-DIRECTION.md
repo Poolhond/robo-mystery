@@ -1,10 +1,10 @@
 # De mysterieuze fabriek — Art Direction & Style Guide
 
-**Versie:** 0.8  
-**Status:** Ontwerpfase — concept herzien, geen codeontwikkeling  
+**Versie:** 0.9  
+**Status:** Visuele richting vastgelegd; enkele toepassingsdetails en de definitieve assetselectie moeten nog worden bevestigd. Geen codeontwikkeling  
 **Primaire stijlkeuzes:** sterk verweerde zeefdruk; interface geïntegreerd in de vintage posterwereld.
 
-> Dit dossier beschrijft de visuele richting. Het is geen toestemming om de game te programmeren. De aangeleverde originele referentiebeelden blijven leidend.
+> Dit dossier beschrijft de visuele richting. Het is geen toestemming om de game te programmeren. De aangeleverde originele referentiebeelden blijven leidend. Het assetregister beschrijft welke bestanden momenteel in de repository aanwezig zijn.
 
 ## 1. Artistieke visie
 
