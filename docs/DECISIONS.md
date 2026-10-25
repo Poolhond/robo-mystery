@@ -1,6 +1,6 @@
 # De mysterieuze fabriek — Beslissingen en open punten
 
-**Versie:** 6.0  
+**Versie:** 6.1  
 **Doel:** één betrouwbare plek voor goedgekeurde besluiten en open punten, zodat de inhoud niet telkens opnieuw wordt bedacht.
 
 ## Dossierstatus en bronvolgorde
@@ -23,6 +23,7 @@ Bronvolgorde: (1) dit beslissingsdocument voor goedkeuring/open status, (2) `CHA
 | Finalehandeling | Wannes drukt op een grote rode feestknop. Die activeert de lichtjes en confetti en vormt de laatste interactieve handeling van het spel. |
 | Verjaardagsboodschap — ontwerpbeslissing 34 | Na het indrukken van de feestknop verschijnt in het rustige eindbeeld de persoonlijke boodschap: **“Proficiat Wannes! Dat verdient een cadeau.”** De boodschap is kort, duidelijk en vormt de overgang naar de echte verrassing. |
 | Echte verrassing na het spel | De persoonlijke boodschap “Proficiat Wannes! Dat verdient een cadeau.” wijst erop dat er een echt cadeau volgt. Er is geen extra opdracht of raadsel nodig in het eindbeeld. |
+| Hintpaneel sluiten — ontwerpbeslissing 49 | **Optie A — dezelfde vraagtekenknop.** De knop `?` opent het hintpaneel en sluit het weer wanneer Wannes er opnieuw op drukt. Geen extra sluitknop of aparte knop ‘Verder’. |
 | Hints tonen — ontwerpbeslissing 48 | **Optie C — tekst en visuele hulp combineren.** Na het indrukken van `?` verschijnt een compacte teksthint in een paneel in de zeefdrukstijl. Bij latere hintstappen mag ook het relevante deel van de puzzel visueel worden aangewezen. Wannes vraagt elke volgende hint zelf; hints verschijnen niet automatisch. |
 | Terug naar de werkplaats — ontwerpbeslissing 47 | **Optie B — vloeiend uitzoomen.** Wanneer Wannes op de terugpijl drukt, zoomt het beeld rustig uit naar de volledige werkplaats. De overgang is consistent met het inzoomen naar een uitdaging en herstelt exact dezelfde werkplaatsweergave. |
 | Interactieve zones — ontwerpbeslissing 46 | **Optie C — ruime, zorgvuldig afgebakende zones.** Elk interactief voorwerp krijgt een onzichtbare raakzone die comfortabel te bedienen is op iPhone. Zones worden zo afgebakend dat ze elkaar niet onbedoeld overlappen; waar visuele vormen dicht bij elkaar liggen, wordt de selectie bewust bepaald. Geen zichtbare kaders of knoppen op de werkplaats. |
