@@ -1,6 +1,6 @@
 # De mysterieuze fabriek — Beslissingen en open punten
 
-**Versie:** 4.8  
+**Versie:** 4.9  
 **Doel:** één betrouwbare plek voor goedgekeurde besluiten en open punten, zodat de inhoud niet telkens opnieuw wordt bedacht.
 
 ## Dossierstatus en bronvolgorde
@@ -23,6 +23,7 @@ Bronvolgorde: (1) dit beslissingsdocument voor goedkeuring/open status, (2) `CHA
 | Finalehandeling | Wannes drukt op een grote rode feestknop. Die activeert de lichtjes en confetti en vormt de laatste interactieve handeling van het spel. |
 | Verjaardagsboodschap — ontwerpbeslissing 34 | Na het indrukken van de feestknop verschijnt in het rustige eindbeeld de persoonlijke boodschap: **“Proficiat Wannes! Dat verdient een cadeau.”** De boodschap is kort, duidelijk en vormt de overgang naar de echte verrassing. |
 | Echte verrassing na het spel | De persoonlijke boodschap “Proficiat Wannes! Dat verdient een cadeau.” wijst erop dat er een echt cadeau volgt. Er is geen extra opdracht of raadsel nodig in het eindbeeld. |
+| Uitdagingen herkenbaar maken — ontwerpbeslissing 37 | **Optie A — alleen door het voorwerp.** Geen titels, nummers of extra symbolen bij de uitdagingen. De bestaande computer, groene locker en tafel met bekers maken deel uit van de wereld en nodigen Wannes uit om ze zelf te onderzoeken. |
 | Totale speelduur — ontwerpbeslissing 36 | **Optie B — een klein avontuur.** Richtduur ongeveer 10–15 minuten, inclusief vrije verkenning, de drie uitdagingen en de finale. Dit is een richtwaarde, geen tijdslimiet; Wannes mag rustig ontdekken en hints gebruiken zonder druk. |
 | Finale-typografie — ontwerpbeslissing 35 | **Combinatie van A en C.** De verjaardagsboodschap verschijnt als grote, grafische vintage letters die deel uitmaken van de feestelijke compositie. De tekst verschijnt geleidelijk in twee stappen: eerst **“Proficiat Wannes!”**, daarna **“Dat verdient een cadeau.”** De feestscène en speelgoedfiguren blijven zichtbaar. Geen extra tik of bediening nodig. |
 | Duur van de finale — ontwerpbeslissing 33 | **Optie C — onthulling en rustig eindbeeld.** Na de druk op de feestknop springen de lichten aan en volgt een korte feestelijke animatie met confetti. Daarna wordt de scène rustiger; de speelgoedfiguren en de verjaardagsboodschap blijven duidelijk zichtbaar. Geen verdere actie is nodig. |
