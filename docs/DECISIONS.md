@@ -1,6 +1,6 @@
 # De mysterieuze fabriek — Beslissingen en open punten
 
-**Versie:** 8.3  
+**Versie:** 8.4  
 **Doel:** één betrouwbare plek voor goedgekeurde besluiten en open punten, zodat de inhoud niet telkens opnieuw wordt bedacht.
 
 ## Dossierstatus en bronvolgorde
@@ -11,7 +11,7 @@ Bronvolgorde: (1) dit beslissingsdocument voor goedkeuring/open status, (2) `CHA
 
 **Huidige fase:** dossieropschoning. Dit is geen toestemming om gamecode te bouwen.
 
-**Correctie 25 oktober 2026:** het doel van Level 2 is vijf houten kistjes verwijderen, niet vier. Deze vermelding is afgestemd op de actuele levelbeschrijving in `CHALLENGES.md`. Dit is een synchronisatiecorrectie; er is geen gamecode gebouwd.
+**Synchronisatie 25 oktober 2026:** de drie match-3-levels zijn als één consistente set vastgelegd: Level 1 verzamelt 10 rode energiecellen (B), Level 2 verwijdert 5 houten kistjes (A), Level 3 laat een gouden energiesleutel naar de uitgang onderaan vallen (L). Alle drie gebruiken 5 × 7, vier effen kleurvlakken zonder symbolen, willekeurige aanvulling en duidelijke stapsgewijze animaties; geen zettenlimiet, tijdslimiet of straf. Dit is dossierwerk; er is geen gamecode gebouwd.
 
 ## Vastgelegd
 
@@ -88,9 +88,9 @@ Bronvolgorde: (1) dit beslissingsdocument voor goedkeuring/open status, (2) `CHA
 | Hintsysteem | Bovenaan elk uitdagingen-scherm staat een vaste, duidelijk herkenbare knop met een vraagteken (?). Wannes drukt er zelf op wanneer hij hulp wil. Geen speelgoedfiguren als hintgevers en geen automatische hints. Elke uitdaging heeft drie hintstappen: eerst een subtiele aanwijzing, daarna een gerichte aanwijzing en als derde stap zo nodig de oplossing of de exacte volgende handeling. Geen game-over en onbeperkt opnieuw proberen. |
 | Uitdaging 1 — spelvorm | Drie eigen match-3-levels, geïnspireerd op het algemene spelprincipe van match-3-games; geen gekopieerde levels of vormgeving |
 | Uitdaging 1 — schermpresentatie | Het match-3-spel speelt zich visueel af op het bestaande retro-computerscherm in de controlekamer. Na aantikken zoomt de computer in; het spelbord blijft geïntegreerd in het scherm en volgt de vastgelegde verweerde jarenzeventig-zeefdrukstijl. Geen los modern spelvenster of afwijkende stijl. |
-| Uitdaging 1 — leveldoelen | Level 1: verzamel 10 rode energiecellen zonder zettenlimiet; nieuwe kleurvlakken worden willekeurig aangevuld, niet volgens een vaste aanvulvolgorde. Level 2: verwijder 5 houten kistjes; level 3: laat de gouden energiesleutel naar de uitgang vallen |
+| Uitdaging 1 — leveldoelen | Level 1: verzamel 10 rode energiecellen en verdien B. Level 2: verwijder 5 houten kistjes en verdien A. Level 3: laat de gouden energiesleutel naar de uitgang onderaan vallen en verdien L. De letters vormen BAL. Alle drie levels gebruiken dezelfde 5 × 7-basis, vier effen kleurvlakken zonder symbolen, willekeurige aanvulling, zichtbare stap-voor-stap-animaties en hebben geen zettenlimiet, tijdslimiet of straf. |
 | Uitdaging 1 — kleurvlakken en animatie | Level 1 gebruikt effen kleurvlakken zonder symbolen of pictogrammen. Animaties maken verwisseling, match, verdwijnen, vallen, willekeurige aanvulling en cascades stap voor stap duidelijk. Het hele spel blijft geïntegreerd in de verweerde jarenzeventig-zeefdrukposterwereld. |
-| Uitdaging 1 — raster level 1 | Het speelbord bestaat uit 5 kolommen × 7 rijen (35 vakken). Deze afmeting ligt vast. |
+| Uitdaging 1 — raster | Alle drie match-3-levels gebruiken hetzelfde vaste raster van 5 kolommen × 7 rijen (35 vakken). |
 | Aanwijzing uit uitdaging 1 | De letters B, A en L, verdiend na elk level en samen gevormd tot het woord BAL |
 | Uitdaging 2 — structuur | Drie opeenvolgende deelpuzzels: code opent een geheim deurtje; logisch raadsel levert een messing sleutel; kistjesraadsel onthult de ster-met-oog-aanwijzing |
 | Uitdaging 2 — schermpresentatie | Na aantikken zoomt het beeld in op de bestaande groene locker. De codepuzzel, het geheime deurtje, het personageraadsel en het kistjesraadsel spelen zich visueel af binnen/op deze locker, in dezelfde verweerde jarenzeventig-zeefdrukstijl. Geen los modern spelvenster of afwijkende grafische stijl. |
