@@ -1,6 +1,6 @@
 # De mysterieuze fabriek — Art Direction & Style Guide
 
-**Versie:** 0.3  
+**Versie:** 0.4  
 **Status:** Ontwerpfase — concept herzien, geen codeontwikkeling  
 **Primaire stijlkeuzes:** sterk verweerde zeefdruk; interface geïntegreerd in de vintage posterwereld.
 
@@ -134,7 +134,8 @@ Donker petrol, lichte omlijning, gele titel en rustige, leesbare tekst. De actie
 Compacte cijfers en eenvoudige indicatoren in het afgesproken palet. Geen decoratie die de informatie verdringt.
 
 ### Bediening
-- Interactieve onderdelen verschillen zichtbaar van decoratie.
+- Interactieve onderdelen zijn geïntegreerd in de illustratie; gebruik geen permanente extra pictogrammen of omlijningen als standaardmarkering.
+- Bij aantikken reageert het gekozen voorwerp duidelijk, zodat de speler feedback krijgt dat de interactie is gestart.
 - Actieve en inactieve toestanden zijn herkenbaar.
 - Tekst en symbolen hebben voldoende contrast.
 - De interface past zich aan het scherm aan zonder de wereld onherkenbaar te maken.
