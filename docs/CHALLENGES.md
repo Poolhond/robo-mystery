@@ -47,30 +47,40 @@
 
 ### Level 1 — De energiecellen
 
-**Volledige, bijgewerkte specificatie:** zie [`LEVEL-1-ENERGIECELLEN.md`](LEVEL-1-ENERGIECELLEN.md). Dit document is leidend bij verschillen met oudere tekst.
+**Status:** ontwerpprincipes bijgewerkt; details en simulatie staan in `LEVEL-1-ENERGIECELLEN.md`. Nog geen productie-gamecode.
 
-**Doel:** verzamel **minstens 10 rode energiecellen**. Er is **geen zettenlimiet en geen tijdslimiet**. Alleen rode symbolen tellen mee; het level eindigt zodra de teller 10 of hoger bereikt en beloont Wannes met de letter **B**.
+**Verhaal:** de fabriek is donker. Een bericht op de laboratoriummonitor legt uit dat rode energiecellen nodig zijn om het eerste circuit te activeren.
 
-**Bord:** 5 kolommen × 7 rijen, met rode energiecellen, gele tandwielen, blauwe bouten en groene kristallen. De startmatrix staat in de aparte level-1-specificatie en is gecontroleerd op nul startmatches en minstens één geldige zet.
+**Doel:** verzamel **minstens 10 rode energiecellen**. Er is geen limiet op het aantal zetten en geen tijdslimiet.
 
-**Aanvulling:** symbolen worden willekeurig gekozen, niet uit een vaste vooraf bepaalde aanvulreeks. Tests mogen een seed gebruiken om een run reproduceerbaar te maken; dit verandert de willekeurige aanvulling in het echte spel niet.
-
-**Vastlopen:** na elke cascade controleert het spel of er een geldige zet bestaat. Zo niet, wordt het bord herschikt tot het geen automatische matches bevat en minstens één geldige zet heeft. De verzamelde energiecellen blijven behouden.
+**Bord en regels:**
+- Start met een raster van **5 kolommen × 7 rijen** en vier soorten match-symbolen: rode energiecellen, gele tandwielen, blauwe bouten en groene kristallen.
+- Alleen verwijderde rode energiecellen tellen mee voor het doel; matches van andere symbolen blijven nuttig om het bord te veranderen en nieuwe kansen te maken.
+- De teller toont de voortgang van 0/10 tot minstens 10/10. Een match of kettingreactie mag het doel overschrijden; het level eindigt zodra de teller 10 of hoger bereikt.
+- De aanvulling is **willekeurig**, niet een vaste vooraf bepaalde volgorde. Tests mogen een random seed gebruiken voor reproduceerbaarheid, maar de uiteindelijke spelervaring mag niet telkens dezelfde aanvulsymbolen tonen.
+- Een geldige zet verwisselt twee aangrenzende symbolen horizontaal of verticaal en veroorzaakt minstens één match van drie of meer gelijke symbolen. Een wissel zonder match wordt teruggedraaid en kost niets.
+- Na matches worden symbolen verwijderd, symbolen erboven vallen naar beneden en lege vakjes worden willekeurig aangevuld. Kettingreacties worden afgehandeld en alle verwijderde rode cellen tellen precies één keer.
+- Er is geen game-over of verlies door te veel zetten. Als geen geldige zet meer beschikbaar is, wordt het bord automatisch opnieuw geschud of opnieuw samengesteld tot er een bord zonder startmatch en met minstens één geldige zet ontstaat. Verzamelde rode cellen blijven behouden.
+- De startmatrix moet vooraf gecontroleerd zijn: geen automatische match bij het openen en minstens één geldige zet. De exacte matrix is testdata totdat ze door de solver en interactietests is gevalideerd.
 
 **Hintladder:**
-1. Subtiel: een bruikbare geldige zet pulseert kort.
-2. Duidelijker: “Probeer rode energiecellen naast elkaar te krijgen.”
-3. Expliciet: licht een geldige wissel op; de game voert de zet niet zelf uit.
+1. Subtiel: één mogelijke match pulseert kort.
+2. Duidelijker: de laboratoriummonitor toont: “Probeer rode energiecellen naast elkaar te krijgen.”
+3. Expliciet: de game licht twee aangrenzende symbolen op die verwisseld kunnen worden om een geldige match te maken.
 
-**Introductietekst:**
+**Introductietekst op de laboratoriummonitor:**
 > “De fabriek is uitgevallen. Verzamel tien rode energiecellen. Maak rijen van minstens drie dezelfde symbolen om ze op te laden!”
 
-**Foutfeedback:** “Die combinatie vormt nog geen match. Probeer twee andere symbolen.”
+**Foutfeedback:**
+- Ongeldige verwisseling: “Die combinatie vormt nog geen match. Probeer twee andere symbolen.”
+- Geen rode energiecel geraakt: “Goed geprobeerd. Kijk of je ook rode energiecellen kunt laten verdwijnen.”
 
 **Succesfeedback:**
 > “Circuit één draait weer! Goed gedaan.”
 
-**Beloning:** de letter **B** verschijnt op een metalen label en wordt toegevoegd aan de verzamelstrook: **B _ _**.
+**Beloning:** de letter **B** verschijnt op een metalen label. De letter wordt toegevoegd aan de verzamelstrook: **B _ _**.
+
+**Testreferentie:** `tests/level1_simulation.py` en de acceptatiecriteria in `LEVEL-1-ENERGIECELLEN.md`. De simulatie moet de regels van het uiteindelijke spel volgen; testresultaten zijn geen bewijs voor een afwijkende productie-implementatie.
 
 ### Level 2 — De geblokkeerde tandwielen
 
