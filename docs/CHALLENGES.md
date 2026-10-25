@@ -36,14 +36,14 @@
 - Een verwisseling telt alleen als er daardoor een match van minstens drie gelijke symbolen ontstaat. Als geen match ontstaat, bewegen de symbolen terug en wordt geen zet verbruikt.
 - Een match verwijdert de passende symbolen; symbolen erboven vallen naar beneden en nieuwe symbolen vullen de lege plaatsen aan.
 - Doelobjecten en obstakels moeten visueel anders zijn dan gewone match-symbolen.
-- Het doel van het level en het aantal resterende zetten staan steeds duidelijk in beeld, zonder kleine tekst.
+- Het doel van het level en de relevante voortgang staan steeds duidelijk in beeld, zonder kleine tekst. Als een level een zettenlimiet heeft, blijft ook die duidelijk zichtbaar.
 - Na een geldige match zijn animaties kort en leesbaar. De speler moet kunnen zien wat verdween en wat viel.
 - Een level heeft een beperkt aantal zetten, maar mag niet onredelijk moeilijk zijn. Het ontwerp moet altijd minstens één oplosbare route hebben. Wannes kan zelf via de `?`-knop een hint vragen; hints verschijnen nooit automatisch na fouten of herhaald vastlopen.
 - Er is geen game-over en geen tijdslimiet. Wannes mag rustig nadenken en opnieuw proberen.
 - Een hint mag een mogelijke zet laten oplichten, maar voert die niet automatisch uit.
 - Bij voltooiing krijgt Wannes een korte succesanimatie en de bijbehorende letter. De letter blijft zichtbaar in een vaste verzamelstrook boven of onder het bord.
 - De game bewaart voortgang lokaal na elke geldige zet en bij elke belangrijke wijziging, zodat een onbedoelde herlaadactie geen reeds verdiende letters of de huidige puzzelstand wist.
-- Als Wannes de speelgoedfabriek verlaat en terugkomt, gaat hij verder vanaf het huidige level, met dezelfde bordstand, resterende zetten en verzamelde voortgang. Een level wordt alleen opnieuw gestart als Wannes daar zelf voor kiest of expliciet om een reset vraagt.
+- Als Wannes de speelgoedfabriek verlaat en terugkomt, gaat hij verder vanaf het huidige level, met dezelfde bordstand, eventuele resterende zetten en verzamelde voortgang. Een level wordt alleen opnieuw gestart als Wannes daar zelf voor kiest of expliciet om een reset vraagt.
 
 ### Level 1 — De energiecellen
 
@@ -51,7 +51,7 @@
 
 #### 1. Verhaal en bedoeling
 
-De computer in de controlekamer toont een beeld van het stilgevallen energiesysteem. De fabriek is donker en een deel van de installatie is uitgevallen. Op de monitor is een klein circuit zichtbaar waarvan de rode energie-indicatoren uit zijn. Wannes moet het circuit opnieuw opstarten door **8 rode energiecellen** te verzamelen.
+De computer in de controlekamer toont een beeld van het stilgevallen energiesysteem. De fabriek is donker en een deel van de installatie is uitgevallen. Op de monitor is een klein circuit zichtbaar waarvan de rode energie-indicatoren uit zijn. Wannes moet het circuit opnieuw opstarten door **10 rode energiecellen** te verzamelen.
 
 Dit is het eerste van de drie match-3-levels. Het leert Wannes het basisprincipe zonder extra obstakels: symbolen verwisselen, drie of meer gelijke symbolen combineren en zien hoe het bord opnieuw gevuld wordt. Het level mag uitdagend aanvoelen, maar moet onmiddellijk begrijpelijk zijn en vlot reageren.
 
@@ -91,7 +91,7 @@ Het bord bevat alleen de vier genoemde symbolen. De definitieve rasterafmetingen
 - Het startbord bevat geen automatische match die al verdwijnt voordat Wannes een actie uitvoert.
 - Het doel van 10 rode energiecellen is haalbaar zonder zettenlimiet.
 - De eerste kans is begrijpelijk zonder dat het spel automatisch een zet uitvoert.
-- Als het bord geen geldige zet meer heeft, wordt het op een gecontroleerde manier opnieuw geschud. Dit mag de verzamelde voortgang en resterende zetten niet willekeurig veranderen.
+- Als het bord geen geldige zet meer heeft, wordt het op een gecontroleerde manier opnieuw geschud. Dit mag de verzamelde voortgang niet veranderen.
 
 Het speelbord start met een gecontroleerde beginopstelling, maar daarna worden nieuwe symbolen willekeurig aangevuld — niet volgens een vooraf vastgelegde of herhalende aanvulvolgorde. De willekeur moet echt zijn binnen de gekozen verdeling van de vier symbolen. De game controleert na het aanvullen of er geldige zetten mogelijk blijven; als er geen geldige zet meer is, wordt het bord opnieuw geschud zonder verzamelde energiecellen te verliezen. Omdat er geen zettenlimiet is, hoeft het spel geen vooraf bepaalde reeks zetten af te dwingen om het doel haalbaar te maken.
 
@@ -136,7 +136,7 @@ Het paneel verschijnt direct onder de `?`-knop, is smal en gebruikt dezelfde ge�
 **Introductie op de monitor:**
 
 > **ENERGIECIRCUIT 01**  
-> De fabriek is uitgevallen. Verzamel 8 rode energiecellen om het eerste circuit opnieuw te starten. Verwissel aangrenzende stukken en maak rijen van minstens drie dezelfde symbolen.
+> De fabriek is uitgevallen. Verzamel 10 rode energiecellen om het eerste circuit opnieuw te starten. Verwissel aangrenzende stukken en maak rijen van minstens drie dezelfde symbolen.
 
 De tekst staat in een duidelijk paneel op de monitor en verdringt het bord niet. Zodra Wannes begint te spelen, blijft alleen de korte opdracht **VERZAMEL 10 RODE ENERGIECELLEN** als vaste herinnering zichtbaar.
 
@@ -174,7 +174,7 @@ Een verlichte lijn loopt door het circuit op de monitor. De letter **B** wordt d
 - Geen modern wit spelvenster, standaard emoji-symbolen of afgeronde witte knoppen als uiteindelijke vormgeving.
 - Geen automatische oplossingszet. Hints tonen of markeren alleen een mogelijke actie; Wannes voert die zelf uit.
 
-**Te testen vóór de latere bouw:** de exacte rasterafmetingen, startmatrix, kansverdeling van de vier symbolen en haalbaarheid van 8 rode energiecellen binnen 12 zetten. Dit zijn technische validatiepunten; ze mogen de hierboven beschreven spelregels en visuele richting niet stilzwijgend veranderen.
+**Te testen vóór de latere bouw:** de exacte rasterafmetingen, startmatrix, kansverdeling van de vier symbolen en werking van willekeurige aanvulling zonder zettenlimiet. Dit zijn technische validatiepunten; ze mogen de hierboven beschreven spelregels en visuele richting niet stilzwijgend veranderen.
 
 ### Level 2 — De geblokkeerde tandwielen
 
