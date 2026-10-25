@@ -84,19 +84,25 @@ De drie easter eggs zijn optioneel, herhaalbaar en wijzigen geen hoofdvoortgang.
 **Hints — code 042**
 1. “Begin met de aanwijzing 738. Welke cijfers kun je meteen uitsluiten?”
 2. “De code bevat een 0, maar die staat niet op de derde plaats.”
-3. “Gebruik de aanwijzingen samen: welke cijfers moeten op plaats één, twee en drie staan?”
+3. “Combineer de aanwijzingen en controleer of elke cijferpositie aan alle regels voldoet.”
+
+**Toon oplossing — na bevestiging:** toon **042** en markeer de drie cijferwieltjes in de juiste volgorde. Wannes stelt de wieltjes zelf in en drukt zelf op **OPEN**.
 
 **Hints — wie heeft de sleutel?**
 1. “Wat gebeurt er als Charlie de sleutel heeft?”
 2. “Controleer hoeveel uitspraken waar zijn als RidderUs de sleutel heeft.”
 3. “Maak voor Charlie, RidderUs en Schildje elk een rijtje en tel de ware uitspraken.”
 
+**Toon oplossing — na bevestiging:** toon de volledige waar/onwaar-tabel en markeer de enige geldige rij. De uitleg eindigt met **“Charlie heeft de sleutel.”** Wannes kiest Charlie zelf.
+
 **Hints — welk kistje?**
 1. “Test eerst wat er gebeurt als de hoofdprijs in het rode kistje zit.”
 2. “Tel bij elke mogelijke kistlocatie hoeveel uitspraken waar zijn.”
-3. “Controleer bij elke mogelijke plek van de hoofdprijs opnieuw alle drie de uitspraken.”
+3. “Vergelijk de drie mogelijkheden en zoek de enige waarbij precies één uitspraak waar is.”
 
-De gewone hint 3 blijft een laatste denkstap en verklapt het antwoord niet. De exacte oplossing wordt uitsluitend getoond na het goedgekeurde bevestigingsproces **TOON OPLOSSING** → “Wil je de oplossing zien?” → **BEKIJKEN**; zie de opmerking onderaan dit document.
+**Toon oplossing — na bevestiging:** toon per mogelijke kistlocatie welke uitspraken waar zijn. Markeer het rode kistje en leg uit dat alleen die keuze precies één ware uitspraak oplevert. Wannes kiest en bevestigt het kistje zelf.
+
+De gewone hint 3 blijft een laatste denkstap en verklapt het antwoord niet. De exacte oplossing wordt uitsluitend getoond na **TOON OPLOSSING** → “Wil je de oplossing zien?” → **BEKIJKEN**.
 
 ### C — Uitdaging 3: de bekers
 
@@ -112,7 +118,7 @@ De gewone hint 3 blijft een laatste denkstap en verklapt het antwoord niet. De e
 | `C-08` | Rode lichtbol en kleurstaal | Markeer uitdaging 3 voltooid | “Aha! De truc is ontmaskerd. Onthoud deze kleur: signaalrood. Je hebt nu alle drie de aanwijzingen verzameld!” |
 | `C-09` | Hintpaneel | Per ronde eigen hintniveau; terugkeer hervat niveau | De drie ronde-specifieke hints staan in `CHALLENGES.md` |
 
-**Hintpaneel en rondehints:** de drie hints per ronde zijn gewone hints 1–3. Na hint 3 verschijnt de aparte knop **TOON OPLOSSING**; dit is geen vierde hint. De oplossing toont de exacte volgende hulpactie (bijvoorbeeld de startpositie tonen en wissels vertragen) en pulseert subtiel het relevante bedienelement. De hulp voert geen keuze voor Wannes uit.
+**Hintpaneel en rondehints:** de drie hints per ronde zijn gewone hints 1–3. Hint 3 is extra hulp, maar wijst de juiste beker nog niet aan. Na hint 3 verschijnt de aparte knop **TOON OPLOSSING**; dit is geen vierde hint. Na bevestiging toont de oplossing de beginpositie opnieuw en speelt de wissels vertraagd en één voor één af. Daarna krijgt de juiste beker een subtiele pulserende contour en verschijnt **“Tik op de beker met de contour.”** Wannes kiest de beker zelf.
 
 ### D — Uitdaging 4: de deur en het slot
 
