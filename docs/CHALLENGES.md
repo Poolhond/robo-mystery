@@ -1,6 +1,6 @@
 # De mysterieuze fabriek — Uitdagingen
 
-**Versie:** 1.2  
+**Versie:** 1.3  
 **Status:** Uitgewerkt voorontwerp; nog niet bouwklaar. Er wordt nog geen gamecode gebouwd.  
 **Focus van deze revisie:** vrije verkenning van het laboratorium; uitdaging 4 vereenvoudigd tot woord en kleur, met automatische symboolherkenning.
 
@@ -38,7 +38,7 @@
 - Doelobjecten en obstakels moeten visueel anders zijn dan gewone match-symbolen.
 - Het doel van het level en het aantal resterende zetten staan steeds duidelijk in beeld, zonder kleine tekst.
 - Na een geldige match zijn animaties kort en leesbaar. De speler moet kunnen zien wat verdween en wat viel.
-- Een level heeft een beperkt aantal zetten, maar mag niet onredelijk moeilijk zijn. Het ontwerp moet altijd minstens één oplosbare route hebben; bij herhaald vastlopen kan een hint de aandacht op een mogelijke match richten.
+- Een level heeft een beperkt aantal zetten, maar mag niet onredelijk moeilijk zijn. Het ontwerp moet altijd minstens één oplosbare route hebben. Wannes kan zelf via de `?`-knop een hint vragen; hints verschijnen nooit automatisch na fouten of herhaald vastlopen.
 - Er is geen game-over en geen tijdslimiet. Wannes mag rustig nadenken en opnieuw proberen.
 - Een hint mag een mogelijke zet laten oplichten, maar voert die niet automatisch uit.
 - Bij voltooiing krijgt Wannes een korte succesanimatie en de bijbehorende letter. De letter blijft zichtbaar in een vaste verzamelstrook boven of onder het bord.
@@ -286,7 +286,7 @@ De aap wijst naar drie gesloten kistjes. De sleutel past op het slot van het gek
 **Beloning van uitdaging 3:** de kleur **signaalrood**, de kleur-aanwijzing voor uitdaging 4.  
 **Geschatte speelduur:** ongeveer 2 minuten.  
 **Bediening:** Wannes tikt op één van drie grote bekers op het scherm; geschikt voor iPhone in staande stand.  
-**Geen game-over:** na een fout mag Wannes opnieuw proberen. Bij herhaald vastlopen geeft het spel een hint of toont het de beginpositie opnieuw.
+**Geen game-over:** na een fout mag Wannes opnieuw proberen. Wannes kan zelf een hint vragen via de vaste `?`-knop; het spel toont nooit automatisch een hint na herhaald vastlopen. Na een fout mag de beginpositie opnieuw worden getoond als onderdeel van de spel-feedback.
 
 ### De scène en de spelregels
 
@@ -417,7 +417,7 @@ Benodigde assets:
 - het spelportret of klein het spelfiguur voor dialoog.
 - Rood lichtbol-effect en kleurstaal voor signaalrood.
 - Eenvoudige markering voor de hintstand.
-- Korte, optionele geluiden voor bekerwissel, beker optillen en succes; het spel moet volledig begrijpelijk blijven zonder geluid.
+- Geen audio-assets nodig: het spel gebruikt geen geluidseffecten of achtergrondmuziek, ook niet bij bekerwissels, succes of de finale.
 
 ## Uitdaging 4 — Het slot van het geheim
 
@@ -500,7 +500,7 @@ De drie uitdagingen mogen in elke volgorde worden gespeeld. De volgorde van oplo
 
 ### Hints en feedback
 
-Hints verschijnen als Wannes erom vraagt of na meerdere mislukte pogingen.
+Hints verschijnen uitsluitend wanneer Wannes zelf op de `?`-knop drukt. Ze verschijnen niet automatisch na fouten of na meerdere mislukte pogingen.
 
 1. **Subtiele hint:** “Je hebt al dingen ontdekt in het laboratorium. Kijk wat je al weet.”
 2. **Gerichte hint:** “Het symbool wordt voor je bewaard. Het woord moet je zelf typen en de kleur moet je zelf kiezen.”
@@ -518,7 +518,7 @@ Hints verschijnen als Wannes erom vraagt of na meerdere mislukte pogingen.
 
 > “Dat is hem! Jij hebt alle aanwijzingen gevonden én het geheim ontrafeld!”
 
-Daarna klinkt een korte mechanische klik, licht het slot op en schuift de deur langzaam open. Eerst valt warm licht door de kier en klinkt zacht gefluister of geritsel. Het spel zegt:
+Daarna licht het slot op en schuift de deur langzaam open. Eerst valt warm licht door de kier. Het spel zegt:
 
 > “Wacht eens… Ik denk dat ze daarbinnen op jou staan te wachten.”
 
@@ -550,15 +550,13 @@ Benodigde assets:
 
 ## Finale — de feestelijke onthulling
 
-Achter de deur bevindt zich de verrassing die de speelgoedfiguren voor Wannes hebben voorbereid. Na de onthulling drukt Wannes op de grote rode feestknop. Die activeert de lichtjes en confetti; daarna verschijnt de persoonlijke verjaardagsboodschap.
-
-**Nog te beslissen:** de exacte tekst van de persoonlijke verjaardagsboodschap en de opdracht die Wannes na het digitale spel naar de echte verrassing leidt. De finalehandeling ligt vast: Wannes drukt op de grote rode feestknop.
+Achter de deur bevindt zich de verrassing die de speelgoedfiguren voor Wannes hebben voorbereid. Na de onthulling drukt Wannes op de grote rode feestknop. Die activeert visueel de lichtjes en confetti. Daarna wordt het beeld rustiger en verschijnt de boodschap in twee stappen: eerst **“Proficiat Wannes!”**, daarna **“Dat verdient een cadeau.”** De speelgoedfiguren en de feestscène blijven zichtbaar. Er is geen geluid, geen extra tik nodig en geen aanvullende opdracht of raadsel om naar het echte cadeau te leiden.
 
 ## Volgende ontwerpstappen
 
 1. Ontwerp de vrije laboratoriumverkenning en de plekken waar Wannes de drie uitdagingen ontdekt.
 2. Werk de schermenlijst en benodigde assets voor uitdaging 1, 2 en 3 uit.
-3. Werk de finale en persoonlijke boodschap verder uit.
+3. Stem de finalebeschrijving af op de goedgekeurde boodschap en controleer dat er geen geluid, extra opdracht of extra interactie wordt toegevoegd.
 4. Controleer het hele dossier op tegenstrijdigheden en maak daarna pas de master-prompt.
 
 **Bouwstop:** dit bestand beschrijft het ontwerp. Er wordt nog geen nieuwe gamecode gebouwd zolang het volledige dossier niet is goedgekeurd.
