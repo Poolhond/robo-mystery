@@ -4,7 +4,7 @@
 **Status:** Visuele richting vastgelegd; enkele toepassingsdetails en de definitieve assetselectie moeten nog worden bevestigd. Geen codeontwikkeling  
 **Primaire stijlkeuzes:** sterk verweerde zeefdruk; interface geïntegreerd in de vintage posterwereld.
 
-> Dit dossier beschrijft de visuele richting. Het is geen toestemming om de game te programmeren. De aangeleverde originele referentiebeelden blijven leidend. Het assetregister beschrijft welke bestanden momenteel in de repository aanwezig zijn.
+> Dit dossier beschrijft de visuele richting. Het is geen toestemming om de game te programmeren. De aangeleverde assets zijn **inspiratie- en herkenningsbronnen, geen letterlijke inhoudsopgave van de game**. De ontwikkelaar gebruikt hun herkenbare kenmerken om een samenhangende, eigen spelwereld en nieuwe scènes, objecten en illustraties te genereren. Het assetregister beschrijft welke bestanden momenteel in de repository aanwezig zijn.
 
 ## 1. Artistieke visie
 
@@ -149,6 +149,17 @@ Compacte cijfers en eenvoudige indicatoren in het afgesproken palet. Geen decora
 Essentiële speltekst mag niet afhankelijk zijn van ingebakken tekst in een illustratie, omdat die vervormd of onleesbaar kan raken.
 
 ## 10. Referentiebeelden en hun functie
+
+### Bindende regel: inspiratie, geen letterlijke kopie
+
+De geüploade afbeeldingen dienen als **visuele en inhoudelijke inspiratie**. Ze leggen niet vast dat elk afgebeeld voorwerp, personage, decorstuk of de exacte compositie letterlijk in het spel moet voorkomen. De ontwikkelaar mag en moet waar nodig een eigen wereld, omgevingen, scènes, spelobjecten en varianten genereren die bij het spelconcept passen.
+
+- Behoud de herkenbare identiteit van belangrijke speelgoedfiguren en expliciet goedgekeurde elementen: hun silhouet, karakteristieke kleuren, proporties en onderscheidende details.
+- Gebruik de beelden om stijl, sfeer, materiaalgevoel, kleurgebruik en herkenningspunten te begrijpen; kopieer niet automatisch de volledige afbeelding of compositie.
+- Plaats, schaal, pose, achtergrond en context mogen worden aangepast om een overtuigende en speelbare wereld te bouwen.
+- Nieuwe spelobjecten en omgevingsdetails mogen worden ontworpen zolang ze aansluiten bij de vastgelegde art direction en spelregels.
+- De assets zijn geen bevel om alle afgebeelde elementen te gebruiken. Een asset die expliciet is uitgesloten of nog niet goedgekeurd, zoals de mechanische vogel, mag niet alsnog worden ingezet.
+- Waar identiteit en artistieke stijl botsen, behoud de herkenbare identiteit en pas de stijlbehandeling aan; voeg geen nieuwe karaktereigenschappen toe zonder ontwerpbeslissing.
 
 - **Kamer 3 — The Signal Room:** primaire referentie voor omgevingsstijl, sfeer en interface-integratie.
 - **The Signal Bird / Winged Guardian / The Heart Mark / The Golden Clue:** referentie voor karakterillustratie, objectpresentatie, symbolen en grafische compositie.
