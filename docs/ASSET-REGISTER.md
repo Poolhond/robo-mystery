@@ -1,7 +1,7 @@
 # De mysterieuze fabriek — Assetregister & referenties
 
 **Versie:** 1.4  
-**Status:** De elf beeldbestanden zijn geordend onder `assets/` en hebben de extensie `.png`. De beeldbytes zijn bij het verplaatsen niet gewijzigd. De mechanische vogel blijft buiten gebruik totdat Michel die asset expliciet goedkeurt.
+**Status:** De elf beeldbestanden zijn geordend onder `assets/` en hebben de extensie `.png`. De beeldbytes zijn bij het verplaatsen niet gewijzigd. De mechanische vogel is uitgesloten van het spel en mag niet worden gebruikt.
 
 ## Bindende gebruiksregel: assets zijn inspiratiebronnen
 
@@ -61,7 +61,7 @@ De bestanden in `assets/` zijn **geen letterlijke inventaris van wat er in het s
 **Assetrichting:** behoud de huisvormen, drie gestreepte schoorstenen, daken met veelkleurige korrels, groene basis en route van knopen naar de voordeur.  
 **Stijlbehandeling:** sterke, verweerde zeefdruk op warm crème papier; signaalrood, mosterdgeel, donker petrol en diep groen; halftoon, inktspikkels en onregelmatige drukdekking.  
 **Compositie:** de volledige maquette als centraal onderwerp, met grafische cirkels op de achtergrond en een posterachtige uitsnede.  
-**Bestand:** geen eenduidig geïdentificeerde export tussen de elf huidige afbeeldingsbestanden; controleren vóór bouw.
+**Bestand:** aanwezig als `assets/rooms/toy-laboratory/AST-ENV-01.png`. De visuele inhoud en overeenkomst met de beschreven maquette moeten nog worden gecontroleerd.
 
 ## Derde uitgewerkte asset — AST-BIRD-01
 
@@ -180,19 +180,19 @@ Controleer de originele bestanden één voor één, bevestig de rol van elke ref
 - **Status:** deze vier karakterreferenties zijn nog niet eenduidig als losse, goedgekeurde exports in de repository geïdentificeerd. De huidige elf afbeeldingsbestanden bevatten wel de drie losse basisillustraties; controleer nog of aanvullende posevarianten nodig zijn.
 
 
-## Uploadklare hoofdrolfiguren — uitdaging 2
+## Hoofdrolfiguren — uitdaging 2
 
-De drie losse illustraties zijn aangeleverd en krijgen onderstaande stabiele asset-ID's en repositorypaden. Gebruik deze bestandsnamen exact wanneer de bestanden naar GitHub worden geüpload.
+De drie losse illustraties staan al in de repository. De onderstaande `.jpg`-paden uit de eerdere uploadplanning zijn vervallen; gebruik de actuele `.png`-paden uit de gecontroleerde GitHub-inventaris. De visuele overeenkomst met de bedoelde definitieve exports moet nog worden bevestigd.
 
 | Asset-ID | Personage | Repositorypad / bestandsnaam |
 |---|---|---|
-| AST-CHARLIE-01 | Charlie | `assets/characters/charlie/AST-CHARLIE-01-charlie-screenprint.jpg` |
-| AST-RIDDERUS-01 | RidderUs | `assets/characters/ridderus/AST-RIDDERUS-01-ridderus-screenprint.jpg` |
-| AST-SCHILDJE-01 | Schildje | `assets/characters/schildje/AST-SCHILDJE-01-schildje-screenprint.jpg` |
+| AST-CHARLIE-01 | Charlie | `assets/characters/charlie/AST-CHARLIE-01-charlie-screenprint.png` |
+| AST-RIDDERUS-01 | RidderUs | `assets/characters/ridderus/AST-RIDDERUS-01-ridderus-screenprint.png` |
+| AST-SCHILDJE-01 | Schildje | `assets/characters/schildje/AST-SCHILDJE-01-schildje-screenprint.png` |
 
 **Bestandsafspraken**
-- Formaat: JPEG zoals aangeleverd; de huidige beelden bevatten een crème papierachtergrond, dus ze zijn niet transparant.
-- Richtmaat: 1024 × 1536 px, staand.
+- Het huidige repositorypad eindigt op `.png`; de interne bestandsindeling en afmetingen zijn nog niet technisch gecontroleerd.
+- Transparantie en achtergrond moeten per bestand worden gecontroleerd; leid dit niet af uit oude uploadnotities.
 - ID's zijn stabiel en worden niet gewijzigd als later een export wordt vervangen.
 - Bij een latere transparante of opgeschoonde export krijgt die een aparte variantnaam, bijvoorbeeld `-transparent.png`; overschrijf het origineel niet stilzwijgend.
 - Deze versie is de gekozen karakterstijl: minimalistische vectorvormen met sterke, verweerde zeefdruktextuur.
@@ -216,8 +216,9 @@ Een eerste gezamenlijke conceptsheet is gegenereerd om de samenhang van de drie 
 ## AST-TITLE-01 — Beginschermposter
 
 - **Asset-ID:** `AST-TITLE-01`
-- **Bestandsnaam:** `AST-TITLE-01-title-poster.jpg`
-- **Repositorypad:** `assets/title-screen/AST-TITLE-01-title-poster.jpg`
+- **Actuele bestandsnaam:** `AST-TITLE-01-title-poster.png`
+- **Repositorypad:** `assets/title-screen/AST-TITLE-01-title-poster.png`
+- Eerdere `.jpg`-verwijzingen zijn verouderd en niet leidend.
 - **Gebruik:** vaste posterillustratie voor het beginscherm; animaties worden later als aparte UI-/CSS-lagen toegevoegd.
 - **Inhoud:** titel “DE MYSTERIEUZE FABRIEK”, teaser “ER IS IETS VREEMDS AAN DE HAND...”, de snoepfabriek, en de vormgeving van de startknop.
 - **Compositie:** verticaal, bedoeld voor iPhone-verhouding 9:19,5.
@@ -227,9 +228,9 @@ Een eerste gezamenlijke conceptsheet is gegenereerd om de samenhang van de drie 
 - **Belangrijk:** als de knop in de afbeelding behouden blijft, moet later worden beslist of de volledige poster als één klikbaar vlak werkt of dat de knop grafisch wordt afgedekt/vervangen door een echte toegankelijke HTML-knop. De animaties en bediening mogen niet in de afbeeldingspixels worden ingebakken.
 
 
-## Decorassets voor de controlekamer — uploadpaden
+## Decorassets voor de controlekamer — actuele paden
 
-De vier onderstaande illustraties zijn afzonderlijke decorassets. Gebruik de exacte bestandsnamen en paden bij het uploaden naar GitHub.
+De vier onderstaande illustraties staan al in de repository. De mechanische vogel blijft uitgesloten van gebruik in het spel.
 
 | Asset-ID | Bestandsnaam | Repositorypad |
 |---|---|---|
@@ -243,13 +244,13 @@ De vier onderstaande illustraties zijn afzonderlijke decorassets. Gebruik de exa
 - De vier bestanden zijn conceptillustraties in dezelfde vintage vector-/zeefdrukrichting als de game.
 - Elk object blijft een zelfstandige asset die later afzonderlijk in de controlekamer kan worden geplaatst.
 - Status: ontwerp uitgewerkt; de vier decorbestanden staan wel in de huidige repository. Controleer de visuele inhoud voordat ze als definitieve game-assets worden behandeld.
-- Gebruik de paden exact zoals hierboven; maak indien nodig eerst de map `assets/decor/` aan.
+- Gebruik de bestaande paden zoals hierboven; upload de bestanden niet opnieuw onder alternatieve extensies.
 - De gegenereerde illustraties hebben momenteel een crèmekleurige achtergrond; ze zijn niet transparant.
 
 
 ## Gecontroleerde GitHub-inventaris
 
-De volgende elf bestanden zijn teruggevonden en naar de juiste `assets/`-mappen verplaatst met behoud van de oorspronkelijke Git-blobs. Dit bevestigt hun aanwezigheid en huidige pad, maar **niet** het werkelijke afbeeldingsformaat, de beeldafmetingen of de definitieve goedkeuringsstatus.
+De volgende elf bestanden zijn teruggevonden onder de huidige `assets/`-paden. De Git-blobs zijn behouden. Dit bevestigt hun aanwezigheid en huidige pad, maar **niet** het werkelijke afbeeldingsformaat, de beeldafmetingen of de definitieve goedkeuringsstatus.
 
 | Huidige bestandsnaam in GitHub-root | Voorlopige koppeling | Status / actie |
 |---|---|---|
@@ -261,15 +262,17 @@ De volgende elf bestanden zijn teruggevonden en naar de juiste `assets/`-mappen 
 | `assets/decor/AST-DECOR-01-red-heart.png` | Rood hart | Aanwezig; PNG-formaat bevestigd door Michel; afmetingen en definitieve export controleren |
 | `assets/decor/AST-DECOR-02-birdhouse.png` | Vogelhuisje met vogel | Aanwezig; PNG-formaat bevestigd door Michel; visuele overeenkomst controleren |
 | `assets/decor/AST-DECOR-03-mechanical-bird.png` | Mechanische vogel | Aanwezig, maar voorlopig niet inzetten; wacht op expliciete ontwerpgoedkeuring |
-| `assets/decor/AST-DECOR-04-pitcher-terrarium.png` | Vleesetende bekerplant | Aanwezig; PNG-formaat bevestigd door Michel; afmetingen en definitieve export controleren |
+| `assets/decor/AST-DECOR-04-pitcher-terrarium.png` | Vleesetende bekerplant | Aanwezig; afmetingen en definitieve export controleren |
+| `assets/rooms/toy-laboratory/AST-ENV-01.png` | Speelgoedlaboratorium | Aanwezig; visuele overeenkomst en afmetingen controleren |
+| `assets/characters/panda/AST-PANDA-01-panda-screenprint.png` | Panda | Aanwezig; visuele overeenkomst en afmetingen controleren |
 
 ### Voorzichtig omgaan met extensies
 
-Alle elf huidige afbeeldingsbestanden hebben een `.png`-pad in GitHub. De extensie op zichzelf bevestigt niet het interne bestandsformaat. De namen en paden zijn opgeschoond; de oorspronkelijke beeldbytes zijn behouden. De mechanische vogel staat in de map met decorassets om hem veilig te bewaren, maar wordt niet in de kamercompositie gebruikt zolang de ontwerpkeuze openstaat.
+Alle elf huidige afbeeldingsbestanden hebben een `.png`-pad in GitHub. De extensie op zichzelf bevestigt niet het interne bestandsformaat. De namen en paden zijn opgeschoond; de oorspronkelijke beeldbytes zijn behouden. De mechanische vogel staat in de map met decorassets om hem veilig te bewaren, maar mag niet in de kamercompositie of game worden gebruikt. Dit is een uitsluiting, geen open ontwerpkeuze.
 
 
 ## Assetorganisatie — synchronisatie 25 oktober 2026
 
-De elf aanwezige afbeeldingsbestanden met .png-paden zijn geordend onder `assets/characters/`, `assets/title-screen/`, `assets/rooms/control-room/` en `assets/decor/`. De verplaatsing en hernoeming hergebruiken de bestaande Git-blobs; de bestandsinhoud is niet opnieuw gecodeerd of gecomprimeerd. Zie [de assetaudit](ASSET-AUDIT-2026-10-25.md) voor de actuele paden en resterende controles.
+De elf aanwezige afbeeldingsbestanden met `.png`-paden staan onder `assets/characters/`, `assets/title-screen/`, `assets/rooms/control-room/`, `assets/rooms/toy-laboratory/` en `assets/decor/`. De verplaatsing en hernoeming hergebruiken de bestaande Git-blobs; de bestandsinhoud is niet opnieuw gecodeerd of gecomprimeerd. Zie [de assetaudit](ASSET-AUDIT-2026-10-25.md) voor de actuele paden en resterende controles.
 
 De elf afbeeldingsbestanden zijn aanwezig in de repository. De speelgoedlaboratorium- en panda-bestanden zijn aanwezig; controleer nog de visuele inhoud en afmetingen. Nieuwe afbeeldingen worden alleen gemaakt als een concrete asset ontbreekt. De ontwikkelaar kan eenvoudige puzzelobjecten en interface-elementen zelf tekenen als dat de stijl en leesbaarheid ondersteunt.
