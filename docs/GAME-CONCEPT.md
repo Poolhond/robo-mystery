@@ -1,6 +1,6 @@
 # De mysterieuze fabriek — Spelconcept
 
-**Versie:** 1.9  
+**Versie:** 2.0  
 **Status:** Voorontwerp; nog geen bouwklaar dossier en geen nieuwe gamecode  
 **Laatste update:** 25 oktober 2026 — startbeleving vastgelegd als vrije ontdekking; werktitel gewijzigd naar De mysterieuze fabriek; robot geschrapt
 
@@ -86,6 +86,16 @@ De speelgoedfiguren vormen samen het geheime organisatieteam. Hun rollen zijn vo
 - **Regenboogoctopus:** helpt bij de kleurrijke feestversiering.
 
 De herkenbare vormen en kleuren van de bestaande speelgoedfiguren blijven leidend. Nieuwe personages worden niet toegevoegd zonder reden.
+
+### Drie optionele easter eggs in de werkplaats
+
+Deze kleine interacties zijn verborgen details in de omgeving. Ze zijn niet nodig om de hoofd uitdagingen op te lossen.
+
+1. **Pandaschuif:** als Wannes op een schuif/lade van het meubel tikt, gaat die open en verschijnt kort een vierde speelgoedfiguur: een panda. De schuif sluit daarna vanzelf. De panda-illustratie moet nog als aparte asset worden uitgewerkt.
+2. **Vleesetende plant:** de eerste tik zoomt in op de plant en laat een vlieg rondvliegen. Bij de tweede tik vliegt de vlieg in de bloem en klapt het klepje dicht. Bij de derde tik zoomt het beeld terug uit naar de werkplaats.
+3. **Hartkunstwerk:** bij aantikken zoomt het beeld in op het kunstwerk. Het hart begint te kloppen en de afgebeelde mensen dansen; daarna zoomt het beeld terug uit.
+
+De interacties moeten kort, duidelijk en herhaalbaar zijn. Ze mogen de hoofdvoortgang niet wijzigen of blokkeren. Zie `docs/DECISIONS.md` voor de goedgekeurde beslissing.
 
 ## 6. Verhaalregels
 
