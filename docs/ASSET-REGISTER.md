@@ -6,10 +6,10 @@
 | ID | Beschrijving | Hoofdfunctie | Status |
 |---|---|---|---|
 | REF-01 | Kamer 3 — The Signal Room: signaalmonitor, satellietschotel, technische apparatuur, verhaalpaneel, inventaris en score | Primaire referentie voor omgevingsstijl en geïntegreerde game-interface | Kernreferentie |
-| REF-02 | Karakter-/conceptblad: The Signal Bird, Winged Guardian, The Heart Mark en The Golden Clue | Vervallen robotreferentie; overige karakterpresentatie, symbolen en objecten | Kernreferentie |
+| REF-02 | Karakter-/conceptblad: The Signal Bird, Winged Guardian, The Heart Mark en The Golden Clue | Karakterpresentatie, symbolen en objecten | Kernreferentie |
 | REF-03 | Overzicht met signaalvogel, aap, panda, octopus, schildpad en aanvullende symbolen | Verhouding tussen personages, aanzichten en karakterbladen | Kernreferentie |
 | REF-04 | Het speelgoedlaboratorium: kleine geometrische huisjes, gestreepte schoorstenen, kleurrijke daken en een knoppenroute op een groene basis | Specifieke omgevingsconceptreferentie | Kernreferentie voor deze wereld |
-| REF-05 | Verticale poster met kinderen (robotreferentie vervallen), geometrische achtergrondvlakken | Niet gebruiken voor nieuwe assets; robot is geschrapt | Aanvullend |
+| REF-05 | Verticale poster met kinderen en geometrische achtergrondvlakken, geometrische achtergrondvlakken | Aanvullende compositiereferentie; robotfiguur niet overnemen | Aanvullend |
 | AST-TURTLE-01 | Verweerde zeefdrukillustratie van de groene pluchen schildpad, gebaseerd op Michels foto | Karakterasset: de schildpad / geheime bewaker | Gegenereerd; afbeeldingsbestand nog niet naar de repository geüpload |
 | AST-BIRD-01 | Zeefdrukillustratie van de houten nestkast met rood-oranje zangvogel, gebaseerd op Michels foto | Karakter-/omgevingsasset voor de signaalvogel en haar nestkast | Gegenereerd; afbeeldingsbestand nog niet naar de repository geüpload |
 | AST-ENV-01 | Zeefdrukillustratie van het fysieke speelgoedlaboratorium: geometrische huisjes, snoepstrooi-daken, gestreepte schoorstenen en knoppenpad op groene basis | Primaire omgevingsasset voor het speelgoedlaboratorium | Gegenereerd; afbeeldingsbestand nog niet naar de repository geüpload |
