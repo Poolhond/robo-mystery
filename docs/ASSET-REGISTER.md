@@ -7,7 +7,7 @@
 | AST-TITLE-01 | Verticale vintage zeefdrukposter voor het beginscherm: snoepfabriek, gestreepte schoorstenen, rook, gloeiende ramen, titel en startknop; geen personages | Beginscherm / title screen voor iPhone 9:19,5 | Concept goedgekeurd; bestand aanwezig in repository-root, nog te ordenen |
 |---|---|---|---|
 | AST-DECOR-01 | Rood hart met opgeheven handen en stralen, minimalistische vintage zeefdruk | Decorstuk voor de controlekamer | Ontwerp uitgewerkt; bestand aanwezig in repository-root, nog te ordenen |
-| AST-DECOR-02 | Houten vogelhuisje met rood-oranje, gefacetteerde vogel die uit de opening kijkt | Decorstuk voor de controlekamer | Ontwerp uitgewerkt; afbeeldingsbestand nog uploaden |
+| AST-DECOR-02 | Houten vogelhuisje met rood-oranje, gefacetteerde vogel die uit de opening kijkt | Decorstuk voor de controlekamer | Ontwerp uitgewerkt; gelijknamig bestand aanwezig in repository-root, nog te ordenen |
 | AST-DECOR-03 | Mechanische bouwsteen-vogel met roestoranje lichaam, donkerblauwe uitgespreide vleugels en ronde blauwe displaybasis | Decorstuk voor de controlekamer | Ontwerp uitgewerkt; afbeeldingsbestand nog uploaden |
 | AST-DECOR-04 | Vleesetende bekerplant in witte en turquoise kweekkast met opengeklapt deksel | Decorstuk voor de controlekamer | Ontwerp uitgewerkt; afbeeldingsbestand nog uploaden |
 | REF-01 | Kamer 3 — The Signal Room: signaalmonitor, satellietschotel, technische apparatuur, verhaalpaneel, inventaris en score | Primaire referentie voor omgevingsstijl en geïntegreerde game-interface | Kernreferentie |
@@ -16,7 +16,7 @@
 | REF-04 | Het speelgoedlaboratorium: kleine geometrische huisjes, gestreepte schoorstenen, kleurrijke daken en een knoppenroute op een groene basis | Specifieke omgevingsconceptreferentie | Kernreferentie voor deze wereld |
 | REF-05 | Verticale poster met kinderen en geometrische achtergrondvlakken, geometrische achtergrondvlakken | Aanvullende compositiereferentie; robotfiguur niet overnemen | Aanvullend |
 | AST-TURTLE-01 | Verweerde zeefdrukillustratie van de groene pluchen schildpad, gebaseerd op Michels foto | Karakterasset: de schildpad / geheime bewaker | Gegenereerd; bestand aanwezig in repository-root, nog te ordenen |
-| AST-BIRD-01 | Zeefdrukillustratie van de houten nestkast met rood-oranje zangvogel, gebaseerd op Michels foto | Karakter-/omgevingsasset voor de signaalvogel en haar nestkast | Gegenereerd; afbeeldingsbestand nog niet naar de repository geüpload |
+| AST-BIRD-01 | Zeefdrukillustratie van de houten nestkast met rood-oranje zangvogel, gebaseerd op Michels foto | Karakter-/omgevingsasset voor de signaalvogel en haar nestkast | De huidige rootbestanden bevatten geen eenduidig geïdentificeerde definitieve export; controleren of dit een apart bestand is |
 | AST-ENV-01 | Zeefdrukillustratie van het fysieke speelgoedlaboratorium: geometrische huisjes, snoepstrooi-daken, gestreepte schoorstenen en knoppenpad op groene basis | Primaire omgevingsasset voor het speelgoedlaboratorium | Gegenereerd; afbeeldingsbestand nog niet naar de repository geüpload |
 | AST-ROBOT-01 | Eerder gegenereerde zeefdrukillustratie van de witte speelgoedrobot | Vervallen asset; robot is volledig uit het spelconcept geschrapt | Niet gebruiken; archiefreferentie, geen gameasset |
 | REF-CHAR-02 | Groepsposter met Charlie, RidderUs en Schildje samen | Compositie- en stijlreferentie voor de drie hoofdrolfiguren van uitdaging 2 | Referentie uit chat; nog niet als repo-bestand opgeslagen |
@@ -41,7 +41,7 @@
 **Assetrichting:** behoud de huisvormen, drie gestreepte schoorstenen, daken met veelkleurige korrels, groene basis en route van knopen naar de voordeur.  
 **Stijlbehandeling:** sterke, verweerde zeefdruk op warm crème papier; signaalrood, mosterdgeel, donker petrol en diep groen; halftoon, inktspikkels en onregelmatige drukdekking.  
 **Compositie:** de volledige maquette als centraal onderwerp, met grafische cirkels op de achtergrond en een posterachtige uitsnede.  
-**Bestand:** de gegenereerde illustratie is gemaakt, maar het binaire afbeeldingsbestand is nog niet in de repository opgeslagen.
+**Bestand:** een aparte definitieve export is niet eenduidig geïdentificeerd tussen de negen huidige rootbestanden; controleren vóór bouw.
 
 ## Derde uitgewerkte asset — AST-BIRD-01
 
@@ -88,7 +88,7 @@ De volgende lijst beschrijft assets die inhoudelijk nodig kunnen zijn voor de hu
 6. Laat tekst die essentieel is voor de gameplay waar mogelijk als echte interface-tekst bestaan, niet alleen als tekst in een afbeelding.
 
 ## Ontbrekende metadata
-De negen beeldbestanden staan in de repository-root, maar zijn nog niet gekoppeld aan een definitieve mapstructuur. De huidige namen bevatten dubbele extensies zoals `.jpg.PNG` en `.png.PNG`; controleer het werkelijke bestandstype voordat bestanden worden hernoemd. De uiteindelijke bestandsnaam, afmetingen, rol, herkomst en goedkeuringsstatus moeten per bestand worden bevestigd.
+De negen beeldbestanden staan in de repository-root, maar zijn nog niet gekoppeld aan een definitieve mapstructuur. De huidige namen bevatten dubbele extensies zoals `.jpg.PNG` en `.png.PNG`; controleer het werkelijke bestandstype voordat bestanden worden hernoemd. De bestanden die al aanwezig zijn, zijn niet automatisch allemaal definitieve game-assets. De uiteindelijke bestandsnaam, afmetingen, rol, herkomst en goedkeuringsstatus moeten per bestand worden bevestigd.
 
 ## Volgende stap
 Controleer de originele bestanden één voor één, bevestig de rol van elke referentie en registreer eventuele aparte karakterbladen, kamers, voorwerpen, iconen en textuurvoorbeelden.
@@ -155,7 +155,7 @@ Controleer de originele bestanden één voor één, bevestig de rol van elke ref
 - **Geen tekst ingebakken:** namen, dialogen en puzzeltekst worden later als echte game-tekst toegevoegd.
 - **Consistentie:** ogen, contouren, textuursterkte en belichting moeten tussen de drie losse assets overeenkomen.
 - **Gebruik:** uitdaging 2 heeft de figuren nodig in een leesbare raadselopstelling. Maak hun gezichten en silhouettes op iPhone-formaat herkenbaar; druktextuur mag belangrijke trekken niet verbergen.
-- **Status:** de vier beelden zijn referenties uit de chat en zijn nog niet als assets in de repository opgeslagen. De definitieve exports moeten afzonderlijk worden toegevoegd en daarna hier met exacte bestandsnamen worden geregistreerd.
+- **Status:** deze vier karakterreferenties zijn nog niet eenduidig als losse, goedgekeurde exports in de repository geïdentificeerd. De huidige negen rootbestanden zijn andere exports; controleer de benodigde losse assets afzonderlijk.
 
 
 ## Uploadklare hoofdrolfiguren — uitdaging 2
@@ -174,7 +174,7 @@ De drie losse illustraties zijn aangeleverd en krijgen onderstaande stabiele ass
 - ID's zijn stabiel en worden niet gewijzigd als later een export wordt vervangen.
 - Bij een latere transparante of opgeschoonde export krijgt die een aparte variantnaam, bijvoorbeeld `-transparent.png`; overschrijf het origineel niet stilzwijgend.
 - Deze versie is de gekozen karakterstijl: minimalistische vectorvormen met sterke, verweerde zeefdruktextuur.
-- Status: klaar om te uploaden, maar nog niet aanwezig als afbeeldingsbestand in de repository.
+- Status: als ontwerp beschreven; geen eenduidig overeenkomend bestand aangetroffen in de huidige negen rootbestanden.
 
 ## Gekozen afwerking — karakterconceptsheet
 
@@ -201,7 +201,7 @@ Een eerste gezamenlijke conceptsheet is gegenereerd om de samenhang van de drie 
 - **Compositie:** verticaal, bedoeld voor iPhone-verhouding 9:19,5.
 - **Personages:** geen Charlie, RidderUs of Schildje zichtbaar; hun aanwezigheid blijft een verrassing.
 - **Animatieplan:** de poster zelf blijft statisch; later kunnen rook, fabrieklichtjes en startknop afzonderlijk subtiel bewegen.
-- **Status:** ontwerp goedgekeurd als richting; de gegenereerde afbeelding is nog niet als bestand in de repository opgeslagen.
+- **Status:** ontwerp goedgekeurd als richting; de bijbehorende definitieve export is niet eenduidig geïdentificeerd tussen de huidige negen rootbestanden.
 - **Belangrijk:** als de knop in de afbeelding behouden blijft, moet later worden beslist of de volledige poster als één klikbaar vlak werkt of dat de knop grafisch wordt afgedekt/vervangen door een echte toegankelijke HTML-knop. De animaties en bediening mogen niet in de afbeeldingspixels worden ingebakken.
 
 
@@ -220,6 +220,6 @@ De vier onderstaande illustraties zijn afzonderlijke decorassets. Gebruik de exa
 
 - De vier bestanden zijn conceptillustraties in dezelfde vintage vector-/zeefdrukrichting als de game.
 - Elk object blijft een zelfstandige asset die later afzonderlijk in de controlekamer kan worden geplaatst.
-- Status is **ontwerp uitgewerkt; nog niet als afbeeldingsbestand in de repository opgeslagen**.
+- Status is **ontwerp uitgewerkt; geen eenduidig overeenkomend bestand aangetroffen in de huidige negen rootbestanden**.
 - Gebruik de paden exact zoals hierboven; maak indien nodig eerst de map `assets/decor/` aan.
 - De gegenereerde illustraties hebben momenteel een crèmekleurige achtergrond; ze zijn niet transparant.
