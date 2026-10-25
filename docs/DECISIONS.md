@@ -1,6 +1,6 @@
 # De mysterieuze fabriek — Beslissingen en open punten
 
-**Versie:** 8.1  
+**Versie:** 8.2  
 **Doel:** één betrouwbare plek voor goedgekeurde besluiten en open punten, zodat de inhoud niet telkens opnieuw wordt bedacht.
 
 ## Dossierstatus en bronvolgorde
@@ -119,14 +119,13 @@ Bronvolgorde: (1) dit beslissingsdocument voor goedkeuring/open status, (2) `CHA
 3. **Uitdaging 2 — hints:** schrijf de exacte drie hintstappen voor de codepuzzel en het kistjesraadsel.
 4. **Uitdaging 2 — onthulling van de ster-met-oog-aanwijzing:** kies hoe de aanwijzing in de kist verschijnt (bijvoorbeeld geheim kaartje of gegraveerd plaatje). De functie blijft hetzelfde: het symbool voor uitdaging 4.
 5. **Uitdaging 1 en 3:** test de definitieve match-3-startborden en bekersnelheden op iPhone; werk teksten, oplossingen en assets verder uit.
-6. **Slotscène:** bepaal de exacte tekst van de opdracht die Wannes na het spel naar de echte verrassing leidt.
-7. **Persoonlijke boodschap:** schrijf en keur de exacte verjaardagsboodschap van de speelgoedfiguren goed.
-8. **Titelvormgeving:** de werktitel is vastgelegd als *De mysterieuze fabriek*. De definitieve grafische titeluitwerking kan later worden gemaakt; de naamkeuze zelf staat niet meer open.
+6. **Slotscène:** de finalehandeling en verjaardagsboodschap zijn vastgelegd. Er is geen extra opdracht of raadsel nodig om naar het echte cadeau te leiden. Controleer alleen bij de eindcontrole of de uitvoering hiermee overeenstemt.
+7. **Titelvormgeving:** de werktitel is vastgelegd als *De mysterieuze fabriek*. De definitieve grafische titeluitwerking kan later worden gemaakt; de naamkeuze zelf staat niet meer open.
 9. **Puntentelling:** beslis of score nodig is; voortgang mag nooit door score worden geblokkeerd.
 10. **Assets:** bepaal welke referentiebeelden definitief gebruikt worden en werk de bestanden uit in een consistente mappenstructuur.
 11. **Dossiercontrole:** stem spelconcept, uitdagingen, techniek, art direction en assetregister op elkaar af vóór de master-prompt.
 
-**Reeds vastgelegd, geen open keuze:** het kleurpalet staat vast zoals beschreven in `ART-DIRECTION.md`. De typografie gebruikt systeemlettertypen met een zwaar, grafisch karakter; er komen geen externe fonts.
+**Reeds vastgelegd, geen open keuze:** het kleurpalet staat vast zoals beschreven in `ART-DIRECTION.md`. De typografie gebruikt systeemlettertypen met een zwaar, grafisch karakter; er komen geen externe fonts. De finalehandeling, de exacte verjaardagsboodschap en het ontbreken van een extra opdracht na de boodschap zijn eveneens beslist en mogen niet opnieuw als open keuzes worden behandeld.
 
 ## Assets die nog moeten worden gecontroleerd of gemaakt
 
@@ -138,13 +137,13 @@ Bronvolgorde: (1) dit beslissingsdocument voor goedkeuring/open status, (2) `CHA
 - Drie kistjes (rood, blauw, geel) en de ster-met-oog-aanwijzing in het rode kistje.
 - Drie bekers en rood balletje.
 - Doek, goochelvoorwerpen, knoppen, iconen en finale-/feestscène.
-- Drie decoratieve interactieve details/easter eggs voor de technische ruimte; exacte lijst nog te bepalen.
+- De drie gekozen easter eggs: (1) pandaschuif in het meubel, (2) vlieg en vleesetende plant, (3) dansend hartkunstwerk. De exacte klikzones en timing moeten nog worden uitgewerkt.
 
 Geef assets consistente namen en leg per bestand vast voor welke scène het dient. De negen huidige rootbestanden zijn geüpload, maar niet alle in het assetregister genoemde exports zijn daarmee aanwezig; onderscheid bestaande bestanden van concepten en nog te maken exports.
 
 ## Werkvolgorde
 
-1. Werk de technische ruimte verder uit: exacte compositie, plaatsing en klikzones van de vier hoofdvoorwerpen; kies daarnaast precies drie optionele interactieve details/easter eggs.
+1. Werk de technische ruimte verder uit: exacte compositie, plaatsing en niet-overlappende klikzones van de vier hoofdvoorwerpen en de drie reeds gekozen easter eggs.
 2. Werk de resterende spelersteksten, hints, schermtoestanden en finale af.
 3. Controleer en voeg de definitieve assets toe; stem het assetregister af op het spelconcept.
 4. Controleer het volledige dossier op tegenstrijdigheden.
