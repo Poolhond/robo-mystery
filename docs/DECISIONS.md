@@ -1,6 +1,6 @@
 # De mysterieuze fabriek — Beslissingen en open punten
 
-**Versie:** 5.7  
+**Versie:** 5.8  
 **Doel:** één betrouwbare plek voor goedgekeurde besluiten en open punten, zodat de inhoud niet telkens opnieuw wordt bedacht.
 
 ## Dossierstatus en bronvolgorde
@@ -23,6 +23,7 @@ Bronvolgorde: (1) dit beslissingsdocument voor goedkeuring/open status, (2) `CHA
 | Finalehandeling | Wannes drukt op een grote rode feestknop. Die activeert de lichtjes en confetti en vormt de laatste interactieve handeling van het spel. |
 | Verjaardagsboodschap — ontwerpbeslissing 34 | Na het indrukken van de feestknop verschijnt in het rustige eindbeeld de persoonlijke boodschap: **“Proficiat Wannes! Dat verdient een cadeau.”** De boodschap is kort, duidelijk en vormt de overgang naar de echte verrassing. |
 | Echte verrassing na het spel | De persoonlijke boodschap “Proficiat Wannes! Dat verdient een cadeau.” wijst erop dat er een echt cadeau volgt. Er is geen extra opdracht of raadsel nodig in het eindbeeld. |
+| Interactieve zones — ontwerpbeslissing 46 | **Optie C — ruime, zorgvuldig afgebakende zones.** Elk interactief voorwerp krijgt een onzichtbare raakzone die comfortabel te bedienen is op iPhone. Zones worden zo afgebakend dat ze elkaar niet onbedoeld overlappen; waar visuele vormen dicht bij elkaar liggen, wordt de selectie bewust bepaald. Geen zichtbare kaders of knoppen op de werkplaats. |
 | Schermoriëntatie — ontwerpbeslissing 45 | **Optie A — portretstand als uitgangspunt.** Het spel is ontworpen en geoptimaliseerd voor verticaal gebruik. Er is geen aparte landschapslay-out en er verschijnt geen draaiwaarschuwing; de vaste spelcompositie en bediening zijn gericht op portret. |
 | Schaal en schermformaten — ontwerpbeslissing 44 | **Optie C — vaste spelwereld met slimme schaal.** De goedgekeurde scène blijft volledig zichtbaar en wordt niet opnieuw samengesteld of bijgesneden. Illustratie, interface en interactieve zones schalen mee met het scherm; op iPhone blijven bediening en raakvlakken comfortabel bereikbaar met één duim. |
 | Beweging in de werkplaats — ontwerpbeslissing 43 | **Optie A — alleen de belangrijkste bewegingen.** Op de titelpagina beweegt de schoorsteenrook subtiel. In de werkplaats reageren interactieve voorwerpen met de eerder vastgelegde korte beweging of oplichting. De rest van de ruimte blijft stil; geen voortdurende decoratieve animaties die de aandacht afleiden. |
