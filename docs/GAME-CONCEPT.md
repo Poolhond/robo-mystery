@@ -61,7 +61,7 @@ Wannes kan de deur op elk moment onderzoeken. Als hij erop tikt, schuift/zoomt h
 
 ### Finale — De deur gaat open
 
-De deur onthult een feestlocatie die de speelgoedfiguren voor Wannes hebben klaargemaakt. De aap, panda, schildpad en regenboogoctopus zijn erbij. De onthulling wordt volledig visueel verteld; er is geen gesproken tekst of geluid. De eerdere aanwijzingen blijken onderdelen van het geheime plan.
+De deur onthult een feestlocatie die de speelgoedfiguren voor Wannes hebben klaargemaakt. De aap, panda, schildpad en regenboogoctopus zijn erbij. De onthulling wordt volledig visueel verteld; er is geen gesproken tekst of geluid. De feestzaal blijft eerst donker tot Wannes op de grote rode feestknop drukt. De eerdere aanwijzingen blijken onderdelen van het geheime plan.
 
 ## 4. De interactieve feestfinale
 
@@ -113,11 +113,11 @@ Een compact point-and-click-avontuur: de maquette is uitsluitend het startscherm
 
 ## 8. Nog uit te werken vóór de bouw
 
-- De spelersteksten, feedback en drie hintstappen per puzzelscherm staan verder uitgewerkt in `docs/SCREEN-SPEC.md` en `docs/CHALLENGES.md`; deze moeten nog volledig worden nagekeken en goedgekeurd. Hints verschijnen uitsluitend wanneer Wannes zelf op `?` drukt; de voortgang wordt per puzzelscherm onthouden.
+- De spelersteksten, feedback en hints staan uitgewerkt in `docs/SCREEN-SPEC.md` en `docs/CHALLENGES.md`; controleer ze bij de eindcontrole op concrete tegenstrijdigheden. Hints verschijnen uitsluitend wanneer Wannes zelf op `?` drukt; de voortgang wordt per puzzelscherm onthouden.
 - De exacte plaatsing en raakvlakken van de vier hoofdvoorwerpen en de drie reeds gekozen easter eggs.
 - De exacte visuele vorm waarin de ster-met-oog-aanwijzing in het rode kistje verschijnt.
 - De technische testbaarheid van de match-3-startborden en de bekersnelheden op iPhone.
-- De definitieve assets, bestandsnamen en consistente mappenstructuur.
+- De aanvullende spelassets die tijdens de bouw nodig blijken; de aanwezige referentiebeelden en mappenstructuur zijn gecontroleerd.
 - De resterende schermenlijst en de precieze rollen van de speelgoedfiguren buiten de vastgelegde puzzel- en finalehandelingen.
 
 De slotwerking, feestknop, finalevolgorde, boodschap, speelduur, kleurpalet en typografische richting zijn al vastgelegd en mogen niet opnieuw als open ontwerpkeuzes worden behandeld.
