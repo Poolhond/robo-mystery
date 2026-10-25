@@ -1,7 +1,7 @@
-# ROBO MYSTERY — Uitdagingen
+# De mysterieuze fabriek — Uitdagingen
 
-**Versie:** 0.8  
-**Status:** Ontwerpdossier in ontwikkeling — nog geen nieuwe gamecode.  
+**Versie:** 0.9  
+**Status:** Uitgewerkt voorontwerp; nog niet bouwklaar. Er wordt nog geen gamecode gebouwd.  
 **Focus van deze revisie:** vrije verkenning van het laboratorium; uitdaging 4 vereenvoudigd tot woord en kleur, met automatische symboolherkenning.
 
 ## Algemene spelregels
