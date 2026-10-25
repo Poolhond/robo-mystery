@@ -1,7 +1,7 @@
 # De mysterieuze fabriek — Spelconcept
 
 **Versie:** 2.3  
-**Status:** Voorontwerp; nog geen bouwklaar dossier en geen nieuwe gamecode  
+**Status:** Inhoudelijk ontwerp uitgewerkt; wacht op finale consistentiecontrole en goedkeuring. Er wordt nog geen gamecode gebouwd.  
 **Laatste update:** 25 oktober 2026 — startbeleving vastgelegd als vrije ontdekking; werktitel gewijzigd naar De mysterieuze fabriek; robot geschrapt
 
 ## 1. Kernidee
@@ -111,7 +111,7 @@ De interacties moeten kort, duidelijk en herhaalbaar zijn. Ze mogen de hoofdvoor
 
 Een compact point-and-click-avontuur: de maquette is uitsluitend het startscherm. Na Start onderzoekt Wannes de technische ruimte van het speelgoedlaboratorium. De volledige ruimte en vier interactieve voorwerpen blijven tegelijk zichtbaar; Wannes tikt op een voorwerp om de bijbehorende interactie te openen. Geschikt voor een telefoon; de technische randvoorwaarden staan in docs/TECH-SPEC.md. Streefduur: ongeveer 10 tot 15 minuten, inclusief vrije verkenning, de drie uitdagingen en de finale. Dit is een richtwaarde en geen tijdslimiet.
 
-## 8. Nog uit te werken vóór de bouw
+## 8. Laatste dossiercontrole vóór goedkeuring
 
 - De spelersteksten, feedback en hints staan uitgewerkt in `docs/SCREEN-SPEC.md` en `docs/CHALLENGES.md`; controleer ze bij de eindcontrole op concrete tegenstrijdigheden. Hints verschijnen uitsluitend wanneer Wannes zelf op `?` drukt; de voortgang wordt per puzzelscherm onthouden.
 - De vorm van de ster-met-oog-aanwijzing is beslist: een klein, plat vintage gedrukt kaartje in het rode kistje. De resterende dossiercontrole gaat alleen nog over concrete tegenstrijdigheden, ontbrekende specificaties en volledigheid.
@@ -122,8 +122,8 @@ Een compact point-and-click-avontuur: de maquette is uitsluitend het startscherm
 
 De slotwerking, feestknop, finalevolgorde, boodschap, speelduur, kleurpalet en typografische richting zijn al vastgelegd en mogen niet opnieuw als open ontwerpkeuzes worden behandeld.
 
-## 9. Volgende ontwerpfase
+## 9. Goedkeurings- en bouwvolgorde
 
-Controleer `DECISIONS.md`, `CHALLENGES.md`, `SCREEN-SPEC.md`, `TECH-SPEC.md`, `ART-DIRECTION.md` en `ASSET-REGISTER.md` op concrete tegenstrijdigheden met de goedgekeurde beslissingen. Zodra het volledige dossier consistent is en Michel het goedkeurt, wordt de master-prompt geschreven.
+Deze controle is de laatste opschoningsronde: controleer de documenten op concrete tegenstrijdigheden, verouderde statussen en onjuiste aanduidingen van reeds genomen beslissingen. Technische testdetails en aanvullende assetproductie blijven verantwoordelijkheid van de ontwikkelaar. Zodra het dossier consistent is en Michel het goedkeurt, wordt één master-prompt geschreven.
 
 **Geen nieuwe gamecode bouwen zolang het dossier niet af is.**
