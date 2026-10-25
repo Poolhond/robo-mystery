@@ -1,6 +1,6 @@
 # De mysterieuze fabriek — Beslissingen en open punten
 
-**Versie:** 6.9  
+**Versie:** 7.0  
 **Doel:** één betrouwbare plek voor goedgekeurde besluiten en open punten, zodat de inhoud niet telkens opnieuw wordt bedacht.
 
 ## Dossierstatus en bronvolgorde
@@ -23,6 +23,7 @@ Bronvolgorde: (1) dit beslissingsdocument voor goedkeuring/open status, (2) `CHA
 | Finalehandeling | Wannes drukt op een grote rode feestknop. Die activeert de lichtjes en confetti en vormt de laatste interactieve handeling van het spel. |
 | Verjaardagsboodschap — ontwerpbeslissing 34 | Na het indrukken van de feestknop verschijnt in het rustige eindbeeld de persoonlijke boodschap: **“Proficiat Wannes! Dat verdient een cadeau.”** De boodschap is kort, duidelijk en vormt de overgang naar de echte verrassing. |
 | Echte verrassing na het spel | De persoonlijke boodschap “Proficiat Wannes! Dat verdient een cadeau.” wijst erop dat er een echt cadeau volgt. Er is geen extra opdracht of raadsel nodig in het eindbeeld. |
+| Knop na hint 3 — ontwerpbeslissing 58 | **Optie C — knop verandert van functie.** Na hint 3 verandert **VOLGENDE HINT** in **TOON OPLOSSING**. Bij aantikken verschijnt eerst het bevestigingspaneel “Wil je de oplossing zien?” met **BEKIJKEN** en **TERUG**. |
 | Navigeren tussen hints — ontwerpbeslissing 57 | **Optie A — één knop: VOLGENDE HINT.** Wannes begint bij hint 1 en gebruikt dezelfde knop om door te gaan naar hint 2 en hint 3. De drie stippen tonen welk niveau actief is, maar zijn niet afzonderlijk aanklikbaar. |
 | Hintvoortgang tonen — ontwerpbeslissing 56 | **Optie B — drie kleine stippen.** Een subtiele indicator met drie stippen toont welke hint aan de beurt is (hint 1, 2 of 3), zonder tekstuele labels of veel schermruimte in te nemen. |
 | Hintpaneel na hint kiezen — ontwerpbeslissing 55 | **Optie A — paneel blijft open.** Na het kiezen en lezen van een hint blijft het hintpaneel zichtbaar. Wannes sluit het zelf met de `?`-knop wanneer hij klaar is. |
