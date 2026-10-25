@@ -11,7 +11,7 @@ De bestanden in `assets/` zijn **geen letterlijke inventaris van wat er in het s
 - Genereer waar nodig nieuwe scènes, achtergronden, decorstukken, animaties en spelobjecten die passen bij het spelconcept en de art direction.
 - De ontwikkelaar mag compositie, schaal, pose en context aanpassen; de referentie hoeft niet letterlijk te worden nagebouwd.
 - Niet elk object uit een referentie hoeft in het spel te verschijnen. De plaats en functie van interactieve elementen worden bepaald door het goedgekeurde spelconcept.
-- Een uitgesloten of niet-goedgekeurd ontwerp, in het bijzonder de mechanische vogel, mag niet worden gebruikt zonder expliciete toestemming.
+- Een uitgesloten ontwerp, in het bijzonder de mechanische vogel, mag niet worden gebruikt. Voor de mechanische vogel is de uitsluiting definitief.
 - Behoud de identiteit van belangrijke personages; maak geen generieke vervangingen die hun herkenbare kenmerken verliezen.
 
 | ID | Beschrijving | Hoofdfunctie | Status |
@@ -19,7 +19,7 @@ De bestanden in `assets/` zijn **geen letterlijke inventaris van wat er in het s
 | AST-TITLE-01 | Verticale vintage zeefdrukposter voor het beginscherm: snoepfabriek, gestreepte schoorstenen, rook, gloeiende ramen, titel en startknop; geen personages | Beginscherm / title screen voor iPhone 9:19,5 | Concept goedgekeurd; bestand `assets/title-screen/AST-TITLE-01-title-poster.png` aanwezig; PNG-formaat bevestigd door Michel |
 | AST-DECOR-01 | Rood hart met opgeheven handen en stralen, minimalistische vintage zeefdruk | Decorstuk voor de controlekamer | Ontwerp uitgewerkt; bestand `assets/decor/AST-DECOR-01-red-heart.png` aanwezig; PNG-formaat bevestigd door Michel |
 | AST-DECOR-02 | Houten vogelhuisje met rood-oranje, gefacetteerde vogel die uit de opening kijkt | Decorstuk voor de controlekamer | Ontwerp uitgewerkt; bestand `assets/decor/AST-DECOR-02-birdhouse.png` aanwezig; PNG-formaat bevestigd door Michel |
-| AST-DECOR-03 | Mechanische bouwsteen-vogel met roestoranje lichaam, donkerblauwe uitgespreide vleugels en ronde blauwe displaybasis | Decorstuk voor de controlekamer | Ontwerp uitgewerkt; bestand `assets/decor/AST-DECOR-03-mechanical-bird.png` aanwezig; **niet gebruiken zonder expliciete goedkeuring** |
+| AST-DECOR-03 | Mechanische bouwsteen-vogel met roestoranje lichaam, donkerblauwe uitgespreide vleugels en ronde blauwe displaybasis | Decorstuk voor de controlekamer | Ontwerp uitgewerkt; bestand `assets/decor/AST-DECOR-03-mechanical-bird.png` aanwezig; **definitief uitgesloten — niet gebruiken** |
 | AST-DECOR-04 | Vleesetende bekerplant in witte en turquoise kweekkast met opengeklapt deksel | Decorstuk en interactieve easter egg in de controlekamer | Ontwerp uitgewerkt; bestand `assets/decor/AST-DECOR-04-pitcher-terrarium.png` aanwezig; PNG-formaat bevestigd door Michel |
 | AST-ROOM-01 | De door Michel aangeleverde verticale afbeelding van de controlekamer: computer links, hoge groene cijfercode-locker in het midden, grote rode deur rechts en tafel met drie bekers vooraan. Bevat ook het hartkunstwerk en de vleesetende plant. | **Vaste visuele basis van de speelruimte** en referentie voor de posities van de vier hoofdobjecten en drie easter eggs | Door Michel bevestigd als dé ruimte; bestand `assets/rooms/control-room/AST-ROOM-01-control-room-reference.png` aanwezig en door Michel gecontroleerd |
 | REF-01 | Kamer 3 — The Signal Room: signaalmonitor, satellietschotel, technische apparatuur, verhaalpaneel, inventaris en score | Primaire referentie voor omgevingsstijl en geïntegreerde game-interface | Kernreferentie |
@@ -254,16 +254,16 @@ De volgende elf bestanden zijn teruggevonden onder de huidige `assets/`-paden. D
 | Huidige bestandsnaam in GitHub-root | Voorlopige koppeling | Status / actie |
 |---|---|---|
 | `assets/characters/charlie/AST-CHARLIE-01-charlie-screenprint.png` | Charlie | Aanwezig; door Michel gecontroleerd |
-| `assets/characters/ridderus/AST-RIDDERUS-01-ridderus-screenprint.png` | RidderUs | Aanwezig; bestandstype en visuele overeenkomst controleren |
+| `assets/characters/ridderus/AST-RIDDERUS-01-ridderus-screenprint.png` | RidderUs | Aanwezig; door Michel gecontroleerd |
 | `assets/characters/schildje/AST-SCHILDJE-01-schildje-screenprint.png` | Schildje | Aanwezig; bestandstype en visuele overeenkomst controleren |
 | `assets/title-screen/AST-TITLE-01-title-poster.png` | Titelposter | Aanwezig; door Michel gecontroleerd |
-| `assets/rooms/control-room/AST-ROOM-01-control-room-reference.png` | Vaste controlekamerreferentie | Aanwezig; PNG-formaat bevestigd door Michel; afmetingen en definitieve export controleren |
+| `assets/rooms/control-room/AST-ROOM-01-control-room-reference.png` | Vaste controlekamerreferentie | Aanwezig; door Michel gecontroleerd |
 | `assets/decor/AST-DECOR-01-red-heart.png` | Rood hart | Aanwezig; PNG-formaat bevestigd door Michel; afmetingen en definitieve export controleren |
-| `assets/decor/AST-DECOR-02-birdhouse.png` | Vogelhuisje met vogel | Aanwezig; PNG-formaat bevestigd door Michel; visuele overeenkomst controleren |
+| `assets/decor/AST-DECOR-02-birdhouse.png` | Vogelhuisje met vogel | Aanwezig; door Michel gecontroleerd |
 | `assets/decor/AST-DECOR-03-mechanical-bird.png` | Mechanische vogel | Aanwezig, maar uitgesloten van het spel; niet gebruiken |
 | `assets/decor/AST-DECOR-04-pitcher-terrarium.png` | Vleesetende bekerplant | Aanwezig; door Michel gecontroleerd |
 | `assets/rooms/toy-laboratory/AST-ENV-01.png` | Speelgoedlaboratorium | Aanwezig; door Michel gecontroleerd |
-| `assets/characters/panda/AST-PANDA-01-panda-screenprint.png` | Panda | Aanwezig; visuele overeenkomst en afmetingen controleren |
+| `assets/characters/panda/AST-PANDA-01-panda-screenprint.png` | Panda | Aanwezig; door Michel gecontroleerd |
 
 ### Voorzichtig omgaan met extensies
 
