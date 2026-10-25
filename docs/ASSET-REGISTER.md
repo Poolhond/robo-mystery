@@ -16,7 +16,7 @@
 | REF-03 | Overzicht met signaalvogel, aap, panda, octopus, schildpad en aanvullende symbolen | Verhouding tussen personages, aanzichten en karakterbladen | Kernreferentie |
 | REF-04 | Het speelgoedlaboratorium: kleine geometrische huisjes, gestreepte schoorstenen, kleurrijke daken en een knoppenroute op een groene basis | Specifieke omgevingsconceptreferentie | Kernreferentie voor deze wereld |
 | REF-05 | Verticale poster met kinderen en geometrische achtergrondvlakken, geometrische achtergrondvlakken | Aanvullende compositiereferentie; robotfiguur niet overnemen | Aanvullend |
-| AST-TURTLE-01 | Verweerde zeefdrukillustratie van de groene pluchen schildpad, gebaseerd op Michels foto | Karakterasset: de schildpad / geheime bewaker | Gegenereerd; bestand aanwezig in repository-root, nog te ordenen |
+| AST-TURTLE-01 | Verweerde zeefdrukillustratie van de groene pluchen schildpad, gebaseerd op Michels foto | Karakterasset: de schildpad / geheime bewaker | Bestand aanwezig: `assets/characters/schildje/AST-SCHILDJE-01-schildje-screenprint.png`; visuele overeenkomst met de referentie nog controleren |
 | AST-BIRD-01 | Zeefdrukillustratie van de houten nestkast met rood-oranje zangvogel, gebaseerd op Michels foto | Karakter-/omgevingsasset voor de signaalvogel en haar nestkast | De negen georganiseerde bestanden bevatten geen eenduidig geïdentificeerde definitieve export; controleren of dit een apart bestand is |
 | AST-ENV-01 | Zeefdrukillustratie van het fysieke speelgoedlaboratorium: geometrische huisjes, snoepstrooi-daken, gestreepte schoorstenen en knoppenpad op groene basis | Primaire omgevingsasset voor het speelgoedlaboratorium | Gegenereerd; afbeeldingsbestand nog niet naar de repository geüpload |
 | AST-ROBOT-01 | Eerder gegenereerde zeefdrukillustratie van de witte speelgoedrobot | Vervallen asset; robot is volledig uit het spelconcept geschrapt | Niet gebruiken; archiefreferentie, geen gameasset |
@@ -97,7 +97,7 @@ De volgende lijst beschrijft assets die inhoudelijk nodig kunnen zijn voor de hu
 6. Laat tekst die essentieel is voor de gameplay waar mogelijk als echte interface-tekst bestaan, niet alleen als tekst in een afbeelding.
 
 ## Ontbrekende metadata
-De negen beeldbestanden staan in de repository-root, maar zijn nog niet gekoppeld aan een definitieve mapstructuur. De huidige namen bevatten dubbele extensies zoals `.jpg.PNG` en `.png.PNG`; controleer het werkelijke bestandstype voordat bestanden worden hernoemd. De bestanden die al aanwezig zijn, zijn niet automatisch allemaal definitieve game-assets. De uiteindelijke bestandsnaam, afmetingen, rol, herkomst en goedkeuringsstatus moeten per bestand worden bevestigd.
+De negen beeldbestanden staan nu in de afgesproken mappen onder `assets/` en hebben de extensie `.png`. Michel heeft bevestigd dat alle negen PNG-bestanden zijn. De bestanden zijn niet geconverteerd of opnieuw opgeslagen; alleen de paden en namen zijn opgeschoond. De bestanden die al aanwezig zijn, zijn niet automatisch allemaal definitieve game-assets. Afmetingen, rol, herkomst en goedkeuringsstatus moeten per bestand worden bevestigd.
 
 ## Volgende stap
 Controleer de originele bestanden één voor één, bevestig de rol van elke referentie en registreer eventuele aparte karakterbladen, kamers, voorwerpen, iconen en textuurvoorbeelden.
@@ -243,20 +243,20 @@ De volgende negen bestanden zijn teruggevonden en naar de juiste `assets/`-mappe
 | `assets/characters/charlie/AST-CHARLIE-01-charlie-screenprint.png` | Charlie | Aanwezig; bestandstype en visuele overeenkomst controleren |
 | `assets/characters/ridderus/AST-RIDDERUS-01-ridderus-screenprint.png` | RidderUs | Aanwezig; bestandstype en visuele overeenkomst controleren |
 | `assets/characters/schildje/AST-SCHILDJE-01-schildje-screenprint.png` | Schildje | Aanwezig; bestandstype en visuele overeenkomst controleren |
-| `assets/title-screen/AST-TITLE-01-title-poster.png` | Titelposter | Aanwezig; bestandstype en definitieve export controleren |
-| `assets/rooms/control-room/AST-ROOM-01-control-room-reference.png` | Vaste controlekamerreferentie | Aanwezig; bestandstype en definitieve export controleren |
-| `assets/decor/AST-DECOR-01-red-heart.png` | Rood hart | Aanwezig; bestandstype en definitieve export controleren |
-| `assets/decor/AST-DECOR-02-birdhouse.png` | Vogelhuisje met vogel | Aanwezig; bestandstype en visuele overeenkomst controleren |
+| `assets/title-screen/AST-TITLE-01-title-poster.png` | Titelposter | Aanwezig; PNG-formaat bevestigd door Michel; afmetingen en definitieve export controleren |
+| `assets/rooms/control-room/AST-ROOM-01-control-room-reference.png` | Vaste controlekamerreferentie | Aanwezig; PNG-formaat bevestigd door Michel; afmetingen en definitieve export controleren |
+| `assets/decor/AST-DECOR-01-red-heart.png` | Rood hart | Aanwezig; PNG-formaat bevestigd door Michel; afmetingen en definitieve export controleren |
+| `assets/decor/AST-DECOR-02-birdhouse.png` | Vogelhuisje met vogel | Aanwezig; PNG-formaat bevestigd door Michel; visuele overeenkomst controleren |
 | `assets/decor/AST-DECOR-03-mechanical-bird.png` | Mechanische vogel | Aanwezig, maar voorlopig niet inzetten; wacht op expliciete ontwerpgoedkeuring |
-| `assets/decor/AST-DECOR-04-pitcher-terrarium.png` | Vleesetende bekerplant | Aanwezig; bestandstype en definitieve export controleren |
+| `assets/decor/AST-DECOR-04-pitcher-terrarium.png` | Vleesetende bekerplant | Aanwezig; PNG-formaat bevestigd door Michel; afmetingen en definitieve export controleren |
 
 ### Voorzichtig omgaan met extensies
 
-De dubbele extensies in de huidige namen zijn geen betrouwbaar bewijs van het werkelijke bestandstype. De bestanden zijn naar functionele mappen verplaatst, maar de namen zijn bewust niet aangepast. Hernoem ze pas nadat de bestandsinhoud is gecontroleerd. Behoud de originele bytes totdat gecontroleerde namen en bestanden gevalideerd zijn. De mechanische vogel staat in de map met decorassets om hem veilig te bewaren, maar wordt niet in de kamercompositie gebruikt zolang de ontwerpkeuze openstaat.
+Alle negen bestanden hebben nu een enkele `.png`-extensie, zoals door Michel bevestigd. De namen en paden zijn opgeschoond; de oorspronkelijke beeldbytes zijn behouden. De mechanische vogel staat in de map met decorassets om hem veilig te bewaren, maar wordt niet in de kamercompositie gebruikt zolang de ontwerpkeuze openstaat.
 
 
 ## Assetorganisatie — synchronisatie 25 oktober 2026
 
-De negen aanwezige afbeeldingsbestanden zijn nu geordend onder `assets/characters/`, `assets/title-screen/`, `assets/rooms/control-room/` en `assets/decor/`. De verplaatsing hergebruikt de bestaande Git-blobs; de bestandsinhoud is niet opnieuw gecodeerd of gecomprimeerd. Zie [de assetaudit](ASSET-AUDIT-2026-10-25.md) voor de actuele paden en resterende controles.
+De negen aanwezige PNG-afbeeldingen zijn geordend onder `assets/characters/`, `assets/title-screen/`, `assets/rooms/control-room/` en `assets/decor/`. De verplaatsing en hernoeming hergebruiken de bestaande Git-blobs; de bestandsinhoud is niet opnieuw gecodeerd of gecomprimeerd. Zie [de assetaudit](ASSET-AUDIT-2026-10-25.md) voor de actuele paden en resterende controles.
 
 De volgende stap is niet automatisch nieuwe afbeeldingen genereren: eerst moeten de bestaande bestanden visueel en technisch worden gecontroleerd. Het speelgoedlaboratorium en de panda blijven als mogelijk ontbrekende assets geregistreerd. De ontwikkelaar kan eenvoudige puzzelobjecten en interface-elementen zelf tekenen als dat de stijl en leesbaarheid ondersteunt.

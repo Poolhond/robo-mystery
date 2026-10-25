@@ -2,28 +2,28 @@
 
 ## Samenvatting
 
-De negen bestaande afbeeldingsbestanden zijn nu geordend in de afgesproken `assets/`-mappen. De bestanden zijn als bestaande Git-blobs verplaatst: de afbeeldingsbytes zijn niet opnieuw opgeslagen, geconverteerd of overschreven. De oude rootpaden zijn uit de huidige versie van de repository verwijderd.
+De negen bestaande afbeeldingsbestanden zijn geordend in de afgesproken `assets/`-mappen. Volgens Michel zijn alle negen bestanden PNG-afbeeldingen. De bestandsnamen zijn opgeschoond zodat ze eindigen op `.png`. De bestaande Git-blobs zijn behouden: de beeldbytes zijn niet opnieuw opgeslagen, geconverteerd of overschreven. Alleen paden, bestandsnamen en documentatie zijn gewijzigd.
 
-De oorspronkelijke bestandsnamen zijn bewust behouden, inclusief de verwarrende oude dubbele extensies zoals `.jpg.PNG` en `.png.PNG`. Die namen bewijzen niet wat het PNG-formaat is. Controleer de bytes en beeldafmetingen tijdens de zelfstandige technische assetcontrole; pas daarna mogen extensies worden opgeschoond. Bewaar de originele bestanden totdat de gecontroleerde bestanden correct openen.
+Controleer nog de afmetingen, transparantie en visuele overeenkomst tijdens de technische assetcontrole.
 
 ## Huidige bestanden en paden
 
 | Huidig repositorypad | Asset | Status / volgende actie |
 |---|---|---|
-| `assets/characters/charlie/AST-CHARLIE-01-charlie-screenprint.png` | Charlie | Verplaatst zonder bestandsinhoud te wijzigen; werkelijk formaat en visuele overeenkomst controleren |
+| `assets/characters/charlie/AST-CHARLIE-01-charlie-screenprint.png` | Charlie | Verplaatst zonder bestandsinhoud te wijzigen; afmetingen en visuele overeenkomst controleren |
 | `assets/characters/ridderus/AST-RIDDERUS-01-ridderus-screenprint.png` | RidderUs | Verplaatst zonder bestandsinhoud te wijzigen; werkelijk formaat en visuele overeenkomst controleren |
 | `assets/characters/schildje/AST-SCHILDJE-01-schildje-screenprint.png` | Schildje | Verplaatst zonder bestandsinhoud te wijzigen; werkelijk formaat en visuele overeenkomst controleren |
-| `assets/title-screen/AST-TITLE-01-title-poster.png` | Titelposter | Verplaatst; PNG-formaat en definitieve export controleren |
-| `assets/rooms/control-room/AST-ROOM-01-control-room-reference.png` | Goedgekeurde controlekamerreferentie | Verplaatst; PNG-formaat controleren. Gebruik als vaste kamercompositie |
-| `assets/decor/AST-DECOR-01-red-heart.png` | Rood hart | Verplaatst; bestandstype en definitieve export controleren |
-| `assets/decor/AST-DECOR-02-birdhouse.png` | Vogelhuisje met vogel | Verplaatst; bestandstype en visuele overeenkomst controleren |
+| `assets/title-screen/AST-TITLE-01-title-poster.png` | Titelposter | Verplaatst; afmetingen en definitieve export controleren |
+| `assets/rooms/control-room/AST-ROOM-01-control-room-reference.png` | Goedgekeurde controlekamerreferentie | Verplaatst; afmetingen controleren. Gebruik als vaste kamercompositie |
+| `assets/decor/AST-DECOR-01-red-heart.png` | Rood hart | Verplaatst; afmetingen en definitieve export controleren |
+| `assets/decor/AST-DECOR-02-birdhouse.png` | Vogelhuisje met vogel | Verplaatst; afmetingen en visuele overeenkomst controleren |
 | `assets/decor/AST-DECOR-03-mechanical-bird.png` | Mechanische vogel | Veilig bewaard als asset, maar niet in de spelcompositie gebruiken zonder expliciete goedkeuring |
 | `assets/decor/AST-DECOR-04-pitcher-terrarium.png` | Vleesetende bekerplant | Verplaatst; bestandstype en definitieve export controleren |
 
 ## Wat is uitgevoerd
 
 - De negen bestaande afbeeldingen zijn naar hun doelmappen verplaatst door de oorspronkelijke Git-blobs te hergebruiken.
-- De oorspronkelijke bytes en bestandsnamen zijn behouden; er is geen beeldconversie uitgevoerd.
+- De oorspronkelijke bytes zijn behouden; de bestandsnamen zijn opgeschoond en er is geen beeldconversie uitgevoerd.
 - De mappenstructuur sluit nu aan bij het assetregister en de technische specificatie.
 - De mechanische vogel blijft buiten de goedgekeurde gamecompositie.
 - De assetregister- en README-verwijzingen zijn bijgewerkt naar de huidige paden.
