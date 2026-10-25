@@ -176,7 +176,7 @@ Een verlichte lijn loopt door het circuit op de monitor. De letter **B** wordt d
 - Geen symbolen of pictogrammen op de speelvlakken, geen modern wit spelvenster, geen standaard emoji en geen afgeronde witte knoppen als uiteindelijke vormgeving.
 - Geen automatische oplossingszet. Hints tonen of markeren alleen een mogelijke actie; Wannes voert die zelf uit.
 
-**Te testen vóór de latere bouw:** de exacte startmatrix en kansverdeling van de vier kleuren; het raster blijft vast op 5 kolommen × 7 rijen en werking van willekeurige aanvulling zonder zettenlimiet. Dit zijn technische validatiepunten; ze mogen de hierboven beschreven spelregels en visuele richting niet stilzwijgend veranderen.
+**Technische verantwoordelijkheid ontwikkelaar:** genereer en test tijdens de bouw een geldige startmatrix en passende verdeling van de vier kleuren; controleer dat er geldige zetten zijn, geen automatische startmatch optreedt en willekeurige aanvulling speelbaar blijft. Het raster blijft 5 × 7 en er is geen zettenlimiet. Een exacte matrix hoeft niet vooraf in het dossier te staan.
 
 ### Level 2 — De geblokkeerde tandwielen
 
@@ -314,7 +314,7 @@ De tandwielen op het monitorpaneel komen met een korte illustratieve beweging op
 - Geen ster met een oog of medaille; die aanwijzing hoort bij uitdaging 2.
 - Geen afwijkende interface of nieuwe beeldtaal ten opzichte van Level 1.
 
-**Te testen vóór de latere bouw:** de exacte beginmatrix, de plaatsing van de vijf kistjes, geldige zetmogelijkheden, bereikbaarheid van ieder kistje en het correct behouden van kistjesvoortgang tijdens willekeurige aanvulling, cascades en herschudden.
+**Technische verantwoordelijkheid ontwikkelaar:** genereer tijdens de bouw een geldige beginopstelling en test bereikbaarheid van de vijf kistjes, geldige zetten en het behouden van kistjesvoortgang tijdens willekeurige aanvulling, cascades en herschudden. Een exacte beginmatrix hoeft niet vooraf in het dossier te worden vastgelegd.
 
 ### Level 3 — De geheime uitgang
 
@@ -454,7 +454,7 @@ De sleutel valt zichtbaar in de uitgang. Het circuit licht op en de fabriek word
 - Geen ster met een oog of medaille; die aanwijzing hoort bij uitdaging 2.
 - Geen afwijkende interface of nieuwe beeldtaal ten opzichte van Level 1 en Level 2.
 
-**Te testen vóór de latere bouw:** de exacte beginmatrix, de geldige zetmogelijkheden, het pad van de sleutel naar de uitgang, de volgorde van vallen/aanvullen/cascades en de garantie dat de sleutel nooit vast komt te zitten door een onoplosbare bordtoestand.
+**Technische verantwoordelijkheid ontwikkelaar:** genereer tijdens de bouw een geldige beginopstelling en test geldige zetten, het pad van de sleutel naar de uitgang en de volgorde van vallen, aanvullen en cascades. Herstel vastgelopen borden zonder de sleutelpositie of verdiende voortgang te verliezen. Een exacte beginmatrix hoeft niet vooraf in het dossier te worden vastgelegd.
 
 
 ### De drie letters samen — onthulling van BAL
@@ -584,7 +584,7 @@ Charlie wijst naar drie gesloten kistjes. De sleutel past op het slot van het ge
 - Als Wannes de uitdaging verlaat nadat hij de sleutel heeft verdiend, blijft de sleutel beschikbaar en blijft het kistjesraadsel onopgelost klaarstaan. Na terugkeer hoeft hij de eerdere puzzels niet opnieuw te doen.
 - Bij de juiste keuze draait de sleutel, klikt het slot open en gaat het deksel langzaam omhoog.
 
-**Inhoud van de kist:** een fysiek voorwerp of kaart met de aanwijzing die uitdaging 2 aan uitdaging 4 levert. De gouden medaille is geschrapt. De afgesproken aanwijzingen voor het grote slot zijn: **BAL** (uitdaging 1), ster met oog (uitdaging 2) en signaalrood (uitdaging 3). Daarom bevat de kist de ster-met-oog-aanwijzing — bijvoorbeeld op een geheim kaartje of een bijzonder gegraveerd plaatje. De onthulling van de ster met het oog hoort bij uitdaging 2. Het woord BAL wordt uitsluitend in uitdaging 1 verdiend.
+**Inhoud van de kist:** de kist bevat de ster-met-oog-aanwijzing voor het grote slot; geen gouden medaille. De afgesproken aanwijzingen zijn **BAL** (uitdaging 1), ster met oog (uitdaging 2) en signaalrood (uitdaging 3). De fysieke drager is nog niet definitief gekozen. Voorstel: een klein, plat vintage gedrukt kaartje in de kist, duidelijk leesbaar en passend bij de zeefdrukstijl. Dit voorstel blijft open tot Michel het bevestigt. Het woord BAL wordt uitsluitend in uitdaging 1 verdiend.
 
 **Reactie van het spel:**
 
@@ -718,7 +718,7 @@ Aan het begin van iedere ronde:
 ### Regels voor eerlijke moeilijkheid
 
 - De gekozen opbouw is vast: **2 wissels → 3 wissels → 4 wissels**, met oplopende snelheid.
-- De animaties moeten in echte tests op een iPhone goed te volgen zijn; als ronde 3 te moeilijk blijkt, verlaag dan de snelheid vóór je het aantal wissels verandert.
+- De ontwikkelaar test de animaties op een echte iPhone. Als ronde 3 te moeilijk blijkt, verlaagt hij eerst de snelheid vóór hij het vastgelegde aantal wissels verandert; het aantal wissels blijft zonder nieuwe ontwerpgoedkeuring ongewijzigd.
 - De snelheid is geen reflex-test. Wannes hoeft niet tijdens een wissel te tikken en krijgt geen aftellende klok.
 - Na een fout wordt de beginpositie opnieuw getoond. Er is geen strafscore, geen verloren leven en geen terugkeer naar een eerdere uitdaging.
 - Ook na herhaalde fouten verschijnt geen automatische hint. Wannes kiest zelf of hij de `?`-knop gebruikt.
@@ -879,11 +879,12 @@ Benodigde assets:
 
 Achter de deur bevindt zich de verrassing die de speelgoedfiguren voor Wannes hebben voorbereid. Na de onthulling drukt Wannes op de grote rode feestknop. Die activeert visueel de lichtjes en confetti. Daarna wordt het beeld rustiger en verschijnt de boodschap in twee stappen: eerst **“Proficiat Wannes!”**, daarna **“Dat verdient een cadeau.”** De speelgoedfiguren en de feestscène blijven zichtbaar. Er is geen geluid, geen extra tik nodig en geen aanvullende opdracht of raadsel om naar het echte cadeau te leiden.
 
-## Volgende ontwerpstappen
+## Volgende dossierstappen
 
-1. Ontwerp de vrije laboratoriumverkenning en de plekken waar Wannes de drie uitdagingen ontdekt.
-2. Werk de schermenlijst en benodigde assets voor uitdaging 1, 2 en 3 uit.
-3. De finale volgt de goedgekeurde schermvolgorde: deur open en zaal donker, tik op de rode feestknop, licht en confetti, daarna automatisch de twee teksten. Geen extra dialoog, geluid, opdracht of extra interactie.
-4. Controleer het hele dossier op tegenstrijdigheden en maak daarna pas de master-prompt.
+1. Controleer de reeds beschreven spelersteksten, hints en schermtoestanden op concrete tegenstrijdigheden; ontwerp ze niet opnieuw zonder reden.
+2. Bevestig de voorgestelde vorm van de ster-met-oog-aanwijzing: een klein, plat vintage gedrukt kaartje in het rode kistje.
+3. Stem dit document af op `DECISIONS.md`, `GAME-CONCEPT.md`, `SCREEN-SPEC.md`, `TECH-SPEC.md`, `ART-DIRECTION.md` en `ASSET-REGISTER.md`.
+4. Laat de ontwikkelaar tijdens de bouw ontbrekende aanvullende assets genereren en alle technische validatie op iPhone uitvoeren.
+5. Schrijf de master-prompt pas nadat Michel het volledige dossier heeft goedgekeurd.
 
 **Bouwstop:** dit bestand beschrijft het ontwerp. Er wordt nog geen nieuwe gamecode gebouwd zolang het volledige dossier niet is goedgekeurd.
