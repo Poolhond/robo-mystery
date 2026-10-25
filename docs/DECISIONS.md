@@ -1,6 +1,6 @@
 # De mysterieuze fabriek — Beslissingen en open punten
 
-**Versie:** 5.3  
+**Versie:** 5.4  
 **Doel:** één betrouwbare plek voor goedgekeurde besluiten en open punten, zodat de inhoud niet telkens opnieuw wordt bedacht.
 
 ## Dossierstatus en bronvolgorde
@@ -23,6 +23,7 @@ Bronvolgorde: (1) dit beslissingsdocument voor goedkeuring/open status, (2) `CHA
 | Finalehandeling | Wannes drukt op een grote rode feestknop. Die activeert de lichtjes en confetti en vormt de laatste interactieve handeling van het spel. |
 | Verjaardagsboodschap — ontwerpbeslissing 34 | Na het indrukken van de feestknop verschijnt in het rustige eindbeeld de persoonlijke boodschap: **“Proficiat Wannes! Dat verdient een cadeau.”** De boodschap is kort, duidelijk en vormt de overgang naar de echte verrassing. |
 | Echte verrassing na het spel | De persoonlijke boodschap “Proficiat Wannes! Dat verdient een cadeau.” wijst erop dat er een echt cadeau volgt. Er is geen extra opdracht of raadsel nodig in het eindbeeld. |
+| Herhalen van easter eggs — ontwerpbeslissing 42 | **Optie A — volledige animatie telkens opnieuw.** Elke keer dat Wannes een easter egg opnieuw activeert, speelt de volledige bijbehorende animatie opnieuw. Dit blijft optioneel en blokkeert de hoofdvoortgang niet. |
 | Moeilijkheid easter eggs — ontwerpbeslissing 41 | **Optie A — makkelijk te ontdekken.** De drie easter eggs mogen tijdens gewone nieuwsgierige verkenning gevonden worden. Ze blijven leuke extraatjes, geen moeilijke verborgen zoektocht. Subtiele animaties kunnen aandacht trekken, maar er komen geen extra uitleg of markeringen. |
 | Easter eggs ontdekken — ontwerpbeslissing 40 | **Optie C — combinatie.** De drie geheimen krijgen niet allemaal dezelfde mate van zichtbaarheid: sommige verraden zich met een subtiele beweging, andere blijven verborgen tot Wannes ze zelf onderzoekt. De hints blijven onderdeel van de bestaande illustratie; geen extra pictogrammen, tekst of interface. Easter eggs geven geen voordeel voor de hoofdvoortgang. |
 | Terugknop — ontwerpbeslissing 39 | **Optie A — eenvoudige pijl naar links.** Elke uitdaging krijgt linksboven dezelfde duidelijke pijl naar links, zonder tekstlabel. De knop is goed zichtbaar, makkelijk aan te raken op iPhone en brengt Wannes terug naar exact dezelfde werkplaatsweergave. |
