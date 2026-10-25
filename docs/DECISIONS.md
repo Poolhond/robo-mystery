@@ -120,12 +120,12 @@ Bronvolgorde: (1) dit beslissingsdocument voor goedkeuring/open status, (2) `CHA
 
 1. **Vrije laboratoriumverkenning:** de speelse werkplaats en de vier hoofdvoorwerpen liggen vast. Werk nog de exacte compositie, plaatsing en klikzones uit. De drie easter eggs zijn gekozen; werk hun timing, animaties en klikzones uit zonder dat ze de hoofdvoortgang blokkeren.
 2. **Uitdaging 2 — spelersteksten:** definitieve introductie, personagedialogen, succes- en foutfeedback en afsluiting.
-3. **Uitdaging 2 — hints:** schrijf de exacte drie hintstappen voor de codepuzzel en het kistjesraadsel.
+3. **Uitdaging 2 — hints:** de hintstappen en oplossingshulp zijn al uitgewerkt in `CHALLENGES.md` en `SCREEN-SPEC.md`. Controleer ze bij de eindcontrole op consistentie; schrijf ze niet opnieuw tenzij er een concrete tegenstrijdigheid wordt gevonden.
 4. **Uitdaging 2 — onthulling van de ster-met-oog-aanwijzing:** kies hoe de aanwijzing in de kist verschijnt (bijvoorbeeld geheim kaartje of gegraveerd plaatje). De functie blijft hetzelfde: het symbool voor uitdaging 4.
 5. **Uitdaging 1 en 3:** test de definitieve match-3-startborden en bekersnelheden op iPhone; werk teksten, oplossingen en assets verder uit.
 6. **Titelvormgeving:** de werktitel is vastgelegd als *De mysterieuze fabriek*. De definitieve grafische titeluitwerking kan later worden gemaakt; de naamkeuze zelf staat niet meer open.
 7. **Puntentelling — BESLIST:** geen punten, totaalscore of highscore. De speler ziet de voortgang uitsluitend via de bestaande spelobjecten, leveldoelen, verdiende letters en aanwijzingen. Dit is geen open ontwerpkeuze meer.
-8. **Assets:** bepaal welke referentiebeelden definitief gebruikt worden en werk de bestanden uit in een consistente mappenstructuur.
+8. **Assets:** de aanwezige afbeeldingen zijn door Michel gecontroleerd en de mappenstructuur is vastgelegd. Bepaal alleen welke aanvullende spelassets de ontwikkelaar nog moet tekenen of genereren en zorg dat de referenties als inspiratie voor een samenhangende wereld worden gebruikt.
 9. **Dossiercontrole:** stem spelconcept, uitdagingen, techniek, art direction en assetregister op elkaar af vóór de master-prompt.
 
 **Reeds vastgelegd, geen open keuze:** het kleurpalet staat vast zoals beschreven in `ART-DIRECTION.md`. De typografie gebruikt systeemlettertypen met een zwaar, grafisch karakter; er komen geen externe fonts. De finalehandeling, de exacte verjaardagsboodschap en het ontbreken van een extra opdracht na de boodschap zijn eveneens beslist en mogen niet opnieuw als open keuzes worden behandeld.
