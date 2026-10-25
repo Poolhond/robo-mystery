@@ -1,6 +1,6 @@
 # De mysterieuze fabriek — Art Direction & Style Guide
 
-**Versie:** 0.5  
+**Versie:** 0.6  
 **Status:** Ontwerpfase — concept herzien, geen codeontwikkeling  
 **Primaire stijlkeuzes:** sterk verweerde zeefdruk; interface geïntegreerd in de vintage posterwereld.
 
@@ -216,3 +216,17 @@ De drie hoofdrolfiguren zijn **Charlie**, **RidderUs** en **Schildje**. Hun echt
 - Varianten voor emotie of houding zijn ondergeschikt aan de basistekening. Pas eerst de frontale basissectie goed voordat varianten gemaakt worden.
 - Geen nieuwe eigenschappen toevoegen of verwijderen zonder afzonderlijke ontwerpbeslissing.
 - Deze richtlijn legt de art direction vast; de nieuwe exports blijven concept tot ze visueel beoordeeld en expliciet goedgekeurd zijn.
+
+
+## 16. Gekozen afwerking voor de hoofdrolfiguren — optie A
+
+**Beslissing:** sterke, uitgesproken verweerde zeefdruk. Dit is de gekozen richting voor Charlie, RidderUs en Schildje.
+
+- De papierbasis en kleurvlakken hebben zichtbare korrel, spikkels, slijtplekken en plaatselijke onregelmatige inktdekking.
+- De contouren mogen een lichte handgedrukte imperfectie hebben, maar moeten op een klein iPhone-scherm duidelijk leesbaar blijven.
+- Textuur wordt per materiaal aangebracht: pluizige pluche bij Charlie en Schildje; geschilderd/kunststof oppervlak en metalen helm bij RidderUs.
+- Gebruik grove halftoon in grotere schaduwvlakken. Houd ogen, snuit, vizieropeningen, knopen en belangrijke naden vrij genoeg van ruis om herkenbaar te blijven.
+- Een lichte kleurplaatverschuiving is welkom, maar niet zo sterk dat de contouren dubbel of onduidelijk worden.
+- De bestaande karakterkleuren blijven leidend; het gekozen palet verbindt de personages met de wereld, niet door ze opnieuw in te kleuren.
+- De gegenereerde groepsposter is een **stijl- en samenhangsconcept**, geen definitieve bron voor proporties of afzonderlijke exportassets. Bij twijfel hebben de echte referentiefoto's voorrang.
+- Maak de drie basistekeningen afzonderlijk goed voordat extra houdingen, emoties of groepscomposities worden uitgewerkt.
