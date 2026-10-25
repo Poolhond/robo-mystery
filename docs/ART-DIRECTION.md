@@ -183,21 +183,19 @@ Beoordeel elke asset op:
 
 Een asset is niet definitief wanneer hij technisch bruikbaar is maar visueel niet bij ROBO MYSTERY past.
 
-## 13. Open beslissingen
+## 13. Open toepassingsdetails
 
-Nog niet definitief:
-- exacte kleurmetingen aan de originele bestanden;
-- lettertypekeuze;
-- precieze mate van lijnonregelmatigheid;
-- detailniveau per type asset;
-- definitieve interface-indeling op verschillende schermen;
-- visuele markering van interactieve objecten.
+De algemene stijl en het kleurenpalet liggen vast. De volgende toepassingsdetails moeten nog worden uitgewerkt of gecontroleerd; dit zijn geen nieuwe keuzes over de basisstijl:
+- controleer of de kleurweergave van assets voldoende aansluit bij het vastgelegde palet;
+- bepaal per asset het passende detailniveau en de mate van lijnonregelmatigheid;
+- werk de interface-indeling uit voor de verschillende schermtoestanden en schermformaten;
+- bepaal hoe interactieve objecten zonder permanente pictogrammen toch duidelijk herkenbaar zijn.
 
 ## 14. Status en volgende fase
 
 De artistieke richting en het kleurenpalet zijn vastgelegd. Dit document is nog geen volledig assetregister en geen definitief functioneel ontwerp.
 
-Volgende stap: inventariseer de originele afbeeldingen en leg per bestand vast welke rol het speelt, welke eigenschappen definitief zijn, welke elementen afzonderlijk nodig zijn en welke beelden nog ontbreken.
+Volgende stap: stem de originele afbeeldingen af op het assetregister en leg per bestand vast welke rol het speelt, welke eigenschappen definitief zijn, welke elementen afzonderlijk nodig zijn en welke beelden nog ontbreken.
 
 **Geen codeontwikkeling voordat het visuele dossier, de assetinventaris en het functionele spelconcept voldoende zijn uitgewerkt.**
 
