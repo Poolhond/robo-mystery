@@ -1,4 +1,4 @@
-# ROBO MYSTERY — Art Direction & Style Guide
+# De mysterieuze fabriek — Art Direction & Style Guide
 
 **Versie:** 0.3  
 **Status:** Ontwerpfase — concept herzien, geen codeontwikkeling  
@@ -8,7 +8,7 @@
 
 ## 1. Artistieke visie
 
-ROBO MYSTERY combineert retro-futuristische sciencefiction, handgedrukte jarenzeventig-popart en een tastbare speelgoedwereld. De sfeer is warm, eigenzinnig, avontuurlijk en licht geheimzinnig. De wereld mag gedetailleerd en doorleefd zijn, zonder donker of fotorealistisch te worden.
+De mysterieuze fabriek combineert retro-futuristische sciencefiction, handgedrukte jarenzeventig-popart en een tastbare speelgoedwereld. De sfeer is warm, eigenzinnig, avontuurlijk en licht geheimzinnig. De wereld mag gedetailleerd en doorleefd zijn, zonder donker of fotorealistisch te worden.
 
 De stijl moet herkenbaar blijven zonder logo of titel: kleurverhoudingen, contouren, druktextuur en compositie vormen samen de visuele identiteit.
 
@@ -27,16 +27,16 @@ De omgeving mag rijk zijn; de interface moet helder blijven.
 
 ## 3. Kleurpalet
 
-Onderstaande waarden zijn voorlopige richtkleuren, geen exacte kleurmetingen. Toets ze later aan de originele afbeeldingsbestanden.
+Dit is het definitief gekozen palet voor het ontwerp. De exacte weergave kan per scherm verschillen, maar de hexwaarden blijven de bron voor de latere bouw.
 
-| Naam | Richtwaarde | Typisch gebruik |
+| Kleur | Hexwaarde | Gebruik |
 |---|---|---|
-| Oud papier | `#F3DDA8` | Papierbasis, lichte vlakken |
-| Signaalrood | `#D94330` | Accenten, signalen, nadruk |
-| Mosterdgeel | `#E9B638` | Lichtaccenten, knoppen, aandacht |
+| Oud papier | `#F3DDA8` | Achtergronden, papier en lichte panelen |
+| Signaalrood | `#D94330` | Belangrijke accenten, signalen en nadruk |
+| Mosterdgeel | `#E9B638` | Lichtaccenten, knoppen en aandachtspunten |
 | Donker petrol | `#174B56` | Interface, schermen, diepe schaduwen |
-| Bosgroen | `#28513D` | Omgeving, meubels, natuur |
-| Inktzwart | `#292A24` | Contouren, tekst, technische details |
+| Bosgroen | `#28513D` | Omgeving, meubels en natuurlijke elementen |
+| Inktzwart | `#292A24` | Contouren, tekst en technische details |
 
 ### Kleurregels
 - Oud papier is een volwaardige beeldkleur, geen zuiver witte achtergrond.
@@ -194,7 +194,7 @@ Nog niet definitief:
 
 ## 14. Status en volgende fase
 
-De artistieke richting is als uitgangspunt vastgelegd. Dit document is nog geen volledig assetregister en geen definitief functioneel ontwerp.
+De artistieke richting en het kleurenpalet zijn vastgelegd. Dit document is nog geen volledig assetregister en geen definitief functioneel ontwerp.
 
 Volgende stap: inventariseer de originele afbeeldingen en leg per bestand vast welke rol het speelt, welke eigenschappen definitief zijn, welke elementen afzonderlijk nodig zijn en welke beelden nog ontbreken.
 
