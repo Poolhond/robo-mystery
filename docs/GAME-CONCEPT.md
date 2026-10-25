@@ -18,7 +18,7 @@ Wannes sluit af met een laatste interactieve handeling waarmee het feest begint.
 - Het feest aan het einde is voor Wannes.
 - Wannes speelt het spel op zijn verjaardag zelf.
 - Het mysterie blijft aan het begin onduidelijk.
-- Het avontuur bevat vier hoofd uitdagingen: match-3, logica, een volg-minigame en het slot. De eerste drie zijn vrij te spelen in elke volgorde.
+- Het avontuur bevat vier hoofduitdagingen: match-3, logica, een volg-minigame en het slot. De eerste drie zijn vrij te spelen in elke volgorde.
 - Het overkoepelende thema is goochelen: Wannes houdt van goocheltrucs, puzzels en raadsels.
 - De andere speelgoedfiguren bereiden de verrassing voor.
 - De eerste drie uitdagingen leveren samen een symbool, een woord en een kleur op. Het symbool verschijnt automatisch op het slot zodra uitdaging 2 voltooid is; Wannes typt zelf het woord BAL en kiest zelf signaalrood.
@@ -102,7 +102,7 @@ De herkenbare vormen en kleuren van de bestaande speelgoedfiguren blijven leiden
 
 ## 7. Spelvorm
 
-Een compact point-and-click-avontuur: de maquette is uitsluitend het startscherm. Na Start speelt alles zich af in de technische ruimte binnen de maquette. De volledige ruimte en vier interactieve voorwerpen blijven tegelijk zichtbaar; Wannes tikt op een voorwerp om de bijbehorende interactie te openen. Geschikt voor een telefoon; de technische randvoorwaarden staan in docs/TECH-SPEC.md. Streefduur: ongeveer 8 tot 12 minuten.
+Een compact point-and-click-avontuur: de maquette is uitsluitend het startscherm. Na Start onderzoekt Wannes de technische ruimte van het speelgoedlaboratorium. De volledige ruimte en vier interactieve voorwerpen blijven tegelijk zichtbaar; Wannes tikt op een voorwerp om de bijbehorende interactie te openen. Geschikt voor een telefoon; de technische randvoorwaarden staan in docs/TECH-SPEC.md. Streefduur: ongeveer 8 tot 12 minuten.
 
 ## 8. Nog te beslissen
 
