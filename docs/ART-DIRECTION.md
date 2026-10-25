@@ -1,6 +1,6 @@
 # De mysterieuze fabriek — Art Direction & Style Guide
 
-**Versie:** 0.6  
+**Versie:** 0.7  
 **Status:** Ontwerpfase — concept herzien, geen codeontwikkeling  
 **Primaire stijlkeuzes:** sterk verweerde zeefdruk; interface geïntegreerd in de vintage posterwereld.
 
@@ -230,3 +230,31 @@ De drie hoofdrolfiguren zijn **Charlie**, **RidderUs** en **Schildje**. Hun echt
 - De bestaande karakterkleuren blijven leidend; het gekozen palet verbindt de personages met de wereld, niet door ze opnieuw in te kleuren.
 - De gegenereerde groepsposter is een **stijl- en samenhangsconcept**, geen definitieve bron voor proporties of afzonderlijke exportassets. Bij twijfel hebben de echte referentiefoto's voorrang.
 - Maak de drie basistekeningen afzonderlijk goed voordat extra houdingen, emoties of groepscomposities worden uitgewerkt.
+
+
+## 17. Beginscherm — vintage filmposter met subtiele animatie
+
+**Gekozen richting:** het beginscherm combineert de uitstraling van een gedrukte vintage filmposter met enkele kleine, rustige animaties. De postercompositie blijft de hoofdzaak; beweging is een tweede laag en mag nooit concurreren met de titel, fabriek of startknop.
+
+### Compositie voor iPhone
+- Ontwerp als één verticale mobiele compositie met doelverhouding **9:19,5**.
+- Bovenaan: titel **DE MYSTERIEUZE FABRIEK**, in grote, compacte retroletters; donker petrol voor de eerste regel en signaalrood voor FABRIEK.
+- Daaronder een korte mysterieuze teaser, bijvoorbeeld: **ER IS IETS VREEMDS AAN DE HAND...**
+- Middenvlak: de handgemaakte speelgoedfabriek als centrale illustratie, met geometrische huisjes, snoepstrooidaken, gestreepte schoorstenen en de groene basis. Gebruik de aangeleverde foto van Michels fysieke model als inhoudelijke referentie en de bestaande posterillustratie als stijlinspiratie.
+- De drie hoofdfiguren kunnen onderaan vóór de fabriek staan, maar blijven kleiner dan de fabriek en de titel.
+- Onderaan: één brede, contrastrijke actieknop met het label **START HET AVONTUUR**, plus een kleine hint **TIK OM BINNEN TE GAAN**.
+- Houd rekening met de iPhone-statusbalk, afgeronde hoeken en veilige zones; titel en startknop mogen niet tegen de schermrand vallen.
+
+### Animatiegedrag
+- **Schoorsteenrook:** langzaam en minimaal omhoog drijven; herhaalbaar en niet afleidend.
+- **Fabrieklichtjes:** af en toe zacht oplichten, niet allemaal tegelijk.
+- **Geheime easter egg:** een klein detail (bijvoorbeeld één raam of knop) reageert alleen op een bewuste tik; het is optioneel en blokkeert de start niet.
+- **Startknop:** korte subtiele ademhaling/puls of lichte inktachtige verschuiving; geen snelle flitsen, stuiteren of overdreven schaalverandering.
+- **Papier/druktextuur:** blijft stil; geen bewegende ruis over het volledige scherm.
+- Beweging blijft langzaam, spaarzaam en energiezuinig. Respecteer waar mogelijk de instelling voor minder beweging op het toestel.
+
+### Technische en visuele grenzen
+- Posteruitstraling komt uit vaste vectorachtige kleurvlakken, sterke contouren, beperkte kleuren, halftoon en verweerde inkttextuur; vermijd fotografische of 3D-renderlook.
+- De illustratie mag de volledige schermhoogte vullen, maar titel, teaser en knop moeten los leesbaar blijven.
+- Geen interface-elementen in de achtergrondillustratie bakken die later als echte interactieve bediening moeten werken.
+- Dit is de goedgekeurde **ontwerprichting**, niet een goedkeuring van definitieve gamecode of finale artwork.
