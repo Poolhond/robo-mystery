@@ -1,6 +1,6 @@
 # De mysterieuze fabriek — Beslissingen en open punten
 
-**Versie:** 2.7  
+**Versie:** 2.8  
 **Doel:** één betrouwbare plek voor goedgekeurde besluiten en open punten, zodat de inhoud niet telkens opnieuw wordt bedacht.
 
 ## Dossierstatus en bronvolgorde
@@ -49,6 +49,7 @@ Bronvolgorde: (1) dit beslissingsdocument voor goedkeuring/open status, (2) `CHA
 | Uitdaging 3 — moeilijkheid | Drie rondes met respectievelijk twee, drie en vier wissels; snelheid neemt geleidelijk toe maar de beweging blijft eerlijk te volgen |
 | Uitdaging 3 — schermpresentatie | Na aantikken zoomt het beeld in op de bestaande tafel met drie bekers. De bekers-truc en het rode balletje spelen zich af op deze tafel, in dezelfde verweerde jarenzeventig-zeefdrukstijl. Geen los modern spelvenster of afwijkende grafische stijl. Na afloop keert Wannes terug naar dezelfde controlekamer. |
 | Uitdaging 4 — bediening | De ster met oog verschijnt automatisch na uitdaging 2; Wannes typt zelf het woord en kiest zelf een kleur; grote knop OPEN DE DEUR |
+| Uitdaging 4 — presentatie en visuele uitleg | Als Wannes op de deur tikt, schuift/zoomt het beeld naar de deur zodat die centraal staat. Vanaf de eerste keer moet het slot visueel drie benodigde onderdelen tonen: symbool, woord en kleur, zonder lange uitleg. De drie onderdelen worden vooral met duidelijke vormen, lege/gevulde vakken en visuele feedback uitgelegd; tekst wordt tot een minimum beperkt of weggelaten waar de beelden volstaan. De ster met oog verschijnt automatisch na uitdaging 2; Wannes typt zelf BAL en kiest zelf signaalrood. |
 | Uitdaging 4 — oplossing | Ster met oog (uitdaging 2), woord BAL (uitdaging 1), kleur signaalrood (uitdaging 3); onbeperkte pogingen |
 | Startscherm en wereld | De maquette is uitsluitend het startscherm. Na Start onderzoekt Wannes zelf de technische ruimte. |
 | Technische ruimte | **Optie C — speelse werkplaats.** De vier hoofdvoorwerpen staan wat verspreider, alsof de fabriek echt gebruikt wordt, maar blijven allemaal zichtbaar op het iPhone-scherm. De ruimte mag karaktervolle details bevatten zonder rommelig te worden. De voorwerpen zijn geïntegreerd in de illustratie, zonder permanente extra pictogrammen of omlijningen. Bij aantikken zoomt het spel in op het gekozen voorwerp en opent een eigen, volledig scherm voor de uitdaging. Een duidelijke terugknop brengt Wannes terug naar dezelfde controlekamer. |
