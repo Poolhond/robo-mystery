@@ -1,6 +1,6 @@
 # ROBO MYSTERY — Assetregister & referenties
 
-**Versie:** 0.3  
+**Versie:** 0.4  
 **Status:** Eerste inventaris op basis van de vijf in deze ontwerpsessie aangeleverde afbeeldingen. De originele beelden zijn in de chat beschikbaar; ze zijn nog niet als afbeeldingsbestanden in deze repository opgeslagen.
 
 | ID | Beschrijving | Hoofdfunctie | Status |
@@ -14,6 +14,10 @@
 | AST-BIRD-01 | Zeefdrukillustratie van de houten nestkast met rood-oranje zangvogel, gebaseerd op Michels foto | Karakter-/omgevingsasset voor de signaalvogel en haar nestkast | Gegenereerd; afbeeldingsbestand nog niet naar de repository geüpload |
 | AST-ENV-01 | Zeefdrukillustratie van het fysieke speelgoedlaboratorium: geometrische huisjes, snoepstrooi-daken, gestreepte schoorstenen en knoppenpad op groene basis | Primaire omgevingsasset voor het speelgoedlaboratorium | Gegenereerd; afbeeldingsbestand nog niet naar de repository geüpload |
 | AST-ROBOT-01 | Eerder gegenereerde zeefdrukillustratie van de witte speelgoedrobot | Vervallen asset; robot is volledig uit het spelconcept geschrapt | Niet gebruiken; archiefreferentie, geen gameasset |
+| REF-CHAR-02 | Groepsposter met Charlie, RidderUs en Schildje samen | Compositie- en stijlreferentie voor de drie hoofdrolfiguren van uitdaging 2 | Referentie uit chat; nog niet als repo-bestand opgeslagen |
+| CHAR-CHARLIE-01 | Echte pluchen Charlie, bruine aap met lichtbruine snuit en oranje jas met twee knopen | Karakterreferentie voor het logische raadsel in uitdaging 2 | Referentie uit chat; losse goedgekeurde asset nog te maken |
+| CHAR-RIDDERUS-01 | Oranje figuur met cyaan vizier, grijze helm met verticale openingen en gele pompon; geen armen | Karakterreferentie voor het logische raadsel in uitdaging 2 | Referentie uit chat; losse goedgekeurde asset nog te maken |
+| CHAR-SCHILDJE-01 | Groene pluchen schildpad met breed schild, korte flippers en grote donkere ogen | Karakterreferentie voor het logische raadsel in uitdaging 2 | Referentie uit chat; losse goedgekeurde asset nog te maken |
 
 ## Vervallen asset — AST-ROBOT-01 (niet gebruiken)
 
