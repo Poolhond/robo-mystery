@@ -1,6 +1,6 @@
 # De mysterieuze fabriek — Beslissingen en open punten
 
-**Versie:** 2.2  
+**Versie:** 2.3  
 **Doel:** één betrouwbare plek voor goedgekeurde besluiten en open punten, zodat de inhoud niet telkens opnieuw wordt bedacht.
 
 ## Dossierstatus en bronvolgorde
@@ -32,7 +32,7 @@ Bronvolgorde: (1) dit beslissingsdocument voor goedkeuring/open status, (2) `CHA
 | Verrassing personages | Charlie, RidderUs en Schildje worden niet getoond of herkenbaar gehint op het beginscherm. De speler ontdekt hen pas tijdens het avontuur. |
 | Taal | Nederlands |
 | Bouwmethode | Eerst het volledige ontwerpdossier afronden en goedkeuren, daarna één master-prompt, bouwen en testen op iPhone |
-| Uitleg aan de speler | Minimale uitleg: korte mysterieuze introductie; Wannes ontdekt bediening en doelen grotendeels zelf. |
+| Startbeleving — vrije ontdekking | **Keuze A.** Na Start ziet Wannes de volledige technische werkplaats en kiest hij zelf welk voorwerp hij onderzoekt. Geen verplichte introductiescène of vooraf opgelegde route; de ruimte en voorwerpen wekken nieuwsgierigheid. Korte uitleg mag alleen verschijnen wanneer die bij een gekozen voorwerp of uitdaging hoort. |
 | Hintsysteem | Combinatie: een discrete hintknop én een automatische hint na meerdere mislukte pogingen. Elke uitdaging heeft drie hintstappen: eerst een subtiele aanwijzing, daarna een gerichte aanwijzing en als derde stap zo nodig de oplossing of de exacte volgende handeling. Geen game-over en onbeperkt opnieuw proberen. |
 | Uitdaging 1 — spelvorm | Drie eigen match-3-levels, geïnspireerd op het algemene spelprincipe van match-3-games; geen gekopieerde levels of vormgeving |
 | Uitdaging 1 — leveldoelen | Verzamel 8 rode energiecellen; verwijder 4 houten kistjes; laat de gouden energiesleutel naar de uitgang vallen |
