@@ -36,9 +36,9 @@
 - Een verwisseling telt alleen als er daardoor een match van minstens drie gelijke symbolen ontstaat. Als geen match ontstaat, bewegen de symbolen terug en wordt geen zet verbruikt.
 - Een match verwijdert de passende symbolen; symbolen erboven vallen naar beneden en nieuwe symbolen vullen de lege plaatsen aan.
 - Doelobjecten en obstakels moeten visueel anders zijn dan gewone match-symbolen.
-- Het doel van het level en het aantal resterende zetten staan steeds duidelijk in beeld, zonder kleine tekst.
+- Het doel en de relevante voortgang staan steeds duidelijk in beeld, zonder kleine tekst. Toon alleen een resterend aantal zetten bij levels die daadwerkelijk een zetlimiet hebben; level 1 heeft geen zetlimiet.
 - Na een geldige match zijn animaties kort en leesbaar. De speler moet kunnen zien wat verdween en wat viel.
-- Een level heeft een beperkt aantal zetten, maar mag niet onredelijk moeilijk zijn. Het ontwerp moet altijd minstens één oplosbare route hebben. Wannes kan zelf via de `?`-knop een hint vragen; hints verschijnen nooit automatisch na fouten of herhaald vastlopen.
+- De moeilijkheid en eventuele zetlimiet worden per level vastgelegd. Geen enkel level heeft een tijdslimiet of game-over door fouten. Als een bord geen geldige zetten meer heeft, moet het spel herstellen zonder voortgang te verliezen. Wannes kan via de `?`-knop een hint vragen; hints verschijnen nooit automatisch.
 - Er is geen game-over en geen tijdslimiet. Wannes mag rustig nadenken en opnieuw proberen.
 - Een hint mag een mogelijke zet laten oplichten, maar voert die niet automatisch uit.
 - Bij voltooiing krijgt Wannes een korte succesanimatie en de bijbehorende letter. De letter blijft zichtbaar in een vaste verzamelstrook boven of onder het bord.
@@ -47,33 +47,30 @@
 
 ### Level 1 — De energiecellen
 
-**Verhaal:** de fabriek is donker. Een bericht op de laboratoriummonitor legt uit dat rode energiecellen nodig zijn om het eerste circuit te activeren.
+**Volledige, bijgewerkte specificatie:** zie [`LEVEL-1-ENERGIECELLEN.md`](LEVEL-1-ENERGIECELLEN.md). Dit document is leidend bij verschillen met oudere tekst.
 
-**Doel:** verzamel **8 rode energiecellen** binnen **12 zetten**.
+**Doel:** verzamel **minstens 10 rode energiecellen**. Er is **geen zettenlimiet en geen tijdslimiet**. Alleen rode symbolen tellen mee; het level eindigt zodra de teller 10 of hoger bereikt en beloont Wannes met de letter **B**.
 
-**Bord en regels:**
-- Start met een raster van match-symbolen in vier soorten: rode energiecellen, gele tandwielen, blauwe bouten en groene kristallen.
-- Alleen matches van rode energiecellen tellen mee voor het doel; matches van andere symbolen blijven nuttig om het bord te veranderen en nieuwe kansen te maken.
-- De teller toont de voortgang van 0/8 tot 8/8.
-- De beginsituatie moet zo worden ingericht dat er direct minstens één geldige match mogelijk is en dat het doel haalbaar is binnen het zetlimiet.
-- Zodra de teller 8 bereikt, stopt het level direct en volgt de beloning; resterende zetten zijn een bonusgevoel, geen extra vereiste.
+**Bord:** 5 kolommen × 7 rijen, met rode energiecellen, gele tandwielen, blauwe bouten en groene kristallen. De startmatrix staat in de aparte level-1-specificatie en is gecontroleerd op nul startmatches en minstens één geldige zet.
+
+**Aanvulling:** symbolen worden willekeurig gekozen, niet uit een vaste vooraf bepaalde aanvulreeks. Tests mogen een seed gebruiken om een run reproduceerbaar te maken; dit verandert de willekeurige aanvulling in het echte spel niet.
+
+**Vastlopen:** na elke cascade controleert het spel of er een geldige zet bestaat. Zo niet, wordt het bord herschikt tot het geen automatische matches bevat en minstens één geldige zet heeft. De verzamelde energiecellen blijven behouden.
 
 **Hintladder:**
-1. Subtiel: één mogelijke match met rode energiecellen krijgt kort een zachte puls.
-2. Duidelijker: de laboratoriummonitor toont: “Probeer rode energiecellen naast elkaar te krijgen.”
-3. Expliciet: de game licht twee aangrenzende symbolen op die verwisseld kunnen worden om een geldige match te maken.
+1. Subtiel: een bruikbare geldige zet pulseert kort.
+2. Duidelijker: “Probeer rode energiecellen naast elkaar te krijgen.”
+3. Expliciet: licht een geldige wissel op; de game voert de zet niet zelf uit.
 
-**Introductietekst op de laboratoriummonitor:**
-> “De fabriek is uitgevallen. Verzamel acht rode energiecellen. Maak rijen van minstens drie dezelfde symbolen om ze op te laden!”
+**Introductietekst:**
+> “De fabriek is uitgevallen. Verzamel tien rode energiecellen. Maak rijen van minstens drie dezelfde symbolen om ze op te laden!”
 
-**Foutfeedback:**
-- Ongeldige verwisseling: “Die combinatie vormt nog geen match. Probeer twee andere symbolen.”
-- Geen rode energiecel geraakt: “Goed geprobeerd. Kijk of je ook rode energiecellen kunt laten verdwijnen.”
+**Foutfeedback:** “Die combinatie vormt nog geen match. Probeer twee andere symbolen.”
 
 **Succesfeedback:**
 > “Circuit één draait weer! Goed gedaan.”
 
-**Beloning:** de letter **B** verschijnt op een metalen label. De letter wordt toegevoegd aan de verzamelstrook: **B _ _**.
+**Beloning:** de letter **B** verschijnt op een metalen label en wordt toegevoegd aan de verzamelstrook: **B _ _**.
 
 ### Level 2 — De geblokkeerde tandwielen
 
