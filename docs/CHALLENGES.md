@@ -122,7 +122,7 @@
 
 **Hintladder:**
 1. Subtiel: de vakjes direct onder de sleutel lichten kort op.
-2. Duidelijker: de spel zegt: “Maak ruimte onder de sleutel, dan kan ze naar beneden vallen.”
+2. Duidelijker: het spel zegt: “Maak ruimte onder de sleutel, dan kan ze naar beneden vallen.”
 3. Expliciet: een geldige match die ruimte onder de sleutel maakt, wordt aangeduid.
 
 **Introductietekst op het scherm:**
@@ -171,7 +171,7 @@ Het woord wordt niet gekoppeld aan een gouden medaille of een extra voorwerp uit
 Wannes ontdekt een klein metalen deurtje met een mechanisch cijferslot van drie cijfers. Wannes krijgt vijf aanwijzingen:
 
 - **682** — één cijfer is juist én staat op de juiste plaats.
-- **614** — één cijfer is juist, maar staat op de verkeerde plaats.
+- **416** — één cijfer is juist, maar staat op de verkeerde plaats.
 - **206** — twee cijfers zijn juist, maar staan allebei op de verkeerde plaats.
 - **738** — geen enkel cijfer komt in de code voor.
 - **780** — één cijfer is juist, maar staat op de verkeerde plaats.
@@ -280,7 +280,7 @@ De aap wijst naar drie gesloten kistjes. De sleutel past op het slot van het gek
 **Beloning van uitdaging 3:** de kleur **signaalrood**, de kleur-aanwijzing voor uitdaging 4.  
 **Geschatte speelduur:** ongeveer 2 minuten.  
 **Bediening:** Wannes tikt op één van drie grote bekers op het scherm; geschikt voor iPhone in staande stand.  
-**Geen game-over:** na een fout mag Wannes opnieuw proberen. Bij herhaald vastlopen helpt de het spel met een hint of toont hij de beginpositie opnieuw.
+**Geen game-over:** na een fout mag Wannes opnieuw proberen. Bij herhaald vastlopen geeft het spel een hint of toont het de beginpositie opnieuw.
 
 ### De scène en de spelregels
 
@@ -295,7 +295,7 @@ Aan het begin van iedere ronde:
 6. Na de laatste wissel stoppen de bekers volledig. Pas daarna kan Wannes een keuze maken.
 7. Wannes tikt op de beker waaronder hij denkt dat het balletje ligt.
 8. De gekozen beker gaat omhoog en toont of het balletje eronder ligt.
-9. Een juist antwoord voltooit de ronde. Bij een fout antwoord geeft de het spel korte feedback en volgt een nieuwe poging met een opnieuw getoonde beginpositie.
+9. Een juist antwoord voltooit de ronde. Bij een fout antwoord geeft het spel korte feedback en volgt een nieuwe poging met een opnieuw getoonde beginpositie.
 
 **Belangrijk:** de spelregels moeten visueel duidelijk maken dat de bekers zelf van plaats wisselen. De speler volgt de bekerpositie, niet een verwarrende reeks willekeurige animaties. Geen tijdslimiet voor het kiezen na afloop van de wissels.
 
@@ -389,7 +389,7 @@ Aan het begin van iedere ronde:
 
 ### Beloning — signaalrood
 
-Na het succes in ronde 3 tilt de het spel de juiste beker op. Het rode balletje stijgt op, verandert in een gloeiende rode lichtbol en werpt een rode lichtcirkel op de tafel. het laboratoriumsysteem analyseert de lichtbol en projecteert een eenvoudige rode kleurstaal met het label **SIGNAALROOD**.
+Na het succes in ronde 3 wordt de juiste beker opgetild. Het rode balletje stijgt op, verandert in een gloeiende rode lichtbol en werpt een rode lichtcirkel op de tafel. het laboratoriumsysteem analyseert de lichtbol en projecteert een eenvoudige rode kleurstaal met het label **SIGNAALROOD**.
 
 **Tekst op het scherm:**
 > “Aha! De truc is ontmaskerd. Onthoud deze kleur: signaalrood. Je hebt nu alle drie de aanwijzingen verzameld!”
@@ -420,14 +420,14 @@ Benodigde assets:
 
 ### Vrije verkenning en ontdekking
 
-Het laboratorium is één centrale omgeving waarin Wannes de het spel zelf rondstuurt. De drie uitdagingen bevinden zich op verschillende plekken. Er is geen vaste volgorde en het spel verplicht hem niet eerst een bepaalde uitdaging af te werken.
+Het laboratorium is één centrale omgeving waarin Wannes het spel zelf rondstuurt. De drie uitdagingen bevinden zich op verschillende plekken. Er is geen vaste volgorde en het spel verplicht hem niet eerst een bepaalde uitdaging af te werken.
 
 De grote deur is ook vanaf het begin zichtbaar of vindbaar. Wannes mag ze meteen onderzoeken. Zo ontdekt hij zelf dat dit het centrale mysterie is. Het slot toont drie onderdelen:
 - een symboolvenster;
 - een invoerveld voor een woord;
 - een kleurkeuze.
 
-Bij de eerste ontdekking geeft de het spel een korte reactie:
+Bij de eerste ontdekking verschijnt een korte reactie:
 
 > “Een geheim slot! Het lijkt erop dat het drie aanwijzingen nodig heeft. Die moeten ergens in dit laboratorium verstopt zitten.”
 
@@ -477,7 +477,7 @@ Het slot legt niet uit waar de aanwijzingen te vinden zijn. Wannes ontdekt dat d
 Onder het woordveld en de kleurkeuze staat één grote knop **OPEN DE DEUR**.
 
 - De knop is zichtbaar en gemakkelijk met één duim te bedienen.
-- Als nog niet alle drie de uitdagingen voltooid zijn, legt de het spel vriendelijk uit dat het slot nog aanwijzingen mist. De deur geeft geen straf en Wannes kan meteen terug op ontdekking gaan.
+- Als nog niet alle drie de uitdagingen voltooid zijn, legt het spel vriendelijk uit dat het slot nog aanwijzingen mist. De deur geeft geen straf en Wannes kan meteen terug op ontdekking gaan.
 - Als de uitdagingen voltooid zijn maar het woord of de kleur fout is, volgt korte mechanische feedback. Het symbool blijft staan en het woord en de kleur blijven geselecteerd.
 - Er zijn onbeperkte pogingen en geen timer, verloren levens of game-over.
 - Bij de juiste combinatie — automatisch verschenen ster met oog, woord **BAL** en kleur **signaalrood** — klikken de onderdelen vast en opent de deur.
