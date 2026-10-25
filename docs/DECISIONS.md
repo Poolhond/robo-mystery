@@ -1,6 +1,6 @@
 # De mysterieuze fabriek — Beslissingen en open punten
 
-**Versie:** 8.0  
+**Versie:** 8.1  
 **Doel:** één betrouwbare plek voor goedgekeurde besluiten en open punten, zodat de inhoud niet telkens opnieuw wordt bedacht.
 
 ## Dossierstatus en bronvolgorde
@@ -23,6 +23,7 @@ Bronvolgorde: (1) dit beslissingsdocument voor goedkeuring/open status, (2) `CHA
 | Finalehandeling | Wannes drukt op een grote rode feestknop. Die activeert de lichtjes en confetti en vormt de laatste interactieve handeling van het spel. |
 | Verjaardagsboodschap — ontwerpbeslissing 34 | Na het indrukken van de feestknop verschijnt in het rustige eindbeeld de persoonlijke boodschap: **“Proficiat Wannes! Dat verdient een cadeau.”** De boodschap is kort, duidelijk en vormt de overgang naar de echte verrassing. |
 | Echte verrassing na het spel | De persoonlijke boodschap “Proficiat Wannes! Dat verdient een cadeau.” wijst erop dat er een echt cadeau volgt. Er is geen extra opdracht of raadsel nodig in het eindbeeld. |
+| Hints zijn schermgebonden — ontwerpbeslissing 69 | **Verduidelijking.** Elk puzzelscherm heeft zijn eigen hints. Wanneer Wannes dat scherm verlaat, sluit het hintpaneel en verdwijnt de getoonde hint uit beeld; hints verschijnen nooit op een ander scherm of in de werkplaats. Bij terugkeer naar dezelfde puzzel wordt de voor dát scherm onthouden hintstatus hervat, volgens de eerdere beslissingen over voortgang bewaren. |
 | Hint tonen na puzzelsucces — ontwerpbeslissing 68 | **Optie A — de laatst bekeken hint.** Na succes toont de `?`-knop dezelfde laatst bekeken hint opnieuw. De hintstatus en eventuele oplossingsinstructie worden niet gereset. |
 | Hints na puzzelsucces — ontwerpbeslissing 67 | **Optie A — hints blijven beschikbaar.** Na het oplossen blijft de `?`-knop beschikbaar. Wannes kan de laatst bekeken hint opnieuw openen, ook nadat de puzzel is opgelost. |
 | Hintpaneel bij puzzel oplossen — ontwerpbeslissing 66 | **Optie B — hintpaneel sluit automatisch.** Wanneer Wannes de puzzel oplost, sluit het hintpaneel vanzelf zodat de korte succesanimatie volledig zichtbaar is. |
