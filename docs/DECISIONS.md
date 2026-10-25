@@ -1,6 +1,6 @@
 # De mysterieuze fabriek — Beslissingen en open punten
 
-**Versie:** 7.2  
+**Versie:** 7.3  
 **Doel:** één betrouwbare plek voor goedgekeurde besluiten en open punten, zodat de inhoud niet telkens opnieuw wordt bedacht.
 
 ## Dossierstatus en bronvolgorde
@@ -23,6 +23,7 @@ Bronvolgorde: (1) dit beslissingsdocument voor goedkeuring/open status, (2) `CHA
 | Finalehandeling | Wannes drukt op een grote rode feestknop. Die activeert de lichtjes en confetti en vormt de laatste interactieve handeling van het spel. |
 | Verjaardagsboodschap — ontwerpbeslissing 34 | Na het indrukken van de feestknop verschijnt in het rustige eindbeeld de persoonlijke boodschap: **“Proficiat Wannes! Dat verdient een cadeau.”** De boodschap is kort, duidelijk en vormt de overgang naar de echte verrassing. |
 | Echte verrassing na het spel | De persoonlijke boodschap “Proficiat Wannes! Dat verdient een cadeau.” wijst erop dat er een echt cadeau volgt. Er is geen extra opdracht of raadsel nodig in het eindbeeld. |
+| Visuele markering bij oplossing — ontwerpbeslissing 61 | **Optie A — subtiel pulserende contour.** Het relevante onderdeel krijgt een dunne contour die een paar keer zacht oplicht. Geen bewegingsaanwijzing of extra effect. |
 | Oplossingshint met visuele markering — ontwerpbeslissing 60 | **Optie C — de oplossing markeert de juiste plek.** Na bevestiging toont de hint de exacte volgende actie én markeert het relevante puzzelonderdeel subtiel. Wannes voert de actie zelf uit; de puzzel wordt niet automatisch opgelost. |
 | TERUG bij oplossingsbevestiging — ontwerpbeslissing 59 | **Optie A — terug naar hint 3.** Het bevestigingspaneel verdwijnt, maar hint 3 blijft zichtbaar. Wannes kan verder nadenken of later opnieuw **TOON OPLOSSING** kiezen. |
 | Knop na hint 3 — ontwerpbeslissing 58 | **Optie C — knop verandert van functie.** Na hint 3 verandert **VOLGENDE HINT** in **TOON OPLOSSING**. Bij aantikken verschijnt eerst het bevestigingspaneel “Wil je de oplossing zien?” met **BEKIJKEN** en **TERUG**. |
