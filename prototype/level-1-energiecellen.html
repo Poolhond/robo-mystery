@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#25251f">
+<title>De mysterieuze fabriek — De energiecellen</title>
+<style>
+:root{color-scheme:dark;--ink:#25251f;--paper:#f4e7c6;--red:#d94735;--blue:#3998b7;--green:#679b52;--yellow:#e7b83e;--line:#d7c69b}
+*{box-sizing:border-box}body{margin:0;background:var(--ink);color:var(--paper);font-family:system-ui,-apple-system,sans-serif;min-height:100dvh}
+main{width:min(100%,520px);margin:auto;padding:env(safe-area-inset-top) 14px env(safe-area-inset-bottom);padding-top:max(14px,env(safe-area-inset-top));}
+header{display:flex;align-items:center;justify-content:space-between;gap:10px;border-bottom:2px solid var(--line);padding-bottom:12px}
+.eyebrow{font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;opacity:.8}.title{font-size:1.4rem;line-height:1.1;margin:4px 0;font-weight:900}
+.counter{border:2px solid var(--red);padding:7px 11px;text-align:center;min-width:82px;font-weight:900;font-size:1.2rem}
+p{line-height:1.4;margin:12px 0}.intro{font-size:.94rem}
+.panel{border:2px solid var(--line);background:#35352c;padding:10px;margin-top:12px}
+.board{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:5px;touch-action:manipulation}
+.cell{aspect-ratio:1;border:2px solid #5d5948;border-radius:5px;background:#464438;display:grid;place-items:center;padding:0;min-width:0;color:white;font-size:clamp(1.25rem,6vw,2rem);font-weight:900;box-shadow:inset 0 -3px #25251f}
+.cell:focus-visible,button:focus-visible{outline:3px solid white;outline-offset:2px}
+.cell.selected{outline:3px solid #fff2a6;outline-offset:1px;transform:scale(.94)}
+.cell.hinted{outline:3px dashed white;outline-offset:1px;animation:pulse .8s ease-in-out infinite alternate}
+.cell.red{background:var(--red)}.cell.blue{background:var(--blue)}.cell.green{background:var(--green)}.cell.yellow{background:var(--yellow);color:#25251f}
+@keyframes pulse{to{filter:brightness(1.3)}}
+.legend{display:flex;flex-wrap:wrap;gap:8px 12px;font-size:.75rem;margin-top:10px}.legend span{white-space:nowrap}
+.controls{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:12px}
+button.action{min-height:48px;border:2px solid var(--line);background:var(--paper);color:var(--ink);font-weight:850;font-size:.9rem;padding:10px;border-radius:4px}
+button.secondary{background:transparent;color:var(--paper)}
+.status{min-height:44px;font-size:.9rem;margin:10px 0 0;padding:8px 10px;background:#1d1d19;border-left:4px solid var(--yellow)}
+.status.success{border-color:var(--green)}.small{font-size:.75rem;opacity:.75;margin-top:10px}
+.overlay{position:fixed;inset:0;background:#171713ed;display:grid;place-items:center;padding:20px;z-index:5}
+.dialog{width:min(100%,360px);border:3px solid var(--paper);background:var(--ink);padding:22px;text-align:center}.dialog h2{margin:0 0 8px}.dialog button{width:100%;margin-top:10px}
+[hidden]{display:none!important}
+</style>
+</head>
+<body>
+<main>
+<header><div><div class="eyebrow">De mysterieuze fabriek · Level 1</div><h1 class="title">De energiecellen</h1></div><div class="counter" aria-live="polite"><span id="count">0</span>/10<small style="display:block;font-size:.58rem;letter-spacing:.08em">ROOD</small></div></header>
+<p class="intro">De fabriek is uitgevallen. Verzamel tien rode energiecellen. Tik twee aangrenzende vakjes aan om ze te wisselen en maak rijen van minstens drie gelijke symbolen.</p>
+<section class="panel" aria-label="Spelbord"><div id="board" class="board"></div><div class="legend"><span>● Rode energiecel</span><span>✦ Blauwe bout</span><span>◆ Groen kristal</span><span>⚙ Geel tandwiel</span></div></section>
+<div class="controls"><button id="hint" class="action secondary">? HINT</button><button id="reset" class="action secondary">OPNIEUW</button></div>
+<p id="status" class="status" role="status" aria-live="polite">Kies een vakje en daarna een aangrenzend vakje. Er is geen zettenlimiet.</p>
+<p class="small">Speelbare proefversie · 5 × 7 vakjes · onbeperkt zetten · willekeurige aanvulling</p>
+</main>
+<div id="overlay" class="overlay" hidden><div class="dialog"><div class="eyebrow">Circuit één hersteld</div><h2>Goed gedaan!</h2><p>De energie stroomt weer. Je hebt de letter:</p><div style="font-size:4rem;font-weight:950;letter-spacing:.12em">B</div><p>Je kunt deze proef opnieuw spelen.</p><button id="again" class="action">OPNIEUW SPELEN</button></div></div>
+<script>
+(() => {
+const R=7,C=5,TARGET=10, COLORS=['R','B','G','Y'];
+const START=['RYYRR','YBYYR','YYBRB','BBRBR','BRRYY','GYBYG','YBYRY'].map(x=>x.split(''));
+const SYMBOL={R:'●',B:'✦',G:'◆',Y:'⚙'};
+const boardEl=document.querySelector('#board'), countEl=document.querySelector('#count'), statusEl=document.querySelector('#status');
+let board, count, selected, hintMove, won, busy=false;
+const clone=b=>b.map(row=>row.slice());
+function matches(b){const found=new Set();for(let r=0;r<R;r++)for(let c=0;c<C;){let e=c+1;while(e<C&&b[r][e]===b[r][c])e++;if(b[r][c]&&e-c>=3)for(let k=c;k<e;k++)found.add(r+','+k);c=e}for(let c=0;c<C;c++)for(let r=0;r<R;){let e=r+1;while(e<R&&b[e][c]===b[r][c])e++;if(b[r][c]&&e-r>=3)for(let k=r;k<e;k++)found.add(k+','+c);r=e}return found}
+function hasMatchAt(b,r,c){return matches(b).size>0}
+function swap(b,a,d){[b[a.r][a.c],b[d.r][d.c]]=[b[d.r][d.c],b[a.r][a.c]]}
+function legalMoves(b){const out=[];for(let r=0;r<R;r++)for(let c=0;c<C;c++)for(const [dr,dc] of [[1,0],[0,1]]){let rr=r+dr,cc=c+dc;if(rr>=R||cc>=C)continue;let a={r,c},d={r:rr,c:cc};swap(b,a,d);let ok=matches(b).size>0;swap(b,a,d);if(ok)out.push([a,d])}return out}
+function refill(){for(let c=0;c<C;c++){let vals=[];for(let r=R-1;r>=0;r--)if(board[r][c])vals.push(board[r][c]);for(let r=R-1;r>=0;r--)board[r][c]=vals[R-1-r]||COLORS[Math.floor(Math.random()*COLORS.length)]}}
+function resolve(){let rounds=0;while(true){const found=matches(board);if(!found.size)break;if(++rounds>100){setStatus('De kettingreactie is gestopt om het bord veilig te houden.');break}for(const key of found){const [r,c]=key.split(',').map(Number);if(board[r][c]==='R')count++;board[r][c]=null}refill();if(count>=TARGET){won=true;break}}}
+function shuffleUntilPlayable(){let pieces=board.flat();for(let n=0;n<2000;n++){for(let i=pieces.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[pieces[i],pieces[j]]=[pieces[j],pieces[i]]}let candidate=Array.from({length:R},(_,r)=>pieces.slice(r*C,(r+1)*C));if(!matches(candidate).size&&legalMoves(candidate).length){board=candidate;return true}}return false}
+function setStatus(text,success=false){statusEl.textContent=text;statusEl.classList.toggle('success',success)}
+function render(){boardEl.innerHTML='';countEl.textContent=count;board.forEach((row,r)=>row.forEach((v,c)=>{const b=document.createElement('button');b.className='cell '+({R:'red',B:'blue',G:'green',Y:'yellow'}[v]||'');b.textContent=SYMBOL[v]||'';b.setAttribute('aria-label',({R:'Rode energiecel',B:'Blauwe bout',G:'Groen kristal',Y:'Geel tandwiel'}[v]||'Leeg')+', rij '+(r+1)+', kolom '+(c+1));b.disabled=won||busy||!v;if(selected&&selected.r===r&&selected.c===c)b.classList.add('selected');if(hintMove&&hintMove.some(p=>p.r===r&&p.c===c))b.classList.add('hinted');b.addEventListener('click',()=>tap(r,c));boardEl.appendChild(b)}));if(won)document.querySelector('#overlay').hidden=false}
+function adjacent(a,b){return Math.abs(a.r-b.r)+Math.abs(a.c-b.c)===1}
+function tap(r,c){if(won||busy)return;hintMove=null;const p={r,c};if(!selected){selected=p;render();return}if(selected.r===r&&selected.c===c){selected=null;render();return}if(!adjacent(selected,p)){selected=p;setStatus('Kies een vakje dat direct naast het eerste ligt.');render();return}const a=selected;selected=null;swap(board,a,p);if(!matches(board).size){swap(board,a,p);setStatus('Geen match deze keer. Probeer twee andere vakjes.');render();return}busy=true;resolve();if(!won&&!legalMoves(board).length){if(shuffleUntilPlayable())setStatus('Het bord is herschikt. Je verzamelde cellen blijven behouden.')}if(won){setStatus('Circuit één draait weer! Goed gedaan.',true)}else if(count>0){setStatus('Goed bezig! Je verzamelde '+count+' rode energiecellen.')}else{setStatus('Match gevonden. Zoek nu naar rode energiecellen.')}busy=false;render()}
+function newGame(){board=clone(START);count=0;selected=null;hintMove=null;won=false;busy=false;document.querySelector('#overlay').hidden=true;setStatus('Kies een vakje en daarna een aangrenzend vakje. Er is geen zettenlimiet.');render()}
+document.querySelector('#hint').addEventListener('click',()=>{if(won||busy)return;const moves=legalMoves(board);if(!moves.length){if(shuffleUntilPlayable()){setStatus('Het bord is herschikt. Tik op een aangrenzend paar.');render()}return}const redMoves=moves.filter(([a,b])=>{swap(board,a,b);const m=matches(board);const red=[...m].some(k=>{const [r,c]=k.split(',').map(Number);return board[r][c]==='R'});swap(board,a,b);return red});hintMove=(redMoves.length?redMoves:moves)[Math.floor(Math.random()*(redMoves.length?redMoves.length:moves.length))];selected=null;setStatus('Hint: wissel de twee gemarkeerde vakjes. De zet wordt niet automatisch uitgevoerd.');render()});
+document.querySelector('#reset').addEventListener('click',()=>{if(confirm('Wil je dit level opnieuw beginnen? Je huidige voortgang gaat verloren.'))newGame()});
+document.querySelector('#again').addEventListener('click',newGame);
+newGame();
+})();
+</script>
+</body>
+</html>
