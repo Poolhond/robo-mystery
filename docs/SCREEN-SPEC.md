@@ -1,6 +1,6 @@
 # De mysterieuze fabriek — Scherm- en toestandspecificatie
 
-**Versie:** 1.2  
+**Versie:** 1.3  
 **Status:** Werkdocument voor dossiercontrole; geen toestemming om gamecode te bouwen.  
 **Doel:** elk zichtbaar scherm, elke betekenisvolle deeltoestand, overgang, tekst en herstelregel beschrijven voordat de master-prompt wordt geschreven.
 
@@ -166,7 +166,7 @@ De gewone hint 3 blijft een laatste denkstap en verklapt het antwoord niet. De e
 
 ## 5. Open verificaties — niet stilzwijgend als afgerond markeren
 
-1. **Match-3:** de exacte drie startmatrices moeten worden vastgelegd en met een solver/testprocedure op oplosbaarheid worden gecontroleerd volgens de gekozen spelregels. De huidige doelen/zetlimieten zijn nog geen bewijs van oplosbaarheid.
+1. **Match-3:** de exacte drie startmatrices moeten worden vastgelegd en met een solver/testprocedure op oplosbaarheid worden gecontroleerd volgens de gekozen spelregels. De huidige doelen zijn nog geen bewijs van oplosbaarheid; er zijn geen zetlimieten.
 2. **Bekers:** concrete wisselroutes en snelheden moeten op iPhone-portret worden getest; elke animatie moet dezelfde permutatie opleveren als de interne logica.
 3. **Visuele compositie:** exacte klikzones en plaatsing van de vier hoofdobjecten en drie easter eggs moeten nog worden vastgelegd.
 4. **Assets:** werkelijke bestandstypen en definitieve locaties moeten worden gecontroleerd voordat de schermen aan specifieke afbeeldingen worden gekoppeld.
