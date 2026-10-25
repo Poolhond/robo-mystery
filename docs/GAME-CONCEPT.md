@@ -1,6 +1,6 @@
 # De mysterieuze fabriek — Spelconcept
 
-**Versie:** 1.4  
+**Versie:** 1.5  
 **Status:** Ontwerpfase — geen nieuwe gamecode  
 **Laatste update:** 25 oktober 2026 — werktitel gewijzigd naar De mysterieuze fabriek; robot geschrapt, speler onderzoekt zelf het laboratorium
 
@@ -15,7 +15,7 @@ Wannes sluit af met een laatste interactieve handeling waarmee het feest begint.
 ## 2. Vastgelegde spelbeslissingen
 
 - De werktitel is **De mysterieuze fabriek**; de definitieve grafische titeluitwerking volgt later.
-- Visuele richting van de fabriek: een geheim technisch laboratorium met bedieningspanelen, meetinstrumenten, metalen lockers en een gesloten deur; mysterieus maar niet griezelig.
+- Visuele richting van de fabriek: een compacte controlekamer met vier duidelijk gegroepeerde interactieve voorwerpen en weinig decoratie. Bedieningspanelen, meetinstrumenten en metalen lockers zorgen voor karakter. Alle vier de voorwerpen blijven tegelijk zichtbaar en herkenbaar op het iPhone-scherm; de sfeer is mysterieus maar niet griezelig.
 - De speler is **Wannes**; hij onderzoekt de ruimte zelf en bedient de voorwerpen rechtstreeks.
 - Het feest aan het einde is voor Wannes.
 - Wannes speelt het spel op zijn verjaardag zelf.
