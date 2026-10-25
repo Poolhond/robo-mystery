@@ -177,7 +177,7 @@ Controleer de originele bestanden één voor één, bevestig de rol van elke ref
 - **Geen tekst ingebakken:** namen, dialogen en puzzeltekst worden later als echte game-tekst toegevoegd.
 - **Consistentie:** ogen, contouren, textuursterkte en belichting moeten tussen de drie losse assets overeenkomen.
 - **Gebruik:** uitdaging 2 heeft de figuren nodig in een leesbare raadselopstelling. Maak hun gezichten en silhouettes op iPhone-formaat herkenbaar; druktextuur mag belangrijke trekken niet verbergen.
-- **Status:** deze vier karakterreferenties zijn nog niet eenduidig als losse, goedgekeurde exports in de repository geïdentificeerd. De huidige negen uploads bevatten wel de drie losse basisillustraties; controleer nog of aanvullende posevarianten nodig zijn.
+- **Status:** deze vier karakterreferenties zijn nog niet eenduidig als losse, goedgekeurde exports in de repository geïdentificeerd. De huidige elf afbeeldingsbestanden bevatten wel de drie losse basisillustraties; controleer nog of aanvullende posevarianten nodig zijn.
 
 
 ## Uploadklare hoofdrolfiguren — uitdaging 2
