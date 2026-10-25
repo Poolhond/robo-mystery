@@ -178,7 +178,7 @@ De gewone hint 3 blijft een laatste denkstap en verklapt het antwoord niet. De e
 2. **Bekers:** concrete wisselroutes en snelheden moeten op iPhone-portret worden getest; elke animatie moet dezelfde permutatie opleveren als de interne logica.
 3. **Visuele compositie:** exacte klikzones en plaatsing van de vier hoofdobjecten en drie easter eggs moeten nog worden vastgelegd.
 4. **Assets:** werkelijke bestandstypen en definitieve locaties moeten worden gecontroleerd voordat de schermen aan specifieke afbeeldingen worden gekoppeld.
-5. **Hintconsistentie:** de algemene regel is drie hints en daarna een aparte oplossing. De hintladder in dit document is aangepast om hint 3 niet als volledige oplossing te formuleren; controleer deze scheiding ook in alle puzzelbeschrijvingen in `CHALLENGES.md`.
+5. **Hintconsistentie — GECONTROLEERD:** de drie gewone hints zijn gescheiden van **TOON OPLOSSING** in de puzzelbeschrijvingen. Hint 3 blijft een denkstap of extra hulp; de exacte actie of het exacte antwoord verschijnt pas na bevestiging. De bijbehorende oplossingshulp is vastgelegd in CHALLENGES.md en dit document. Bij technische bouw moet worden getest dat de interface deze scheiding volgt.
 
 ## 6. Bouwstop
 
