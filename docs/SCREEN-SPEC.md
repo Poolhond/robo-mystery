@@ -1,6 +1,6 @@
 # De mysterieuze fabriek — Scherm- en toestandspecificatie
 
-**Versie:** 1.1  
+**Versie:** 1.2  
 **Status:** Werkdocument voor dossiercontrole; geen toestemming om gamecode te bouwen.  
 **Doel:** elk zichtbaar scherm, elke betekenisvolle deeltoestand, overgang, tekst en herstelregel beschrijven voordat de master-prompt wordt geschreven.
 
@@ -12,7 +12,7 @@
 - Elke uitdaging heeft een eigen hintstatus. Hints verschijnen alleen na tik op `?`. Het gedeelde hintpaneel volgt de regels in `TECH-SPEC.md`.
 - Een schermwissel sluit overlays visueel, maar wist geen puzzelvoortgang. Teruggaan brengt Wannes naar dezelfde werkplaats.
 - De drie hoofduitdagingen kunnen in elke volgorde worden gestart. De deur is vanaf het begin onderzoekbaar.
-- Geen score, levens, timer, straf of automatische hint. Match-3-zetlimieten zijn levelspecifiek: Level 1 heeft geen zettenlimiet; andere levels volgen uitsluitend de limiet die in `CHALLENGES.md` is vastgelegd. Er is geen game-over.
+- Geen score, levens, timer, zettenlimiet, straf of automatische hint. Alle drie match-3-levels zijn onbeperkt en er is geen game-over.
 - Alle teksten hieronder zijn de voorgestelde definitieve spelersteksten voor het dossier. Ze mogen pas als bouwtekst worden gebruikt nadat dit document als geheel is goedgekeurd.
 
 ## 2. Scherm-ID's en deeltoestanden
