@@ -1,6 +1,6 @@
 # De mysterieuze fabriek — Beslissingen en open punten
 
-**Versie:** 3.4  
+**Versie:** 3.5  
 **Doel:** één betrouwbare plek voor goedgekeurde besluiten en open punten, zodat de inhoud niet telkens opnieuw wordt bedacht.
 
 ## Dossierstatus en bronvolgorde
@@ -23,6 +23,7 @@ Bronvolgorde: (1) dit beslissingsdocument voor goedkeuring/open status, (2) `CHA
 | Finalehandeling | Wannes drukt op een grote rode feestknop. Die activeert de lichtjes en confetti en vormt de laatste interactieve handeling van het spel. |
 | Verjaardagsboodschap | Na de feestknop feliciteren de speelgoedfiguren Wannes samen met een warme, speelse boodschap. De exacte tekst wordt later uitgewerkt. |
 | Echte verrassing na het spel | Na de digitale onthulling krijgt Wannes een korte opdracht die naar een echte verrassing leidt. De exacte formulering en eventuele bestemming worden later bepaald. |
+| Bediening op iPhone — ontwerpbeslissing 23 | **Optie C — combinatie.** Wannes raakt en sleept rechtstreeks op de scène waar dat logisch is (zoals match-3 en de bekers). Voor acties die baat hebben bij een expliciete bevestiging, zoals een code bevestigen of de deur openen, gebruiken we grote, duidelijke knoppen. Alles is ontworpen voor aanraking op iPhone. |
 | Fout antwoord — ontwerpbeslissing 22 | **Optie A — alleen visuele feedback.** Een verkeerd antwoord geeft een korte, duidelijke visuele reactie, zoals een kleine beweging of trilling van het betrokken voorwerp. Daarna kan Wannes meteen opnieuw proberen. Geen foutmeldingstekst en geen straf. |
 | Interactieve voorwerpen ontdekken — ontwerpbeslissing 21 | **Optie B — subtiele animaties.** Interactieve voorwerpen mogen af en toe heel licht bewegen of kort oplichten om nieuwsgierigheid te wekken. Geen permanente pictogrammen, omlijningen of extra tekst; animaties blijven subtiel en passen bij de verweerde zeefdrukstijl. |
 | Voortgang zichtbaar maken — ontwerpbeslissing 20 | **Optie A — alleen het voorwerp verandert.** Na voltooiing krijgt het bestaande voorwerp een subtiele visuele verandering die de voortgang toont. Geen extra sterretjes, badges of interface-elementen op de werkplaats. |
