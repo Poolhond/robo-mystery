@@ -1,12 +1,12 @@
-# ROBO MYSTERY — Spelconcept
+# De mysterieuze fabriek — Spelconcept
 
-**Versie:** 1.2  
+**Versie:** 1.3  
 **Status:** Ontwerpfase — geen nieuwe gamecode  
-**Laatste update:** 25 oktober 2026 — concept herzien: robot geschrapt, speler onderzoekt zelf het laboratorium
+**Laatste update:** 25 oktober 2026 — werktitel gewijzigd naar De mysterieuze fabriek; robot geschrapt, speler onderzoekt zelf het laboratorium
 
 ## 1. Kernidee
 
-ROBO MYSTERY is een compact digitaal mysterie-avontuur voor **Wannes (12)**, bedoeld om op zijn verjaardag zelf te spelen. Wannes onderzoekt zelf een vreemde, speelse speelgoedwereld na een geheim bericht dat hem naar het laboratorium lokt. Er is iets vreemds aan de hand en hij moet zelf ontdekken wat er achter de gesloten deur verborgen zit.
+De mysterieuze fabriek is een compact digitaal mysterie-avontuur voor **Wannes (12)**, bedoeld om op zijn verjaardag zelf te spelen. Wannes onderzoekt zelf een vreemde, speelse speelgoedwereld na een geheim bericht dat hem naar het laboratorium lokt. Er is iets vreemds aan de hand en hij moet zelf ontdekken wat er achter de gesloten deur verborgen zit.
 
 Wannes ziet eerst de volledige maquette als startscherm. Na Start onderzoekt Wannes zelf de technische ruimte. De volledige ruimte blijft tegelijk zichtbaar op het iPhone-scherm: het computerscherm voor uitdaging 1, de locker met cijfercode voor uitdaging 2, de tafel met bekers voor uitdaging 3 en de grote deur voor uitdaging 4. Wannes tikt op een voorwerp om de bijbehorende interactie te openen. Hij kiest zelf in welke volgorde hij de eerste drie uitdagingen speelt. Hij mag elke uitdaging halverwege verlaten en later precies verdergaan waar hij stopte. De grote deur kan hij vanaf het begin ontdekken, maar hij leert gaandeweg dat hij de drie uitdagingen nodig heeft om het slot op te lossen. Uitdaging 1 bestaat uit drie match-3-levels en levert de letters B, A en L op. Wanneer die opengaat, blijkt dat de speelgoedfiguren in het geheim een verjaardagsfeest voor Wannes hebben voorbereid. Wannes ontdekt de verrassing zelf door de aanwijzingen te verzamelen en het slot te openen.
 
@@ -14,6 +14,7 @@ Wannes sluit af met een laatste interactieve handeling waarmee het feest begint.
 
 ## 2. Vastgelegde spelbeslissingen
 
+- De werktitel is **De mysterieuze fabriek**; de definitieve grafische titeluitwerking volgt later.
 - De speler is **Wannes**; hij onderzoekt de ruimte zelf en bedient de voorwerpen rechtstreeks.
 - Het feest aan het einde is voor Wannes.
 - Wannes speelt het spel op zijn verjaardag zelf.
@@ -112,7 +113,7 @@ Een compact point-and-click-avontuur: de maquette is uitsluitend het startscherm
 - Welke interactieve handeling het feest start.
 - Of er een echte opdracht aan het einde komt, en welke.
 - De inhoud van de persoonlijke boodschap.
-- Definitieve spelnaam, kleurenset en assets.
+- Definitieve titelvormgeving, kleurenset en assets.
 
 ## 9. Volgende ontwerpfase
 
