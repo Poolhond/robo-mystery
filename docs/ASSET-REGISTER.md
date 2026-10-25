@@ -1,7 +1,7 @@
 # De mysterieuze fabriek — Assetregister & referenties
 
-**Versie:** 1.3  
-**Status:** De negen bestaande beeldbestanden zijn geordend onder `assets/` en hebben de extensie `.png`. Volgens Michel zijn alle negen bestanden PNG-afbeeldingen. Alleen de bestandsnamen zijn opgeschoond; de beeldinhoud is niet gewijzigd. De mechanische vogel blijft buiten gebruik totdat Michel die asset expliciet goedkeurt.
+**Versie:** 1.4  
+**Status:** De elf beeldbestanden zijn geordend onder `assets/` en hebben de extensie `.png`. De beeldbytes zijn bij het verplaatsen niet gewijzigd. De mechanische vogel blijft buiten gebruik totdat Michel die asset expliciet goedkeurt.
 
 | ID | Beschrijving | Hoofdfunctie | Status |
 |---|---|---|---|
@@ -18,7 +18,7 @@
 | REF-05 | Verticale poster met kinderen en geometrische achtergrondvlakken, geometrische achtergrondvlakken | Aanvullende compositiereferentie; robotfiguur niet overnemen | Aanvullend |
 | AST-TURTLE-01 | Verweerde zeefdrukillustratie van de groene pluchen schildpad, gebaseerd op Michels foto | Karakterasset: de schildpad / geheime bewaker | Bestand aanwezig: `assets/characters/schildje/AST-SCHILDJE-01-schildje-screenprint.png`; visuele overeenkomst met de referentie nog controleren |
 | AST-BIRD-01 | Zeefdrukillustratie van de houten nestkast met rood-oranje zangvogel, gebaseerd op Michels foto | Karakter-/omgevingsasset voor de signaalvogel en haar nestkast | De negen georganiseerde bestanden bevatten geen eenduidig geïdentificeerde definitieve export; controleren of dit een apart bestand is |
-| AST-ENV-01 | Zeefdrukillustratie van het fysieke speelgoedlaboratorium: geometrische huisjes, snoepstrooi-daken, gestreepte schoorstenen en knoppenpad op groene basis | Primaire omgevingsasset voor het speelgoedlaboratorium | Gegenereerd; afbeeldingsbestand nog niet naar de repository geüpload |
+| AST-ENV-01 | Zeefdrukillustratie van het fysieke speelgoedlaboratorium | Primaire omgevingsasset voor het speelgoedlaboratorium | Bestand aanwezig: `assets/rooms/toy-laboratory/AST-ENV-01.png`; visuele controle nog nodig |
 | AST-ROBOT-01 | Eerder gegenereerde zeefdrukillustratie van de witte speelgoedrobot | Vervallen asset; robot is volledig uit het spelconcept geschrapt | Niet gebruiken; archiefreferentie, geen gameasset |
 | REF-CHAR-02 | Groepsposter met Charlie, RidderUs en Schildje samen | Compositie- en stijlreferentie voor de drie hoofdrolfiguren van uitdaging 2 | Referentie uit chat; nog niet als repo-bestand opgeslagen |
 | CHAR-CHARLIE-01 | Echte pluchen Charlie, bruine aap met lichtbruine snuit en oranje jas met twee knopen | Karakterreferentie voor het logische raadsel in uitdaging 2 | Referentie uit chat; losse goedgekeurde asset nog te maken |
@@ -69,6 +69,8 @@
 **Bestand:** bestand `assets/characters/schildje/AST-SCHILDJE-01-schildje-screenprint.png` aanwezig; afmetingen en visuele overeenkomst moeten nog worden gecontroleerd.
 
 ## Nog te maken of te bevestigen game-assets
+
+- **AST-PANDA-01:** panda-knuffel in vintage zeefdrukstijl — bestand aanwezig: `assets/characters/panda/AST-PANDA-01-panda-screenprint.png`; visuele controle nog nodig.
 
 De volgende lijst beschrijft assets die inhoudelijk nodig kunnen zijn voor de huidige uitdagingen. Ze zijn niet automatisch al als bestanden aanwezig in de repository. Definitieve selectie en prioriteit volgen na het uitwerken van de laboratoriumroute.
 
@@ -257,6 +259,6 @@ Alle negen bestanden hebben nu een enkele `.png`-extensie, zoals door Michel bev
 
 ## Assetorganisatie — synchronisatie 25 oktober 2026
 
-De negen aanwezige PNG-afbeeldingen zijn geordend onder `assets/characters/`, `assets/title-screen/`, `assets/rooms/control-room/` en `assets/decor/`. De verplaatsing en hernoeming hergebruiken de bestaande Git-blobs; de bestandsinhoud is niet opnieuw gecodeerd of gecomprimeerd. Zie [de assetaudit](ASSET-AUDIT-2026-10-25.md) voor de actuele paden en resterende controles.
+De elf aanwezige PNG-afbeeldingen zijn geordend onder `assets/characters/`, `assets/title-screen/`, `assets/rooms/control-room/` en `assets/decor/`. De verplaatsing en hernoeming hergebruiken de bestaande Git-blobs; de bestandsinhoud is niet opnieuw gecodeerd of gecomprimeerd. Zie [de assetaudit](ASSET-AUDIT-2026-10-25.md) voor de actuele paden en resterende controles.
 
-De volgende stap is niet automatisch nieuwe afbeeldingen genereren: eerst moeten de bestaande bestanden visueel en technisch worden gecontroleerd. Het speelgoedlaboratorium en de panda blijven als mogelijk ontbrekende assets geregistreerd. De ontwikkelaar kan eenvoudige puzzelobjecten en interface-elementen zelf tekenen als dat de stijl en leesbaarheid ondersteunt.
+De volgende stap is niet automatisch nieuwe afbeeldingen genereren: eerst moeten de bestaande bestanden visueel en technisch worden gecontroleerd. Het speelgoedlaboratorium en de panda zijn inmiddels toegevoegd aan de repository; controleer nog de visuele export en afmetingen. De ontwikkelaar kan eenvoudige puzzelobjecten en interface-elementen zelf tekenen als dat de stijl en leesbaarheid ondersteunt.

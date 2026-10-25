@@ -47,7 +47,7 @@ Bij een tegenstrijdigheid tussen documenten mag de ontwikkelaar geen goedgekeurd
 
 ## Assets: huidige stand
 
-De negen bestaande afbeeldingsbestanden zijn geordend onder de afgesproken `assets/`-mappen en hebben nu gewone `.png`-bestandsnamen. Michel heeft bevestigd dat het PNG-bestanden zijn. Alleen de paden en namen zijn gewijzigd; de bestaande beeldbytes zijn behouden. De mechanische vogel blijft buiten de goedgekeurde spelcompositie.
+De elf bestaande afbeeldingsbestanden zijn geordend onder de afgesproken `assets/`-mappen en hebben gewone `.png`-bestandsnamen. De nieuwe speelgoedlaboratorium- en panda-assets zijn toegevoegd; de mechanische vogel blijft buiten de goedgekeurde spelcompositie.
 
 Volgende assetstap: controleer de afmetingen, transparantie en visuele inhoud en bepaal welke assets nog ontbreken. De bestaande afbeeldingen zijn niet geconverteerd of overschreven.
 
