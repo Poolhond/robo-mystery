@@ -18,7 +18,7 @@ De stijl moet herkenbaar blijven zonder logo of titel: kleurverhoudingen, contou
 De illustratie **Kamer 3 — The Signal Room** is de primaire referentie voor omgevingen. Kenmerken: ruimtelijke, filmische composities; grote geometrische achtergrondvlakken; gedetailleerde apparatuur; kabels, antennes, schermen en technische panelen; warme papierkleur en sterke verweerde inkt.
 
 ### B. Personages en belangrijke objecten
-De karakterbladen zijn de primaire referentie voor de signaalvogel, gevleugelde bewaker, aap, panda, octopus, schildpad en symbolen. De robot is geschrapt en is geen onderdeel meer van het spel. Elk ontwerp heeft een herkenbaar silhouet, vaste proporties, krachtige contouren en meerdere aanzichten waar nodig.
+De karakterbladen zijn de primaire referentie voor de signaalvogel, gevleugelde bewaker, aap, panda, octopus, schildpad en symbolen. Elk ontwerp heeft een herkenbaar silhouet, vaste proporties, krachtige contouren en meerdere aanzichten waar nodig.
 
 ### C. Interface
 De interface hoort bij dezelfde wereld en mag niet ogen als een moderne app die bovenop een illustratie ligt. Kaders lijken op technische panelen of vintage drukwerk. Titel, tekstpaneel, inventaris, score en knoppen gebruiken een samenhangende vormtaal.
@@ -111,7 +111,7 @@ Elk personage of belangrijk object krijgt later een eigen assetfiche met:
 - eventuele emoties of toestanden;
 - gebruik in de omgeving en interface.
 
-De bestaande karakterbladen zijn leidend, behalve robotmateriaal: de robot is uit het spelconcept verwijderd. Nieuwe varianten mogen herkenbare eigenschappen niet zonder expliciete beslissing veranderen.
+De bestaande karakterbladen zijn leidend. Gebruik de vervallen robotreferentie niet als gameasset. Nieuwe varianten mogen herkenbare eigenschappen niet zonder expliciete beslissing veranderen.
 
 ## 8. Interface als onderdeel van het drukwerk
 
@@ -150,10 +150,10 @@ Essentiële speltekst mag niet afhankelijk zijn van ingebakken tekst in een illu
 ## 10. Referentiebeelden en hun functie
 
 - **Kamer 3 — The Signal Room:** primaire referentie voor omgevingsstijl, sfeer en interface-integratie.
-- **The Signal Bird / Winged Guardian / The Heart Mark / The Golden Clue:** referentie voor karakterillustratie, objectpresentatie, symbolen en grafische compositie. Robotreferenties zijn vervallen.
+- **The Signal Bird / Winged Guardian / The Heart Mark / The Golden Clue:** referentie voor karakterillustratie, objectpresentatie, symbolen en grafische compositie.
 - **Karakterplaat met signaalvogel, aap, panda, octopus en schildpad:** referentie voor herkenbaarheid en presentatie van meerdere personages; robot niet gebruiken.
 - **Speelgoedlaboratorium:** specifieke referentie voor de maquettewereld, geometrische gebouwen, gestreepte schoorstenen, kleurrijke daken, groene basis en knoppenroute.
-- **Robotposter met kinderen:** vervallen als ontwerpbron; bevat de geschrapte robot en wordt niet gebruikt voor nieuwe game-assets.
+- **Poster met kinderen:** alleen gebruiken als compositiereferentie als die relevant blijkt; de robot erop is geen gamepersonage.
 
 Waar referenties verschillen, bepalen we eerst of dit een bewuste variant of een exploratie is. Kenmerken worden niet automatisch samengevoegd.
 
