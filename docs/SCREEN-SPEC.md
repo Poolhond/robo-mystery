@@ -37,7 +37,7 @@
 | `W-E2` | Close-up vleesetende plant en vlieg | Tik 1: vlieg verschijnt; tik 2: vlieg vliegt naar binnen en klep klapt dicht; tik 3: terug naar `W-01` | Geen tekst |
 | `W-E3` | Close-up hartkunstwerk | Hart pulseert en afgebeelde mensen dansen; daarna terug naar `W-01` | Geen tekst |
 
-De drie easter eggs zijn optioneel, herhaalbaar en wijzigen geen hoofdvoortgang. Hun exacte klikzones en timing blijven onderdeel van de afzonderlijke compositie-/assetcontrole.
+De drie easter eggs zijn optioneel, herhaalbaar en wijzigen geen hoofdvoortgang. De vaste controlekamerreferentie bepaalt de relatieve plaatsing; de ontwikkelaar gebruikt de zichtbare contouren in die afbeelding om genormaliseerde klikzones te bepalen, niet willekeurige nieuwe posities.
 
 ### M — Uitdaging 1: match-3
 
@@ -172,12 +172,12 @@ De gewone hint 3 blijft een laatste denkstap en verklapt het antwoord niet. De e
 | Finale | Knop nog niet ingedrukt / feestanimatie bezig / eindbeeld bereikt; herladen tijdens finale gaat naar een veilige, niet-interactieve eindtoestand zonder feest opnieuw te starten |
 | Easter eggs | Optioneel of ze onthouden worden; nooit invloed op hoofdvoortgang |
 
-## 5. Open verificaties — niet stilzwijgend als afgerond markeren
+## 5. Resterende uitwerking en technische verificatie
 
 1. **Match-3 — verantwoordelijkheid ontwikkelaar:** de ontwikkelaar genereert tijdens de bouw geldige, speelbare beginborden en test de cascades en herstelpaden. Het vooraf vastleggen van vaste matrices of apart solverbewijs is geen dossiervereiste.
 2. **Bekers:** concrete wisselroutes en snelheden moeten op iPhone-portret worden getest; elke animatie moet dezelfde permutatie opleveren als de interne logica.
-3. **Visuele compositie:** exacte klikzones en plaatsing van de vier hoofdobjecten en drie easter eggs moeten nog worden vastgelegd.
-4. **Assets — gecontroleerd door Michel:** gebruik de aanwezige assets op de bestaande repositorypaden en volgens het assetregister. De ontwikkelaar bepaalt tijdens de bouw hoe ze passend worden geschaald en in scènes verwerkt; herhaal de visuele controle niet.
+3. **Visuele compositie:** gebruik de door Michel goedgekeurde controlekamer als vaste basis. Computer links, groene cijferlocker centraal, bekertafel op de voorgrond en grote rode deur rechts blijven tegelijk zichtbaar. De hartkunst en vleesetende plant blijven op hun herkenbare plekken uit de referentie. De panda-easter-egg zit in een lade/schuif van het meubel. Maak voor elk object een eigen klikzone op basis van de werkelijke contour; zones mogen niet overlappen. Als decorzone en hoofdobject elkaar raken, heeft de expliciete hoofdobjectzone prioriteit. De ontwikkelaar bepaalt de technische coördinaten bij het inmeten van de bestaande afbeelding en verzint geen nieuwe compositie.
+4. **Assets — gecontroleerd door Michel:** gebruik de aanwezige assets op de bestaande repositorypaden en volgens het assetregister. De beelden zijn inspiratiebronnen, geen verplichte letterlijke scherminhoud. Genereer waar nodig een eigen samenhangende wereld en puzzelobjecten; behoud herkenbare personagekenmerken en de goedgekeurde ruimtelijke compositie. De mechanische vogel en robot zijn uitgesloten.
 5. **Hintconsistentie — GECONTROLEERD:** de drie gewone hints zijn gescheiden van **TOON OPLOSSING** in de puzzelbeschrijvingen. Hint 3 blijft een denkstap of extra hulp; de exacte actie of het exacte antwoord verschijnt pas na bevestiging. De bijbehorende oplossingshulp is vastgelegd in CHALLENGES.md en dit document. Bij technische bouw moet worden getest dat de interface deze scheiding volgt.
 
 ## 6. Bouwstop
