@@ -119,11 +119,10 @@ Bronvolgorde: (1) dit beslissingsdocument voor goedkeuring/open status, (2) `CHA
 3. **Uitdaging 2 — hints:** schrijf de exacte drie hintstappen voor de codepuzzel en het kistjesraadsel.
 4. **Uitdaging 2 — onthulling van de ster-met-oog-aanwijzing:** kies hoe de aanwijzing in de kist verschijnt (bijvoorbeeld geheim kaartje of gegraveerd plaatje). De functie blijft hetzelfde: het symbool voor uitdaging 4.
 5. **Uitdaging 1 en 3:** test de definitieve match-3-startborden en bekersnelheden op iPhone; werk teksten, oplossingen en assets verder uit.
-6. **Slotscène:** de finalehandeling en verjaardagsboodschap zijn vastgelegd. Er is geen extra opdracht of raadsel nodig om naar het echte cadeau te leiden. Controleer alleen bij de eindcontrole of de uitvoering hiermee overeenstemt.
-7. **Titelvormgeving:** de werktitel is vastgelegd als *De mysterieuze fabriek*. De definitieve grafische titeluitwerking kan later worden gemaakt; de naamkeuze zelf staat niet meer open.
-9. **Puntentelling:** beslis of score nodig is; voortgang mag nooit door score worden geblokkeerd.
-10. **Assets:** bepaal welke referentiebeelden definitief gebruikt worden en werk de bestanden uit in een consistente mappenstructuur.
-11. **Dossiercontrole:** stem spelconcept, uitdagingen, techniek, art direction en assetregister op elkaar af vóór de master-prompt.
+6. **Titelvormgeving:** de werktitel is vastgelegd als *De mysterieuze fabriek*. De definitieve grafische titeluitwerking kan later worden gemaakt; de naamkeuze zelf staat niet meer open.
+7. **Puntentelling:** beslis of score nodig is; voortgang mag nooit door score worden geblokkeerd.
+8. **Assets:** bepaal welke referentiebeelden definitief gebruikt worden en werk de bestanden uit in een consistente mappenstructuur.
+9. **Dossiercontrole:** stem spelconcept, uitdagingen, techniek, art direction en assetregister op elkaar af vóór de master-prompt.
 
 **Reeds vastgelegd, geen open keuze:** het kleurpalet staat vast zoals beschreven in `ART-DIRECTION.md`. De typografie gebruikt systeemlettertypen met een zwaar, grafisch karakter; er komen geen externe fonts. De finalehandeling, de exacte verjaardagsboodschap en het ontbreken van een extra opdracht na de boodschap zijn eveneens beslist en mogen niet opnieuw als open keuzes worden behandeld.
 
