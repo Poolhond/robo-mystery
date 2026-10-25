@@ -1,46 +1,67 @@
 # De mysterieuze fabriek
 
-Persoonlijk verjaardagsmysterie voor **Wannes (12)**: een avontuur in een mysterieuze speelgoedfabriek vol goocheltrucs, puzzels en raadsels. Wannes onderzoekt zelf het speelgoedlaboratorium en ontdekt uiteindelijk het verjaardagsfeest dat voor hem is voorbereid.
+Een persoonlijk verjaardagsmysterie voor **Wannes (12)**: een Nederlandstalig point-and-click-avontuur in een mysterieuze speelgoedfabriek. Wannes onderzoekt zelf de werkplaats, lost drie uitdagingen in zelfgekozen volgorde op en gebruikt de ontdekte aanwijzingen om de grote deur te openen. Achter de deur wacht de feestelijke verrassing.
 
-## Huidige fase
+## Projectstatus
 
-**Voorontwerp en dossieropschoning. Er wordt nog geen gamecode gebouwd.** Eerst maken we de documenten onderling consistent en werken we daarna samen de nog openstaande ontwerpkeuzes af. Pas na expliciete goedkeuring volgt de master-prompt en de bouw.
+**Fase: dossieropschoning en ontwerp afronden.**
 
-## Dossier — bron per onderwerp
+Er wordt nog geen gamecode gebouwd. Eerst worden de bestaande documenten en assets op elkaar afgestemd, worden de resterende ontwerpvragen afgehandeld en wordt de technische bouwspecificatie volledig gemaakt. De bouw start pas na expliciete goedkeuring van het dossier.
 
-- [Spelconcept](docs/GAME-CONCEPT.md) — verhaal, spelstructuur, personages en finale.
-- [Uitdagingen](docs/CHALLENGES.md) — vier uitdagingen, interactie, oplossingen, hints en aanwijzingen.
-- [Beslissingen en open punten](docs/DECISIONS.md) — leidend overzicht van vastgelegde keuzes en open beslissingen.
-- [Techniekregels](docs/TECH-SPEC.md) — beoogde technische aanpak en kwaliteitsregels voor de latere bouw.
+## Start hier
+
+Gebruik deze documenten als projectdossier:
+
+- [Beslissingen en open punten](docs/DECISIONS.md) — leidende bron voor goedgekeurde keuzes, open punten en de werkvolgorde.
+- [Spelconcept](docs/GAME-CONCEPT.md) — verhaal, wereld, personages en overkoepelende spelstructuur.
+- [Uitdagingen](docs/CHALLENGES.md) — puzzelwerking, oplossingen, hints, feedback en finale.
+- [Techniekregels](docs/TECH-SPEC.md) — technische randvoorwaarden voor de latere implementatie; nog geen definitieve bouwspecificatie.
 - [Art Direction & Style Guide](docs/ART-DIRECTION.md) — visuele identiteit, kleuren, zeefdruktextuur en interface.
-- [Assetregister en referenties](docs/ASSET-REGISTER.md) — referenties, bestanden, status en ontbrekende assets.
+- [Assetregister en referenties](docs/ASSET-REGISTER.md) — beeldreferenties, asset-ID's, status en ontbrekende bestanden.
+- [Assetaudit — 25 oktober 2026](docs/ASSET-AUDIT-2026-10-25.md) — momentopname van de negen geüploade afbeeldingen en het voorgestelde doelpad per bestand.
 
 ## Welke informatie is leidend?
 
-1. `docs/DECISIONS.md` is leidend voor expliciet goedgekeurde ontwerpkeuzes en voor wat nog openstaat.
-2. `docs/CHALLENGES.md` beschrijft de uitgewerkte werking van de puzzels, maar mag goedgekeurde keuzes niet tegenspreken.
-3. `docs/GAME-CONCEPT.md` beschrijft het verhaal en de overkoepelende spelstructuur.
-4. `docs/TECH-SPEC.md` beschrijft technische randvoorwaarden; het is nog geen definitief implementatieplan.
-5. `docs/ART-DIRECTION.md` beschrijft de visuele richting.
-6. `docs/ASSET-REGISTER.md` beschrijft de rol en status van beeldbestanden en referenties.
+1. `docs/DECISIONS.md` bepaalt welke ontwerpkeuzes goedgekeurd zijn en welke nog openstaan.
+2. `docs/CHALLENGES.md` werkt de puzzels uit en mag goedgekeurde beslissingen niet tegenspreken.
+3. `docs/GAME-CONCEPT.md` beschrijft het verhaal en de spelstructuur.
+4. `docs/TECH-SPEC.md` beschrijft de technische randvoorwaarden; het document moet vóór de bouw nog worden aangevuld.
+5. `docs/ART-DIRECTION.md` beschrijft de visuele stijl.
+6. `docs/ASSET-REGISTER.md` beschrijft de bedoelde rol en status van assets. De assetaudit is een aanvullende momentopname van de huidige repositorybestanden.
 
-Bij een tegenstrijdigheid wordt niet stilzwijgend gegokt: noteer die in `docs/DECISIONS.md` als open punt en los ze op vóór de master-prompt.
+Bij een tegenstrijdigheid wordt niet stilzwijgend gegokt. Noteer het conflict als open punt in `docs/DECISIONS.md` en los het op vóór de master-prompt. Een latere ontwerpkeuze mag alleen worden gewijzigd na expliciete goedkeuring.
 
-## Uitgangspunten
+## Vaststaande uitgangspunten
 
-- Geen bestuurbaar hoofdpersonage en geen robotpersonage; Wannes onderzoekt zelf de wereld.
-- De maquette is het beginscherm. Na Start verschijnt de speelse technische ruimte.
-- De eerste drie uitdagingen zijn in vrije volgorde speelbaar; de grote deur kan vroeg worden onderzocht.
-- De aanwijzingen voor de deur zijn **BAL** (uitdaging 1), **ster met oog** (uitdaging 2) en **signaalrood** (uitdaging 3).
-- Beeldtaal: retrofuturistische speelgoedwereld, handgedrukte jarenzeventig-popart en sterk verweerde zeefdruk.
-- Mobile-first, Nederlandstalig, statisch gehost op GitHub Pages; geen account, server of externe bibliotheken.
-- Voortgang moet lokaal bewaard blijven en hervatbaar zijn.
+- De speler is Wannes; er is geen bestuurbaar hoofdpersonage en geen robotpersonage.
+- De maquette is het beginscherm. Na Start verschijnt de verkenbare werkplaats.
+- De eerste drie uitdagingen zijn in zelfgekozen volgorde speelbaar; de grote deur kan vroeg worden onderzocht.
+- De deur vraagt drie aanwijzingen: **BAL** (uitdaging 1), **ster met oog** (uitdaging 2) en **signaalrood** (uitdaging 3).
+- De finalehandeling is het indrukken van een grote rode feestknop.
+- Visuele stijl: retrofuturistische speelgoedwereld met handgedrukte jarenzeventig-popart en verweerde zeefdruk.
+- Mobile-first, Nederlandstalig, bedoeld voor iPhone Safari en gehost als statische site op GitHub Pages.
+- Geen account, server, externe bibliotheken, advertenties of tracking.
+- Voortgang moet lokaal worden bewaard en exact hervatbaar zijn; een puzzel mag de speler niet blokkeren.
 - Nieuwe ontwerpen zijn voorstellen totdat ze expliciet zijn goedgekeurd.
 
-## Bestanden en assets
+## Assets: huidige stand
 
-De repository bevat momenteel negen afbeeldingsbestanden in de hoofdmap. Ze zijn daadwerkelijk geüpload, maar staan nog niet in de beoogde `assets/`-mappenstructuur en hebben namen met dubbele extensies. Het assetregister moet bij de volgende assetronde op de werkelijke bestandsnamen en het juiste bestandstype worden afgestemd. Verplaats of hernoem ze niet zonder de verwijzingen en het register tegelijk bij te werken.
+De repository bevat negen geüploade afbeeldingsbestanden in de hoofdmap. Ze staan nog niet in de beoogde `assets/`-mappenstructuur en hebben dubbele extensies. De assetaudit stelt doelpaden voor, maar de bestanden zijn tijdens die audit **niet** verplaatst, hernoemd of verwijderd.
 
-## Geen prototype als basis
+Volgende assetstap: controleer de werkelijke bestandstypen, verplaats de bestanden veilig naar de afgesproken doelmappen en werk daarna het assetregister bij. Verwijder of overschrijf geen originele afbeelding zonder controle.
 
-De oude prototypecode is geen basis voor de uiteindelijke game. De nieuwe game wordt vanaf een schone structuur gebouwd nadat het dossier is opgeschoond, de open keuzes zijn afgerond en de specificatie is goedgekeurd.
+## Waarom er nog geen gamecode is
+
+De oude prototypecode is geen basis voor de uiteindelijke game. De nieuwe game wordt vanaf een schone structuur gebouwd nadat het dossier is opgeschoond, de open keuzes zijn afgehandeld en de technische specificatie met schermtoestanden, opslag/herstel en acceptatietests is goedgekeurd.
+
+## Eerstvolgende werkvolgorde
+
+1. Werk dit README-bestand bij — **uitgevoerd**.
+2. Werk `docs/DECISIONS.md` bij tot een heldere, actuele checklist zonder eerdere goedgekeurde keuzes te veranderen.
+3. Synchroniseer `docs/CHALLENGES.md` met de goedgekeurde beslissingen, in het bijzonder de hintwerking.
+4. Werk `docs/ASSET-REGISTER.md` bij op basis van de werkelijke negen bestanden en de assetaudit.
+5. Structureer en controleer de assets.
+6. Rond resterende spelersteksten, schermtoestanden en technische acceptatietests af.
+7. Voer een laatste dossiercontrole uit en maak pas daarna de master-prompt.
+
+Gebruik [GitHub-issue #1](https://github.com/Poolhond/robo-mystery/issues/1) als centrale checklist voor de voorbereiding van de master-prompt.
