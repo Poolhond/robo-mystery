@@ -45,6 +45,7 @@
 | Tussentijdse voortgang | Elke uitdaging kan worden onderbroken en hervat vanaf de exacte deelstap; opgeloste puzzels, bordstanden, relevante rondevoortgang, beloningen en slotinvoer blijven bewaard. De terugknop brengt Wannes terug naar de controlekamer. |
 | Opslaan | Lokale voortgang wordt na elke betekenisvolle actie opgeslagen; herladen of later terugkomen mag geen voortgang wissen |
 | Karakterset uitdaging 2 | **Charlie, RidderUs en Schildje** zijn de drie hoofdrolfiguren in het raadsel. Hun echte pluchen/figuuridentiteit en vaste herkenningspunten blijven leidend; de nieuwe verweerde zeefdrukstijl verandert die niet. Zie `docs/ASSET-REGISTER.md`. Definitieve losse assets moeten nog worden gemaakt en goedgekeurd. |
+| Karakterafwerking — optie A | Gekozen: sterke, uitgesproken verweerde jarenzeventig-zeefdruk met zichtbare korrel, inktspikkels, slijtage en subtiele drukregistratie. Herkenbare gezichtsdetails en silhouetten blijven helder. De groepssheet is alleen een conceptreferentie; losse karakterassets moeten apart worden beoordeeld. |
 | Bouwstatus | Oude prototypecode is niet bruikbaar als basis; er wordt geen gamecode gebouwd vóór goedkeuring van het volledige dossier |
 
 ## Nog open — ontwerp vóór de bouw
