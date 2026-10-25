@@ -1,6 +1,6 @@
 # De mysterieuze fabriek — Beslissingen en open punten
 
-**Versie:** 1.0  
+**Versie:** 1.1  
 **Doel:** één betrouwbare plek voor besluiten en open punten, zodat de inhoud niet telkens opnieuw wordt bedacht.
 
 ## Vastgelegd
@@ -17,7 +17,7 @@
 | Taal | Nederlands |
 | Bouwmethode | Eerst het volledige ontwerpdossier afronden en goedkeuren, daarna één master-prompt, bouwen en testen op iPhone |
 | Uitleg aan de speler | Minimale uitleg: korte mysterieuze introductie; Wannes ontdekt bediening en doelen grotendeels zelf. |
-| Hintsysteem | Combinatie: een discrete hintknop én een automatische hint na meerdere mislukte pogingen. Hints verschijnen in drie stappen, van subtiele aanwijzing tot duidelijkere hulp. Geen game-over en onbeperkt opnieuw proberen. |
+| Hintsysteem | Combinatie: een discrete hintknop én een automatische hint na meerdere mislukte pogingen. Elke uitdaging heeft drie hintstappen: eerst een subtiele aanwijzing, daarna een gerichte aanwijzing en als derde stap zo nodig de oplossing of de exacte volgende handeling. Geen game-over en onbeperkt opnieuw proberen. |
 | Uitdaging 1 — spelvorm | Drie eigen match-3-levels, geïnspireerd op het algemene spelprincipe van match-3-games; geen gekopieerde levels of vormgeving |
 | Uitdaging 1 — leveldoelen | Verzamel 8 rode energiecellen; verwijder 4 houten kistjes; laat de gouden energiesleutel naar de uitgang vallen |
 | Aanwijzing uit uitdaging 1 | De letters B, A en L, verdiend na elk level en samen gevormd tot het woord BAL |
@@ -43,7 +43,7 @@
 
 1. **Vrije laboratoriumverkenning:** de centrale ruimte en de vier voorwerpen liggen vast. Werk nog de exacte compositie, plaatsing en klikzones uit.
 2. **Uitdaging 2 — spelersteksten:** definitieve introductie, personagedialogen, succes- en foutfeedback en afsluiting.
-3. **Uitdaging 2 — hints:** exacte hintstappen voor de codepuzzel en het kistjesraadsel.
+3. **Uitdaging 2 — hints:** schrijf de exacte drie hintstappen voor de codepuzzel en het kistjesraadsel.
 4. **Uitdaging 2 — onthulling van de ster-met-oog-aanwijzing:** kies hoe de aanwijzing in de kist verschijnt (bijvoorbeeld geheim kaartje of gegraveerd plaatje). De functie blijft hetzelfde: het symbool voor uitdaging 4.
 5. **Uitdaging 1 en 3:** test de definitieve match-3-startborden en bekersnelheden op iPhone; werk teksten, oplossingen en assets verder uit.
 6. **Slotscène:** bepaal wat er in het echt na het spel gebeurt en welke tekst daarbij hoort.
