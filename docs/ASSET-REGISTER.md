@@ -1,12 +1,12 @@
-# ROBO MYSTERY — Assetregister & referenties
+# De mysterieuze fabriek — Assetregister & referenties
 
-**Versie:** 0.8  
-**Status:** Eerste inventaris op basis van de vijf in deze ontwerpsessie aangeleverde afbeeldingen. De originele beelden zijn in de chat beschikbaar; ze zijn nog niet als afbeeldingsbestanden in deze repository opgeslagen.
+**Versie:** 0.9  
+**Status:** Inventaris in opschoning. De repository bevat negen geüploade afbeeldingsbestanden in de hoofdmap. Ze zijn nog niet naar de definitieve `assets/`-structuur verplaatst en hun dubbele extensies moeten worden gecontroleerd.
 
 | ID | Beschrijving | Hoofdfunctie | Status |
-| AST-TITLE-01 | Verticale vintage zeefdrukposter voor het beginscherm: snoepfabriek, gestreepte schoorstenen, rook, gloeiende ramen, titel en startknop; geen personages | Beginscherm / title screen voor iPhone 9:19,5 | Concept goedgekeurd; afbeeldingsbestand nog uploaden |
+| AST-TITLE-01 | Verticale vintage zeefdrukposter voor het beginscherm: snoepfabriek, gestreepte schoorstenen, rook, gloeiende ramen, titel en startknop; geen personages | Beginscherm / title screen voor iPhone 9:19,5 | Concept goedgekeurd; bestand aanwezig in repository-root, nog te ordenen |
 |---|---|---|---|
-| AST-DECOR-01 | Rood hart met opgeheven handen en stralen, minimalistische vintage zeefdruk | Decorstuk voor de controlekamer | Ontwerp uitgewerkt; afbeeldingsbestand nog uploaden |
+| AST-DECOR-01 | Rood hart met opgeheven handen en stralen, minimalistische vintage zeefdruk | Decorstuk voor de controlekamer | Ontwerp uitgewerkt; bestand aanwezig in repository-root, nog te ordenen |
 | AST-DECOR-02 | Houten vogelhuisje met rood-oranje, gefacetteerde vogel die uit de opening kijkt | Decorstuk voor de controlekamer | Ontwerp uitgewerkt; afbeeldingsbestand nog uploaden |
 | AST-DECOR-03 | Mechanische bouwsteen-vogel met roestoranje lichaam, donkerblauwe uitgespreide vleugels en ronde blauwe displaybasis | Decorstuk voor de controlekamer | Ontwerp uitgewerkt; afbeeldingsbestand nog uploaden |
 | AST-DECOR-04 | Vleesetende bekerplant in witte en turquoise kweekkast met opengeklapt deksel | Decorstuk voor de controlekamer | Ontwerp uitgewerkt; afbeeldingsbestand nog uploaden |
@@ -15,7 +15,7 @@
 | REF-03 | Overzicht met signaalvogel, aap, panda, octopus, schildpad en aanvullende symbolen | Verhouding tussen personages, aanzichten en karakterbladen | Kernreferentie |
 | REF-04 | Het speelgoedlaboratorium: kleine geometrische huisjes, gestreepte schoorstenen, kleurrijke daken en een knoppenroute op een groene basis | Specifieke omgevingsconceptreferentie | Kernreferentie voor deze wereld |
 | REF-05 | Verticale poster met kinderen en geometrische achtergrondvlakken, geometrische achtergrondvlakken | Aanvullende compositiereferentie; robotfiguur niet overnemen | Aanvullend |
-| AST-TURTLE-01 | Verweerde zeefdrukillustratie van de groene pluchen schildpad, gebaseerd op Michels foto | Karakterasset: de schildpad / geheime bewaker | Gegenereerd; afbeeldingsbestand nog niet naar de repository geüpload |
+| AST-TURTLE-01 | Verweerde zeefdrukillustratie van de groene pluchen schildpad, gebaseerd op Michels foto | Karakterasset: de schildpad / geheime bewaker | Gegenereerd; bestand aanwezig in repository-root, nog te ordenen |
 | AST-BIRD-01 | Zeefdrukillustratie van de houten nestkast met rood-oranje zangvogel, gebaseerd op Michels foto | Karakter-/omgevingsasset voor de signaalvogel en haar nestkast | Gegenereerd; afbeeldingsbestand nog niet naar de repository geüpload |
 | AST-ENV-01 | Zeefdrukillustratie van het fysieke speelgoedlaboratorium: geometrische huisjes, snoepstrooi-daken, gestreepte schoorstenen en knoppenpad op groene basis | Primaire omgevingsasset voor het speelgoedlaboratorium | Gegenereerd; afbeeldingsbestand nog niet naar de repository geüpload |
 | AST-ROBOT-01 | Eerder gegenereerde zeefdrukillustratie van de witte speelgoedrobot | Vervallen asset; robot is volledig uit het spelconcept geschrapt | Niet gebruiken; archiefreferentie, geen gameasset |
@@ -49,7 +49,7 @@
 **Assetrichting:** behoud de herkenbare houten nestkast met schuin dak en de vogel die naar links kijkt; de rode kop/borst, donkere snavel en gestreepte vleugels blijven herkenningspunten.  
 **Stijlbehandeling:** sterke, verweerde jarenzeventig-zeefdruk op warm crème papier, met signaalrood, mosterdgeel, donker petrol en groen; grove halftoon, inktspikkels, krassen en lichte kleurplaatverschuiving.  
 **Compositie:** nestkast en vogel centraal, met eenvoudige geometrische kleurvlakken achter het onderwerp; geen extra tekst.  
-**Bestand:** herziene geïsoleerde versie gegenereerd; het afbeeldingsbestand is nog niet in de repository opgeslagen.
+**Bestand:** herziene geïsoleerde versie is aanwezig in de repository-root; bestandspad en extensie moeten worden opgeschoond.
 
 ## Vierde uitgewerkte asset — AST-TURTLE-01
 
@@ -57,7 +57,7 @@
 **Assetrichting:** behoud het zachte, pluizige groene lijf, de brede schild, vier korte flippers, de lichte stik-/knopdetails en de grote donkere ogen.  
 **Stijlbehandeling:** sterke verweerde zeefdruk op warm crème papier; diep mosgroen en geelgroen, met signaalrode en mosterdgele drukvlakken en donker petrol; grove halftoon, korrel, inktspikkels en lichte kleurplaatverschuiving.  
 **Compositie:** schildpad centraal, als herkenbaar personage met eenvoudige geometrische achtergrondvlakken; geen extra tekst.  
-**Bestand:** de gegenereerde illustratie is gemaakt, maar het afbeeldingsbestand is nog niet in de repository opgeslagen.
+**Bestand:** de illustratie is aanwezig in de repository-root; bestandspad en extensie moeten worden opgeschoond.
 
 ## Nog te maken of te bevestigen game-assets
 
@@ -88,7 +88,7 @@ De volgende lijst beschrijft assets die inhoudelijk nodig kunnen zijn voor de hu
 6. Laat tekst die essentieel is voor de gameplay waar mogelijk als echte interface-tekst bestaan, niet alleen als tekst in een afbeelding.
 
 ## Ontbrekende metadata
-De exacte bestandsnamen, afmetingen, herkomst, eventuele promptgegevens en goedkeuringsstatus van elk origineel beeld moeten nog worden gekoppeld. De originele bestanden zijn nog niet in deze repository opgeslagen.
+De negen beeldbestanden staan in de repository-root, maar zijn nog niet gekoppeld aan een definitieve mapstructuur. De huidige namen bevatten dubbele extensies zoals `.jpg.PNG` en `.png.PNG`; controleer het werkelijke bestandstype voordat bestanden worden hernoemd. De uiteindelijke bestandsnaam, afmetingen, rol, herkomst en goedkeuringsstatus moeten per bestand worden bevestigd.
 
 ## Volgende stap
 Controleer de originele bestanden één voor één, bevestig de rol van elke referentie en registreer eventuele aparte karakterbladen, kamers, voorwerpen, iconen en textuurvoorbeelden.
