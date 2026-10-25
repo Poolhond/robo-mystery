@@ -67,7 +67,7 @@ Bronvolgorde: (1) dit beslissingsdocument voor goedkeuring/open status, (2) `CHA
 5. **Uitdaging 1 en 3:** test de definitieve match-3-startborden en bekersnelheden op iPhone; werk teksten, oplossingen en assets verder uit.
 6. **Slotscène:** bepaal de exacte tekst van de opdracht die Wannes na het spel naar de echte verrassing leidt.
 7. **Persoonlijke boodschap:** schrijf en keur de exacte verjaardagsboodschap van de speelgoedfiguren goed.
-8. **Spelnaam:** De mysterieuze fabriek is de gekozen werktitel. De definitieve titelvormgeving kan later nog worden uitgewerkt.
+8. **Titelvormgeving:** de werktitel is vastgelegd als *De mysterieuze fabriek*. De definitieve grafische titeluitwerking kan later worden gemaakt; de naamkeuze zelf staat niet meer open.
 9. **Puntentelling:** beslis of score nodig is; voortgang mag nooit door score worden geblokkeerd.
 10. **Assets:** bepaal welke referentiebeelden definitief gebruikt worden en werk de bestanden uit in een consistente mappenstructuur.
 11. **Dossiercontrole:** stem spelconcept, uitdagingen, techniek, art direction en assetregister op elkaar af vóór de master-prompt.
@@ -86,7 +86,7 @@ Bronvolgorde: (1) dit beslissingsdocument voor goedkeuring/open status, (2) `CHA
 - Doek, goochelvoorwerpen, knoppen, iconen en finale-/feestscène.
 - Drie decoratieve interactieve details/easter eggs voor de technische ruimte; exacte lijst nog te bepalen.
 
-Geef assets consistente namen en leg per bestand vast voor welke scène het dient. Afbeeldingen die alleen in de chat zijn gegenereerd, staan nog niet automatisch in de repository.
+Geef assets consistente namen en leg per bestand vast voor welke scène het dient. De negen huidige rootbestanden zijn geüpload, maar niet alle in het assetregister genoemde exports zijn daarmee aanwezig; onderscheid bestaande bestanden van concepten en nog te maken exports.
 
 ## Werkvolgorde
 
