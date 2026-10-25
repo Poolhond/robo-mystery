@@ -786,7 +786,7 @@ Het slot legt niet uit waar de aanwijzingen te vinden zijn. Wannes ontdekt dat d
 #### 1. Automatisch symbool — ster met een oog
 
 - Het symboolvenster maakt zichtbaar dat het slot een symbool verwacht.
-- Zodra uitdaging 2 is voltooid, verschijnt de **ster met een oog** automatisch in het venster met een korte mechanische klik.
+- Zodra uitdaging 2 is voltooid, verschijnt de **ster met een oog** automatisch in het venster met een korte mechanische animatie, zonder geluid.
 - Er is geen symboolschijf en geen extra keuze nodig.
 - Als uitdaging 2 nog niet voltooid is, toont het venster een lege omtrek en eventueel een subtiele indicatie dat er nog iets ontbreekt.
 - De ster met een oog is dus een voortgangsbeloning, geen handeling die Wannes aan de deur moet uitvoeren.
