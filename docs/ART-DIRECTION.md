@@ -248,13 +248,13 @@ De drie hoofdrolfiguren zijn **Charlie**, **RidderUs** en **Schildje**. Hun echt
 - Daaronder een korte mysterieuze teaser, bijvoorbeeld: **ER IS IETS VREEMDS AAN DE HAND...**
 - Middenvlak: de handgemaakte speelgoedfabriek als centrale illustratie, met geometrische huisjes, snoepstrooidaken, gestreepte schoorstenen en de groene basis. Gebruik de aangeleverde foto van Michels fysieke model als inhoudelijke referentie en de bestaande posterillustratie als stijlinspiratie.
 - **Geen personages op de titelposter.** Charlie, RidderUs en Schildje blijven verborgen tot Wannes het avontuur begint; zie §18. De fabriek en de mysterieuze omgeving dragen de compositie.
-- Onderaan: één brede, contrastrijke actieknop met het label **START HET AVONTUUR**, plus een kleine hint **TIK OM BINNEN TE GAAN**.
+- Onderaan staat zonder opgeslagen voortgang één brede, contrastrijke actieknop **START ONDERZOEK**. Met opgeslagen voortgang staan er twee duidelijke keuzes: **VERDER ONDERZOEKEN** en **OPNIEUW BEGINNEN**. De tweede keuze vraagt eerst bevestiging voordat voortgang wordt gewist.
 - Houd rekening met de iPhone-statusbalk, afgeronde hoeken en veilige zones; titel en startknop mogen niet tegen de schermrand vallen.
 
 ### Animatiegedrag
 - **Schoorsteenrook:** langzaam en minimaal omhoog drijven; herhaalbaar en niet afleidend.
 - **Fabrieklichtjes:** af en toe zacht oplichten, niet allemaal tegelijk.
-- **Geheime easter egg:** een klein detail (bijvoorbeeld één raam of knop) reageert alleen op een bewuste tik; het is optioneel en blokkeert de start niet.
+- **Geen easter egg op de startposter.** De poster is uitsluitend het beginscherm; alle drie de optionele easter eggs bevinden zich in de werkplaats.
 - **Startknop:** korte subtiele ademhaling/puls of lichte inktachtige verschuiving; geen snelle flitsen, stuiteren of overdreven schaalverandering.
 - **Papier/druktextuur:** blijft stil; geen bewegende ruis over het volledige scherm.
 - Beweging blijft langzaam, spaarzaam en energiezuinig. Respecteer waar mogelijk de instelling voor minder beweging op het toestel.
