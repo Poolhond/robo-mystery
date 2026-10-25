@@ -84,7 +84,7 @@ De herkenbare vormen en kleuren van de bestaande speelgoedfiguren blijven leiden
 
 Deze kleine interacties zijn verborgen details in de omgeving. Ze zijn niet nodig om de hoofd uitdagingen op te lossen.
 
-1. **Pandaschuif:** als Wannes op een schuif/lade van het meubel tikt, gaat die open en verschijnt kort een vierde speelgoedfiguur: een panda. De schuif sluit daarna vanzelf. De panda-illustratie is toegevoegd als `assets/characters/panda/AST-PANDA-01-panda-screenprint.png`; controleer de visuele overeenkomst vóór gebruik.
+1. **Pandaschuif:** als Wannes op een schuif/lade van het meubel tikt, gaat die open en verschijnt kort een vierde speelgoedfiguur: een panda. De schuif sluit daarna vanzelf. De panda-illustratie is aanwezig en door Michel gecontroleerd als `assets/characters/panda/AST-PANDA-01-panda-screenprint.png`; gebruik dit bestand als inspiratie voor de korte easter-eggverschijning en behoud de herkenbare kenmerken.
 2. **Vleesetende plant:** de eerste tik zoomt in op de plant en laat een vlieg rondvliegen. Bij de tweede tik vliegt de vlieg in de bloem en klapt het klepje dicht. Bij de derde tik zoomt het beeld terug uit naar de werkplaats.
 3. **Hartkunstwerk:** bij aantikken zoomt het beeld in op het kunstwerk. Het hart begint te kloppen en de afgebeelde mensen dansen; daarna zoomt het beeld terug uit.
 
