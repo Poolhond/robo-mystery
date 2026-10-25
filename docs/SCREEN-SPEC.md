@@ -12,7 +12,7 @@
 - Elke uitdaging heeft een eigen hintstatus. Hints verschijnen alleen na tik op `?`. Het gedeelde hintpaneel volgt de regels in `TECH-SPEC.md`.
 - Een schermwissel sluit overlays visueel, maar wist geen puzzelvoortgang. Teruggaan brengt Wannes naar dezelfde werkplaats.
 - De drie hoofduitdagingen kunnen in elke volgorde worden gestart. De deur is vanaf het begin onderzoekbaar.
-- Geen score, levens, timer, straf of automatische hint. De drie match-3-levels hebben wel vaste zetlimieten zoals in `CHALLENGES.md`, maar geen game-over: bij vastlopen kan Wannes opnieuw proberen.
+- Geen score, levens, timer, straf of automatische hint. Zetlimieten zijn per level bepaald: level 1 heeft onbeperkt zetten en willekeurige aanvulling; zie `LEVEL-1-ENERGIECELLEN.md`. Er is geen game-over; bij een bord zonder geldige zetten wordt het bord hersteld zonder voortgangsverlies.
 - Alle teksten hieronder zijn de voorgestelde definitieve spelersteksten voor het dossier. Ze mogen pas als bouwtekst worden gebruikt nadat dit document als geheel is goedgekeurd.
 
 ## 2. Scherm-ID's en deeltoestanden
@@ -166,7 +166,7 @@ De gewone hint 3 blijft een laatste denkstap en verklapt het antwoord niet. De e
 
 ## 5. Open verificaties — niet stilzwijgend als afgerond markeren
 
-1. **Match-3:** de exacte drie startmatrices moeten worden vastgelegd en met een solver/testprocedure op oplosbaarheid worden gecontroleerd volgens de gekozen spelregels. De huidige doelen/zetlimieten zijn nog geen bewijs van oplosbaarheid.
+1. **Match-3:** de exacte drie startmatrices moeten worden vastgelegd en met een solver/testprocedure op oplosbaarheid worden gecontroleerd volgens de gekozen spelregels. Level 1 is gespecificeerd in `LEVEL-1-ENERGIECELLEN.md` en de referentiesimulatie staat in `tests/level1_simulation.py`; levels 2 en 3 blijven open.
 2. **Bekers:** concrete wisselroutes en snelheden moeten op iPhone-portret worden getest; elke animatie moet dezelfde permutatie opleveren als de interne logica.
 3. **Visuele compositie:** exacte klikzones en plaatsing van de vier hoofdobjecten en drie easter eggs moeten nog worden vastgelegd.
 4. **Assets:** werkelijke bestandstypen en definitieve locaties moeten worden gecontroleerd voordat de schermen aan specifieke afbeeldingen worden gekoppeld.
