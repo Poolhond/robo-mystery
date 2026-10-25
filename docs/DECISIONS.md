@@ -1,6 +1,6 @@
 # De mysterieuze fabriek — Beslissingen en open punten
 
-**Versie:** 8.2  
+**Versie:** 8.3  
 **Doel:** één betrouwbare plek voor goedgekeurde besluiten en open punten, zodat de inhoud niet telkens opnieuw wordt bedacht.
 
 ## Dossierstatus en bronvolgorde
@@ -10,6 +10,8 @@ Dit document is leidend voor de status van ontwerpkeuzes. Een keuze geldt alleen
 Bronvolgorde: (1) dit beslissingsdocument voor goedkeuring/open status, (2) `CHALLENGES.md` voor de puzzelwerking, (3) `GAME-CONCEPT.md` voor verhaal en structuur, (4) `TECH-SPEC.md` voor technische randvoorwaarden, (5) `ART-DIRECTION.md` voor stijl en (6) `ASSET-REGISTER.md` voor bestandsstatus.
 
 **Huidige fase:** dossieropschoning. Dit is geen toestemming om gamecode te bouwen.
+
+**Correctie 25 oktober 2026:** het doel van Level 2 is vijf houten kistjes verwijderen, niet vier. Deze vermelding is afgestemd op de actuele levelbeschrijving in `CHALLENGES.md`. Dit is een synchronisatiecorrectie; er is geen gamecode gebouwd.
 
 ## Vastgelegd
 
@@ -86,7 +88,7 @@ Bronvolgorde: (1) dit beslissingsdocument voor goedkeuring/open status, (2) `CHA
 | Hintsysteem | Bovenaan elk uitdagingen-scherm staat een vaste, duidelijk herkenbare knop met een vraagteken (?). Wannes drukt er zelf op wanneer hij hulp wil. Geen speelgoedfiguren als hintgevers en geen automatische hints. Elke uitdaging heeft drie hintstappen: eerst een subtiele aanwijzing, daarna een gerichte aanwijzing en als derde stap zo nodig de oplossing of de exacte volgende handeling. Geen game-over en onbeperkt opnieuw proberen. |
 | Uitdaging 1 — spelvorm | Drie eigen match-3-levels, geïnspireerd op het algemene spelprincipe van match-3-games; geen gekopieerde levels of vormgeving |
 | Uitdaging 1 — schermpresentatie | Het match-3-spel speelt zich visueel af op het bestaande retro-computerscherm in de controlekamer. Na aantikken zoomt de computer in; het spelbord blijft geïntegreerd in het scherm en volgt de vastgelegde verweerde jarenzeventig-zeefdrukstijl. Geen los modern spelvenster of afwijkende stijl. |
-| Uitdaging 1 — leveldoelen | Level 1: verzamel 10 rode energiecellen zonder zettenlimiet; nieuwe symbolen worden willekeurig aangevuld, niet volgens een vaste aanvulvolgorde. Level 2: verwijder 4 houten kistjes; level 3: laat de gouden energiesleutel naar de uitgang vallen |
+| Uitdaging 1 — leveldoelen | Level 1: verzamel 10 rode energiecellen zonder zettenlimiet; nieuwe kleurvlakken worden willekeurig aangevuld, niet volgens een vaste aanvulvolgorde. Level 2: verwijder 5 houten kistjes; level 3: laat de gouden energiesleutel naar de uitgang vallen |
 | Uitdaging 1 — kleurvlakken en animatie | Level 1 gebruikt effen kleurvlakken zonder symbolen of pictogrammen. Animaties maken verwisseling, match, verdwijnen, vallen, willekeurige aanvulling en cascades stap voor stap duidelijk. Het hele spel blijft geïntegreerd in de verweerde jarenzeventig-zeefdrukposterwereld. |
 | Uitdaging 1 — raster level 1 | Het speelbord bestaat uit 5 kolommen × 7 rijen (35 vakken). Deze afmeting ligt vast. |
 | Aanwijzing uit uitdaging 1 | De letters B, A en L, verdiend na elk level en samen gevormd tot het woord BAL |
