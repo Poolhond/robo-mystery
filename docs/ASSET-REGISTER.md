@@ -1,9 +1,10 @@
 # ROBO MYSTERY — Assetregister & referenties
 
-**Versie:** 0.6  
+**Versie:** 0.7  
 **Status:** Eerste inventaris op basis van de vijf in deze ontwerpsessie aangeleverde afbeeldingen. De originele beelden zijn in de chat beschikbaar; ze zijn nog niet als afbeeldingsbestanden in deze repository opgeslagen.
 
 | ID | Beschrijving | Hoofdfunctie | Status |
+| AST-TITLE-01 | Verticale vintage zeefdrukposter voor het beginscherm: snoepfabriek, gestreepte schoorstenen, rook, gloeiende ramen, titel en startknop; geen personages | Beginscherm / title screen voor iPhone 9:19,5 | Concept goedgekeurd; afbeeldingsbestand nog uploaden |
 |---|---|---|---|
 | REF-01 | Kamer 3 — The Signal Room: signaalmonitor, satellietschotel, technische apparatuur, verhaalpaneel, inventaris en score | Primaire referentie voor omgevingsstijl en geïntegreerde game-interface | Kernreferentie |
 | REF-02 | Karakter-/conceptblad: The Signal Bird, Winged Guardian, The Heart Mark en The Golden Clue | Karakterpresentatie, symbolen en objecten | Kernreferentie |
@@ -184,3 +185,17 @@ Een eerste gezamenlijke conceptsheet is gegenereerd om de samenhang van de drie 
 4. Alle drie: duidelijke silhouette en gezichtsdetails ondanks de zware inkttextuur.
 5. Export: één losse basisasset per figuur, bij voorkeur met transparante achtergrond; geen ingebakken labels of tekst.
 6. Status: concept in beoordeling; pas na afzonderlijke controle worden de losse bestanden als goedgekeurde assets geregistreerd.
+
+
+## AST-TITLE-01 — Beginschermposter
+
+- **Asset-ID:** `AST-TITLE-01`
+- **Bestandsnaam:** `AST-TITLE-01-title-poster.jpg`
+- **Repositorypad:** `assets/title-screen/AST-TITLE-01-title-poster.jpg`
+- **Gebruik:** vaste posterillustratie voor het beginscherm; animaties worden later als aparte UI-/CSS-lagen toegevoegd.
+- **Inhoud:** titel “DE MYSTERIEUZE FABRIEK”, teaser “ER IS IETS VREEMDS AAN DE HAND...”, de snoepfabriek, en de vormgeving van de startknop.
+- **Compositie:** verticaal, bedoeld voor iPhone-verhouding 9:19,5.
+- **Personages:** geen Charlie, RidderUs of Schildje zichtbaar; hun aanwezigheid blijft een verrassing.
+- **Animatieplan:** de poster zelf blijft statisch; later kunnen rook, fabrieklichtjes en startknop afzonderlijk subtiel bewegen.
+- **Status:** ontwerp goedgekeurd als richting; de gegenereerde afbeelding is nog niet als bestand in de repository opgeslagen.
+- **Belangrijk:** als de knop in de afbeelding behouden blijft, moet later worden beslist of de volledige poster als één klikbaar vlak werkt of dat de knop grafisch wordt afgedekt/vervangen door een echte toegankelijke HTML-knop. De animaties en bediening mogen niet in de afbeeldingspixels worden ingebakken.
