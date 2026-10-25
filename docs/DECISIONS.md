@@ -124,7 +124,7 @@ Bronvolgorde: (1) dit beslissingsdocument voor goedkeuring/open status, (2) `CHA
 4. **Uitdaging 2 — onthulling van de ster-met-oog-aanwijzing:** kies hoe de aanwijzing in de kist verschijnt (bijvoorbeeld geheim kaartje of gegraveerd plaatje). De functie blijft hetzelfde: het symbool voor uitdaging 4.
 5. **Uitdaging 1 en 3:** test de definitieve match-3-startborden en bekersnelheden op iPhone; werk teksten, oplossingen en assets verder uit.
 6. **Titelvormgeving:** de werktitel is vastgelegd als *De mysterieuze fabriek*. De definitieve grafische titeluitwerking kan later worden gemaakt; de naamkeuze zelf staat niet meer open.
-7. **Puntentelling:** beslis of score nodig is; voortgang mag nooit door score worden geblokkeerd.
+7. **Puntentelling — BESLIST:** geen punten, totaalscore of highscore. De speler ziet de voortgang uitsluitend via de bestaande spelobjecten, leveldoelen, verdiende letters en aanwijzingen. Dit is geen open ontwerpkeuze meer.
 8. **Assets:** bepaal welke referentiebeelden definitief gebruikt worden en werk de bestanden uit in een consistente mappenstructuur.
 9. **Dossiercontrole:** stem spelconcept, uitdagingen, techniek, art direction en assetregister op elkaar af vóór de master-prompt.
 
