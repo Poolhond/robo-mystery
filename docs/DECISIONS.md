@@ -44,6 +44,7 @@
 | Vrije verkenning | Wannes kiest zelf de volgorde van uitdagingen 1, 2 en 3. Hij kan uitdaging 4 vanaf het begin ontdekken, maar de deur opent pas als alle drie voltooid zijn en woord/kleur juist zijn |
 | Tussentijdse voortgang | Elke uitdaging kan worden onderbroken en hervat vanaf de exacte deelstap; opgeloste puzzels, bordstanden, relevante rondevoortgang, beloningen en slotinvoer blijven bewaard. De terugknop brengt Wannes terug naar de controlekamer. |
 | Opslaan | Lokale voortgang wordt na elke betekenisvolle actie opgeslagen; herladen of later terugkomen mag geen voortgang wissen |
+| Karakterset uitdaging 2 | **Charlie, RidderUs en Schildje** zijn de drie hoofdrolfiguren in het raadsel. Hun echte pluchen/figuuridentiteit en vaste herkenningspunten blijven leidend; de nieuwe verweerde zeefdrukstijl verandert die niet. Zie `docs/ASSET-REGISTER.md`. Definitieve losse assets moeten nog worden gemaakt en goedgekeurd. |
 | Bouwstatus | Oude prototypecode is niet bruikbaar als basis; er wordt geen gamecode gebouwd vóór goedkeuring van het volledige dossier |
 
 ## Nog open — ontwerp vóór de bouw
