@@ -93,7 +93,7 @@ Het speelbord is een vast raster van **5 kolommen bij 7 rijen** (5 × 7), dus 35
 - De eerste kans is begrijpelijk zonder dat het spel automatisch een zet uitvoert.
 - Als het bord geen geldige zet meer heeft, wordt het op een gecontroleerde manier opnieuw geschud. Dit mag de verzamelde voortgang niet veranderen.
 
-Het speelbord start met een gecontroleerde beginopstelling, maar daarna worden nieuwe symbolen willekeurig aangevuld — niet volgens een vooraf vastgelegde of herhalende aanvulvolgorde. De willekeur moet echt zijn binnen de gekozen verdeling van de vier symbolen. De game controleert na het aanvullen of er geldige zetten mogelijk blijven; als er geen geldige zet meer is, wordt het bord opnieuw geschud zonder verzamelde energiecellen te verliezen. Omdat er geen zettenlimiet is, hoeft het spel geen vooraf bepaalde reeks zetten af te dwingen om het doel haalbaar te maken.
+Het speelbord start met een gecontroleerde beginopstelling, maar daarna worden nieuwe kleurvlakken willekeurig aangevuld — niet volgens een vooraf vastgelegde of herhalende aanvulvolgorde. De willekeur moet echt zijn binnen de gekozen verdeling van de vier kleuren. De game controleert na het aanvullen of er geldige zetten mogelijk blijven; als er geen geldige zet meer is, wordt het bord opnieuw geschud zonder verzamelde energiecellen te verliezen. Omdat er geen zettenlimiet is, hoeft het spel geen vooraf bepaalde reeks zetten af te dwingen om het doel haalbaar te maken.
 
 #### 5. Spelregels tijdens het spelen
 
@@ -137,7 +137,7 @@ Het paneel verschijnt direct onder de `?`-knop, is smal en gebruikt dezelfde ge�
 **Introductie op de monitor:**
 
 > **ENERGIECIRCUIT 01**  
-> De fabriek is uitgevallen. Verzamel 10 rode energiecellen om het eerste circuit opnieuw te starten. Verwissel aangrenzende stukken en maak rijen van minstens drie dezelfde symbolen.
+> De fabriek is uitgevallen. Verzamel 10 rode energiecellen om het eerste circuit opnieuw te starten. Verwissel aangrenzende effen kleurvlakken en maak een horizontale of verticale match van minstens drie vlakken van dezelfde kleur.
 
 De tekst staat in een duidelijk paneel op de monitor en verdringt het bord niet. Zodra Wannes begint te spelen, blijft alleen de korte opdracht **VERZAMEL 10 RODE ENERGIECELLEN** als vaste herinnering zichtbaar.
 
