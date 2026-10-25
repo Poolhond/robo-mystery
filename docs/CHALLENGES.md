@@ -1,6 +1,6 @@
 # De mysterieuze fabriek — Uitdagingen
 
-**Versie:** 1.1  
+**Versie:** 1.2  
 **Status:** Uitgewerkt voorontwerp; nog niet bouwklaar. Er wordt nog geen gamecode gebouwd.  
 **Focus van deze revisie:** vrije verkenning van het laboratorium; uitdaging 4 vereenvoudigd tot woord en kleur, met automatische symboolherkenning.
 
@@ -275,6 +275,8 @@ De aap wijst naar drie gesloten kistjes. De sleutel past op het slot van het gek
 **Ontwerpregel:** de cijfercode, sleutel en kistjes zijn onderdelen van uitdaging 2. De ster met het oog is de symboolaanwijzing voor het grote slot. Het woord BAL komt uitsluitend uit uitdaging 1. Voeg geen extra puzzel toe en vervang de ster niet door een gouden medaille.
 
 ## Uitdaging 3 — De onmogelijke bekers
+
+**Visuele presentatie:** na aantikken zoomt het beeld in op de bestaande tafel met drie bekers in de controlekamer. De bekers en het rode balletje bewegen op deze tafel; de goocheltruc blijft visueel geïntegreerd in de ruimte en gebruikt de vastgelegde verweerde jarenzeventig-zeefdrukstijl. Geen los modern spelvenster. Na voltooiing of verlaten van de uitdaging brengt een duidelijke terugknop Wannes terug naar dezelfde controlekamer.
 
 **Status:** ontwerp uitgewerkt; moeilijkheid gekozen: **opbouwend**.  
 **Spelvorm:** een klassieke bekers-truc in drie rondes. Wannes volgt één rood balletje terwijl drie bekers van plaats wisselen. De beweging wordt per ronde iets sneller, maar blijft volledig zichtbaar en eerlijk te volgen.
