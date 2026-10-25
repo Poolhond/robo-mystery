@@ -28,7 +28,7 @@ De extensie `.png` is de naam in de repository; alleen op basis van een padnaam 
 2. **Nestkast/vogel:** `AST-DECOR-02-birdhouse.png` bestaat. Een afzonderlijk bestand dat aantoonbaar overeenkomt met `AST-BIRD-01` is niet in de huidige tree teruggevonden. De registertekst die zegt dat de herziene geïsoleerde versie in de repository-root staat, is daarom niet bevestigd en mag niet als feit worden behandeld.
 3. **Speelgoedlaboratorium:** `assets/rooms/toy-laboratory/AST-ENV-01.png` bestaat; de visuele inhoud en precieze status moeten nog worden bekeken.
 4. **Personagebestanden:** de huidige drie basisillustraties staan op PNG-paden. Oudere tekst met voorgestelde JPEG- of WebP-paden beschrijft geen huidige bestanden en mag niet worden opgevat als bewijs dat die varianten aanwezig zijn.
-5. **Mechanische vogel:** het bestand wordt veilig bewaard, maar hoort niet in de game zonder expliciete goedkeuring.
+5. **Mechanische vogel:** het bestand wordt veilig bewaard, maar is uitgesloten van de game.
 6. **Inspiratie versus game-assets:** aanwezigheid in de repository betekent niet automatisch dat een afbeelding letterlijk in het spel moet worden gebruikt of dat de asset definitief is goedgekeurd.
 
 ## Bindende gebruiksregel
