@@ -49,11 +49,11 @@ Bij een tegenstrijdigheid tussen documenten mag de ontwikkelaar geen goedgekeurd
 
 De repository bevat momenteel elf afbeeldingsbestanden onder `assets/`. De README en het assetregister zijn bijgewerkt op basis van de actuele GitHub-bestandslijst. De nestkastillustratie `AST-DECOR-02-birdhouse.png` is aanwezig; een afzonderlijke export voor `AST-BIRD-01` is niet teruggevonden. De mechanische vogel is aanwezig als bestand, maar uitgesloten van de spelcompositie.
 
-Volgende assetstap: controleer de afmetingen, transparantie en visuele inhoud en bepaal welke assets nog ontbreken. De bestaande afbeeldingen zijn niet geconverteerd of overschreven.
+Michel heeft de aanwezige afbeeldingen zelf gecontroleerd op inhoud en geschiktheid. De ontwikkelaar moet ze tijdens de bouw correct schalen en in de samenhangende spelwereld verwerken; herhaal de visuele assetcontrole niet als afzonderlijke dossierstap.
 
 ## Waarom er nog geen gamecode is
 
-De oude prototypecode is geen basis voor de uiteindelijke game. De nieuwe game wordt vanaf een schone structuur gebouwd nadat het dossier en de benodigde assets zijn gecontroleerd en de master-prompt expliciet is goedgekeurd. De voorbereiding is niet bedoeld om elk technisch probleem vooraf op te lossen.
+De oude prototypecode is geen basis voor de uiteindelijke game. De nieuwe game wordt vanaf een schone structuur gebouwd nadat het dossier is goedgekeurd en de master-prompt expliciet is goedgekeurd. De voorbereiding is niet bedoeld om elk technisch probleem vooraf op te lossen.
 
 ## Verdeling van verantwoordelijkheden
 
@@ -64,7 +64,7 @@ De oude prototypecode is geen basis voor de uiteindelijke game. De nieuwe game w
 ## Eerstvolgende werkvolgorde
 
 1. Houd de ontwerpdocumenten onderling consistent en rond alleen beslissingen af die de spelervaring daadwerkelijk bepalen.
-2. Controleer de assets en hun bedoelde rol; technische bestandscontrole en veilige plaatsing mogen deel uitmaken van de zelfstandige bouwopdracht.
+2. Verwerk de door Michel gecontroleerde assets volgens hun vastgelegde rol; maak alleen aanvullende assets waar het spel ze nodig heeft.
 3. Controleer de resterende teksten, hints, schermovergangen en assetreferenties op duidelijke ontwerptegenstrijdigheden.
 4. Maak één volledige master-prompt die de ontwikkelaar opdraagt de repository te inspecteren, het complete spel te bouwen, tests uit te voeren, fouten zelfstandig te herstellen en het resultaat op GitHub Pages te controleren.
 5. Laat de ontwikkelaar de technische haalbaarheid van beginborden, cascades, kisten, sleutelbeweging, animaties en herstel tijdens de bouw verifiëren. Vooraf vaste matrices of apart solverbewijs uitwerken is geen vereiste.
