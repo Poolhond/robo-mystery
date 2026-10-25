@@ -1,6 +1,6 @@
 # De mysterieuze fabriek — Beslissingen en open punten
 
-**Versie:** 7.7  
+**Versie:** 7.8  
 **Doel:** één betrouwbare plek voor goedgekeurde besluiten en open punten, zodat de inhoud niet telkens opnieuw wordt bedacht.
 
 ## Dossierstatus en bronvolgorde
@@ -23,6 +23,7 @@ Bronvolgorde: (1) dit beslissingsdocument voor goedkeuring/open status, (2) `CHA
 | Finalehandeling | Wannes drukt op een grote rode feestknop. Die activeert de lichtjes en confetti en vormt de laatste interactieve handeling van het spel. |
 | Verjaardagsboodschap — ontwerpbeslissing 34 | Na het indrukken van de feestknop verschijnt in het rustige eindbeeld de persoonlijke boodschap: **“Proficiat Wannes! Dat verdient een cadeau.”** De boodschap is kort, duidelijk en vormt de overgang naar de echte verrassing. |
 | Echte verrassing na het spel | De persoonlijke boodschap “Proficiat Wannes! Dat verdient een cadeau.” wijst erop dat er een echt cadeau volgt. Er is geen extra opdracht of raadsel nodig in het eindbeeld. |
+| Hintpaneel bij puzzel oplossen — ontwerpbeslissing 66 | **Optie B — hintpaneel sluit automatisch.** Wanneer Wannes de puzzel oplost, sluit het hintpaneel vanzelf zodat de korte succesanimatie volledig zichtbaar is. |
 | Hint opnieuw openen na oplossingshint — ontwerpbeslissing 65 | **Optie A — de laatst bekeken hint opnieuw tonen.** Als Wannes het hintpaneel sluit en later opnieuw opent, blijft ook de oplossingsinstructie beschikbaar zolang die nodig is. De voortgang van hints wordt onthouden. |
 | Tekst oplossingshint na actie — ontwerpbeslissing 64 | **Optie A — blijft staan tot Wannes het paneel sluit.** De instructie blijft leesbaar zolang het hintpaneel open is. De visuele contour verdwijnt zodra Wannes de juiste actie uitvoert. |
 | Verkeerde aanraking na oplossingshint — ontwerpbeslissing 63 | **Optie A — geen extra reactie.** De puzzel reageert zoals gewoonlijk en de pulserende contour blijft bij het juiste onderdeel. Geen extra puls, tekst of straf. |
