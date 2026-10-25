@@ -115,8 +115,8 @@ De bestaande karakterbladen zijn leidend. Gebruik de vervallen robotreferentie n
 
 ## 8. Interface als onderdeel van het drukwerk
 
-### Bovenbalk
-Speltitel en kamernaam of -nummer, met compacte hulp- en instellingeniconen. De navigatie is duidelijk gescheiden van de speelruimte.
+### Navigatie en spelinterface
+Gebruik alleen bediening die op het actieve scherm nodig is: de vaste terugpijl en de `?`-hintknop op puzzelschermen, plus expliciete actieknoppen binnen puzzels. Voeg geen permanente kamernaam, kamernummer, instellingeniconen of algemene navigatiebalk toe aan de werkplaats als die niet in het schermdossier staat. De wereld en de interactieve voorwerpen blijven het middelpunt.
 
 ### Speelruimte
 De illustratie blijft het visuele middelpunt. Interactieve objecten moeten herkenbaar blijven en belangrijke delen van de scène worden niet onnodig bedekt.
@@ -124,14 +124,11 @@ De illustratie blijft het visuele middelpunt. Interactieve objecten moeten herke
 ### Verhaalpaneel
 Donker petrol, lichte omlijning, gele titel en rustige, leesbare tekst. De actieknop heeft een duidelijk symbool en een herkenbare actieve toestand.
 
-### Inventaris
-- Consistente vakken en duidelijke randen.
-- Miniatuurillustraties met leesbaar silhouet.
-- Lege vakken zichtbaar maar niet dominant.
-- Geselecteerde voorwerpen visueel te onderscheiden; de exacte behandeling moet nog worden bepaald.
-
-### Score en voortgang
-Compacte cijfers en eenvoudige indicatoren in het afgesproken palet. Geen decoratie die de informatie verdringt.
+### Voorwerpen en voortgang
+- Geen algemene inventarisbalk of scorepaneel.
+- Voortgang wordt getoond op de bestaande spelobjecten, leveldoelen, verdiende letters en aanwijzingen.
+- In een puzzel zijn alleen de daar beschreven doel- en voortgangsindicatoren zichtbaar.
+- Geselecteerde voorwerpen krijgen binnen een puzzelscherm duidelijke, sobere feedback.
 
 ### Bediening
 - Interactieve onderdelen zijn geïntegreerd in de illustratie; gebruik geen permanente extra pictogrammen of omlijningen als standaardmarkering.
