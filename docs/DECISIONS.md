@@ -116,7 +116,7 @@ Bronvolgorde: (1) dit beslissingsdocument voor goedkeuring/open status, (2) `CHA
 | Karakterafwerking — optie A | Gekozen: sterke, uitgesproken verweerde jarenzeventig-zeefdruk met zichtbare korrel, inktspikkels, slijtage en subtiele drukregistratie. Herkenbare gezichtsdetails en silhouetten blijven helder. De groepssheet is alleen een conceptreferentie; losse karakterassets moeten apart worden beoordeeld. |
 | Bouwstatus | Oude prototypecode is niet bruikbaar als basis; er wordt geen gamecode gebouwd vóór goedkeuring van het volledige dossier |
 
-## Nog open — ontwerp vóór de bouw
+## Status van resterende punten
 
 1. **Vrije laboratoriumverkenning — inhoudelijk vastgelegd:** de goedgekeurde controlekamerreferentie is de vaste compositiebasis; computer links, groene locker centraal, bekertafel vooraan en rode deur rechts blijven tegelijk zichtbaar. Hartkunst en vleesetende plant blijven op hun herkenbare plekken; de panda zit in een lade/schuif. De niet-overlappende klikzones worden op basis van de werkelijke beeldcontouren technisch ingemeten tijdens de bouw. De timing en het gedrag van de drie optionele easter eggs zijn beschreven in `SCREEN-SPEC.md`; tijdens de bouw moeten ze getest worden.
 2. **Uitdaging 2 — spelersteksten:** introducties, uitspraken, hints, succesfeedback en de beloningsreactie staan in `CHALLENGES.md` en `SCREEN-SPEC.md`. Dit is geen open inhoudskeuze meer; controleer alleen op concrete tegenstrijdigheden tijdens de dossiercontrole.
