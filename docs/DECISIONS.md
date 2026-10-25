@@ -1,6 +1,6 @@
 # De mysterieuze fabriek — Beslissingen en open punten
 
-**Versie:** 1.8  
+**Versie:** 1.9  
 **Doel:** één betrouwbare plek voor besluiten en open punten, zodat de inhoud niet telkens opnieuw wordt bedacht.
 
 ## Vastgelegd
@@ -39,7 +39,8 @@
 | Uitdaging 4 — oplossing | Ster met oog (uitdaging 2), woord BAL (uitdaging 1), kleur signaalrood (uitdaging 3); onbeperkte pogingen |
 | Startscherm en wereld | De maquette is uitsluitend het startscherm. Na Start onderzoekt Wannes zelf de technische ruimte. |
 | Technische ruimte | **Optie C — speelse werkplaats.** De vier hoofdvoorwerpen staan wat verspreider, alsof de fabriek echt gebruikt wordt, maar blijven allemaal zichtbaar op het iPhone-scherm. De ruimte mag karaktervolle details bevatten zonder rommelig te worden. De voorwerpen zijn geïntegreerd in de illustratie, zonder permanente extra pictogrammen of omlijningen. Bij aantikken zoomt het spel in op het gekozen voorwerp en opent een eigen, volledig scherm voor de uitdaging. Een duidelijke terugknop brengt Wannes terug naar dezelfde controlekamer. |
-| Kleine interactieve details en easter eggs | Naast de vier hoofdvoorwerpen komen enkele optionele, kleine interactieve details die nieuwsgierigheid belonen met grappige reacties, animaties of verborgen knipoogjes. Ze zijn extraatjes: geen ervan is nodig om de hoofd puzzels op te lossen of het spel uit te spelen. De concrete details worden later gekozen. |\n| Voorwerpen in de technische ruimte | Computerscherm = uitdaging 1; locker met cijfercode = uitdaging 2; tafel met bekers = uitdaging 3; grote deur = uitdaging 4. |
+| Kleine interactieve details en easter eggs | **Ontwerpbeslissing 17 — optie A: drie geheimen.** Er komen precies drie kleine, optionele easter eggs. Elk krijgt een leuke reactie of verrassend detail. Geen ervan is nodig om de hoofd puzzels op te lossen of het spel uit te spelen. De concrete drie worden later gekozen. |
+| Voorwerpen in de technische ruimte | Computerscherm = uitdaging 1; locker met cijfercode = uitdaging 2; tafel met bekers = uitdaging 3; grote deur = uitdaging 4. |
 | Vrije verkenning | Wannes kiest zelf de volgorde van uitdagingen 1, 2 en 3. Hij kan uitdaging 4 vanaf het begin ontdekken, maar de deur opent pas als alle drie voltooid zijn en woord/kleur juist zijn |
 | Tussentijdse voortgang | Elke uitdaging kan worden onderbroken en hervat vanaf de exacte deelstap; opgeloste puzzels, bordstanden, relevante rondevoortgang, beloningen en slotinvoer blijven bewaard. De terugknop brengt Wannes terug naar de controlekamer. |
 | Opslaan | Lokale voortgang wordt na elke betekenisvolle actie opgeslagen; herladen of later terugkomen mag geen voortgang wissen |
@@ -47,7 +48,7 @@
 
 ## Nog open — ontwerp vóór de bouw
 
-1. **Vrije laboratoriumverkenning:** de speelse werkplaats en de vier hoofdvoorwerpen liggen vast. Werk nog de exacte compositie, plaatsing en klikzones uit. Kies ook enkele kleine interactieve details/easter eggs met grappige of verrassende reacties; ze mogen de hoofdvoortgang niet blokkeren.
+1. **Vrije laboratoriumverkenning:** de speelse werkplaats en de vier hoofdvoorwerpen liggen vast. Werk nog de exacte compositie, plaatsing en klikzones uit. Kies de drie kleine interactieve details/easter eggs met grappige of verrassende reacties; ze mogen de hoofdvoortgang niet blokkeren.
 2. **Uitdaging 2 — spelersteksten:** definitieve introductie, personagedialogen, succes- en foutfeedback en afsluiting.
 3. **Uitdaging 2 — hints:** schrijf de exacte drie hintstappen voor de codepuzzel en het kistjesraadsel.
 4. **Uitdaging 2 — onthulling van de ster-met-oog-aanwijzing:** kies hoe de aanwijzing in de kist verschijnt (bijvoorbeeld geheim kaartje of gegraveerd plaatje). De functie blijft hetzelfde: het symbool voor uitdaging 4.
@@ -70,13 +71,14 @@
 - Messing sleutel.
 - Drie kistjes (rood, blauw, geel) en de ster-met-oog-aanwijzing in het rode kistje.
 - Drie bekers en rood balletje.
-- Doek, goochelvoorwerpen, knoppen, iconen en finale-/feestscène.\n- Een kleine selectie decoratieve interactieve details/easter eggs voor de technische ruimte; exacte lijst nog te bepalen.
+- Doek, goochelvoorwerpen, knoppen, iconen en finale-/feestscène.
+- Drie decoratieve interactieve details/easter eggs voor de technische ruimte; exacte lijst nog te bepalen.
 
 Geef assets consistente namen en leg per bestand vast voor welke scène het dient. Afbeeldingen die alleen in de chat zijn gegenereerd, staan nog niet automatisch in de repository.
 
 ## Werkvolgorde
 
-1. Werk de technische ruimte verder uit: exacte compositie, plaatsing en klikzones van de vier hoofdvoorwerpen; kies daarnaast enkele optionele interactieve details/easter eggs.
+1. Werk de technische ruimte verder uit: exacte compositie, plaatsing en klikzones van de vier hoofdvoorwerpen; kies daarnaast precies drie optionele interactieve details/easter eggs.
 2. Werk de resterende spelersteksten, hints, schermtoestanden en finale af.
 3. Controleer en voeg de definitieve assets toe; stem het assetregister af op het spelconcept.
 4. Controleer het volledige dossier op tegenstrijdigheden.
