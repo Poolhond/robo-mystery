@@ -99,7 +99,7 @@ De volgende lijst beschrijft assets die inhoudelijk nodig kunnen zijn voor de hu
 6. Laat tekst die essentieel is voor de gameplay waar mogelijk als echte interface-tekst bestaan, niet alleen als tekst in een afbeelding.
 
 ## Ontbrekende metadata
-De negen beeldbestanden staan nu in de afgesproken mappen onder `assets/` en hebben de extensie `.png`. Michel heeft bevestigd dat alle negen PNG-bestanden zijn. De bestanden zijn niet geconverteerd of opnieuw opgeslagen; alleen de paden en namen zijn opgeschoond. De bestanden die al aanwezig zijn, zijn niet automatisch allemaal definitieve game-assets. Afmetingen, rol, herkomst en goedkeuringsstatus moeten per bestand worden bevestigd.
+De elf beeldbestanden staan nu in de afgesproken mappen onder `assets/` en hebben de extensie `.png`. Michel heeft bevestigd dat de aangeleverde afbeeldingen PNG-bestanden zijn. De bestanden zijn niet geconverteerd of opnieuw opgeslagen; alleen de paden en namen zijn opgeschoond. De bestanden die al aanwezig zijn, zijn niet automatisch allemaal definitieve game-assets. Afmetingen, rol, herkomst en goedkeuringsstatus moeten per bestand worden bevestigd.
 
 ## Volgende stap
 Controleer de originele bestanden één voor één, bevestig de rol van elke referentie en registreer eventuele aparte karakterbladen, kamers, voorwerpen, iconen en textuurvoorbeelden.
@@ -261,4 +261,4 @@ Alle negen bestanden hebben nu een enkele `.png`-extensie, zoals door Michel bev
 
 De elf aanwezige PNG-afbeeldingen zijn geordend onder `assets/characters/`, `assets/title-screen/`, `assets/rooms/control-room/` en `assets/decor/`. De verplaatsing en hernoeming hergebruiken de bestaande Git-blobs; de bestandsinhoud is niet opnieuw gecodeerd of gecomprimeerd. Zie [de assetaudit](ASSET-AUDIT-2026-10-25.md) voor de actuele paden en resterende controles.
 
-De volgende stap is niet automatisch nieuwe afbeeldingen genereren: eerst moeten de bestaande bestanden visueel en technisch worden gecontroleerd. Het speelgoedlaboratorium en de panda zijn inmiddels toegevoegd aan de repository; controleer nog de visuele export en afmetingen. De ontwikkelaar kan eenvoudige puzzelobjecten en interface-elementen zelf tekenen als dat de stijl en leesbaarheid ondersteunt.
+De elf assets zijn aanwezig in de repository. De speelgoedlaboratorium- en panda-assets zijn toegevoegd; controleer nog de visuele export en afmetingen. Nieuwe afbeeldingen worden alleen gemaakt als een concrete asset ontbreekt. De ontwikkelaar kan eenvoudige puzzelobjecten en interface-elementen zelf tekenen als dat de stijl en leesbaarheid ondersteunt.
