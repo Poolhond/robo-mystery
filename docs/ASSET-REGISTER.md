@@ -1,6 +1,6 @@
 # ROBO MYSTERY — Assetregister & referenties
 
-**Versie:** 0.4  
+**Versie:** 0.5  
 **Status:** Eerste inventaris op basis van de vijf in deze ontwerpsessie aangeleverde afbeeldingen. De originele beelden zijn in de chat beschikbaar; ze zijn nog niet als afbeeldingsbestanden in deze repository opgeslagen.
 
 | ID | Beschrijving | Hoofdfunctie | Status |
@@ -148,3 +148,18 @@ Controleer de originele bestanden één voor één, bevestig de rol van elke ref
 - **Consistentie:** ogen, contouren, textuursterkte en belichting moeten tussen de drie losse assets overeenkomen.
 - **Gebruik:** uitdaging 2 heeft de figuren nodig in een leesbare raadselopstelling. Maak hun gezichten en silhouettes op iPhone-formaat herkenbaar; druktextuur mag belangrijke trekken niet verbergen.
 - **Status:** de vier beelden zijn referenties uit de chat en zijn nog niet als assets in de repository opgeslagen. De definitieve exports moeten afzonderlijk worden toegevoegd en daarna hier met exacte bestandsnamen worden geregistreerd.
+
+
+## Gekozen afwerking — karakterconceptsheet
+
+**Beslissing:** optie A — sterke, uitgesproken verweerde zeefdruk.
+
+Een eerste gezamenlijke conceptsheet is gegenereerd om de samenhang van de drie personages en de gekozen druktextuur te verkennen. De sheet is een **conceptreferentie**, geen goedgekeurde in-game asset en geen vervanging voor de bronfoto's. De figuren moeten nog afzonderlijk worden uitgewerkt en gecontroleerd op identiteit, proporties en details.
+
+**Beoordelingspunten voor de volgende ronde**
+1. Charlie: gezicht, oren, lichte snuit en oranje jas met twee knopen moeten overeenkomen met de bron.
+2. RidderUs: geen armen; cyaan vizier, grijze helm met verticale openingen en gele pompon blijven exact herkenbaar.
+3. Schildje: brede groene pluchen schildvorm, korte flippers en grote donkere ogen blijven behouden.
+4. Alle drie: duidelijke silhouette en gezichtsdetails ondanks de zware inkttextuur.
+5. Export: één losse basisasset per figuur, bij voorkeur met transparante achtergrond; geen ingebakken labels of tekst.
+6. Status: concept in beoordeling; pas na afzonderlijke controle worden de losse bestanden als goedgekeurde assets geregistreerd.
