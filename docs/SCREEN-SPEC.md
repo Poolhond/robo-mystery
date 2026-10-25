@@ -72,8 +72,8 @@ De drie easter eggs zijn optioneel, herhaalbaar en wijzigen geen hoofdvoortgang.
 | `L-08` | Drie kistjes met uitspraken; sleutel zichtbaar als verdiend | Kies kistje → `L-09` | “Precies één uitspraak is waar. Welk kistje moet je openen?” |
 | `L-09` | Kistje geselecteerd, nog niet geopend | BEVESTIG → juiste/foute controle; WIJZIGEN → `L-08` | Knoppen: **OPEN DIT KISTJE**, **WIJZIGEN** |
 | `L-10` | Verkeerd kistje | Kist blijft dicht; sleutel blijft beschikbaar | “Dat lijkt niet te kloppen. Controleer bij elk kistje welke uitspraken waar zijn.” |
-| `L-11` | Rood kistje gaat open | Onthul ster-met-oog → `L-12` | “Gevonden! Jij hebt de code gekraakt, de sleutel verdiend én het juiste kistje opgespoord!” |
-| `L-12` | Ster met oog duidelijk zichtbaar als beloning | Markeer uitdaging 2 voltooid; ster verschijnt automatisch bij deur | “Een ster met een oog… Dat moet een belangrijke aanwijzing zijn. Je hoeft dit symbool niet te onthouden: het wordt bij de grote deur bewaard.” |
+| `L-11` | Rood kistje gaat open; binnenin ligt een klein, plat vintage gedrukt kaartje | Onthul de ster-met-oog op het kaartje → `L-12` | “Gevonden! Jij hebt de code gekraakt, de sleutel verdiend én het juiste kistje opgespoord!” |
+| `L-12` | Kaartje met ster-met-oog duidelijk zichtbaar als beloning | Markeer uitdaging 2 voltooid; ster verschijnt automatisch bij deur | “Een ster met een oog… Dat moet een belangrijke aanwijzing zijn. Je hoeft dit symbool niet te onthouden: het wordt bij de grote deur bewaard.” |
 | `L-13` | Hintpaneel bij code, logica of kistjes | Elke puzzelstap heeft een eigen hintniveau en hervatstatus | Exacte hints hieronder |
 
 **Definitieve uitspraken van het sleutelraadsel**
