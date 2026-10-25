@@ -82,7 +82,7 @@ Elk vlak heeft een effen kleurvlak als binnenkant en een sobere, duidelijke rand
 
 #### 4. Bord en beginsituatie
 
-Het bord bevat alleen de vier genoemde symbolen. De definitieve rasterafmetingen en de vaste startmatrix worden als onderdeel van de technische uitwerking getest en daarna in het dossier vastgezet. De gekozen beginsituatie moet aan alle voorwaarden voldoen:
+Het speelbord is een vast raster van **5 kolommen bij 7 rijen** (5 × 7), dus 35 vakken in totaal. Deze rasterafmeting ligt vast en mag tijdens de bouw niet worden gewijzigd. Het bord bevat uitsluitend effen kleurvlakken, zonder symbolen of pictogrammen. De exacte beginmatrix wordt als onderdeel van de technische uitwerking gecontroleerd. De gekozen beginsituatie moet aan alle voorwaarden voldoen:
 
 - Er is onmiddellijk minstens één geldige zet.
 - Een geldige zet betekent dat de verwisseling twee horizontaal of verticaal direct aangrenzende kleurvlakken betreft en een match van minstens drie vlakken van dezelfde kleur oplevert.
@@ -173,7 +173,7 @@ Een verlichte lijn loopt door het circuit op de monitor. De letter **B** wordt d
 - Geen symbolen of pictogrammen op de speelvlakken, geen modern wit spelvenster, geen standaard emoji en geen afgeronde witte knoppen als uiteindelijke vormgeving.
 - Geen automatische oplossingszet. Hints tonen of markeren alleen een mogelijke actie; Wannes voert die zelf uit.
 
-**Te testen vóór de latere bouw:** de exacte rasterafmetingen, startmatrix, kansverdeling van de vier symbolen en werking van willekeurige aanvulling zonder zettenlimiet. Dit zijn technische validatiepunten; ze mogen de hierboven beschreven spelregels en visuele richting niet stilzwijgend veranderen.
+**Te testen vóór de latere bouw:** de exacte startmatrix en kansverdeling van de vier kleuren; het raster blijft vast op 5 kolommen × 7 rijen en werking van willekeurige aanvulling zonder zettenlimiet. Dit zijn technische validatiepunten; ze mogen de hierboven beschreven spelregels en visuele richting niet stilzwijgend veranderen.
 
 ### Level 2 — De geblokkeerde tandwielen
 
