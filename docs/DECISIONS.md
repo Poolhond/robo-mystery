@@ -1,6 +1,6 @@
 # De mysterieuze fabriek — Beslissingen en open punten
 
-**Versie:** 2.3  
+**Versie:** 2.4  
 **Doel:** één betrouwbare plek voor goedgekeurde besluiten en open punten, zodat de inhoud niet telkens opnieuw wordt bedacht.
 
 ## Dossierstatus en bronvolgorde
@@ -49,7 +49,7 @@ Bronvolgorde: (1) dit beslissingsdocument voor goedkeuring/open status, (2) `CHA
 | Uitdaging 4 — oplossing | Ster met oog (uitdaging 2), woord BAL (uitdaging 1), kleur signaalrood (uitdaging 3); onbeperkte pogingen |
 | Startscherm en wereld | De maquette is uitsluitend het startscherm. Na Start onderzoekt Wannes zelf de technische ruimte. |
 | Technische ruimte | **Optie C — speelse werkplaats.** De vier hoofdvoorwerpen staan wat verspreider, alsof de fabriek echt gebruikt wordt, maar blijven allemaal zichtbaar op het iPhone-scherm. De ruimte mag karaktervolle details bevatten zonder rommelig te worden. De voorwerpen zijn geïntegreerd in de illustratie, zonder permanente extra pictogrammen of omlijningen. Bij aantikken zoomt het spel in op het gekozen voorwerp en opent een eigen, volledig scherm voor de uitdaging. Een duidelijke terugknop brengt Wannes terug naar dezelfde controlekamer. |
-| Kleine interactieve details en easter eggs | **Ontwerpbeslissing 17 — optie A: drie geheimen.** Er komen precies drie kleine, optionele easter eggs. Elk krijgt een leuke reactie of verrassend detail. Geen ervan is nodig om de hoofd puzzels op te lossen of het spel uit te spelen. De concrete drie worden later gekozen. |
+| Kleine interactieve details en easter eggs | **Drie geheimen vastgelegd.** (1) **Pandaschuif:** Wannes tikt op de lade/schuif van het meubel; één schuif gaat open, onthult kort een vierde speelgoedfiguur — een panda die nog als asset moet worden uitgewerkt — en schuift daarna vanzelf weer dicht. (2) **Vleesetende plant:** eerste tik zoomt in op de plant en start een vlieg die rondvliegt; tweede tik laat de vlieg in de bloem vliegen, waarna het klepje dichtklapt; derde tik zoomt terug uit naar het overzicht. (3) **Hartkunstwerk:** tikken zoomt in op het kunstwerk; het hart begint te kloppen en de afgebeelde mensen dansen; daarna zoomt het beeld terug uit. Alle drie zijn optioneel, geven geen puzzelvoordeel en blokkeren de hoofdvoortgang niet. |
 | Voorwerpen in de technische ruimte | Computerscherm = uitdaging 1; locker met cijfercode = uitdaging 2; tafel met bekers = uitdaging 3; grote deur = uitdaging 4. |
 | Vrije verkenning | Wannes kiest zelf de volgorde van uitdagingen 1, 2 en 3. Hij kan uitdaging 4 vanaf het begin ontdekken, maar de deur opent pas als alle drie voltooid zijn en woord/kleur juist zijn |
 | Tussentijdse voortgang | Elke uitdaging kan worden onderbroken en hervat vanaf de exacte deelstap; opgeloste puzzels, bordstanden, relevante rondevoortgang, beloningen en slotinvoer blijven bewaard. De terugknop brengt Wannes terug naar de controlekamer. |
@@ -60,7 +60,7 @@ Bronvolgorde: (1) dit beslissingsdocument voor goedkeuring/open status, (2) `CHA
 
 ## Nog open — ontwerp vóór de bouw
 
-1. **Vrije laboratoriumverkenning:** de speelse werkplaats en de vier hoofdvoorwerpen liggen vast. Werk nog de exacte compositie, plaatsing en klikzones uit. Kies de drie kleine interactieve details/easter eggs met grappige of verrassende reacties; ze mogen de hoofdvoortgang niet blokkeren.
+1. **Vrije laboratoriumverkenning:** de speelse werkplaats en de vier hoofdvoorwerpen liggen vast. Werk nog de exacte compositie, plaatsing en klikzones uit. De drie easter eggs zijn gekozen; werk hun timing, animaties en klikzones uit zonder dat ze de hoofdvoortgang blokkeren.
 2. **Uitdaging 2 — spelersteksten:** definitieve introductie, personagedialogen, succes- en foutfeedback en afsluiting.
 3. **Uitdaging 2 — hints:** schrijf de exacte drie hintstappen voor de codepuzzel en het kistjesraadsel.
 4. **Uitdaging 2 — onthulling van de ster-met-oog-aanwijzing:** kies hoe de aanwijzing in de kist verschijnt (bijvoorbeeld geheim kaartje of gegraveerd plaatje). De functie blijft hetzelfde: het symbool voor uitdaging 4.
