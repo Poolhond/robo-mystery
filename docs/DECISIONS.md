@@ -1,4 +1,4 @@
-# ROBO MYSTERY — Beslissingen en open punten
+# De mysterieuze fabriek — Beslissingen en open punten
 
 **Versie:** 0.9  
 **Doel:** één betrouwbare plek voor besluiten en open punten, zodat de inhoud niet telkens opnieuw wordt bedacht.
@@ -7,10 +7,11 @@
 
 | Onderwerp | Beslissing |
 |---|---|
+| Spelnaam | De mysterieuze fabriek (gekozen als nieuwe werktitel; robot is geschrapt) |
 | Speler | Wannes (12), speelt het spel op zijn verjaardag zelf |
 | Hoofdpersonage | Wannes onderzoekt de ruimte zelf; er is geen bestuurbaar hoofdpersonage |
 | Feest | De onthulling aan het einde is voor Wannes |
-| Thema | Goochelen: trucjes, puzzels en raadsels |
+| Thema | Een mysterieuze speelgoedfabriek met goocheltrucs, puzzels en raadsels |
 | Opbouw | Vrije verkenning van het laboratorium; uitdagingen 1–3 in zelfgekozen volgorde; uitdaging 4 is de grote deur en het slot |
 | Platform | Mobile-first webspel, GitHub Pages, geen account |
 | Taal | Nederlands |
@@ -46,7 +47,7 @@
 6. **Slotscène:** bepaal wat er in het echt na het spel gebeurt en welke tekst daarbij hoort.
 7. **Feesthandeling:** kies bijvoorbeeld een feestknop of lint.
 8. **Persoonlijke boodschap:** bepaal de exacte verjaardagsboodschap en wie er spreekt.
-9. **Spelnaam:** ROBO MYSTERY is de huidige werktitel.
+9. **Spelnaam:** De mysterieuze fabriek is de gekozen werktitel. De definitieve titelvormgeving kan later nog worden uitgewerkt.
 10. **Kleurenset:** kies één definitieve set als enige bron. Er bestaan verschillende voorstellen in art direction en oudere prototypebestanden.
 11. **Lettertype:** systeemlettertypen met een zwaar, grafisch karakter; geen externe fonts.
 12. **Puntentelling:** beslis of score nodig is; voortgang mag nooit door score worden geblokkeerd.
