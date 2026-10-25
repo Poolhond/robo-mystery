@@ -1,6 +1,6 @@
 # De mysterieuze fabriek — Beslissingen en open punten
 
-**Versie:** 3.9  
+**Versie:** 4.0  
 **Doel:** één betrouwbare plek voor goedgekeurde besluiten en open punten, zodat de inhoud niet telkens opnieuw wordt bedacht.
 
 ## Dossierstatus en bronvolgorde
@@ -23,6 +23,7 @@ Bronvolgorde: (1) dit beslissingsdocument voor goedkeuring/open status, (2) `CHA
 | Finalehandeling | Wannes drukt op een grote rode feestknop. Die activeert de lichtjes en confetti en vormt de laatste interactieve handeling van het spel. |
 | Verjaardagsboodschap | Na de feestknop feliciteren de speelgoedfiguren Wannes samen met een warme, speelse boodschap. De exacte tekst wordt later uitgewerkt. |
 | Echte verrassing na het spel | Na de digitale onthulling krijgt Wannes een korte opdracht die naar een echte verrassing leidt. De exacte formulering en eventuele bestemming worden later bepaald. |
+| Voortgang bewaren — ontwerpbeslissing 28 | **Optie A — automatisch en onzichtbaar.** De game bewaart voortgang automatisch na elke betekenisvolle actie. Er verschijnt geen bevestigingsmelding en Wannes hoeft niets handmatig te doen. De titelpagina biedt later **Verder spelen** om de bewaarde voortgang te hervatten. |
 | Titelknop — ontwerpbeslissing 27 | **Optie C — knop past zich aan.** Zonder opgeslagen spelvoortgang toont de grote hoofdknop **START**. Zodra er voortgang bestaat, toont die **VERDER SPELEN**. De optie **Nieuw spel** staat kleiner onderaan en vraagt om bevestiging voordat bestaande voortgang wordt gewist. |
 | Opnieuw openen — ontwerpbeslissing 26 | **Optie C — terug naar de titelpagina.** Bij het opnieuw openen begint Wannes op de titelpagina. Daar kiest hij **Verder spelen** om zijn bewaarde voortgang te hervatten, of **Opnieuw beginnen** om bewust een nieuw spel te starten. Verder spelen herstelt de exacte puzzelstand en voortgang. Opnieuw beginnen vraagt om bevestiging, zodat voortgang niet per ongeluk wordt gewist. |
 | Animatieduur — ontwerpbeslissing 25 | **Optie C — afhankelijk van de actie.** Kleine reacties zijn kort en laten Wannes snel verder spelen. Belangrijke ontdekkingen, zoals het openen van een geheim deurtje en de finale, krijgen meer tijd om effect te hebben. Animaties mogen de bediening nooit onnodig blokkeren. |
