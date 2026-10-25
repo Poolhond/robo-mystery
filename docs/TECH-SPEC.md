@@ -1,7 +1,7 @@
 # De mysterieuze fabriek — Technische specificatie
 
-**Versie:** 1.3  
-**Status:** Dossier-specificatie vóór de bouw. Dit document legt de technische randvoorwaarden vast; het is geen toestemming om al spelcode te bouwen.  
+**Versie:** 1.4  
+**Status:** Specificatie voor één zelfstandige bouwopdracht. Na goedkeuring van het dossier wordt deze specificatie samen met de master-prompt gebruikt om het volledige spel te laten bouwen, testen en opleveren. Er wordt geen aparte voorafgaande technische uitwerkronde vereist.  
 **Samenhang:** `docs/GAME-CONCEPT.md`, `docs/CHALLENGES.md`, `docs/DECISIONS.md` en `docs/ART-DIRECTION.md` zijn leidend voor respectievelijk spelverloop, puzzels, goedgekeurde ontwerpkeuzes en visuele stijl. Bij tegenstrijdigheid moet de afwijking eerst in het dossier worden opgelost.
 
 ## 1. Platform en grenzen
@@ -11,7 +11,7 @@
 - Geen account, server, tracking, advertenties, aankopen of externe diensten.
 - Geen frameworks, externe bibliotheken, externe scripts of externe lettertypen.
 - Het spel is volledig stil: geen muziek, geluidseffecten, gesproken tekst of audiobestanden.
-- Geen spelcode bouwen voordat het volledige dossier, de assets en de acceptatietests zijn gecontroleerd en de bouwopdracht expliciet is goedgekeurd.
+- Start pas met de implementatie wanneer de master-prompt en het dossier expliciet zijn goedgekeurd. Daarna voert de gameontwikkelaar de volledige bouw, technische uitwerking, tests, foutopsporing en correcties zelfstandig uit.
 
 ## 2. Bestands- en padregels
 
@@ -42,7 +42,7 @@ docs/
 - Spelergerichte teksten, puzzelstellingen, hints, feedback en eindteksten worden op één beheersbare plek bijgehouden, bij voorkeur in `content.js`; presentatie en spelstatus blijven daarvan gescheiden.
 - De naam Wannes en de goedgekeurde eindtekst worden centraal beheerd. De eindtekst is exact: **“Proficiat Wannes!”** gevolgd door **“Dat verdient een cadeau.”**
 - Alle essentiële tekst blijft echte HTML-tekst en wordt niet uitsluitend in een afbeelding ingebakken.
-- De technische implementatie mag de vastgelegde puzzelregels, volgorde, antwoorden, hints of eindscène niet zelfstandig aanpassen.
+- De technische implementatie mag de vastgelegde puzzelregels, volgorde, antwoorden, hints of eindscène niet zelfstandig aanpassen. De ontwikkelaar kiest zelfstandig de technische middelen om die goedgekeurde werking betrouwbaar te realiseren.
 
 ## 4. Schermen en stabiele toestands-ID's
 
@@ -58,7 +58,7 @@ Onderstaande ID's zijn technische namen, geen zichtbare spelertekst. De precieze
 | `door` | Grote rode deur / slot | Deur is steeds onderzoekbaar; slot kan onvolledig zijn en toont feedback bij invoer. |
 | `finale` | Feestfinale | Alleen bereikbaar na de juiste combinatie; voert de goedgekeurde feestsequentie uit. |
 
-Een puzzel kan intern extra substaten hebben, maar die moeten stabiel en expliciet worden beschreven voordat de bouw begint. Een modal of hintpaneel is geen zelfstandige wereldlocatie.
+Een puzzel kan intern extra substaten hebben. De ontwikkelaar bepaalt de interne implementatie en documenteert die waar nuttig; elke zichtbare toestand en noodzakelijke overgang moet wel overeenkomen met `docs/SCREEN-SPEC.md`. Een modal of hintpaneel is geen zelfstandige wereldlocatie.
 
 ### Navigatie
 
@@ -118,11 +118,16 @@ Deze regels zijn al goedgekeurd en mogen tijdens implementatie niet opnieuw ontw
 - Na een geslaagde actie sluit het paneel automatisch. De `?` blijft beschikbaar; bij opnieuw openen wordt het laatst bekeken hintniveau getoond.
 - De hints en oplossing mogen geen voortgang veranderen totdat de speler de aangegeven puzzelhandeling zelf uitvoert.
 
-## 7. Puzzelbetrouwbaarheid
+## 7. Puzzelbetrouwbaarheid en zelfstandige verificatie
 
 - De inhoudelijke regels en correcte oplossingen staan in `docs/CHALLENGES.md`; deze technische specificatie verandert ze niet.
-- Match-3-borden moeten oplosbaar zijn volgens de vastgelegde regels. Alle drie levels gebruiken een raster van 5 × 7, vier effen kleurvlakken zonder symbolen, willekeurige aanvulling en geen zettenlimiet, timer of straf. Genereer geen onoplosbaar bord. Als er geen geldige zet bestaat, schud het bord gecontroleerd opnieuw zonder eerder behaalde voortgang of verwijderde doelobjecten kwijt te raken.
-- Controleer een match en de resulterende toestand vóór die als voortgang wordt opgeslagen. Voorkom dubbele verwerking van één tik.
+- De ontwikkelaar is verantwoordelijk voor het ontwerpen en genereren van concrete beginborden, testdata en interne puzzeltoestanden. Michel hoeft vooraf geen matrices, zetreeksen, solverresultaten of technisch bewijs aan te leveren.
+- Match-3-borden moeten volgens de vastgelegde regels speelbaar zijn. Alle drie levels gebruiken een raster van 5 × 7, vier effen kleurvlakken zonder symbolen, willekeurige aanvulling en geen zettenlimiet, timer of straf. De ontwikkelaar genereert een geldige starttoestand zonder ongewenste automatische matches, controleert dat er minstens één geldige zet is en controleert dat het doel haalbaar blijft.
+- Level 2 moet vijf kisten correct verwijderen wanneer een geldige match direct naast ze plaatsvindt, ook wanneer meerdere kisten door dezelfde match of cascade geraakt worden. De kistvoortgang mag nooit teruglopen.
+- Level 3 moet de gouden sleutel logisch verticaal laten vallen wanneer de ruimte eronder vrijkomt, tot ze de uitgang onderaan bereikt.
+- Na elke zet moet de logische bordtoestand worden berekend en gevalideerd; animaties tonen diezelfde uitkomst in begrijpelijke stappen. De spelstatus mag geen tegenstrijdige of dubbele verwerking van een tik bevatten.
+- Als er geen geldige zet bestaat, schud de ontwikkelaar het bord gecontroleerd opnieuw. Behaalde doelvoortgang en verwijderde doelobjecten blijven behouden.
+- Test cascades, randgevallen, herhaald tikken, snel opeenvolgende invoer, navigatie tijdens of na animaties, herladen en herstel. Los gevonden fouten zelfstandig op en herhaal de relevante tests.
 - Bij bekers moet de actuele balpositie ondubbelzinnig worden bijgehouden; de animatie mag de logische positie niet wijzigen of verbergen.
 - Foute invoer geeft duidelijke feedback en wist geen eerder verdiende aanwijzingen of voltooide uitdagingen.
 - De ster-met-oog-aanwijzing verschijnt automatisch zodra de relevante kistuitdaging is voltooid. BAL en signaalrood voert Wannes zelf in/selecteert hij zelf bij de deur.
@@ -148,11 +153,11 @@ Deze regels zijn al goedgekeurd en mogen tijdens implementatie niet opnieuw ontw
 
 ## 10. Acceptatietests vóór oplevering
 
-De implementatie is pas klaar wanneer alle onderstaande controles zijn geslaagd:
+De gameontwikkelaar voert onderstaande tests zelfstandig uit, herstelt fouten die hij vindt en herhaalt de relevante tests. De implementatie is pas klaar wanneer alle onderstaande controles zijn geslaagd. Voeg waar nuttig geautomatiseerde tests toe; controleer interactieve animaties en mobiele bediening daarnaast ook handmatig:
 
 1. **Start:** START opent de werkplaats; VERDER SPELEN verschijnt bij geldige opgeslagen voortgang; “Opnieuw beginnen” vraagt bevestiging.
 2. **Vrije volgorde:** de drie uitdagingen kunnen in iedere volgorde worden gespeeld.
-3. **Match-3:** Level 1 verzamelt 10 rode energiecellen en geeft B; Level 2 verwijdert 5 houten kistjes en geeft A; Level 3 laat de gouden sleutel naar de uitgang onderaan vallen en geeft L. Alle drie gebruiken 5 × 7 en hebben geen zettenlimiet of timer; geldige/ongeldige zetten, animaties, aanvulling, cascades en herstel werken correct; letters en exacte bordstatus blijven bewaard.
+3. **Match-3:** Level 1 verzamelt 10 rode energiecellen en geeft B; Level 2 verwijdert 5 houten kistjes en geeft A; Level 3 laat de gouden sleutel naar de uitgang onderaan vallen en geeft L. Alle drie gebruiken 5 × 7 en hebben geen zettenlimiet of timer. De ontwikkelaar genereert en test zelf geldige beginborden en representatieve testtoestanden. Geldige/ongeldige zetten, animaties, aanvulling, cascades, vastlopende-bordherstel en hervatten werken correct; letters en exacte bordstatus blijven bewaard.
 4. **Locker:** code 042, personagelogica, kistlogica, sleutel en ster-met-oog volgen exact het uitdagingen-dossier.
 5. **Bekers:** de drie rondes volgen de vastgelegde wisselaantallen; de balpositie en ronde blijven correct na terugkeer en herladen.
 6. **Deur:** kan vroeg worden bekeken maar opent niet vóór voltooiing van alle uitdagingen; correcte combinatie opent de deur, foutieve combinatie wist geen voortgang.
@@ -174,15 +179,23 @@ De implementatie is pas klaar wanneer alle onderstaande controles zijn geslaagd:
 - Verborgen resetgebaar dat de goedgekeurde titelbediening vervangt.
 - Extra puzzels, personages of regels die niet in het dossier zijn goedgekeurd.
 
-## 12. Status en resterende dossiercontrole
+## 12. Werkwijze met één master-prompt
 
-Deze specificatie legt de technische randvoorwaarden vast, maar is op zichzelf geen bouwopdracht. Vóór de master-prompt moeten nog worden gecontroleerd en afgestemd:
-- de volledige assetinventaris, werkelijke bestandstypen en definitieve locaties;
-- de precieze klikzones en posities van de vier hoofdobjecten en drie easter eggs;
-- controle en goedkeuring van alle spelersteksten, hintteksten en feedback in [`docs/SCREEN-SPEC.md`](SCREEN-SPEC.md) en [`docs/CHALLENGES.md`](CHALLENGES.md);
-- controle dat de scherm-/subtoestanden uit [`docs/SCREEN-SPEC.md`](SCREEN-SPEC.md) alle noodzakelijke overgangen en herstelgevallen dekken;
-- de definitieve match-3-startmatrices plus solver-/testbewijs voor geldige zetten en doelhaalbaarheid; alle drie levels hebben geen zettenlimiet;
-- de uiteindelijke statusvelden tegen alle concrete puzzelstappen;
-- de volledige acceptatietestlijst tegen de goedgekeurde ontwerpbeslissingen.
+Deze specificatie wordt samen met het goedgekeurde projectdossier en de repository-assets aan de gameontwikkelaar gegeven via één uitgebreide master-prompt. De opdracht moet de ontwikkelaar verplichten om zelfstandig:
 
-Geen ontwikkelaar of code-assistent mag deze open punten stilzwijgend invullen door nieuwe spelregels of ontwerpkeuzes te verzinnen.
+1. de repository, documenten en aanwezige assets te inspecteren voordat hij wijzigingen aanbrengt;
+2. te signaleren welke bestanden ontbreken of onduidelijk zijn en assets veilig te controleren en correct te organiseren zonder originele bestanden stilzwijgend te verliezen;
+3. het complete spel vanaf een schone, passende structuur te implementeren, zonder een aparte tussenronde waarin Michel technische details moet uitwerken;
+4. zelf de concrete beginborden, interne toestanden, animaties en testgevallen te genereren;
+5. alle acceptatietests uit §10 uit te voeren, inclusief de drie match-3-levels, opslag/herstel, schermovergangen, hints, finale en GitHub Pages-subpad;
+6. gevonden bugs en technische tekortkomingen zelfstandig te herstellen en de relevante tests opnieuw uit te voeren;
+7. te controleren dat het resultaat zonder externe afhankelijkheden werkt op iPhone Safari in portret en bruikbaar blijft op iPad en desktop;
+8. een beknopt opleverrapport te geven met wat gebouwd is, welke tests zijn uitgevoerd, eventuele resterende beperkingen en de gepubliceerde URL.
+
+### Wat vooraf nodig is en wat niet
+
+Vóór de master-prompt moeten echte ontwerptegenstrijdigheden, ontbrekende essentiële assets en onduidelijke spelersgerichte regels worden opgelost. De ontwikkelaar mag geen nieuwe goedgekeurde ontwerpkeuzes verzinnen.
+
+Het is **niet** nodig om vooraf concrete match-3-matrices, zetreeksen, solverbewijs, interne datamodellen, animatiecode of elk technisch randgeval afzonderlijk uit te werken. Dat zijn uitvoerings- en kwaliteitsverantwoordelijkheden van de ontwikkelaar. De ontwikkelaar moet deze onderdelen tijdens het bouwen zelf realiseren, testen en corrigeren binnen de vastgelegde spelregels.
+
+De specificatie beschrijft dus de gewenste uitkomst en de kwaliteitscriteria; zij schrijft niet elke interne technische stap voor.
