@@ -1,7 +1,7 @@
 # De mysterieuze fabriek — Uitdagingen
 
 **Versie:** 1.4  
-**Status:** Uitgewerkt voorontwerp; nog niet bouwklaar. Er wordt nog geen gamecode gebouwd.  
+**Status:** Inhoudelijk uitgewerkt; onderworpen aan de laatste dossiercontrole en goedkeuring. Er wordt nog geen gamecode gebouwd.  
 **Focus van deze revisie:** vrije verkenning van het laboratorium; uitdaging 4 vereenvoudigd tot woord en kleur, met automatische symboolherkenning.
 
 ## Algemene spelregels
