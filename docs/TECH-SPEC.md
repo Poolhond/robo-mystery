@@ -1,6 +1,6 @@
 # De mysterieuze fabriek — Techniekregels
 
-**Versie:** 0.7  
+**Versie:** 0.8  
 **Status:** Conceptuele technische randvoorwaarden; nog geen definitieve implementatiespecificatie. Deze regels moeten vóór de master-prompt worden aangevuld met een concrete schermenlijst, statusmodel en acceptatietests.
 
 ## 1. Platform
@@ -24,7 +24,7 @@ assets/
 - Geen frameworks, geen bibliotheken, geen externe lettertypen of scripts.
 
 ## 3. Eén bron voor teksten en personalisatie
-Alle spelertekst staat in `content.js`: raadsels, antwoorden, hints, feedback, de naam "Wannes", de slottekst en de eventuele echte opdracht aan het einde. Dit maakt aanpassen voor iedereen mogelijk zonder de spelcode te raken.
+Alle spelertekst staat in `content.js`: raadsels, antwoorden, hints, feedback, de naam "Wannes", de slottekst en de eventuele echte opdracht aan het einde. In elk uitdagingen-scherm staat bovenaan een vaste vraagtekenknop (`?`) waarmee Wannes op eigen initiatief hints opent. Speelgoedfiguren geven geen hints; hints verschijnen niet automatisch. Dit maakt aanpassen voor iedereen mogelijk zonder de spelcode te raken.
 
 ## 4. Spelstatus en opslag
 - Eén `state`-object bewaart huidig scherm en locatie in het laboratorium, voltooide uitdagingen, voortgang binnen elke deelpuzzel, verzamelde aanwijzingen, ingevoerde slotgegevens en gebruikte hints.
