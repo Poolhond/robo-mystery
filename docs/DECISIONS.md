@@ -1,6 +1,6 @@
 # De mysterieuze fabriek — Beslissingen en open punten
 
-**Versie:** 4.2  
+**Versie:** 4.3  
 **Doel:** één betrouwbare plek voor goedgekeurde besluiten en open punten, zodat de inhoud niet telkens opnieuw wordt bedacht.
 
 ## Dossierstatus en bronvolgorde
@@ -23,6 +23,7 @@ Bronvolgorde: (1) dit beslissingsdocument voor goedkeuring/open status, (2) `CHA
 | Finalehandeling | Wannes drukt op een grote rode feestknop. Die activeert de lichtjes en confetti en vormt de laatste interactieve handeling van het spel. |
 | Verjaardagsboodschap | Na de feestknop feliciteren de speelgoedfiguren Wannes samen met een warme, speelse boodschap. De exacte tekst wordt later uitgewerkt. |
 | Echte verrassing na het spel | Na de digitale onthulling krijgt Wannes een korte opdracht die naar een echte verrassing leidt. De exacte formulering en eventuele bestemming worden later bepaald. |
+| Deuropening en finale — ontwerpbeslissing 31 | **Optie C, met aangepaste timing.** Zodra de combinatie klopt, zwaait de grote deur open, maar de feestzaal erachter is nog donker en stil. De grote rode feestknop is zichtbaar. Pas wanneer Wannes erop drukt, springen de lichten aan en barst het feest los met confetti en de speelgoedfiguren. De knop is de laatste interactieve handeling van het spel. |
 | Deur en ontbrekende aanwijzingen — ontwerpbeslissing 30 | **Optie C — beide combineren.** De drie vakken voor symbool, woord en kleur zijn vanaf het begin zichtbaar op de deur. Wanneer Wannes probeert te openen, lichten de ontbrekende onderdelen kort op. Geen lange uitleg of extra scherm. |
 | Bevestiging nieuw spel — ontwerpbeslissing 29 | **Optie C — compact retro-paneel.** Bij **Nieuw spel** verschijnt een bevestiging in de bestaande zeefdrukstijl met twee duidelijke keuzes: **Annuleren** en **Nieuw spel**. De opgeslagen voortgang wordt pas gewist na een expliciete bevestiging. |
 | Voortgang bewaren — ontwerpbeslissing 28 | **Optie A — automatisch en onzichtbaar.** De game bewaart voortgang automatisch na elke betekenisvolle actie. Er verschijnt geen bevestigingsmelding en Wannes hoeft niets handmatig te doen. De titelpagina biedt later **Verder spelen** om de bewaarde voortgang te hervatten. |
