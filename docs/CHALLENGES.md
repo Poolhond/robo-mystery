@@ -53,7 +53,7 @@
 
 De computer in de controlekamer toont een beeld van het stilgevallen energiesysteem. De fabriek is donker en een deel van de installatie is uitgevallen. Op de monitor is een klein circuit zichtbaar waarvan de rode energie-indicatoren uit zijn. Wannes moet het circuit opnieuw opstarten door **10 rode energiecellen** te verzamelen.
 
-Dit is het eerste van de drie match-3-levels. Het leert Wannes het basisprincipe zonder extra obstakels: symbolen verwisselen, drie of meer gelijke symbolen combineren en zien hoe het bord opnieuw gevuld wordt. Het level mag uitdagend aanvoelen, maar moet onmiddellijk begrijpelijk zijn en vlot reageren.
+Dit is het eerste van de drie match-3-levels. Het leert Wannes het basisprincipe zonder extra obstakels: effen kleurvlakken verwisselen, drie of meer kleurvlakken van dezelfde kleur combineren en de animatie van verdwijnen, vallen en aanvullen volgen. Het level mag uitdagend aanvoelen, maar moet onmiddellijk begrijpelijk zijn en vlot reageren.
 
 Wanneer het level is opgelost, verdient Wannes de letter **B**. Die blijft bewaard voor het geheime woord **BAL**, dat pas compleet wordt na level 3.
 
@@ -64,30 +64,28 @@ De computer wordt de speelruimte; het spel verschijnt niet als een modern venste
 De monitor zelf toont één samenhangende, verticale spelcompositie:
 
 1. **Kop van het scherm:** een klein technisch label met de naam **ENERGIECIRCUIT 01**. De voortgang **0/10** staat in grote, duidelijk leesbare cijfers. Er is geen zettenlimiet en geen tijdslimiet. De voortgang is informatie, geen decoratie.
-2. **Centrale speelruimte:** één compact raster met vier soorten fabriekssymbolen. Dit is het grootste en belangrijkste onderdeel van het scherm. Het bord moet op een iPhone in staande stand zichtbaar en bedienbaar blijven; belangrijke informatie mag niet buiten het scherm vallen.
+2. **Centrale speelruimte:** één compact raster van effen kleurvlakken, zonder symbolen of pictogrammen op de vlakken. Dit is het grootste en belangrijkste onderdeel van het scherm. Het bord moet op een iPhone in staande stand zichtbaar en bedienbaar blijven; belangrijke informatie mag niet buiten het scherm vallen.
 3. **Korte opdracht:** een kleine strook op de monitor toont: **VERZAMEL 10 RODE ENERGIECELLEN**. De opdracht blijft beschikbaar tijdens het spelen, maar mag het bord niet verdringen.
 4. **Bediening:** een duidelijke `?`-knop voor hints. Een knop om het level opnieuw te starten mag bestaan, maar mag niet even dominant zijn als het bord of de opdracht. Opnieuw starten wist alleen de huidige levelpoging na een bewuste keuze.
 5. **Beloning:** de letter B wordt pas bij succes prominent getoond. Vóór succes kan er een kleine vaste verzamelstrook met de positie van de drie letters zichtbaar zijn: **_ _ _**. De strook maakt duidelijk dat de levelbeloningen samen één woord vormen, maar verklapt BAL niet vooraf.
 
-De compositie is grafisch en geïllustreerd, niet opgebouwd uit standaard witte afgeronde tegels. Het geheel volgt de goedgekeurde jarenzeventig-zeefdrukstijl: oud papier `#F3DDA8`, signaalrood `#D94330`, mosterdgeel `#E9B638`, donker petrol `#174B56`, bosgroen `#28513D` en inktzwart `#292A24`. Gebruik sterke getekende contouren, ingedrukte inktvlakken, halftoon en plaatselijk versleten drukwerk. De textuur mag de illustratie karakter geven, maar mag cijfers, doelen of symbolen nooit onleesbaar maken. Geen gradients als standaard en geen emoji als eindasset.
+De volledige spelcompositie moet aanvoelen als één handgedrukte jarenzeventig-popartposter die op de computermonitor zichtbaar is. Het bord is geen los modern spelvenster. De speelstukken zijn effen, duidelijk van elkaar gescheiden kleurvlakken zonder pictogrammen of symbolen; de posterstijl komt uit de compositie, omliggende machine-illustratie, krachtige contouren, drukregistratie, halftoon en verweerde inkt, niet uit decoratie op elk speelvlak. De compositie is grafisch en geïllustreerd, niet opgebouwd uit standaard witte afgeronde tegels. Het geheel volgt de goedgekeurde jarenzeventig-zeefdrukstijl: oud papier `#F3DDA8`, signaalrood `#D94330`, mosterdgeel `#E9B638`, donker petrol `#174B56`, bosgroen `#28513D` en inktzwart `#292A24`. Gebruik sterke getekende contouren, ingedrukte inktvlakken, halftoon en plaatselijk versleten drukwerk. De textuur mag de illustratie karakter geven, maar mag cijfers, doelen of symbolen nooit onleesbaar maken. Geen gradients als standaard en geen emoji als eindasset.
 
-#### 3. De vier speelstukken
+#### 3. De vier kleurvlakken
 
-Elke soort heeft een eigen silhouet én vaste kleur. Wannes mag niet afhankelijk zijn van kleur alleen om de symbolen uit elkaar te houden.
+De speelstukken zijn uitsluitend effen kleurvlakken. Er staan geen symbolen, pictogrammen, letters of illustraties op de vlakken. Omdat kleur het spelmechanisme is, moeten de kleuren voldoende contrast met elkaar hebben en consistent blijven.
 
-- **Rode energiecel — doelobject:** een klein industrieel energie-element, als een rood metalen capsule- of batterijvormig onderdeel met een helder bliksemsymbool. De vorm moet in kleine tegels herkenbaar blijven. Bij een match licht de cel kort op en verdwijnt ze alsof de energie wordt opgenomen door het circuit.
-- **Geel tandwiel:** een stevig getekend messing tandwiel met duidelijk aantal tanden en een donkere binnenopening.
-- **Blauwe bout:** een forse zeskantige metalen boutkop, donker omlijnd en met een duidelijke centrale opening.
-- **Groen kristal:** een hoekige, gefacetteerde kristalvorm met enkele stevige vlakken; geen realistische glans of glad 3D-effect.
+- **Signaalrood:** de doelkleur. Rode vlakken tellen mee wanneer ze in een match verdwijnen.
+- **Mosterdgeel, donker petrol/blauw en bosgroen:** de andere speelkleuren. Ze dienen om combinaties te maken en het bord te veranderen; ze tellen niet mee voor het doel.
 
-De symbolen voelen alsof ze als aparte kleurplaten in hetzelfde zeefdrukkunstwerk zijn gedrukt. Ze hebben een duidelijke buitencontour, een eenvoudig leesbaar binnenmotief en een subtiele ongelijke inktdekking. De rode energiecel krijgt extra contrast omdat die het leveldoel bepaalt. Alle vier soorten zijn gewone verwisselbare match-symbolen; er zijn in dit eerste level geen obstakels of speciale stukken.
+Elk vlak heeft een effen kleurvlak als binnenkant en een sobere, duidelijke rand zodat de grenzen ook tijdens animaties leesbaar blijven. De zeefdruktextuur hoort vooral in de omliggende posterillustratie en de paneelranden. Op de kleine speelvlakken mag hoogstens een lichte, gelijkmatige inktkorrel zichtbaar zijn; geen patronen die als symbolen kunnen worden gelezen. Alle kleuren zijn gewone verwisselbare speelstukken; er zijn in dit eerste level geen obstakels of speciale stukken.
 
 #### 4. Bord en beginsituatie
 
 Het bord bevat alleen de vier genoemde symbolen. De definitieve rasterafmetingen en de vaste startmatrix worden als onderdeel van de technische uitwerking getest en daarna in het dossier vastgezet. De gekozen beginsituatie moet aan alle voorwaarden voldoen:
 
 - Er is onmiddellijk minstens één geldige zet.
-- Een geldige zet betekent dat de verwisseling twee horizontaal of verticaal direct aangrenzende stukken betreft en een match van minstens drie gelijke stukken oplevert.
+- Een geldige zet betekent dat de verwisseling twee horizontaal of verticaal direct aangrenzende kleurvlakken betreft en een match van minstens drie vlakken van dezelfde kleur oplevert.
 - Het startbord bevat geen automatische match die al verdwijnt voordat Wannes een actie uitvoert.
 - Het doel van 10 rode energiecellen is haalbaar zonder zettenlimiet.
 - De eerste kans is begrijpelijk zonder dat het spel automatisch een zet uitvoert.
@@ -97,13 +95,13 @@ Het speelbord start met een gecontroleerde beginopstelling, maar daarna worden n
 
 #### 5. Spelregels tijdens het spelen
 
-1. Wannes tikt één stuk aan; het krijgt een sobere, duidelijke selectie-indicatie.
-2. Wannes tikt daarna op een horizontaal of verticaal aangrenzend stuk. Er hoeft geen aparte bevestigingsknop te worden gebruikt.
+1. Wannes tikt één kleurvlak aan; het krijgt een sobere, duidelijke selectie-indicatie.
+2. Wannes tikt daarna op een horizontaal of verticaal aangrenzend kleurvlak. Er hoeft geen aparte bevestigingsknop te worden gebruikt.
 3. Als de verwisseling geen match van minstens drie oplevert, schuiven de stukken direct en soepel terug. Er wordt geen zet afgetrokken en er volgt geen straf.
-4. Als de verwisseling wel een match oplevert, verdwijnen alle aangesloten stukken van drie of meer van dezelfde soort.
-5. Alleen verwijderde **rode energiecellen** verhogen de teller. Matches van tandwielen, bouten of kristallen tellen niet voor het doel, maar mogen het bord veranderen en nieuwe kansen creëren.
-6. De stukken erboven vallen naar beneden om de open vakken te vullen; nieuwe symbolen komen van boven het bord binnen.
-7. Als de vallende stukken nog een match veroorzaken, wordt die cascade verwerkt. De animatie blijft rustig en leesbaar: eerst verdwijnt de match, vervolgens vallen de stukken, daarna is de nieuwe toestand duidelijk. Er is geen snelle opeenstapeling van effecten die Wannes het overzicht ontneemt.
+4. Als de verwisseling wel een match oplevert, verdwijnen de aaneengesloten drie of meer kleurvlakken van dezelfde kleur.
+5. Alleen rode kleurvlakken die door een match verdwijnen verhogen de teller. Matches van andere kleuren tellen niet voor het doel, maar veranderen het bord en kunnen nieuwe kansen creëren.
+6. De kleurvlakken boven lege vakken vallen naar beneden om de open plaatsen te vullen; nieuwe kleurvlakken komen van boven het bord binnen.
+7. Als de vallende vlakken nog een match veroorzaken, wordt die cascade verwerkt. Elke stap wordt duidelijk geanimeerd en in een begrijpelijke volgorde getoond: eerst de verwisseling, dan de match, vervolgens het verdwijnen, daarna het vallen en aanvullen, en pas daarna een eventuele nieuwe cascade. Er is geen snelle opeenstapeling van effecten die Wannes het overzicht ontneemt.
 8. De teller telt het aantal verzamelde rode energiecellen op en blijft altijd zichtbaar, van 0/10 tot 10/10. Hij gaat niet terug wanneer later opnieuw rode cellen verschijnen.
 9. Het level eindigt onmiddellijk zodra de teller **10/10** bereikt. Er hoeft geen extra actie te worden gedaan.
 10. Er is geen timer, geen zettenlimiet, geen levenssysteem, geen straf en geen game-over. Wannes mag rustig blijven spelen tot hij 10 rode energiecellen heeft verzameld. Hij hoeft het level niet opnieuw te starten omdat er te veel zetten zijn gebruikt.
@@ -112,14 +110,15 @@ Het speelbord start met een gecontroleerde beginopstelling, maar daarna worden n
 
 Alle reacties zijn kort en hebben een duidelijk doel. De animaties ondersteunen het begrijpen van de spelregels en zijn geen permanente versiering.
 
-- **Stuk aangetikt:** een korte, subtiele drukreactie of lichte oplichting; het geselecteerde stuk blijft herkenbaar.
-- **Ongeldige verwisseling:** de twee stukken schuiven terug naar hun oorspronkelijke plek. Geen rode foutmelding, geen straf en geen lange shake.
-- **Geldige verwisseling:** de stukken wisselen vlot van positie; de match wordt duidelijk zichtbaar.
-- **Rode energiecel verdwijnt:** een korte inktachtige flits of compacte energiepuls; geen explosie die andere stukken bedekt.
-- **Andere symbolen verdwijnen:** een eenvoudige korte verdwijnreactie in dezelfde stijl.
-- **Stukken vallen:** duidelijk van boven naar beneden, met een klein gevoel van gewicht. Geen overmatige stuiter.
-- **Cascade:** iedere volgende match volgt logisch op de vorige; Wannes krijgt visueel tijd om te begrijpen wat er gebeurt.
-- **Doel bereikt:** het circuit op de monitor licht op en de teller bereikt 10/10. Daarna sluit de hintweergave automatisch en speelt een korte succesanimatie af.
+- **Kleurvlak aangetikt:** het vlak krijgt een korte, duidelijke selectie-indicatie.
+- **Ongeldige verwisseling:** beide vlakken bewegen terug naar hun oorspronkelijke positie. Geen straf en geen lange shake.
+- **Geldige verwisseling:** de twee vlakken schuiven zichtbaar van plaats en stoppen duidelijk op hun nieuwe positie.
+- **Match:** de drie of meer gelijke vlakken krijgen eerst een korte gezamenlijke nadruk, zodat Wannes kan zien welke combinatie telt.
+- **Rode vlakken verdwijnen:** ze lossen zichtbaar op of worden met een korte drukinkt-/energieflits uit het bord gehaald; de teller loopt mee met de verdwenen rode vlakken.
+- **Andere kleuren verdwijnen:** ze verdwijnen op dezelfde begrijpelijke manier, maar verhogen de rode teller niet.
+- **Vallen en aanvullen:** vlakken erboven zakken zichtbaar in de lege plaatsen; nieuwe vlakken komen van boven het raster binnen. De beweging moet hun bestemming duidelijk maken, niet teleporteren.
+- **Cascade:** pas nadat de nieuwe bordstand leesbaar is, wordt een volgende match geaccentueerd en verwerkt.
+- **Doel bereikt:** de teller loopt naar 10/10 en het circuit op de monitor licht op. Daarna sluit de hintweergave automatisch en speelt een korte succesanimatie af.
 
 #### 7. Hints voor dit level
 
@@ -171,7 +170,7 @@ Een verlichte lijn loopt door het circuit op de monitor. De letter **B** wordt d
 - Geen gouden energiesleutel of uitgang; die horen bij level 3.
 - Geen ster met een oog of medaille; die aanwijzing hoort bij uitdaging 2.
 - Geen tijdslimiet, levens, straf voor ongeldige zetten, automatische hints of verplichte tutorial die het spelen onderbreekt.
-- Geen modern wit spelvenster, standaard emoji-symbolen of afgeronde witte knoppen als uiteindelijke vormgeving.
+- Geen symbolen of pictogrammen op de speelvlakken, geen modern wit spelvenster, geen standaard emoji en geen afgeronde witte knoppen als uiteindelijke vormgeving.
 - Geen automatische oplossingszet. Hints tonen of markeren alleen een mogelijke actie; Wannes voert die zelf uit.
 
 **Te testen vóór de latere bouw:** de exacte rasterafmetingen, startmatrix, kansverdeling van de vier symbolen en werking van willekeurige aanvulling zonder zettenlimiet. Dit zijn technische validatiepunten; ze mogen de hierboven beschreven spelregels en visuele richting niet stilzwijgend veranderen.
