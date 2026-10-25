@@ -177,35 +177,140 @@ Een verlichte lijn loopt door het circuit op de monitor. De letter **B** wordt d
 
 ### Level 2 — De geblokkeerde tandwielen
 
-**Verhaal:** het tweede deel van de fabriek is geblokkeerd door houten transportkistjes. De tandwielen moeten weer kunnen draaien.
+**Status:** inhoudelijke levelbeschrijving; nog geen gamecode. Dit level bouwt bewust voort op Level 1. De speelervaring, vormgeving, bediening, raster, kleuren, animaties, hints, opslag en algemene match-3-regels blijven hetzelfde. Het verschil is het doel: in plaats van 10 rode kleurvlakken te verzamelen, moet Wannes **5 houten kistjes verwijderen**.
 
-**Doel:** verwijder **4 houten kistjes** binnen **14 zetten**.
+#### 1. Verhaal en bedoeling
 
-**Bord en regels:**
-- Het bord bevat match-symbolen en vier houten kistjes als obstakels.
-- De kistjes zijn geen verwisselbare match-symbolen en kunnen niet zelf worden verplaatst.
-- Een match direct naast een kistje beschadigt of verwijdert dat kistje. Elk kistje verdwijnt na één geldige match ernaast.
-- Een match die naast meerdere kistjes ligt, mag meer dan één kistje tegelijk verwijderen; de beginsituatie mag dit niet onbedoeld te makkelijk of onmogelijk maken.
-- De kistjes blokkeren de vakjes die ze bezetten. De speler moet dus nadenken over matches rond de obstakels.
-- De teller toont de voortgang van 0/4 tot 4/4; het level eindigt zodra alle vier weg zijn.
-- Het bord moet vooraf gecontroleerd worden op bereikbaarheid: alle vier kistjes moeten binnen het zetlimiet verwijderbaar zijn.
+Het eerste circuit draait weer, maar de tandwielen van de fabriek zitten nog geblokkeerd door houten transportkistjes. Wannes moet de kistjes wegwerken zodat de machine verder kan draaien.
 
-**Hintladder:**
-1. Subtiel: een mogelijke match naast een kistje pulseert.
-2. Duidelijker: het spel zegt: “Maak een match naast een houten kistje om het open te breken.”
-3. Expliciet: de game licht een concrete verwisseling op die naast een kistje een match vormt.
+Het level gebruikt dezelfde eenvoudige match-3-basis als Level 1. Wannes verwisselt aangrenzende effen kleurvlakken en maakt matches van minstens drie gelijke kleuren. Hij moet nu niet op een bepaalde kleur letten om die te verzamelen, maar matches maken die de houten kistjes raken. Elke kist die wordt verwijderd telt mee voor het doel.
 
-**Introductietekst van het spel:**
-> “Deze kistjes blokkeren de tandwielen. Maak matches naast de kistjes om ze weg te breken. Ruim ze alle vier op!”
+Wanneer alle vijf kistjes verwijderd zijn, verdient Wannes de letter **A**. Die wordt toegevoegd aan de letterstrook: **B A _**.
 
-**Foutfeedback:**
-- Ongeldige verwisseling: “Die zet maakt geen match. Kijk eens naar de symbolen naast een kistje.”
-- Match zonder effect op kistjes: “De symbolen zijn weg, maar de kistjes staan er nog. Probeer vlak naast een kistje te spelen.”
+#### 2. Wat Wannes op het iPhone-scherm ziet
+
+De computer blijft de speelruimte. De camera zoomt in op dezelfde retro-computermonitor als in Level 1. De omliggende metalen behuizing, knoppen, schroeven en kabels blijven zichtbaar. Het spel is geïntegreerd in de verweerde jarenzeventig-zeefdrukwereld en verschijnt niet als een los modern gamevenster.
+
+De verticale spelcompositie blijft gelijk aan Level 1:
+
+1. **Kop van het scherm:** het label **TANDWIELEN 02** en een grote voortgangsteller **0/5**.
+2. **Centrale speelruimte:** hetzelfde vaste raster van **5 kolommen × 7 rijen** (35 vakken).
+3. **Korte opdracht:** **VERWIJDER 5 HOUTEN KISTJES** blijft tijdens het spelen zichtbaar.
+4. **Bediening:** dezelfde `?`-knop voor hints en dezelfde terugknop. Er is geen zettenlimiet en geen tijdslimiet. Als opnieuw starten beschikbaar is, vraagt het spel eerst om bevestiging en wordt alleen de huidige levelpoging gereset.
+5. **Beloning:** de letter A verschijnt pas bij succes. De letterstrook toont vóór succes **B _ _** en na succes **B A _**.
+
+De stijl, schaal, contrasten en plaatsing van de elementen volgen Level 1. Gebruik het goedgekeurde kleurpalet: oud papier `#F3DDA8`, signaalrood `#D94330`, mosterdgeel `#E9B638`, donker petrol `#174B56`, bosgroen `#28513D` en inktzwart `#292A24`. De textuur mag cijfers, de voortgangsteller en de kistjes niet onleesbaar maken.
+
+#### 3. Speelstukken en houten kistjes
+
+De gewone speelstukken blijven exact dezelfde **effen kleurvlakken zonder symbolen of pictogrammen** als in Level 1:
+
+- Signaalrood.
+- Mosterdgeel.
+- Donker petrol/blauw.
+- Bosgroen.
+
+Alle gewone kleurvlakken zijn verwisselbaar. Ze hebben een sobere duidelijke rand en geen letters, pictogrammen of illustraties op het vlak.
+
+De vijf houten kistjes zijn de enige nieuwe spelcomponent ten opzichte van Level 1. Ze zijn visueel duidelijk te onderscheiden van de kleurvlakken: een eenvoudige, grafisch getekende houten transportkist met een krachtige contour en verweerde zeefdruktextuur. De kistjes bevatten geen tekst of decoratieve pictogrammen. Ze zijn **obstakels, geen verwisselbare speelstukken**. Een kistje bezet één vak van het raster en kan niet worden geselecteerd of verplaatst.
+
+#### 4. Bord en beginsituatie
+
+Het bord gebruikt hetzelfde vaste raster als Level 1: **5 kolommen × 7 rijen**, in totaal 35 vakken. De rasterafmeting verandert niet.
+
+De beginopstelling bevat vijf houten kistjes en gewone effen kleurvlakken in de overige vakken. De exacte beginmatrix wordt later technisch vastgelegd en getest. De beginsituatie moet voldoen aan de volgende voorwaarden:
+
+- Er is vanaf de start minstens één geldige zet.
+- Er zijn geen automatische matches voordat Wannes zelf een zet uitvoert.
+- De kistjes zijn zo geplaatst dat elk kistje met een geldige match bereikbaar is.
+- Het doel om alle vijf kistjes te verwijderen is haalbaar volgens de vastgelegde regels.
+- De startopstelling is begrijpelijk en niet onbedoeld triviaal; de kistjes mogen niet allemaal met één toevallige match verdwijnen.
+- Als het bord geen geldige zet meer heeft, wordt het gecontroleerd opnieuw geschud zonder dat verwijderde kistjes terugkomen of voortgang verloren gaat.
+
+Na de gecontroleerde beginopstelling worden nieuwe kleurvlakken willekeurig aangevuld, niet volgens een vooraf vastgelegde of herhalende aanvulvolgorde. Na aanvullen controleert het spel of er nog geldige zetten mogelijk zijn. Als die ontbreken, wordt het bord opnieuw geschud; de huidige kistjesvoortgang blijft behouden.
+
+#### 5. Spelregels tijdens het spelen
+
+1. Wannes tikt een kleurvlak aan en daarna een direct aangrenzend kleurvlak, horizontaal of verticaal.
+2. Alleen een verwisseling die een match van minstens drie gelijke kleurvlakken oplevert, is geldig.
+3. Als er geen match ontstaat, keren de twee vlakken terug naar hun oorspronkelijke plaats. Er wordt geen zet afgetrokken en er volgt geen straf of foutmeldingstekst.
+4. Bij een geldige match worden de drie of meer gelijke kleurvlakken verwijderd.
+5. **Een houten kistje wordt verwijderd wanneer een geldige match direct naast dat kistje verdwijnt.** Het kistje hoeft zelf geen deel van de match uit te maken en kan niet worden verwisseld.
+6. Eén match kan meerdere kistjes verwijderen als de match direct naast meer dan één kistje ligt.
+7. Elke verwijderde kist verhoogt de teller met één. De teller loopt op van **0/5** tot **5/5** en gaat nooit terug.
+8. De gewone kleurvlakken boven lege vakken vallen naar beneden en nieuwe vlakken komen van boven het raster binnen. De kistjes die nog niet verwijderd zijn, blijven op hun vaste plaats en blokkeren hun vak.
+9. Als het aanvullen een nieuwe match oplevert, wordt die als cascade verwerkt. Ook een cascade kan kistjes verwijderen als de match direct naast die kistjes ligt.
+10. Er is geen zettenlimiet, timer, levenssysteem, straf of game-over. Wannes kan rustig verder spelen tot alle vijf kistjes weg zijn.
+11. Het level eindigt zodra de teller **5/5** bereikt. Er is geen extra actie nodig.
+
+#### 6. Bewegings- en feedbackstijl
+
+De animaties volgen dezelfde duidelijke, stapsgewijze aanpak als Level 1:
+
+- **Kleurvlak aangetikt:** een korte, duidelijke selectie-indicatie.
+- **Ongeldige verwisseling:** de vlakken schuiven soepel terug; geen straf en geen foutmeldingstekst.
+- **Geldige verwisseling:** de vlakken wisselen zichtbaar van plaats.
+- **Match:** de betrokken kleurvlakken krijgen eerst een korte gezamenlijke nadruk, zodat Wannes ziet welke combinatie telt.
+- **Kleurvlakken verdwijnen:** de vlakken lossen zichtbaar op of worden met een korte drukinkt-/energieflits uit het bord gehaald.
+- **Kistje geraakt:** wanneer een match naast een kistje verdwijnt, krijgt het kistje een korte duidelijke reactie en breekt het zichtbaar open of valt het in stukken uiteen. Daarna verdwijnt het uit het raster en verhoogt de teller.
+- **Vallen en aanvullen:** de resterende vlakken zakken zichtbaar in lege vakken; nieuwe vlakken komen van boven binnen. Ze teleporteren niet.
+- **Cascade:** de huidige beweging wordt eerst afgerond en de nieuwe bordstand blijft even leesbaar voordat de volgende match wordt geaccentueerd.
+- **Doel bereikt:** de teller loopt naar **5/5**, de geblokkeerde tandwielen komen zichtbaar in beweging en daarna speelt de succesanimatie af.
+
+De animaties moeten begrijpelijk blijven op iPhone in staande stand. Geen snelle opeenstapeling van effecten die verbergt waarom een kistje verdwijnt.
+
+#### 7. Hints voor dit level
+
+De hintbediening en het gedrag van het paneel zijn hetzelfde als in Level 1. Hints verschijnen alleen als Wannes zelf op `?` tikt. De hintvoortgang wordt voor dit scherm bewaard; bij terugkeer ziet hij de laatst bekeken hint. Het paneel blijft open tot Wannes opnieuw op `?` tikt en sluit automatisch bij succes. De oplossingshint voert nooit zelf een zet uit.
+
+- **Hint 1 — subtiel:** laat een mogelijke match naast een kistje kort pulseren. Tekst: **“Kijk eens wat er vlak naast de houten kistjes gebeurt.”**
+- **Hint 2 — duidelijker:** tekst: **“Maak een match naast een houten kistje om het weg te breken.”** Een mogelijke match naast een kistje mag kort oplichten.
+- **Hint 3 — oplossing:** na bevestiging tekst: **“Tik eerst op het kleurvlak dat ik heb omlijnd en daarna op het aangrenzende kleurvlak dat ook oplicht. Zo maak je een match naast een kistje.”** De twee betrokken vlakken krijgen een dunne pulserende contour die blijft staan tot Wannes de aangegeven actie uitvoert.
+
+Na hint 3 verandert **VOLGENDE HINT** in **TOON OPLOSSING**. Eerst verschijnt de bevestiging **“Wil je de oplossing zien?”** met **BEKIJKEN** en **TERUG**. TERUG brengt hem terug naar hint 3. Een verkeerde aanraking geeft geen extra straf of waarschuwing; de contour blijft bij de juiste onderdelen.
+
+#### 8. Introductie- en feedbackteksten
+
+**Introductie op de monitor:**
+
+> **TANDWIELEN 02**  
+> De tandwielen zitten vast achter houten kistjes. Maak matches naast de kistjes om ze weg te breken. Verwijder alle 5 kistjes om de machine weer vrij te maken.
+
+Zodra Wannes begint te spelen, blijft de korte opdracht **VERWIJDER 5 HOUTEN KISTJES** als vaste herinnering zichtbaar.
+
+**Ongeldige verwisseling:** geen foutmeldingstekst; de vlakken keren terug.
+
+**Geldige match die geen kistje raakt:** geen extra melding na elke match. De teller verandert alleen wanneer een of meer kistjes daadwerkelijk verdwijnen.
 
 **Succesfeedback:**
-> “De tandwielen zijn vrij! De fabriek komt weer op gang.”
 
-**Beloning:** de letter **A** verschijnt op een metalen label en wordt toegevoegd aan de verzamelstrook: **B A _**.
+> **DE TANDWIELEN DRAAIEN WEER!**
+
+De tandwielen op het monitorpaneel komen met een korte illustratieve beweging op gang. Daarna verschijnt de letter **A** als een metalen label dat past bij de bestaande computerillustratie.
+
+#### 9. Wat er bij succes verandert
+
+- Het bord stopt; er worden geen nieuwe kleurvlakken meer toegevoegd.
+- De teller blijft op **5/5** staan.
+- De tandwielen komen zichtbaar in beweging.
+- De letter **A** verschijnt op een metalen label.
+- De verzamelstrook verandert van **B _ _** naar **B A _**.
+- De beloning en de voltooide status worden lokaal opgeslagen.
+- Wannes krijgt zelf de keuze om verder te gaan naar Level 3; hij wordt niet automatisch in een nieuwe puzzel gegooid.
+- Als hij de uitdaging verlaat of het spel opnieuw opent, blijft Level 2 voltooid en blijft de letter A zichtbaar.
+
+#### 10. Wat niet in Level 2 thuishoort
+
+- Geen doel om 10 rode kleurvlakken te verzamelen; het doel is uitsluitend **5 houten kistjes verwijderen**.
+- Geen zettenlimiet, timer, levens, straf of game-over.
+- Geen symbolen of pictogrammen op de gewone kleurvlakken.
+- Geen kistjes die kunnen worden geselecteerd of verwisseld.
+- Geen automatische zet of automatische hint.
+- Geen gouden energiesleutel of uitgang; die horen bij Level 3.
+- Geen ster met een oog of medaille; die aanwijzing hoort bij uitdaging 2.
+- Geen afwijkende interface of nieuwe beeldtaal ten opzichte van Level 1.
+
+**Te testen vóór de latere bouw:** de exacte beginmatrix, de plaatsing van de vijf kistjes, geldige zetmogelijkheden, bereikbaarheid van ieder kistje en het correct behouden van kistjesvoortgang tijdens willekeurige aanvulling, cascades en herschudden.
 
 ### Level 3 — De geheime uitgang
 
