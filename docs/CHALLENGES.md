@@ -584,7 +584,7 @@ Charlie wijst naar drie gesloten kistjes. De sleutel past op het slot van het ge
 - Als Wannes de uitdaging verlaat nadat hij de sleutel heeft verdiend, blijft de sleutel beschikbaar en blijft het kistjesraadsel onopgelost klaarstaan. Na terugkeer hoeft hij de eerdere puzzels niet opnieuw te doen.
 - Bij de juiste keuze draait de sleutel, klikt het slot open en gaat het deksel langzaam omhoog.
 
-**Inhoud van de kist:** de kist bevat de ster-met-oog-aanwijzing voor het grote slot; geen gouden medaille. De afgesproken aanwijzingen zijn **BAL** (uitdaging 1), ster met oog (uitdaging 2) en signaalrood (uitdaging 3). De fysieke drager is nog niet definitief gekozen. Voorstel: een klein, plat vintage gedrukt kaartje in de kist, duidelijk leesbaar en passend bij de zeefdrukstijl. Dit voorstel blijft open tot Michel het bevestigt. Het woord BAL wordt uitsluitend in uitdaging 1 verdiend.
+**Inhoud van de kist:** de kist bevat een **klein, plat vintage gedrukt kaartje** met de ster-met-oog-aanwijzing voor het grote slot. Het kaartje ligt in het rode kistje en is duidelijk leesbaar, met een verweerde zeefdrukafwerking die bij de rest van de wereld past. Dit is de vastgelegde vorm; geen gegraveerd plaatje en geen gouden medaille. De afgesproken aanwijzingen zijn **BAL** (uitdaging 1), ster met oog (uitdaging 2) en signaalrood (uitdaging 3). Het woord BAL wordt uitsluitend in uitdaging 1 verdiend.
 
 **Reactie van het spel:**
 
@@ -882,7 +882,7 @@ Achter de deur bevindt zich de verrassing die de speelgoedfiguren voor Wannes he
 ## Volgende dossierstappen
 
 1. Controleer de reeds beschreven spelersteksten, hints en schermtoestanden op concrete tegenstrijdigheden; ontwerp ze niet opnieuw zonder reden.
-2. Bevestig de voorgestelde vorm van de ster-met-oog-aanwijzing: een klein, plat vintage gedrukt kaartje in het rode kistje.
+2. De vorm van de ster-met-oog-aanwijzing is beslist: een klein, plat vintage gedrukt kaartje in het rode kistje.
 3. Stem dit document af op `DECISIONS.md`, `GAME-CONCEPT.md`, `SCREEN-SPEC.md`, `TECH-SPEC.md`, `ART-DIRECTION.md` en `ASSET-REGISTER.md`.
 4. Laat de ontwikkelaar tijdens de bouw ontbrekende aanvullende assets genereren en alle technische validatie op iPhone uitvoeren.
 5. Schrijf de master-prompt pas nadat Michel het volledige dossier heeft goedgekeurd.
