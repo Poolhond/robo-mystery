@@ -1,6 +1,6 @@
 # De mysterieuze fabriek — Spelconcept
 
-**Versie:** 2.2  
+**Versie:** 2.3  
 **Status:** Voorontwerp; nog geen bouwklaar dossier en geen nieuwe gamecode  
 **Laatste update:** 25 oktober 2026 — startbeleving vastgelegd als vrije ontdekking; werktitel gewijzigd naar De mysterieuze fabriek; robot geschrapt
 
@@ -114,16 +114,16 @@ Een compact point-and-click-avontuur: de maquette is uitsluitend het startscherm
 ## 8. Nog uit te werken vóór de bouw
 
 - De spelersteksten, feedback en hints staan uitgewerkt in `docs/SCREEN-SPEC.md` en `docs/CHALLENGES.md`; controleer ze bij de eindcontrole op concrete tegenstrijdigheden. Hints verschijnen uitsluitend wanneer Wannes zelf op `?` drukt; de voortgang wordt per puzzelscherm onthouden.
-- De exacte plaatsing en raakvlakken van de vier hoofdvoorwerpen en de drie reeds gekozen easter eggs.
-- De exacte visuele vorm waarin de ster-met-oog-aanwijzing in het rode kistje verschijnt.
-- De technische testbaarheid van de match-3-startborden en de bekersnelheden op iPhone.
-- De aanvullende spelassets die tijdens de bouw nodig blijken; de aanwezige referentiebeelden en mappenstructuur zijn gecontroleerd.
-- De resterende schermenlijst en de precieze rollen van de speelgoedfiguren buiten de vastgelegde puzzel- en finalehandelingen.
+- De enige resterende inhoudelijke vormkeuze is hoe de ster-met-oog-aanwijzing in het rode kistje verschijnt. Voorstel: een klein, plat vintage gedrukt kaartje; dit blijft ter bevestiging door Michel open.
+- De plaatsing van de hoofdvoorwerpen en easter eggs volgt de goedgekeurde controlekamerreferentie en staat inhoudelijk vast. De ontwikkelaar meet tijdens de bouw de niet-overlappende klikzones in op basis van de werkelijke beeldcontouren.
+- Geldige match-3-beginborden, cascades, vastloperherstel en bekersnelheden op iPhone zijn technische testverantwoordelijkheden van de ontwikkelaar, geen open dossierkeuzes.
+- De aanwezige assets zijn inspiratiebronnen, geen verplichte letterlijke scherminhoud. De ontwikkelaar bepaalt tijdens de bouw welke aanvullende assets nodig zijn.
+- De spelersgerichte teksten en de rollen van de speelgoedfiguren zijn uitgewerkt in `CHALLENGES.md` en `SCREEN-SPEC.md`; controleer ze op concrete tegenstrijdigheden in plaats van de schermen of rollen opnieuw te ontwerpen.
 
 De slotwerking, feestknop, finalevolgorde, boodschap, speelduur, kleurpalet en typografische richting zijn al vastgelegd en mogen niet opnieuw als open ontwerpkeuzes worden behandeld.
 
 ## 9. Volgende ontwerpfase
 
-Werk eerst de open punten uit deze lijst af. Controleer daarna `CHALLENGES.md`, `TECH-SPEC.md`, `ART-DIRECTION.md` en `ASSET-REGISTER.md` op tegenstrijdigheden met de goedgekeurde beslissingen. Pas als het volledige dossier consistent en goedgekeurd is, wordt de master-prompt geschreven.
+Bevestig eerst de voorgestelde vorm van de ster-met-oog-aanwijzing. Controleer daarna `CHALLENGES.md`, `SCREEN-SPEC.md`, `TECH-SPEC.md`, `ART-DIRECTION.md` en `ASSET-REGISTER.md` op concrete tegenstrijdigheden met de goedgekeurde beslissingen. Zodra het volledige dossier consistent is en Michel het goedkeurt, wordt de master-prompt geschreven.
 
 **Geen nieuwe gamecode bouwen zolang het dossier niet af is.**
