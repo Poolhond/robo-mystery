@@ -46,7 +46,7 @@ Wannes speelt drie korte match-3-levels in een retro-futuristisch speelgoedlabor
 Deze uitdaging bestaat uit drie opeenvolgende puzzels die samen één avontuur vormen:
 
 1. Wannes kraakt de cijfercode **042** en opent een klein geheim deurtje.
-2. Achter het deurtje ontmoet hij de aap, panda en schildpad. Hun uitspraken volgen de regel dat precies één uitspraak waar is. Wannes redeneert dat de aap de messing sleutel heeft.
+2. Achter het deurtje ontmoet hij Charlie de aap, RidderUs en Schildje de schildpad. Hun uitspraken volgen de regel dat precies één uitspraak waar is. Wannes redeneert dat Charlie de messing sleutel heeft. De panda hoort niet bij dit raadsel; die piept alleen even uit een lade als optionele easter egg en verschijnt later op het verjaardagsfeest.
 3. Met de sleutel onderzoekt Wannes drie kistjes. Ook daar is precies één uitspraak waar; het rode kistje is de juiste keuze. De kist onthult de **ster met een oog**, de symboolaanwijzing voor het grote slot in uitdaging 4.
 
 De kist bevat geen gouden medaille. De ster met een oog is de opbrengst van deze uitdaging. De drie puzzels zijn onderdelen van uitdaging 2, geen drie extra hoofd uitdagingen.
@@ -75,7 +75,7 @@ De speelgoedfiguren vormen samen het geheime organisatieteam. Hun rollen zijn vo
 
 - **Schildpad:** bewaakt een aanwijzing en vraagt Wannes goed op te letten.
 - **Aap:** zorgt voor humor en bewaakt de sleutel in uitdaging 2.
-- **Panda:** bewaakt een patroon of raadsel.
+- **Panda:** hoort niet bij het sleutelraadsel; hij verschijnt alleen als optionele easter egg uit de lade en later op het verjaardagsfeest.
 - **Regenboogoctopus:** helpt bij de kleurrijke feestversiering.
 
 De herkenbare vormen en kleuren van de bestaande speelgoedfiguren blijven leidend. Nieuwe personages worden niet toegevoegd zonder reden.
@@ -113,7 +113,7 @@ Een compact point-and-click-avontuur: de maquette is uitsluitend het startscherm
 
 ## 8. Nog uit te werken vóór de bouw
 
-- De definitieve spelersteksten, feedback en drie hintstappen per puzzelscherm. Hints verschijnen uitsluitend wanneer Wannes zelf op `?` drukt; de voortgang van hints wordt per puzzelscherm onthouden.
+- De spelersteksten, feedback en drie hintstappen per puzzelscherm staan verder uitgewerkt in `docs/SCREEN-SPEC.md` en `docs/CHALLENGES.md`; deze moeten nog volledig worden nagekeken en goedgekeurd. Hints verschijnen uitsluitend wanneer Wannes zelf op `?` drukt; de voortgang wordt per puzzelscherm onthouden.
 - De exacte plaatsing en raakvlakken van de vier hoofdvoorwerpen en de drie reeds gekozen easter eggs.
 - De exacte visuele vorm waarin de ster-met-oog-aanwijzing in het rode kistje verschijnt.
 - De technische testbaarheid van de match-3-startborden en de bekersnelheden op iPhone.
