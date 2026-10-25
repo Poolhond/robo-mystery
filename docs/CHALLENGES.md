@@ -31,14 +31,14 @@
 
 ### Gemeenschappelijke spelregels voor de drie levels
 
-- Het speelbord bestaat uit een compact raster van gekleurde, duidelijk herkenbare fabriekssymbolen, bijvoorbeeld rode energiecellen, gele tandwielen, blauwe bouten en groene kristallen.
+- Het speelbord gebruikt per level de speelstukken die in de levelbeschrijving zijn vastgelegd. In Level 1 zijn dit effen kleurvlakken zonder symbolen of pictogrammen; andere levels kunnen alleen eigen vormen of obstakels gebruiken als die expliciet in hun beschrijving staan.
 - Een geldige zet verwisselt twee horizontaal of verticaal aangrenzende symbolen.
 - Een verwisseling telt alleen als er daardoor een match van minstens drie gelijke symbolen ontstaat. Als geen match ontstaat, bewegen de symbolen terug en wordt geen zet verbruikt.
 - Een match verwijdert de passende symbolen; symbolen erboven vallen naar beneden en nieuwe symbolen vullen de lege plaatsen aan.
 - Doelobjecten en obstakels moeten visueel anders zijn dan gewone match-symbolen.
-- Het doel van het level en de relevante voortgang staan steeds duidelijk in beeld, zonder kleine tekst. Als een level een zettenlimiet heeft, blijft ook die duidelijk zichtbaar.
-- Na een geldige match zijn animaties kort en leesbaar. De speler moet kunnen zien wat verdween en wat viel.
-- Een level heeft een beperkt aantal zetten, maar mag niet onredelijk moeilijk zijn. Het ontwerp moet altijd minstens één oplosbare route hebben. Wannes kan zelf via de `?`-knop een hint vragen; hints verschijnen nooit automatisch na fouten of herhaald vastlopen.
+- Het doel en de relevante voortgang staan steeds duidelijk in beeld, zonder kleine tekst. Een zettenlimiet wordt alleen getoond bij levels waarvoor die expliciet is vastgelegd; Level 1 heeft geen zettenlimiet.
+- Animaties zijn kort maar leesbaar. In Level 1 worden verwisseling, match, verdwijnen, vallen, aanvullen en cascades afzonderlijk en in begrijpelijke volgorde geanimeerd.
+- De zetlimiet is levelspecifiek en geldt alleen waar die expliciet is vastgelegd. Level 1 heeft onbeperkt zetten. Voor elk level moet het bord volgens de eigen regels speelbaar zijn. Wannes kan via de `?`-knop een hint vragen; hints verschijnen nooit automatisch.
 - Er is geen game-over en geen tijdslimiet. Wannes mag rustig nadenken en opnieuw proberen.
 - Een hint mag een mogelijke zet laten oplichten, maar voert die niet automatisch uit.
 - Bij voltooiing krijgt Wannes een korte succesanimatie en de bijbehorende letter. De letter blijft zichtbaar in een vaste verzamelstrook boven of onder het bord.
