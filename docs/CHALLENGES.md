@@ -143,7 +143,7 @@ De tekst staat in een duidelijk paneel op de monitor en verdringt het bord niet.
 
 **Feedback bij een verwisseling die geen match maakt:** geen foutmeldingstekst; de stukken keren gewoon terug. Dit voorkomt overbodige meldingen en sluit aan bij de afgesproken visuele feedback bij fouten.
 
-**Feedback wanneer een match van andere symbolen wordt gemaakt:**
+**Feedback wanneer een match van een andere kleur wordt gemaakt:**
 
 > “Goed! Zoek nu een kans om rode energiecellen te verzamelen.”
 
@@ -466,13 +466,13 @@ Het woord wordt niet gekoppeld aan een gouden medaille of een extra voorwerp uit
 
 ### Ontwerp- en toegankelijkheidsregels
 
-- Geen exacte nabootsing van Royal Match: gebruik alleen het algemene match-3-principe en maak eigen symbolen, doelen, animaties en teksten.
+- Geen exacte nabootsing van bestaande match-3-games: gebruik alleen het algemene match-3-principe en eigen kleurvlakken, doelen, animaties en teksten.
 - Vermijd kleine tegels en minieme tikzones; alle vakjes moeten comfortabel met een duim te bedienen zijn.
-- Gebruik naast kleur ook vorm of pictogram, zodat doelen niet alleen van kleurherkenning afhangen.
+- De gewone speelstukken blijven effen kleurvlakken zonder symbolen, letters of pictogrammen. Zorg voor voldoende contrast tussen de vier vaste kleuren en gebruik duidelijke randen; doelobjecten zoals kistjes en de sleutel onderscheiden zich door hun eigen vorm.
 - Respecteer gereduceerde beweging waar mogelijk; animaties mogen nooit de enige manier zijn om spelstatus te begrijpen.
 - Laat de speler na elke match genoeg tijd om het resultaat te zien; geen snelle automatische cascades die invoer verwarrend maken.
 - Houd de instructie kort en toon het leveldoel altijd tijdens het spelen.
-- De precieze rasterafmetingen, symbolenverdeling, zetlimieten en startborden moeten tijdens de technische uitwerking worden getest. Dit dossier legt de spelregels en doelen vast, niet de definitieve puzzelmatrices.
+- De rasterafmeting ligt vast op 5 × 7 en alle drie levels hebben geen zettenlimiet. De exacte beginmatrices en de oplosbaarheid moeten tijdens de technische uitwerking worden getest. Dit dossier legt de spelregels en doelen vast, niet de definitieve puzzelmatrices.
 
 ## Uitdaging 2 — De drie raadselmeesters
 
