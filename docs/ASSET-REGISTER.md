@@ -28,7 +28,7 @@ De bestanden in `assets/` zijn **geen letterlijke inventaris van wat er in het s
 | REF-04 | Het speelgoedlaboratorium: kleine geometrische huisjes, gestreepte schoorstenen, kleurrijke daken en een knoppenroute op een groene basis | Specifieke omgevingsconceptreferentie | Kernreferentie voor deze wereld |
 | REF-05 | Verticale poster met kinderen en geometrische achtergrondvlakken, geometrische achtergrondvlakken | Aanvullende compositiereferentie; robotfiguur niet overnemen | Aanvullend |
 | AST-TURTLE-01 | Verweerde zeefdrukillustratie van de groene pluchen schildpad, gebaseerd op Michels foto | Karakterasset: de schildpad / geheime bewaker | Bestand aanwezig: `assets/characters/schildje/AST-SCHILDJE-01-schildje-screenprint.png`; visuele overeenkomst met de referentie nog controleren |
-| AST-BIRD-01 | Zeefdrukillustratie van de houten nestkast met rood-oranje zangvogel, gebaseerd op Michels foto | Karakter-/omgevingsasset voor de signaalvogel en haar nestkast | De negen georganiseerde bestanden bevatten geen eenduidig geïdentificeerde definitieve export; controleren of dit een apart bestand is |
+| AST-BIRD-01 | Zeefdrukillustratie van de houten nestkast met rood-oranje zangvogel, gebaseerd op Michels foto | Karakter-/omgevingsasset voor de signaalvogel en haar nestkast | Een afzonderlijke definitieve export is niet teruggevonden in de huidige tree; niet verwarren met het aanwezige bestand AST-DECOR-02-birdhouse.png |
 | AST-ENV-01 | Zeefdrukillustratie van het fysieke speelgoedlaboratorium | Primaire omgevingsasset voor het speelgoedlaboratorium | Bestand aanwezig: `assets/rooms/toy-laboratory/AST-ENV-01.png`; visuele controle nog nodig |
 | AST-ROBOT-01 | Eerder gegenereerde zeefdrukillustratie van de witte speelgoedrobot | Vervallen asset; robot is volledig uit het spelconcept geschrapt | Niet gebruiken; archiefreferentie, geen gameasset |
 | REF-CHAR-02 | Groepsposter met Charlie, RidderUs en Schildje samen | Compositie- en stijlreferentie voor de drie hoofdrolfiguren van uitdaging 2 | Referentie uit chat; nog niet als repo-bestand opgeslagen |
@@ -61,7 +61,7 @@ De bestanden in `assets/` zijn **geen letterlijke inventaris van wat er in het s
 **Assetrichting:** behoud de huisvormen, drie gestreepte schoorstenen, daken met veelkleurige korrels, groene basis en route van knopen naar de voordeur.  
 **Stijlbehandeling:** sterke, verweerde zeefdruk op warm crème papier; signaalrood, mosterdgeel, donker petrol en diep groen; halftoon, inktspikkels en onregelmatige drukdekking.  
 **Compositie:** de volledige maquette als centraal onderwerp, met grafische cirkels op de achtergrond en een posterachtige uitsnede.  
-**Bestand:** geen eenduidig geïdentificeerde export tussen de negen huidige uploads; controleren vóór bouw.
+**Bestand:** geen eenduidig geïdentificeerde export tussen de elf huidige afbeeldingsbestanden; controleren vóór bouw.
 
 ## Derde uitgewerkte asset — AST-BIRD-01
 
@@ -69,7 +69,7 @@ De bestanden in `assets/` zijn **geen letterlijke inventaris van wat er in het s
 **Assetrichting:** behoud de herkenbare houten nestkast met schuin dak en de vogel die naar links kijkt; de rode kop/borst, donkere snavel en gestreepte vleugels blijven herkenningspunten.  
 **Stijlbehandeling:** sterke, verweerde jarenzeventig-zeefdruk op warm crème papier, met signaalrood, mosterdgeel, donker petrol en groen; grove halftoon, inktspikkels, krassen en lichte kleurplaatverschuiving.  
 **Compositie:** nestkast en vogel centraal, met eenvoudige geometrische kleurvlakken achter het onderwerp; geen extra tekst.  
-**Bestand:** herziene geïsoleerde versie is aanwezig in de repository-root; bestandspad en extensie moeten worden opgeschoond.
+**Bestand:** een afzonderlijke geïsoleerde export is niet teruggevonden in de huidige repositorytree. Het aanwezige vogelhuisje staat onder assets/decor/AST-DECOR-02-birdhouse.png; bevestig eerst of dit inhoudelijk de bedoelde asset is.
 
 ## Vierde uitgewerkte asset — AST-TURTLE-01
 
@@ -196,7 +196,7 @@ De drie losse illustraties zijn aangeleverd en krijgen onderstaande stabiele ass
 - ID's zijn stabiel en worden niet gewijzigd als later een export wordt vervangen.
 - Bij een latere transparante of opgeschoonde export krijgt die een aparte variantnaam, bijvoorbeeld `-transparent.png`; overschrijf het origineel niet stilzwijgend.
 - Deze versie is de gekozen karakterstijl: minimalistische vectorvormen met sterke, verweerde zeefdruktextuur.
-- Status: als ontwerp beschreven; geen eenduidig overeenkomend bestand aangetroffen tussen de negen huidige uploads.
+- Status: ontwerp beschreven; de huidige basisillustraties zijn aanwezig op PNG-paden, maar de overeenkomst met de bedoelde definitieve exports moet nog visueel worden bevestigd.
 
 ## Gekozen afwerking — karakterconceptsheet
 
@@ -242,14 +242,14 @@ De vier onderstaande illustraties zijn afzonderlijke decorassets. Gebruik de exa
 
 - De vier bestanden zijn conceptillustraties in dezelfde vintage vector-/zeefdrukrichting als de game.
 - Elk object blijft een zelfstandige asset die later afzonderlijk in de controlekamer kan worden geplaatst.
-- Status is **ontwerp uitgewerkt; geen eenduidig overeenkomend bestand aangetroffen tussen de negen huidige uploads**.
+- Status: ontwerp uitgewerkt; de vier decorbestanden staan wel in de huidige repository. Controleer de visuele inhoud voordat ze als definitieve game-assets worden behandeld.
 - Gebruik de paden exact zoals hierboven; maak indien nodig eerst de map `assets/decor/` aan.
 - De gegenereerde illustraties hebben momenteel een crèmekleurige achtergrond; ze zijn niet transparant.
 
 
 ## Gecontroleerde GitHub-inventaris
 
-De volgende negen bestanden zijn teruggevonden en naar de juiste `assets/`-mappen verplaatst met behoud van de oorspronkelijke Git-blobs. Dit bevestigt hun aanwezigheid en huidige pad, maar **niet** het werkelijke afbeeldingsformaat, de beeldafmetingen of de definitieve goedkeuringsstatus.
+De volgende elf bestanden zijn teruggevonden en naar de juiste `assets/`-mappen verplaatst met behoud van de oorspronkelijke Git-blobs. Dit bevestigt hun aanwezigheid en huidige pad, maar **niet** het werkelijke afbeeldingsformaat, de beeldafmetingen of de definitieve goedkeuringsstatus.
 
 | Huidige bestandsnaam in GitHub-root | Voorlopige koppeling | Status / actie |
 |---|---|---|
@@ -265,11 +265,11 @@ De volgende negen bestanden zijn teruggevonden en naar de juiste `assets/`-mappe
 
 ### Voorzichtig omgaan met extensies
 
-Alle negen bestanden hebben nu een enkele `.png`-extensie, zoals door Michel bevestigd. De namen en paden zijn opgeschoond; de oorspronkelijke beeldbytes zijn behouden. De mechanische vogel staat in de map met decorassets om hem veilig te bewaren, maar wordt niet in de kamercompositie gebruikt zolang de ontwerpkeuze openstaat.
+Alle elf huidige afbeeldingsbestanden hebben een `.png`-pad in GitHub. De extensie op zichzelf bevestigt niet het interne bestandsformaat. De namen en paden zijn opgeschoond; de oorspronkelijke beeldbytes zijn behouden. De mechanische vogel staat in de map met decorassets om hem veilig te bewaren, maar wordt niet in de kamercompositie gebruikt zolang de ontwerpkeuze openstaat.
 
 
 ## Assetorganisatie — synchronisatie 25 oktober 2026
 
-De elf aanwezige PNG-afbeeldingen zijn geordend onder `assets/characters/`, `assets/title-screen/`, `assets/rooms/control-room/` en `assets/decor/`. De verplaatsing en hernoeming hergebruiken de bestaande Git-blobs; de bestandsinhoud is niet opnieuw gecodeerd of gecomprimeerd. Zie [de assetaudit](ASSET-AUDIT-2026-10-25.md) voor de actuele paden en resterende controles.
+De elf aanwezige afbeeldingsbestanden met .png-paden zijn geordend onder `assets/characters/`, `assets/title-screen/`, `assets/rooms/control-room/` en `assets/decor/`. De verplaatsing en hernoeming hergebruiken de bestaande Git-blobs; de bestandsinhoud is niet opnieuw gecodeerd of gecomprimeerd. Zie [de assetaudit](ASSET-AUDIT-2026-10-25.md) voor de actuele paden en resterende controles.
 
-De elf assets zijn aanwezig in de repository. De speelgoedlaboratorium- en panda-assets zijn toegevoegd; controleer nog de visuele export en afmetingen. Nieuwe afbeeldingen worden alleen gemaakt als een concrete asset ontbreekt. De ontwikkelaar kan eenvoudige puzzelobjecten en interface-elementen zelf tekenen als dat de stijl en leesbaarheid ondersteunt.
+De elf afbeeldingsbestanden zijn aanwezig in de repository. De speelgoedlaboratorium- en panda-bestanden zijn aanwezig; controleer nog de visuele inhoud en afmetingen. Nieuwe afbeeldingen worden alleen gemaakt als een concrete asset ontbreekt. De ontwikkelaar kan eenvoudige puzzelobjecten en interface-elementen zelf tekenen als dat de stijl en leesbaarheid ondersteunt.
