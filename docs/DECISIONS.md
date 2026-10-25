@@ -1,6 +1,6 @@
 # De mysterieuze fabriek — Beslissingen en open punten
 
-**Versie:** 2.4  
+**Versie:** 2.5  
 **Doel:** één betrouwbare plek voor goedgekeurde besluiten en open punten, zodat de inhoud niet telkens opnieuw wordt bedacht.
 
 ## Dossierstatus en bronvolgorde
@@ -35,6 +35,7 @@ Bronvolgorde: (1) dit beslissingsdocument voor goedkeuring/open status, (2) `CHA
 | Startbeleving — vrije ontdekking | **Keuze A.** Na Start ziet Wannes de volledige technische werkplaats en kiest hij zelf welk voorwerp hij onderzoekt. Geen verplichte introductiescène of vooraf opgelegde route; de ruimte en voorwerpen wekken nieuwsgierigheid. Korte uitleg mag alleen verschijnen wanneer die bij een gekozen voorwerp of uitdaging hoort. |
 | Hintsysteem | Combinatie: een discrete hintknop én een automatische hint na meerdere mislukte pogingen. Elke uitdaging heeft drie hintstappen: eerst een subtiele aanwijzing, daarna een gerichte aanwijzing en als derde stap zo nodig de oplossing of de exacte volgende handeling. Geen game-over en onbeperkt opnieuw proberen. |
 | Uitdaging 1 — spelvorm | Drie eigen match-3-levels, geïnspireerd op het algemene spelprincipe van match-3-games; geen gekopieerde levels of vormgeving |
+| Uitdaging 1 — schermpresentatie | Het match-3-spel speelt zich visueel af op het bestaande retro-computerscherm in de controlekamer. Na aantikken zoomt de computer in; het spelbord blijft geïntegreerd in het scherm en volgt de vastgelegde verweerde jarenzeventig-zeefdrukstijl. Geen los modern spelvenster of afwijkende stijl. |
 | Uitdaging 1 — leveldoelen | Verzamel 8 rode energiecellen; verwijder 4 houten kistjes; laat de gouden energiesleutel naar de uitgang vallen |
 | Aanwijzing uit uitdaging 1 | De letters B, A en L, verdiend na elk level en samen gevormd tot het woord BAL |
 | Uitdaging 2 — structuur | Drie opeenvolgende deelpuzzels: code opent een geheim deurtje; logisch raadsel levert een messing sleutel; kistjesraadsel onthult de ster-met-oog-aanwijzing |
