@@ -1,6 +1,6 @@
 # De mysterieuze fabriek — Beslissingen en open punten
 
-**Versie:** 3.7  
+**Versie:** 3.8  
 **Doel:** één betrouwbare plek voor goedgekeurde besluiten en open punten, zodat de inhoud niet telkens opnieuw wordt bedacht.
 
 ## Dossierstatus en bronvolgorde
@@ -23,6 +23,7 @@ Bronvolgorde: (1) dit beslissingsdocument voor goedkeuring/open status, (2) `CHA
 | Finalehandeling | Wannes drukt op een grote rode feestknop. Die activeert de lichtjes en confetti en vormt de laatste interactieve handeling van het spel. |
 | Verjaardagsboodschap | Na de feestknop feliciteren de speelgoedfiguren Wannes samen met een warme, speelse boodschap. De exacte tekst wordt later uitgewerkt. |
 | Echte verrassing na het spel | Na de digitale onthulling krijgt Wannes een korte opdracht die naar een echte verrassing leidt. De exacte formulering en eventuele bestemming worden later bepaald. |
+| Opnieuw openen — ontwerpbeslissing 26 | **Optie C — terug naar de titelpagina.** Bij het opnieuw openen begint Wannes op de titelpagina. Daar kiest hij **Verder spelen** om zijn bewaarde voortgang te hervatten, of **Opnieuw beginnen** om bewust een nieuw spel te starten. Verder spelen herstelt de exacte puzzelstand en voortgang. Opnieuw beginnen vraagt om bevestiging, zodat voortgang niet per ongeluk wordt gewist. |
 | Animatieduur — ontwerpbeslissing 25 | **Optie C — afhankelijk van de actie.** Kleine reacties zijn kort en laten Wannes snel verder spelen. Belangrijke ontdekkingen, zoals het openen van een geheim deurtje en de finale, krijgen meer tijd om effect te hebben. Animaties mogen de bediening nooit onnodig blokkeren. |
 | Aanwijzingen tonen — ontwerpbeslissing 24 | **Optie A — alleen in de wereld.** Aanwijzingen verschijnen op de plek waar Wannes ze verdient. Er komt geen apart verzamelscherm en geen vaste aanwijzingenbalk. Bij de grote deur ziet hij welke onderdelen al beschikbaar zijn; de ster-met-oog verschijnt daar automatisch na uitdaging 2. |
 | Bediening op iPhone — ontwerpbeslissing 23 | **Optie C — combinatie.** Wannes raakt en sleept rechtstreeks op de scène waar dat logisch is (zoals match-3 en de bekers). Voor acties die baat hebben bij een expliciete bevestiging, zoals een code bevestigen of de deur openen, gebruiken we grote, duidelijke knoppen. Alles is ontworpen voor aanraking op iPhone. |
