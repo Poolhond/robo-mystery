@@ -1,7 +1,7 @@
 # De mysterieuze fabriek — Spelconcept
 
-**Versie:** 1.7  
-**Status:** Ontwerpfase — geen nieuwe gamecode  
+**Versie:** 1.8  
+**Status:** Voorontwerp; nog geen bouwklaar dossier en geen nieuwe gamecode  
 **Laatste update:** 25 oktober 2026 — werktitel gewijzigd naar De mysterieuze fabriek; robot geschrapt, speler onderzoekt zelf het laboratorium
 
 ## 1. Kernidee
