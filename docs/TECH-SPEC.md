@@ -1,91 +1,184 @@
-# De mysterieuze fabriek — Techniekregels
+# De mysterieuze fabriek — Technische specificatie
 
-**Versie:** 0.8  
-**Status:** Conceptuele technische randvoorwaarden; nog geen definitieve implementatiespecificatie. Deze regels moeten vóór de master-prompt worden aangevuld met een concrete schermenlijst, statusmodel en acceptatietests.
+**Versie:** 1.0  
+**Status:** Dossier-specificatie vóór de bouw. Dit document legt de technische randvoorwaarden vast; het is geen toestemming om al spelcode te bouwen.  
+**Samenhang:** `docs/GAME-CONCEPT.md`, `docs/CHALLENGES.md`, `docs/DECISIONS.md` en `docs/ART-DIRECTION.md` zijn leidend voor respectievelijk spelverloop, puzzels, goedgekeurde ontwerpkeuzes en visuele stijl. Bij tegenstrijdigheid moet de afwijking eerst in het dossier worden opgelost.
 
-## 1. Platform
-- Statische website, gratis gehost op GitHub Pages.
-- Mobile-first, bedoeld voor iPhone Safari (portret). Moet ook werken op iPad en desktop.
-- Geen account, geen server, geen externe diensten.
+## 1. Platform en grenzen
 
-## 2. Bestandsstructuur
+- Statische webapp, gehost op GitHub Pages.
+- Mobile-first; primair iPhone Safari in portret. Ook bruikbaar op iPad en desktop.
+- Geen account, server, tracking, advertenties, aankopen of externe diensten.
+- Geen frameworks, externe bibliotheken, externe scripts of externe lettertypen.
+- Het spel is volledig stil: geen muziek, geluidseffecten, gesproken tekst of audiobestanden.
+- Geen spelcode bouwen voordat het volledige dossier, de assets en de acceptatietests zijn gecontroleerd en de bouwopdracht expliciet is goedgekeurd.
+
+## 2. Bestands- en padregels
+
+De precieze mappenstructuur wordt afgestemd op het assetregister vóór de bouw. De beoogde minimale structuur is:
+
 ```
-index.html          # structuur van het spel
-style.css           # alle stijlen en kleurvariabelen
-game.js             # spelogica
-content.js          # alle teksten, raadsels, antwoorden, personalisatie
+index.html
+style.css
+game.js
+content.js
 assets/
-  characters/       # aap, schildpad, panda, octopus en signaalvogel
-  rooms/            # laboratorium en andere scènes
-  ui/               # knoppen, kaders, iconen, texturen
-  audio/            # (optioneel) geluiden
+  characters/
+  rooms/
+  title-screen/
+  puzzles/
+  decor/
+  ui/
+docs/
 ```
-- Alle verwijzingen zijn **relatief** (`assets/...`), nooit beginnend met `/`, zodat het op GitHub Pages werkt.
-- Geen frameworks, geen bibliotheken, geen externe lettertypen of scripts.
 
-## 3. Eén bron voor teksten en personalisatie
-Alle spelertekst staat in `content.js`: raadsels, antwoorden, hints, feedback, de naam "Wannes", de slottekst en de eventuele echte opdracht aan het einde. In elk uitdagingen-scherm staat bovenaan een vaste vraagtekenknop (`?`) waarmee Wannes op eigen initiatief hints opent. Speelgoedfiguren geven geen hints; hints verschijnen niet automatisch. Dit maakt aanpassen voor iedereen mogelijk zonder de spelcode te raken.
+- Gebruik URL-paden relatief aan de app, zoals `assets/rooms/control-room/example.png`; gebruik geen absolute paden die met `/` beginnen. GitHub Pages publiceert de app onder een repository-subpad.
+- Gebruik alleen bestanden die in `docs/ASSET-REGISTER.md` zijn opgenomen en waarvan de werkelijke bestandstypen gecontroleerd zijn.
+- Geen verwijzing naar een audio-map of audiobestand.
+- De uiteindelijke bestandsnamen en assetlocaties moeten overeenkomen met het assetregister. Geen namen of bestanden verzinnen.
 
-## 4. Spelstatus en opslag
-- Eén `state`-object bewaart huidig scherm en locatie in het laboratorium, voltooide uitdagingen, voortgang binnen elke deelpuzzel, verzamelde aanwijzingen, ingevoerde slotgegevens en gebruikte hints.
-- Elke uitdaging moet hervatbaar zijn op de exacte deelstap. Voorbeelden: huidig match-3-bord en resterende zetten; laatst voltooide bekerronde; geopende deur, verdiende sleutel en huidige stap in de raadselketting.
-- Sla lokaal op na elke betekenisvolle actie, zoals een geldige match, een voltooide ronde, een correct opgeloste deelpuzzel, een verdiende aanwijzing of wijziging aan het slot.
-- Bij terugkeer naar een uitdaging wordt de opgeslagen toestand hersteld; begin geen uitdaging opnieuw tenzij Wannes daar bewust voor kiest.
-- Herladen, een slapende telefoon of het sluiten en later opnieuw openen van Safari mag geen voortgang kosten. Voorzie ook een veilige standaardtoestand als er nog geen opslag bestaat.
-- Een verborgen resetknop (bijvoorbeeld lang indrukken op de titel) om opnieuw te beginnen.
-- Als `localStorage` niet werkt, blijft het spel speelbaar zonder opslaan.
+## 3. Tekst, puzzelinhoud en presentatie
 
-## 5. Scènes, locaties en schermtoestanden
+- Spelergerichte teksten, puzzelstellingen, hints, feedback en eindteksten worden op één beheersbare plek bijgehouden, bij voorkeur in `content.js`; presentatie en spelstatus blijven daarvan gescheiden.
+- De naam Wannes en de goedgekeurde eindtekst worden centraal beheerd. De eindtekst is exact: **“Proficiat Wannes!”** gevolgd door **“Dat verdient een cadeau.”**
+- Alle essentiële tekst blijft echte HTML-tekst en wordt niet uitsluitend in een afbeelding ingebakken.
+- De technische implementatie mag de vastgelegde puzzelregels, volgorde, antwoorden, hints of eindscène niet zelfstandig aanpassen.
 
-Maak onderscheid tussen **locaties in de wereld** en **schermtoestanden**. De grote deur is een interactief object binnen het laboratorium, niet automatisch een aparte locatie. Het slot is een toestand/paneel dat verschijnt wanneer Wannes de deur onderzoekt; het mag niet als een tweede, losstaande deur worden behandeld.
+## 4. Schermen en stabiele toestands-ID's
 
-De definitieve scèneslijst wordt uitgewerkt in het dossier. Navigatieregel: elke uitdaging zoomt in op het bestaande voorwerp in de vaste werkplaatsillustratie. Gebruik overal dezelfde terugknop en dezelfde overgangslogica; terugkeren brengt Wannes naar exact dezelfde werkplaatsweergave. De volledige spelstatus van de verlaten uitdaging blijft behouden, inclusief de exacte puzzelstap en visuele toestand. Hervatten mag geen puzzel resetten of opnieuw laten beginnen.
+Onderstaande ID's zijn technische namen, geen zichtbare spelertekst. De precieze visuele inhoud volgt het concept- en uitdagingen-dossier.
 
-De voorlopige structuur bestaat uit:
-- start en proloog;
-- één verkenbaar laboratorium met drie uitdaginglocaties en de grote deur;
-- de afzonderlijke speeltoestanden van uitdaging 1, 2 en 3;
-- het slotpaneel bij de grote deur, inclusief onvolledige voortgang, foutfeedback en correcte combinatie;
-- de deuropening en feestfinale.
+| ID | Betekenis | Belangrijk gedrag |
+|---|---|---|
+| `title` | Titelposter | Biedt START / VERDER SPELEN en een kleinere optie “Opnieuw beginnen” met bevestiging. |
+| `workshop` | Volledige werkplaats | Alle vier hoofdobjecten blijven zichtbaar; vrije verkenning. |
+| `match3` | Computer / uitdaging 1 | Drie match-3-niveaus; bewaart huidig bord en deelvoortgang. |
+| `locker` | Groene locker / uitdaging 2 | Code 042 en de volledige logica-/kistketen; bewaart elke deelstap. |
+| `cups` | Bekers / uitdaging 3 | Drie rondes; bewaart ronde, balpositie en voortgang. |
+| `door` | Grote rode deur / slot | Deur is steeds onderzoekbaar; slot kan onvolledig zijn en toont feedback bij invoer. |
+| `finale` | Feestfinale | Alleen bereikbaar na de juiste combinatie; voert de goedgekeurde feestsequentie uit. |
 
-Iedere locatie/toestand krijgt een stabiele ID, een beschrijving van wat zichtbaar is, de beschikbare acties, de mogelijke overgangen en de voortgang die bij verlaten moet worden opgeslagen. De precieze lijst wordt vastgesteld vóór de master-prompt en de bouw.
+Een puzzel kan intern extra substaten hebben, maar die moeten stabiel en expliciet worden beschreven voordat de bouw begint. Een modal of hintpaneel is geen zelfstandige wereldlocatie.
 
-## 6. iPhone- en mobielregels
-- Alleen tikbediening; geen hover, geen rechtsklik, geen dubbelklik.
-- Raakvlakken minimaal 44×44 px.
-- Gebruik `100svh` en `env(safe-area-inset-*)` zodat niets achter de notch of onderbalk verdwijnt.
-- Viewport: `width=device-width, initial-scale=1, viewport-fit=cover`.
-- Geen horizontale scroll. Tekst blijft leesbaar op een smal scherm (minimaal 16 px voor lopende tekst).
-- Geluid start pas na de eerste tik van Wannes. Het spel moet ook zonder geluid volledig te spelen zijn.
-- Voorkom dubbeltik-zoom en per ongeluk selecteren van tekst (`touch-action`, `user-select`).
+### Navigatie
 
-## 7. Prestaties en robuustheid
-- Afbeeldingen maximaal ongeveer 1200 px breed, bij voorkeur PNG of WebP; één keer vooraf laden.
-- Als een afbeelding niet laadt, blijft de interactie bruikbaar (kleurvlak of tekstlabel als noodoplossing).
-- Animaties mogen sterk zijn, maar respecteren `prefers-reduced-motion`.
-- Elke uitdaging werkt zonder dat een andere uitdaging nodig is om te laden.
-- Geen eindeloze lussen of timers die doorlopen op een ander scherm.
+- Na START komt de speler in de werkplaats; er is geen verplichte proloog.
+- Elke uitdaging zoomt in op het betreffende object. De terugknop brengt de speler terug naar dezelfde werkplaatsweergave.
+- Teruggaan of van scherm wisselen reset nooit de puzzel.
+- De grote deur mag op elk moment worden onderzocht. De deur gaat pas open wanneer alle drie uitdagingen voltooid zijn en de juiste combinatie is ingevoerd.
+- De optionele easter eggs veranderen de hoofdvoortgang niet.
 
-## 8. Stijl in code
-- Kleuren als CSS-variabelen op één plek in `style.css`. Het palet is vastgelegd in `docs/ART-DIRECTION.md`.
-- Interface in de zeefdrukstijl uit `docs/ART-DIRECTION.md` (kaders, knoppen, paneel).
-- Essentiële tekst is echte HTML-tekst, nooit alleen in een afbeelding.
+## 5. Spelstatus en voortgang
 
-## 9. Testen (na de bouw)
-Op een echte iPhone controleren:
-- Het spel laadt snel en zonder fouten.
-- Start tot en met slotscène is uit te spelen, ook met fouten en hints.
-- Herladen halverwege verliest niets.
-- Alle knoppen zijn met één duim te bereiken en te raken.
-- Tekst is overal leesbaar en past op het scherm.
-- Geluid, als aanwezig, werkt pas na tikken en kan uit.
+Bewaar één versieerbaar statusobject. De definitieve interne namen mogen verschillen, maar moeten minstens onderstaande informatie ondubbelzinnig afdekken:
 
-## 10. Wat niet gebouwd wordt
-- Geen accounts, ranglijsten of netwerkfuncties.
-- Geen advertenties of tracking.
-- Geen aankopen of externe links, behalve eventueel een duidelijke link terug naar het begin.
+- schema-/versienummer voor migratie en validatie;
+- huidige scherm en terugkeerlocatie in de werkplaats;
+- voltooiingsstatus van elk van de drie uitdagingen;
+- exacte voortgang per uitdaging, inclusief relevante deelstappen;
+- match-3-niveau, bord, zetten en reeds behaalde letters;
+- locker-/logicapuzzelstappen, gevonden sleutel en ster-met-oog-aanwijzing;
+- bekerronde, aantal wissels en huidige positie van de rode bal;
+- invoerstatus van BAL en signaalrood, inclusief of de deur geopend is;
+- hints per puzzelscherm: huidig hintniveau en of de oplossing is aangevraagd/getoond;
+- finale-status zodat herladen geen feestsequentie onbedoeld opnieuw start;
+- optionele easter-eggstatus, indien die wordt onthouden.
 
+### Opslaan en hervatten
 
-## 11. Status van deze specificatie
+- Sla na elke betekenisvolle voortgangsactie op, niet alleen wanneer een uitdaging volledig is afgerond.
+- Bewaar alleen serialiseerbare gegevens; sla geen DOM-elementen, callbacks of tijdelijke animatieobjecten op.
+- Bij terugkeer naar een puzzel wordt de laatst opgeslagen deelstap hersteld.
+- Bij herladen, Safari afsluiten en opnieuw openen of tijdelijk verlies van focus mag geldige opgeslagen voortgang niet verloren gaan.
+- De titel toont **VERDER SPELEN** als er geldige bewaarde voortgang bestaat. START wordt gebruikt wanneer er nog geen voortgang is.
+- “Opnieuw beginnen” vereist een duidelijke bevestigingsvraag. Alleen na bevestiging wordt de opgeslagen spelvoortgang gewist en de beginsituatie geladen.
 
-Dit document beschrijft de beoogde richting en is nog geen volledige bouwopdracht. Voor de master-prompt moeten minimaal de exacte scherm-/toestandslijst, de vorm van de opgeslagen spelstatus, herstelgedrag bij ontbrekende of beschadigde opslag, de regels voor oplosbare match-3-borden en concrete acceptatietests worden vastgelegd. Een ontwikkelaar mag deze open punten niet oplossen door ongemerkt nieuwe spelregels te verzinnen.
+### Ontbrekende of beschadigde opslag
+
+- Geen bestaande opslag: start met een schone beginsituatie.
+- Onleesbare, ongeldige of niet-ondersteunde opslag: laat de app niet crashen. Toon op de titel een begrijpelijke melding dat de voortgang niet kon worden hersteld, en bied aan opnieuw te beginnen.
+- Verwijder beschadigde data pas nadat de speler de herstel-/herstartkeuze heeft bevestigd; overschrijf niet stilzwijgend mogelijk herstelbare voortgang.
+- Als `localStorage` niet beschikbaar is, mag het spel in een tijdelijke sessie speelbaar blijven, maar moet duidelijk zijn dat voortgang bij sluiten of herladen niet gegarandeerd bewaard blijft.
+- Gebruik een opslagversie en valideer de verplichte velden voordat status wordt hersteld. Een migratie mag geen voortgang of puzzelregels verzinnen.
+
+## 6. Hintpaneel: vaste interactieregels
+
+Deze regels zijn al goedgekeurd en mogen tijdens implementatie niet opnieuw ontworpen worden.
+
+- Elke puzzel heeft een eigen `?`-knop en eigen hintstatus. Hints verschijnen uitsluitend wanneer Wannes er zelf om vraagt; nooit automatisch na fouten of herhaalde pogingen.
+- De hintstatus is gekoppeld aan de puzzel. Bij verlaten van die puzzel sluit het paneel uit beeld; bij terugkeer blijft de voortgang bewaard en wordt het laatst bekeken hintniveau hervat.
+- Het paneel heeft drie stippen voor de drie hintniveaus en één knop **VOLGENDE HINT**.
+- Na hint 3 verandert de knop in **TOON OPLOSSING**.
+- Dit opent de bevestiging **“Wil je de oplossing zien?”** met **BEKIJKEN** en **TERUG**.
+- Na bevestiging toont de oplossing de exacte volgende handeling. Het juiste element pulseert subtiel totdat de speler die handeling uitvoert.
+- Na een geslaagde actie sluit het paneel automatisch. De `?` blijft beschikbaar; bij opnieuw openen wordt het laatst bekeken hintniveau getoond.
+- De hints en oplossing mogen geen voortgang veranderen totdat de speler de aangegeven puzzelhandeling zelf uitvoert.
+
+## 7. Puzzelbetrouwbaarheid
+
+- De inhoudelijke regels en correcte oplossingen staan in `docs/CHALLENGES.md`; deze technische specificatie verandert ze niet.
+- Match-3-borden moeten oplosbaar zijn volgens de vastgelegde regels. Genereer geen onoplosbaar bord. Als er geen geldige zet bestaat, herstel of genereer het bord opnieuw op een gecontroleerde manier zonder eerder behaalde voortgang kwijt te raken.
+- Controleer een match en de resulterende toestand vóór die als voortgang wordt opgeslagen. Voorkom dubbele verwerking van één tik.
+- Bij bekers moet de actuele balpositie ondubbelzinnig worden bijgehouden; de animatie mag de logische positie niet wijzigen of verbergen.
+- Foute invoer geeft duidelijke feedback en wist geen eerder verdiende aanwijzingen of voltooide uitdagingen.
+- De ster-met-oog-aanwijzing verschijnt automatisch zodra de relevante kistuitdaging is voltooid. BAL en signaalrood voert Wannes zelf in/selecteert hij zelf bij de deur.
+- De feestfinale kan maar één keer als nieuwe voortgangsovergang worden geactiveerd. Herladen tijdens de finale mag geen extra puzzel of extra verplichte tik introduceren.
+
+## 8. Mobiel en toegankelijkheid
+
+- Tikbediening; geen hover, rechtsklik of dubbelklik als noodzakelijke interactie.
+- Richtmaat voor tikvlakken: minimaal 44 × 44 CSS-pixels.
+- Gebruik `width=device-width, initial-scale=1, viewport-fit=cover`, veilige schermranden via `env(safe-area-inset-*)` en passende hoogte-eenheden zoals `100svh`.
+- Geen horizontale pagina-scroll. Gewone lopende tekst is bij voorkeur minimaal 16 px en blijft binnen het scherm.
+- Voorkom onbedoelde tekstselectie en dubbelklik-zoom waar dat de spelbediening hindert, zonder standaard browsergedrag onnodig uit te schakelen.
+- Respecteer `prefers-reduced-motion`; belangrijke informatie mag niet uitsluitend door beweging worden overgebracht.
+- Ontwerp en test in iPhone-portret eerst, en controleer daarna iPad en desktop.
+
+## 9. Assets, prestaties en foutafhandeling
+
+- Assetnamen, rol, bestandstype en status moeten overeenkomen met `docs/ASSET-REGISTER.md`.
+- Laad alleen noodzakelijke assets en voorkom timers/animaties die blijven lopen wanneer de speler een scherm verlaat.
+- Als een afbeelding ontbreekt, blijft de app bruikbaar en toont ze een eenvoudige, herkenbare fallback; ontbrekende assets mogen geen stille crash veroorzaken.
+- Geen geluid of audiobediening.
+- Gebruik kleurvariabelen en de visuele stijl uit `docs/ART-DIRECTION.md`; gebruik geen nieuwe stijl of beeldtaal zonder het dossier aan te passen.
+
+## 10. Acceptatietests vóór oplevering
+
+De implementatie is pas klaar wanneer alle onderstaande controles zijn geslaagd:
+
+1. **Start:** START opent de werkplaats; VERDER SPELEN verschijnt bij geldige opgeslagen voortgang; “Opnieuw beginnen” vraagt bevestiging.
+2. **Vrije volgorde:** de drie uitdagingen kunnen in iedere volgorde worden gespeeld.
+3. **Match-3:** alle drie niveaus zijn oplosbaar; correcte en ongeldige zetten geven passende feedback; behaalde letters en bordstatus blijven bewaard.
+4. **Locker:** code 042, personagelogica, kistlogica, sleutel en ster-met-oog volgen exact het uitdagingen-dossier.
+5. **Bekers:** de drie rondes volgen de vastgelegde wisselaantallen; de balpositie en ronde blijven correct na terugkeer en herladen.
+6. **Deur:** kan vroeg worden bekeken maar opent niet vóór voltooiing van alle uitdagingen; correcte combinatie opent de deur, foutieve combinatie wist geen voortgang.
+7. **Hints:** er verschijnt niets automatisch; elke puzzel behoudt eigen hintstatus; alle drie hints, oplossing bevestigen, teruggaan en subtiele pulsering werken volgens §6.
+8. **Navigatie:** heen en terug tussen werkplaats en uitdaging behoudt de exacte deelstap.
+9. **Opslag:** herladen en opnieuw openen van Safari herstellen geldige voortgang; lege, beschadigde en niet-ondersteunde opslag veroorzaken geen crash en leiden niet tot stilzwijgend dataverlies.
+10. **Finale:** deur opent naar de feestscène; grote rode knop start de visuele feestreactie; tekst verschijnt in de juiste volgorde en exact zoals vastgelegd; geen extra actie, puzzel of geluid.
+11. **Easter eggs:** de drie goedgekeurde easter eggs zijn optioneel en beïnvloeden de hoofdvoortgang niet.
+12. **Hosting:** alle assetpaden werken op de GitHub Pages-repository-subpath; er zijn geen onbedoelde absolute paden, externe afhankelijkheden of consolefouten.
+13. **iPhone Safari:** tekst, overlays, knoppen, veilige schermranden, terugknoppen en animaties werken in portret; er is geen horizontale scroll.
+14. **Andere schermen:** iPad en desktop blijven bruikbaar.
+15. **Stilte en beweging:** geen audio wordt geladen of afgespeeld; verminderde beweging wordt gerespecteerd.
+
+## 11. Wat niet gebouwd wordt
+
+- Accounts, ranglijsten, netwerkfuncties, tracking, advertenties of aankopen.
+- Verplichte proloog of extra opdracht na de goedgekeurde eindtekst.
+- Audio, gesproken tekst of geluidseffecten.
+- Verborgen resetgebaar dat de goedgekeurde titelbediening vervangt.
+- Extra puzzels, personages of regels die niet in het dossier zijn goedgekeurd.
+
+## 12. Status en resterende dossiercontrole
+
+Deze specificatie legt de technische randvoorwaarden vast, maar is op zichzelf geen bouwopdracht. Vóór de master-prompt moeten nog worden gecontroleerd en afgestemd:
+- de volledige assetinventaris, werkelijke bestandstypen en definitieve locaties;
+- de precieze klikzones en posities van de drie easter eggs;
+- alle definitieve spelerteksten, hintteksten en feedback per puzzel;
+- de exacte scherm-/subtoestanden waar de uitdagingen dat vereisen;
+- de oplosbaarheid en testbaarheid van de drie match-3-borden;
+- de uiteindelijke statusvelden tegen alle concrete puzzelstappen;
+- de volledige acceptatietestlijst tegen de goedgekeurde ontwerpbeslissingen.
+
+Geen ontwikkelaar of code-assistent mag deze open punten stilzwijgend invullen door nieuwe spelregels of ontwerpkeuzes te verzinnen.
