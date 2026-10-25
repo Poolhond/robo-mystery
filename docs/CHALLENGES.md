@@ -199,30 +199,30 @@ Wannes ontdekt een klein metalen deurtje met een mechanisch cijferslot van drie 
 
 ### Deel 2 — De drie speelgoedfiguren: wie heeft de sleutel?
 
-Achter het deurtje zitten drie figuren verstopt: de aap, panda en schildpad. Ze bewaken een sleutel.
+Achter het deurtje zitten drie figuren verstopt: **Charlie de aap, RidderUs en Schildje de schildpad**. Zij bewaken samen een sleutel. De panda hoort niet bij dit raadsel: die piept alleen even uit een lade als optionele easter egg en is later aanwezig op het verjaardagsfeest.
 
 **Regel:** precies één van de drie uitspraken is waar; de andere twee zijn onwaar.
 
-- **Aap:** “De panda heeft de sleutel.”
-- **Panda:** “Ik heb de sleutel niet.”
-- **Schildpad:** “De aap heeft de sleutel niet.”
+- **Charlie (aap):** “De panda heeft de sleutel.”
+- **RidderUs:** “Ik heb de sleutel niet.”
+- **Schildje (schildpad):** “Charlie heeft de sleutel niet.”
 
 **Vraag:** wie heeft de sleutel?
 
-Wannes kiest de aap, panda of schildpad en bevestigt zijn antwoord.
+Wannes kiest Charlie, RidderUs of Schildje en bevestigt zijn antwoord.
 
 #### Oplossing en logische controle
 
-| Wie heeft de sleutel? | Uitspraak aap | Uitspraak panda | Uitspraak schildpad | Aantal ware uitspraken |
+| Wie heeft de sleutel? | Uitspraak Charlie | Uitspraak RidderUs | Uitspraak Schildje | Aantal ware uitspraken |
 |---|---|---|---|---:|
-| Aap | Onwaar | Waar | Onwaar | 1 |
-| Panda | Waar | Onwaar | Waar | 2 |
-| Schildpad | Onwaar | Waar | Waar | 2 |
+| Charlie | Onwaar | Waar | Onwaar | 1 |
+| RidderUs | Waar | Onwaar | Waar | 2 |
+| Schildje | Onwaar | Waar | Waar | 2 |
 
-**Juiste antwoord:** de aap heeft de sleutel.
+**Juiste antwoord:** Charlie de aap heeft de sleutel.
 
 #### Beloning en overgang
-De aap haalt een kleine messing sleutel achter zijn rug vandaan en zegt:
+Charlie haalt een kleine messing sleutel achter zijn rug vandaan en zegt:
 
 > “Goed geredeneerd! Je hebt me door. Hier is de sleutel — maar je moet nog ontdekken welk kistje de moeite waard is.”
 
@@ -230,7 +230,7 @@ De sleutel wordt automatisch als gevonden voorwerp geregistreerd; Wannes hoeft g
 
 #### Hints
 1. “Wat gebeurt er als de aap de sleutel heeft?”
-2. “Controleer hoeveel uitspraken waar zijn als de panda de sleutel heeft.”
+2. “Controleer hoeveel uitspraken waar zijn als RidderUs de sleutel heeft.”
 3. “Test alle drie de mogelijkheden. Slechts één ervan voldoet aan de regel.”
 
 ### Deel 3 — De drie kistjes: vind de aanwijzing voor het grote slot
@@ -266,9 +266,9 @@ De aap wijst naar drie gesloten kistjes. De sleutel past op het slot van het gek
 ### Complete speelervaring van uitdaging 2
 
 1. Wannes kraakt de code **042**.
-2. Het geheime deurtje springt open en onthult de aap, panda en schildpad.
-3. Wannes redeneert dat de aap de sleutel heeft.
-4. De aap geeft hem de messing sleutel.
+2. Het geheime deurtje springt open en onthult Charlie, RidderUs en Schildje.
+3. Wannes redeneert dat Charlie de sleutel heeft.
+4. Charlie geeft hem de messing sleutel.
 5. Wannes onderzoekt de uitspraken op drie kistjes en kiest het rode kistje.
 6. De kist gaat open en onthult de **ster met een oog**, de symboolaanwijzing die nodig is voor uitdaging 4.
 
