@@ -4,8 +4,8 @@
 **Status:** Inventaris in opschoning. De repository bevat negen beeldbestanden in de hoofdmap. De GitHub-bestandsnamen zijn vastgesteld, maar de werkelijke bestandstypen zijn nog niet onafhankelijk gecontroleerd. Verplaats of hernoem ze daarom nog niet. De mechanische vogel blijft buiten gebruik totdat Michel die asset expliciet goedkeurt.
 
 | ID | Beschrijving | Hoofdfunctie | Status |
-| AST-TITLE-01 | Verticale vintage zeefdrukposter voor het beginscherm: snoepfabriek, gestreepte schoorstenen, rook, gloeiende ramen, titel en startknop; geen personages | Beginscherm / title screen voor iPhone 9:19,5 | Concept goedgekeurd; rootbestand `AST-TITLE-01-title-poster.jpg.PNG` aanwezig; werkelijk bestandstype nog te controleren |
 |---|---|---|---|
+| AST-TITLE-01 | Verticale vintage zeefdrukposter voor het beginscherm: snoepfabriek, gestreepte schoorstenen, rook, gloeiende ramen, titel en startknop; geen personages | Beginscherm / title screen voor iPhone 9:19,5 | Concept goedgekeurd; rootbestand `AST-TITLE-01-title-poster.jpg.PNG` aanwezig; werkelijk bestandstype nog te controleren |
 | AST-DECOR-01 | Rood hart met opgeheven handen en stralen, minimalistische vintage zeefdruk | Decorstuk voor de controlekamer | Ontwerp uitgewerkt; rootbestand `AST-DECOR-01-red-heart.png.PNG` aanwezig; werkelijk bestandstype nog te controleren |
 | AST-DECOR-02 | Houten vogelhuisje met rood-oranje, gefacetteerde vogel die uit de opening kijkt | Decorstuk voor de controlekamer | Ontwerp uitgewerkt; rootbestand `AST-DECOR-02-birdhouse.png.PNG` aanwezig; werkelijk bestandstype nog te controleren |
 | AST-DECOR-03 | Mechanische bouwsteen-vogel met roestoranje lichaam, donkerblauwe uitgespreide vleugels en ronde blauwe displaybasis | Decorstuk voor de controlekamer | Ontwerp uitgewerkt; rootbestand `AST-DECOR-03-mechanical-bird.png.PNG` aanwezig; **niet gebruiken zonder expliciete goedkeuring** |
@@ -30,7 +30,13 @@
 
 ## Vaste omgevingsreferentie — AST-ROOM-01
 
-**Beslissing:** Michel heeft bevestigd dat de aangeleverde afbeelding met de controlekamer de speelruimte is. Ontwerp geen alternatieve kamer en verander de compositie niet opnieuw zonder expliciete toestemming. Gebruik deze afbeelding als de vaste visuele basis.\n\n**Hoofdobjecten en locaties:** computer links (uitdaging 1), hoge groene locker met cijfercode in het midden (uitdaging 2), grote rode deur rechts (uitdaging 4) en tafel met drie bekers vooraan (uitdaging 3). De vleesetende plant en het hartkunstwerk zijn decorstukken met interactieve easter eggs. De schuif/lade voor de pandasurprise moet als interactieve zone worden toegewezen aan een bestaande kast of lade in deze ruimte; voeg daarvoor niet zomaar een nieuw meubel toe.\n\n**Belangrijk:** de afbeelding is goedgekeurd als ruimte en compositie. De exacte klikzones, zoomtoestanden en mobiele bediening worden later in het dossier beschreven. Dit is nog geen toestemming om code te bouwen.\n\n## Vervallen asset — AST-ROBOT-01 (niet gebruiken)
+**Beslissing:** Michel heeft bevestigd dat de aangeleverde afbeelding met de controlekamer de speelruimte is. Ontwerp geen alternatieve kamer en verander de compositie niet opnieuw zonder expliciete toestemming. Gebruik deze afbeelding als de vaste visuele basis.
+
+**Hoofdobjecten en locaties:** computer links (uitdaging 1), hoge groene locker met cijfercode in het midden (uitdaging 2), grote rode deur rechts (uitdaging 4) en tafel met drie bekers vooraan (uitdaging 3). De vleesetende plant en het hartkunstwerk zijn decorstukken met interactieve easter eggs. De schuif/lade voor de pandasurprise moet als interactieve zone worden toegewezen aan een bestaande kast of lade in deze ruimte; voeg daarvoor niet zomaar een nieuw meubel toe.
+
+**Belangrijk:** de afbeelding is goedgekeurd als ruimte en compositie. De exacte klikzones, zoomtoestanden en mobiele bediening worden later in het dossier beschreven. Dit is nog geen toestemming om code te bouwen.
+
+## Vervallen asset — AST-ROBOT-01 (niet gebruiken)
 
 **Status:** VERVALLEN. De robot is volledig geschrapt uit het concept; de oude afbeelding mag niet in de game worden gebruikt.  
 
