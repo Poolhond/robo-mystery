@@ -50,7 +50,7 @@ Onderstaande ID's zijn technische namen, geen zichtbare spelertekst. De precieze
 
 | ID | Betekenis | Belangrijk gedrag |
 |---|---|---|
-| `title` | Titelposter | Biedt START / VERDER SPELEN en een kleinere optie “Opnieuw beginnen” met bevestiging. |
+| `title` | Titelposter | Zonder opgeslagen voortgang: alleen **START ONDERZOEK**. Met voortgang: **VERDER ONDERZOEKEN** en **OPNIEUW BEGINNEN**; de laatste optie vraagt bevestiging. |
 | `workshop` | Volledige werkplaats | Alle vier hoofdobjecten blijven zichtbaar; vrije verkenning. |
 | `match3` | Computer / uitdaging 1 | Drie match-3-niveaus; bewaart huidig bord en deelvoortgang. |
 | `locker` | Groene locker / uitdaging 2 | Code 042 en de volledige logica-/kistketen; bewaart elke deelstap. |
@@ -94,7 +94,7 @@ Bewaar één versieerbaar statusobject. De definitieve interne namen mogen versc
 - Bewaar alleen serialiseerbare gegevens; sla geen DOM-elementen, callbacks of tijdelijke animatieobjecten op.
 - Bij terugkeer naar een puzzel wordt de laatst opgeslagen deelstap hersteld.
 - Bij herladen, Safari afsluiten en opnieuw openen of tijdelijk verlies van focus mag geldige opgeslagen voortgang niet verloren gaan.
-- De titel toont **VERDER SPELEN** als er geldige bewaarde voortgang bestaat. START wordt gebruikt wanneer er nog geen voortgang is.
+- Zonder geldige opgeslagen voortgang toont de titelpagina alleen **START ONDERZOEK**. Met geldige voortgang toont ze **VERDER ONDERZOEKEN** en **OPNIEUW BEGINNEN**.
 - “Opnieuw beginnen” vereist een duidelijke bevestigingsvraag. Alleen na bevestiging wordt de opgeslagen spelvoortgang gewist en de beginsituatie geladen.
 
 ### Ontbrekende of beschadigde opslag
@@ -155,7 +155,7 @@ Deze regels zijn al goedgekeurd en mogen tijdens implementatie niet opnieuw ontw
 
 De gameontwikkelaar voert onderstaande tests zelfstandig uit, herstelt fouten die hij vindt en herhaalt de relevante tests. De implementatie is pas klaar wanneer alle onderstaande controles zijn geslaagd. Voeg waar nuttig geautomatiseerde tests toe; controleer interactieve animaties en mobiele bediening daarnaast ook handmatig:
 
-1. **Start:** START opent de werkplaats; VERDER SPELEN verschijnt bij geldige opgeslagen voortgang; “Opnieuw beginnen” vraagt bevestiging.
+1. **Start:** zonder voortgang opent **START ONDERZOEK** de werkplaats. Met geldige opgeslagen voortgang hervat **VERDER ONDERZOEKEN** de exacte stand; **OPNIEUW BEGINNEN** vraagt bevestiging.
 2. **Vrije volgorde:** de drie uitdagingen kunnen in iedere volgorde worden gespeeld.
 3. **Match-3:** Level 1 verzamelt 10 rode energiecellen en geeft B; Level 2 verwijdert 5 houten kistjes en geeft A; Level 3 laat de gouden sleutel naar de uitgang onderaan vallen en geeft L. Alle drie gebruiken 5 × 7 en hebben geen zettenlimiet of timer. De ontwikkelaar genereert en test zelf geldige beginborden en representatieve testtoestanden. Geldige/ongeldige zetten, animaties, aanvulling, cascades, vastlopende-bordherstel en hervatten werken correct; letters en exacte bordstatus blijven bewaard.
 4. **Locker:** code 042, personagelogica, kistlogica, sleutel en ster-met-oog volgen exact het uitdagingen-dossier.
