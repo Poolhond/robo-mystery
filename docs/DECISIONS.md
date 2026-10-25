@@ -1,7 +1,15 @@
 # De mysterieuze fabriek — Beslissingen en open punten
 
-**Versie:** 2.1  
-**Doel:** één betrouwbare plek voor besluiten en open punten, zodat de inhoud niet telkens opnieuw wordt bedacht.
+**Versie:** 2.2  
+**Doel:** één betrouwbare plek voor goedgekeurde besluiten en open punten, zodat de inhoud niet telkens opnieuw wordt bedacht.
+
+## Dossierstatus en bronvolgorde
+
+Dit document is leidend voor de status van ontwerpkeuzes. Een keuze geldt alleen als vastgelegd wanneer die onder **Vastgelegd** staat. De overige documenten werken die keuzes inhoudelijk uit, maar mogen ze niet stilzwijgend wijzigen. Bij een tegenstrijdigheid wordt de bouw geblokkeerd totdat het punt hier is opgelost.
+
+Bronvolgorde: (1) dit beslissingsdocument voor goedkeuring/open status, (2) `CHALLENGES.md` voor de puzzelwerking, (3) `GAME-CONCEPT.md` voor verhaal en structuur, (4) `TECH-SPEC.md` voor technische randvoorwaarden, (5) `ART-DIRECTION.md` voor stijl en (6) `ASSET-REGISTER.md` voor bestandsstatus.
+
+**Huidige fase:** dossieropschoning. Dit is geen toestemming om gamecode te bouwen.
 
 ## Vastgelegd
 
@@ -60,11 +68,11 @@
 6. **Slotscène:** bepaal de exacte tekst van de opdracht die Wannes na het spel naar de echte verrassing leidt.
 7. **Persoonlijke boodschap:** schrijf en keur de exacte verjaardagsboodschap van de speelgoedfiguren goed.
 8. **Spelnaam:** De mysterieuze fabriek is de gekozen werktitel. De definitieve titelvormgeving kan later nog worden uitgewerkt.
-9. **Kleurenset:** definitief gekozen palet (zie Art Direction): oud papier `#F3DDA8`, signaalrood `#D94330`, mosterdgeel `#E9B638`, donker petrol `#174B56`, bosgroen `#28513D`, inktzwart `#292A24`.
-10. **Lettertype:** systeemlettertypen met een zwaar, grafisch karakter; geen externe fonts.
-11. **Puntentelling:** beslis of score nodig is; voortgang mag nooit door score worden geblokkeerd.
-12. **Assets:** bepaal welke referentiebeelden gebruikt worden en voeg definitieve afbeeldingsbestanden echt toe aan de repository.
-13. **Dossiercontrole:** stem spelconcept, uitdagingen, techniek, art direction en assetregister op elkaar af vóór de master-prompt.
+9. **Puntentelling:** beslis of score nodig is; voortgang mag nooit door score worden geblokkeerd.
+10. **Assets:** bepaal welke referentiebeelden definitief gebruikt worden en werk de bestanden uit in een consistente mappenstructuur.
+11. **Dossiercontrole:** stem spelconcept, uitdagingen, techniek, art direction en assetregister op elkaar af vóór de master-prompt.
+
+**Reeds vastgelegd, geen open keuze:** het kleurpalet staat vast zoals beschreven in `ART-DIRECTION.md`. De typografie gebruikt systeemlettertypen met een zwaar, grafisch karakter; er komen geen externe fonts.
 
 ## Assets die nog moeten worden gecontroleerd of gemaakt
 
