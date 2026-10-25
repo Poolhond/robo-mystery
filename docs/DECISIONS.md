@@ -8,8 +8,7 @@
 | Onderwerp | Beslissing |
 |---|---|
 | Speler | Wannes (12), speelt het spel op zijn verjaardag zelf |
-| Hoofdpersonage | Geen bestuurbare robot of vervangend hoofdpersonage; Wannes onderzoekt de ruimte zelf |
-| Robot | Volledig geschrapt uit verhaal, scènes, interface en assetplanning |
+| Hoofdpersonage | Wannes onderzoekt de ruimte zelf; er is geen bestuurbaar hoofdpersonage |
 | Feest | De onthulling aan het einde is voor Wannes |
 | Thema | Goochelen: trucjes, puzzels en raadsels |
 | Opbouw | Vrije verkenning van het laboratorium; uitdagingen 1–3 in zelfgekozen volgorde; uitdaging 4 is de grote deur en het slot |
@@ -56,7 +55,7 @@
 
 ## Assets die nog moeten worden gecontroleerd of gemaakt
 
-- Aap, panda, schildpad en regenboogoctopus; geen robot.
+- Aap, panda, schildpad en regenboogoctopus.
 - Achtergronden per uitdaging.
 - Klein metalen deurtje en groot slot/deur.
 - Cijferwieltjes en OPEN-knop.
@@ -87,5 +86,5 @@ Geef assets consistente namen en leg per bestand vast voor welke scène het dien
 - De ster met het oog is de beloning van uitdaging 2; BAL is niet langer de beloning van uitdaging 2.
 - De kist in uitdaging 2 bevat de **ster met een oog**, de symboolaanwijzing voor uitdaging 4 — geen gouden medaille. BAL komt uit uitdaging 1.
 - De oude index.html-prototypecode wordt verwijderd en mag niet als basis voor de nieuwe game worden gebruikt.
-- De robot is volledig geschrapt en mag niet terugkeren in teksten, hints, scènes, illustraties of finale.
+- Er is geen robotpersonage; de oude robotasset is vervallen en mag niet in de game worden gebruikt.
 - Er wordt geen nieuwe gamecode gebouwd zolang het volledige ontwerpdossier niet is goedgekeurd.
