@@ -203,7 +203,7 @@ Achter het deurtje zitten drie figuren verstopt: **Charlie de aap, RidderUs en S
 
 **Regel:** precies één van de drie uitspraken is waar; de andere twee zijn onwaar.
 
-- **Charlie (aap):** “De panda heeft de sleutel.”
+- **Charlie (aap):** “RidderUs heeft de sleutel.”
 - **RidderUs:** “Ik heb de sleutel niet.”
 - **Schildje (schildpad):** “Charlie heeft de sleutel niet.”
 
@@ -229,13 +229,13 @@ Charlie haalt een kleine messing sleutel achter zijn rug vandaan en zegt:
 De sleutel wordt automatisch als gevonden voorwerp geregistreerd; Wannes hoeft geen code te onthouden.
 
 #### Hints
-1. “Wat gebeurt er als de aap de sleutel heeft?”
+1. “Wat gebeurt er als Charlie de sleutel heeft?”
 2. “Controleer hoeveel uitspraken waar zijn als RidderUs de sleutel heeft.”
 3. “Test alle drie de mogelijkheden. Slechts één ervan voldoet aan de regel.”
 
 ### Deel 3 — De drie kistjes: vind de aanwijzing voor het grote slot
 
-De aap wijst naar drie gesloten kistjes. De sleutel past op het slot van het gekozen kistje. Op elk kistje staat een uitspraak. De regel blijft: **precies één uitspraak is waar**.
+Charlie wijst naar drie gesloten kistjes. De sleutel past op het slot van het gekozen kistje. Op elk kistje staat een uitspraak. De regel blijft: **precies één uitspraak is waar**.
 
 - **Rood kistje:** “De hoofdprijs zit in het blauwe kistje.”
 - **Blauw kistje:** “De hoofdprijs zit niet in het blauwe kistje.”
