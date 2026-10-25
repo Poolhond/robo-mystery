@@ -1,6 +1,6 @@
 # De mysterieuze fabriek — Beslissingen en open punten
 
-**Versie:** 2.6  
+**Versie:** 2.7  
 **Doel:** één betrouwbare plek voor goedgekeurde besluiten en open punten, zodat de inhoud niet telkens opnieuw wordt bedacht.
 
 ## Dossierstatus en bronvolgorde
@@ -47,6 +47,7 @@ Bronvolgorde: (1) dit beslissingsdocument voor goedkeuring/open status, (2) `CHA
 | Gouden medaille | Geschrapt; niet gebruiken als beloning of inhoud van het kistje |
 | Aanwijzing uit uitdaging 3 | Signaalrood |
 | Uitdaging 3 — moeilijkheid | Drie rondes met respectievelijk twee, drie en vier wissels; snelheid neemt geleidelijk toe maar de beweging blijft eerlijk te volgen |
+| Uitdaging 3 — schermpresentatie | Na aantikken zoomt het beeld in op de bestaande tafel met drie bekers. De bekers-truc en het rode balletje spelen zich af op deze tafel, in dezelfde verweerde jarenzeventig-zeefdrukstijl. Geen los modern spelvenster of afwijkende grafische stijl. Na afloop keert Wannes terug naar dezelfde controlekamer. |
 | Uitdaging 4 — bediening | De ster met oog verschijnt automatisch na uitdaging 2; Wannes typt zelf het woord en kiest zelf een kleur; grote knop OPEN DE DEUR |
 | Uitdaging 4 — oplossing | Ster met oog (uitdaging 2), woord BAL (uitdaging 1), kleur signaalrood (uitdaging 3); onbeperkte pogingen |
 | Startscherm en wereld | De maquette is uitsluitend het startscherm. Na Start onderzoekt Wannes zelf de technische ruimte. |
