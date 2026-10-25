@@ -1,6 +1,6 @@
 # De mysterieuze fabriek — Spelconcept
 
-**Versie:** 2.1  
+**Versie:** 2.2  
 **Status:** Voorontwerp; nog geen bouwklaar dossier en geen nieuwe gamecode  
 **Laatste update:** 25 oktober 2026 — startbeleving vastgelegd als vrije ontdekking; werktitel gewijzigd naar De mysterieuze fabriek; robot geschrapt
 
@@ -10,7 +10,7 @@ De mysterieuze fabriek is een compact digitaal mysterie-avontuur voor **Wannes (
 
 Wannes ziet eerst de volledige maquette als startscherm. Na Start onderzoekt Wannes zelf de technische ruimte. De volledige ruimte blijft tegelijk zichtbaar op het iPhone-scherm: het computerscherm voor uitdaging 1, de locker met cijfercode voor uitdaging 2, de tafel met bekers voor uitdaging 3 en de grote deur voor uitdaging 4. Wannes tikt op een voorwerp; het spel zoomt in en opent een apart volledig scherm voor de bijbehorende interactie. Hij kiest zelf in welke volgorde hij de eerste drie uitdagingen speelt. Hij mag elke uitdaging halverwege verlaten en later precies verdergaan waar hij stopte. De grote deur kan hij vanaf het begin ontdekken, maar hij leert gaandeweg dat hij de drie uitdagingen nodig heeft om het slot op te lossen. Uitdaging 1 bestaat uit drie match-3-levels en levert de letters B, A en L op. Wanneer die opengaat, blijkt dat de speelgoedfiguren in het geheim een verjaardagsfeest voor Wannes hebben voorbereid. Wannes ontdekt de verrassing zelf door de aanwijzingen te verzamelen en het slot te openen.
 
-Wannes sluit af met een laatste interactieve handeling waarmee het feest begint.
+Na de deuropening drukt Wannes op de grote rode feestknop. Dat is de laatste interactieve handeling van het spel; daarna speelt de finale automatisch af.
 
 ## 2. Vastgelegde spelbeslissingen
 
@@ -61,20 +61,13 @@ Wannes kan de deur op elk moment onderzoeken. Als hij erop tikt, schuift/zoomt h
 
 ### Finale — De deur gaat open
 
-De deur onthult een feestlocatie die de speelgoedfiguren voor Wannes hebben klaargemaakt. De aap, panda, schildpad en regenboogoctopus zijn erbij. Ze roepen “Gefeliciteerd, Wannes!” De eerdere aanwijzingen blijken onderdelen van het geheime plan.
+De deur onthult een feestlocatie die de speelgoedfiguren voor Wannes hebben klaargemaakt. De aap, panda, schildpad en regenboogoctopus zijn erbij. De onthulling wordt volledig visueel verteld; er is geen gesproken tekst of geluid. De eerdere aanwijzingen blijken onderdelen van het geheime plan.
 
 ## 4. De interactieve feestfinale
 
-De onthulling is niet het einde van de interactie. Wannes krijgt nog één eenvoudige, betekenisvolle handeling waarmee het feest begint. Mogelijke opties (keuze volgt):
-- aan een lint trekken waarna confetti en lichtjes aangaan;
-- een feestknop indrukken;
-- samen met de speelgoedfiguren de taart aansnijden.
+De deur zwaait open en onthult een verborgen verjaardagsfeest met de speelgoedfiguren, slingers, confetti en warm licht. De feestzaal is bij het openen eerst donker en stil. Wannes drukt vervolgens op de grote rode feestknop; de lichtjes springen aan en confetti barst los. Daarna wordt de scène rustiger en verschijnt de boodschap geleidelijk in twee stappen: eerst **“Proficiat Wannes!”**, daarna **“Dat verdient een cadeau.”** De speelgoedfiguren en de feestscène blijven zichtbaar.
 
-Daarna voeren de speelgoedfiguren een korte kaarttruc uit waarvan de uitkomst altijd “Gefeliciteerd, Wannes!” is, gevolgd door een korte feestelijke slotscène. De toon verschuift van mysterie naar warmte, humor en verrassing.
-
-### Echte slotscène (nog open)
-
-Het laatste scherm kan een echte opdracht bevatten voor na het spel (“Draai je om”, “Ga naar de woonkamer”, …). Dit hangt af van wat Wannes in het echt wacht. De tekst moet later op één centrale plek in de game-inhoud staan zodat die eenvoudig aanpasbaar is. Zie docs/DECISIONS.md.
+De feestknop is de laatste interactieve handeling. Er is geen extra tik nodig om de boodschap te tonen, geen kaarttruc als extra interactie, geen geluid en geen aanvullende opdracht of raadsel om naar het echte cadeau te leiden.
 
 ## 5. Personages
 
@@ -116,20 +109,21 @@ De interacties moeten kort, duidelijk en herhaalbaar zijn. Ze mogen de hoofdvoor
 
 ## 7. Spelvorm
 
-Een compact point-and-click-avontuur: de maquette is uitsluitend het startscherm. Na Start onderzoekt Wannes de technische ruimte van het speelgoedlaboratorium. De volledige ruimte en vier interactieve voorwerpen blijven tegelijk zichtbaar; Wannes tikt op een voorwerp om de bijbehorende interactie te openen. Geschikt voor een telefoon; de technische randvoorwaarden staan in docs/TECH-SPEC.md. Streefduur: ongeveer 8 tot 12 minuten.
+Een compact point-and-click-avontuur: de maquette is uitsluitend het startscherm. Na Start onderzoekt Wannes de technische ruimte van het speelgoedlaboratorium. De volledige ruimte en vier interactieve voorwerpen blijven tegelijk zichtbaar; Wannes tikt op een voorwerp om de bijbehorende interactie te openen. Geschikt voor een telefoon; de technische randvoorwaarden staan in docs/TECH-SPEC.md. Streefduur: ongeveer 10 tot 15 minuten, inclusief vrije verkenning, de drie uitdagingen en de finale. Dit is een richtwaarde en geen tijdslimiet.
 
-## 8. Nog te beslissen
+## 8. Nog uit te werken vóór de bouw
 
-- De exacte spelersteksten, feedback en hintniveaus van de uitdagingen.
-- De exacte vormgeving van het slot; de werking ligt vast: symbool automatisch, woord zelf typen, kleur zelf kiezen.
-- De definitieve rollen van de speelgoedfiguren buiten uitdaging 2.
-- Welke interactieve handeling het feest start.
-- Of er een echte opdracht aan het einde komt, en welke.
-- De inhoud van de persoonlijke boodschap.
-- Definitieve titelvormgeving, kleurenset en assets.
+- De definitieve spelersteksten, feedback en drie hintstappen per puzzelscherm. Hints verschijnen uitsluitend wanneer Wannes zelf op `?` drukt; de voortgang van hints wordt per puzzelscherm onthouden.
+- De exacte plaatsing en raakvlakken van de vier hoofdvoorwerpen en de drie reeds gekozen easter eggs.
+- De exacte visuele vorm waarin de ster-met-oog-aanwijzing in het rode kistje verschijnt.
+- De technische testbaarheid van de match-3-startborden en de bekersnelheden op iPhone.
+- De definitieve assets, bestandsnamen en consistente mappenstructuur.
+- De resterende schermenlijst en de precieze rollen van de speelgoedfiguren buiten de vastgelegde puzzel- en finalehandelingen.
+
+De slotwerking, feestknop, finalevolgorde, boodschap, speelduur, kleurpalet en typografische richting zijn al vastgelegd en mogen niet opnieuw als open ontwerpkeuzes worden behandeld.
 
 ## 9. Volgende ontwerpfase
 
-Werk het volledige dossier verder uit: spelersteksten, hints, schermenlijst, assets en finale. Controleer daarna alle documenten op tegenstrijdigheden. Pas als het dossier compleet en goedgekeurd is, wordt de master-prompt geschreven.
+Werk eerst de open punten uit deze lijst af. Controleer daarna `CHALLENGES.md`, `TECH-SPEC.md`, `ART-DIRECTION.md` en `ASSET-REGISTER.md` op tegenstrijdigheden met de goedgekeurde beslissingen. Pas als het volledige dossier consistent en goedgekeurd is, wordt de master-prompt geschreven.
 
 **Geen nieuwe gamecode bouwen zolang het dossier niet af is.**
