@@ -849,13 +849,7 @@ Hints verschijnen uitsluitend wanneer Wannes zelf op de `?`-knop drukt. Ze versc
 
 **Bij de juiste oplossing:**
 
-> “Dat is hem! Jij hebt alle aanwijzingen gevonden én het geheim ontrafeld!”
-
-Daarna licht het slot op en schuift de deur langzaam open. Eerst valt warm licht door de kier. Het spel zegt:
-
-> “Wacht eens… Ik denk dat ze daarbinnen op jou staan te wachten.”
-
-Daarna gaat de deur helemaal open en begint de verjaardagsfinale.
+Wanneer de juiste combinatie is ingevoerd, licht het slot op en zwaait de deur open. De feestzaal erachter blijft eerst donker en stil. De grote rode feestknop is zichtbaar en nodigt Wannes uit om erop te drukken. Er verschijnt geen extra dialoog; de onthulling wordt volledig visueel verteld.
 
 ### Mobiele bediening en benodigde schermen
 
@@ -889,7 +883,7 @@ Achter de deur bevindt zich de verrassing die de speelgoedfiguren voor Wannes he
 
 1. Ontwerp de vrije laboratoriumverkenning en de plekken waar Wannes de drie uitdagingen ontdekt.
 2. Werk de schermenlijst en benodigde assets voor uitdaging 1, 2 en 3 uit.
-3. Stem de finalebeschrijving af op de goedgekeurde boodschap en controleer dat er geen geluid, extra opdracht of extra interactie wordt toegevoegd.
+3. De finale volgt de goedgekeurde schermvolgorde: deur open en zaal donker, tik op de rode feestknop, licht en confetti, daarna automatisch de twee teksten. Geen extra dialoog, geluid, opdracht of extra interactie.
 4. Controleer het hele dossier op tegenstrijdigheden en maak daarna pas de master-prompt.
 
 **Bouwstop:** dit bestand beschrijft het ontwerp. Er wordt nog geen nieuwe gamecode gebouwd zolang het volledige dossier niet is goedgekeurd.
