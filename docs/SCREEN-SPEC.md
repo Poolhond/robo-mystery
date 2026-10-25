@@ -84,19 +84,19 @@ De drie easter eggs zijn optioneel, herhaalbaar en wijzigen geen hoofdvoortgang.
 **Hints — code 042**
 1. “Begin met de aanwijzing 738. Welke cijfers kun je meteen uitsluiten?”
 2. “De code bevat een 0, maar die staat niet op de derde plaats.”
-3. “De code is 042. Zet de wieltjes op 0, 4 en 2.”
+3. “Gebruik de aanwijzingen samen: welke cijfers moeten op plaats één, twee en drie staan?”
 
 **Hints — wie heeft de sleutel?**
 1. “Wat gebeurt er als Charlie de sleutel heeft?”
 2. “Controleer hoeveel uitspraken waar zijn als RidderUs de sleutel heeft.”
-3. “De juiste mogelijkheid is Charlie: dan is alleen RidderUs’ uitspraak waar.”
+3. “Maak voor Charlie, RidderUs en Schildje elk een rijtje en tel de ware uitspraken.”
 
 **Hints — welk kistje?**
 1. “Test eerst wat er gebeurt als de hoofdprijs in het rode kistje zit.”
 2. “Tel bij elke mogelijke kistlocatie hoeveel uitspraken waar zijn.”
-3. “Open het rode kistje. Alleen dan is precies één uitspraak waar.”
+3. “Controleer bij elke mogelijke plek van de hoofdprijs opnieuw alle drie de uitspraken.”
 
-De hint op niveau 3 is de oplossingstekst, maar de speler ziet die alleen na het goedgekeurde bevestigingsproces **TOON OPLOSSING** → “Wil je de oplossing zien?” → **BEKIJKEN**. Tot dat moment blijft de gewone hintladder oplopend maar niet oplossend; zie de opmerking onderaan dit document.
+De gewone hint 3 blijft een laatste denkstap en verklapt het antwoord niet. De exacte oplossing wordt uitsluitend getoond na het goedgekeurde bevestigingsproces **TOON OPLOSSING** → “Wil je de oplossing zien?” → **BEKIJKEN**; zie de opmerking onderaan dit document.
 
 ### C — Uitdaging 3: de bekers
 
@@ -170,7 +170,7 @@ De hint op niveau 3 is de oplossingstekst, maar de speler ziet die alleen na het
 2. **Bekers:** concrete wisselroutes en snelheden moeten op iPhone-portret worden getest; elke animatie moet dezelfde permutatie opleveren als de interne logica.
 3. **Visuele compositie:** exacte klikzones en plaatsing van de vier hoofdobjecten en drie easter eggs moeten nog worden vastgelegd.
 4. **Assets:** werkelijke bestandstypen en definitieve locaties moeten worden gecontroleerd voordat de schermen aan specifieke afbeeldingen worden gekoppeld.
-5. **Hintconsistentie:** de algemene regel is drie hints en daarna een aparte oplossing. Inhoudelijke hint 3 moet daarom niet al als expliciete oplossing geformuleerd worden; pas de per-puzzel hintladder aan waar nodig.
+5. **Hintconsistentie:** de algemene regel is drie hints en daarna een aparte oplossing. De hintladder in dit document is aangepast om hint 3 niet als volledige oplossing te formuleren; controleer deze scheiding ook in alle puzzelbeschrijvingen in `CHALLENGES.md`.
 
 ## 6. Bouwstop
 
