@@ -1,6 +1,6 @@
 # De mysterieuze fabriek — Technische specificatie
 
-**Versie:** 1.0  
+**Versie:** 1.1  
 **Status:** Dossier-specificatie vóór de bouw. Dit document legt de technische randvoorwaarden vast; het is geen toestemming om al spelcode te bouwen.  
 **Samenhang:** `docs/GAME-CONCEPT.md`, `docs/CHALLENGES.md`, `docs/DECISIONS.md` en `docs/ART-DIRECTION.md` zijn leidend voor respectievelijk spelverloop, puzzels, goedgekeurde ontwerpkeuzes en visuele stijl. Bij tegenstrijdigheid moet de afwijking eerst in het dossier worden opgelost.
 
@@ -67,6 +67,10 @@ Een puzzel kan intern extra substaten hebben, maar die moeten stabiel en explici
 - Teruggaan of van scherm wisselen reset nooit de puzzel.
 - De grote deur mag op elk moment worden onderzocht. De deur gaat pas open wanneer alle drie uitdagingen voltooid zijn en de juiste combinatie is ingevoerd.
 - De optionele easter eggs veranderen de hoofdvoortgang niet.
+
+### Uitgewerkte deeltoestanden
+
+De bovenstaande hoofdschermen zijn verder opgesplitst in stabiele toestands-ID's in [`docs/SCREEN-SPEC.md`](SCREEN-SPEC.md). Dat document is leidend voor zichtbare deeltoestanden, spelersteksten, fout- en succesfeedback, hinttoestanden, finaleovergangen en herstel na herladen. De scherm-ID's moeten in de implementatie herkenbaar blijven, ook als de interne code andere namen gebruikt.
 
 ## 5. Spelstatus en voortgang
 
@@ -174,10 +178,10 @@ De implementatie is pas klaar wanneer alle onderstaande controles zijn geslaagd:
 
 Deze specificatie legt de technische randvoorwaarden vast, maar is op zichzelf geen bouwopdracht. Vóór de master-prompt moeten nog worden gecontroleerd en afgestemd:
 - de volledige assetinventaris, werkelijke bestandstypen en definitieve locaties;
-- de precieze klikzones en posities van de drie easter eggs;
-- alle definitieve spelerteksten, hintteksten en feedback per puzzel;
-- de exacte scherm-/subtoestanden waar de uitdagingen dat vereisen;
-- de oplosbaarheid en testbaarheid van de drie match-3-borden;
+- de precieze klikzones en posities van de vier hoofdobjecten en drie easter eggs;
+- controle en goedkeuring van alle spelersteksten, hintteksten en feedback in [`docs/SCREEN-SPEC.md`](SCREEN-SPEC.md) en [`docs/CHALLENGES.md`](CHALLENGES.md);
+- controle dat de scherm-/subtoestanden uit [`docs/SCREEN-SPEC.md`](SCREEN-SPEC.md) alle noodzakelijke overgangen en herstelgevallen dekken;
+- de definitieve match-3-startmatrices plus solver-/testbewijs voor oplosbaarheid binnen de zetlimieten;
 - de uiteindelijke statusvelden tegen alle concrete puzzelstappen;
 - de volledige acceptatietestlijst tegen de goedgekeurde ontwerpbeslissingen.
 
