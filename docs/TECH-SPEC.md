@@ -1,6 +1,6 @@
 # De mysterieuze fabriek — Technische specificatie
 
-**Versie:** 1.2  
+**Versie:** 1.3  
 **Status:** Dossier-specificatie vóór de bouw. Dit document legt de technische randvoorwaarden vast; het is geen toestemming om al spelcode te bouwen.  
 **Samenhang:** `docs/GAME-CONCEPT.md`, `docs/CHALLENGES.md`, `docs/DECISIONS.md` en `docs/ART-DIRECTION.md` zijn leidend voor respectievelijk spelverloop, puzzels, goedgekeurde ontwerpkeuzes en visuele stijl. Bij tegenstrijdigheid moet de afwijking eerst in het dossier worden opgelost.
 
@@ -181,7 +181,7 @@ Deze specificatie legt de technische randvoorwaarden vast, maar is op zichzelf g
 - de precieze klikzones en posities van de vier hoofdobjecten en drie easter eggs;
 - controle en goedkeuring van alle spelersteksten, hintteksten en feedback in [`docs/SCREEN-SPEC.md`](SCREEN-SPEC.md) en [`docs/CHALLENGES.md`](CHALLENGES.md);
 - controle dat de scherm-/subtoestanden uit [`docs/SCREEN-SPEC.md`](SCREEN-SPEC.md) alle noodzakelijke overgangen en herstelgevallen dekken;
-- de definitieve match-3-startmatrices plus solver-/testbewijs voor oplosbaarheid binnen de zetlimieten;
+- de definitieve match-3-startmatrices plus solver-/testbewijs voor geldige zetten en doelhaalbaarheid; alle drie levels hebben geen zettenlimiet;
 - de uiteindelijke statusvelden tegen alle concrete puzzelstappen;
 - de volledige acceptatietestlijst tegen de goedgekeurde ontwerpbeslissingen.
 
