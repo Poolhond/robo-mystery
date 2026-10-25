@@ -1,6 +1,6 @@
 # De mysterieuze fabriek — Uitdagingen
 
-**Versie:** 1.3  
+**Versie:** 1.4  
 **Status:** Uitgewerkt voorontwerp; nog niet bouwklaar. Er wordt nog geen gamecode gebouwd.  
 **Focus van deze revisie:** vrije verkenning van het laboratorium; uitdaging 4 vereenvoudigd tot woord en kleur, met automatische symboolherkenning.
 
@@ -32,18 +32,20 @@
 ### Gemeenschappelijke spelregels voor de drie levels
 
 - Het speelbord gebruikt per level de speelstukken die in de levelbeschrijving zijn vastgelegd. In Level 1 zijn dit effen kleurvlakken zonder symbolen of pictogrammen; andere levels kunnen alleen eigen vormen of obstakels gebruiken als die expliciet in hun beschrijving staan.
-- Een geldige zet verwisselt twee horizontaal of verticaal aangrenzende symbolen.
-- Een verwisseling telt alleen als er daardoor een match van minstens drie gelijke symbolen ontstaat. Als geen match ontstaat, bewegen de symbolen terug en wordt geen zet verbruikt.
-- Een match verwijdert de passende symbolen; symbolen erboven vallen naar beneden en nieuwe symbolen vullen de lege plaatsen aan.
-- Doelobjecten en obstakels moeten visueel anders zijn dan gewone match-symbolen.
-- Het doel en de relevante voortgang staan steeds duidelijk in beeld, zonder kleine tekst. Een zettenlimiet wordt alleen getoond bij levels waarvoor die expliciet is vastgelegd; Level 1 heeft geen zettenlimiet.
-- Animaties zijn kort maar leesbaar. In Level 1 worden verwisseling, match, verdwijnen, vallen, aanvullen en cascades afzonderlijk en in begrijpelijke volgorde geanimeerd.
-- De zetlimiet is levelspecifiek en geldt alleen waar die expliciet is vastgelegd. Level 1 heeft onbeperkt zetten. Voor elk level moet het bord volgens de eigen regels speelbaar zijn. Wannes kan via de `?`-knop een hint vragen; hints verschijnen nooit automatisch.
+- De gewone speelstukken zijn vier soorten effen kleurvlakken zonder symbolen, letters of pictogrammen: signaalrood, mosterdgeel, donker petrol/blauw en bosgroen.
+- Een geldige zet verwisselt twee horizontaal of verticaal direct aangrenzende kleurvlakken.
+- Een verwisseling is alleen geldig wanneer daardoor minstens drie kleurvlakken van dezelfde kleur op een rij of kolom worden gematcht. Anders schuiven de vlakken terug naar hun oorspronkelijke plaats.
+- Alle drie levels hebben geen zettenlimiet, geen tijdslimiet en geen straf voor een ongeldige zet.
+- Bij een match verdwijnen de gematchte kleurvlakken; bovenliggende vlakken vallen naar beneden en nieuwe kleurvlakken komen van boven het bord binnen.
+- Doelobjecten en obstakels zijn visueel duidelijk te onderscheiden van gewone kleurvlakken. Ze zijn niet verwisselbaar tenzij de levelbeschrijving dat uitdrukkelijk zegt.
+- Het doel en de voortgangsteller blijven goed leesbaar in beeld. Er wordt geen resterend-zetten-tellertje getoond.
+- Animaties tonen de verwisseling, match, verdwijnen, vallen, aanvullen en eventuele cascades in een duidelijke volgorde. Wannes moet kunnen zien wat er gebeurt; effecten mogen elkaar niet onleesbaar overlappen.
+- De beginopstelling van elk level moet gecontroleerd speelbaar zijn. Na aanvullen controleert het spel of er geldige zetten bestaan; zo niet, dan wordt het bord gecontroleerd opnieuw geschud zonder verdiende voortgang kwijt te raken. Wannes kan via de `?`-knop een hint vragen; hints verschijnen nooit automatisch.
 - Er is geen game-over en geen tijdslimiet. Wannes mag rustig nadenken en opnieuw proberen.
 - Een hint mag een mogelijke zet laten oplichten, maar voert die niet automatisch uit.
 - Bij voltooiing krijgt Wannes een korte succesanimatie en de bijbehorende letter. De letter blijft zichtbaar in een vaste verzamelstrook boven of onder het bord.
 - De game bewaart voortgang lokaal na elke geldige zet en bij elke belangrijke wijziging, zodat een onbedoelde herlaadactie geen reeds verdiende letters of de huidige puzzelstand wist.
-- Als Wannes de speelgoedfabriek verlaat en terugkomt, gaat hij verder vanaf het huidige level, met dezelfde bordstand, eventuele resterende zetten en verzamelde voortgang. Een level wordt alleen opnieuw gestart als Wannes daar zelf voor kiest of expliciet om een reset vraagt.
+- Als Wannes de speelgoedfabriek verlaat en terugkomt, gaat hij verder vanaf het huidige level, met dezelfde bordstand en verzamelde voortgang. Een level wordt alleen opnieuw gestart als Wannes daar zelf voor kiest of expliciet om een reset vraagt.
 
 ### Level 1 — De energiecellen
 
