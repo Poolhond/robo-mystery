@@ -1,6 +1,6 @@
 # De mysterieuze fabriek — Techniekregels
 
-**Versie:** 0.6  
+**Versie:** 0.7  
 **Status:** Conceptuele technische randvoorwaarden; nog geen definitieve implementatiespecificatie. Deze regels moeten vóór de master-prompt worden aangevuld met een concrete schermenlijst, statusmodel en acceptatietests.
 
 ## 1. Platform
@@ -39,7 +39,9 @@ Alle spelertekst staat in `content.js`: raadsels, antwoorden, hints, feedback, d
 
 Maak onderscheid tussen **locaties in de wereld** en **schermtoestanden**. De grote deur is een interactief object binnen het laboratorium, niet automatisch een aparte locatie. Het slot is een toestand/paneel dat verschijnt wanneer Wannes de deur onderzoekt; het mag niet als een tweede, losstaande deur worden behandeld.
 
-De definitieve scèneslijst wordt uitgewerkt in het dossier. De voorlopige structuur bestaat uit:
+De definitieve scèneslijst wordt uitgewerkt in het dossier. Navigatieregel: elke uitdaging zoomt in op het bestaande voorwerp in de vaste werkplaatsillustratie. Gebruik overal dezelfde terugknop en dezelfde overgangslogica; terugkeren brengt Wannes naar exact dezelfde werkplaatsweergave. De volledige spelstatus van de verlaten uitdaging blijft behouden, inclusief de exacte puzzelstap en visuele toestand. Hervatten mag geen puzzel resetten of opnieuw laten beginnen.
+
+De voorlopige structuur bestaat uit:
 - start en proloog;
 - één verkenbaar laboratorium met drie uitdaginglocaties en de grote deur;
 - de afzonderlijke speeltoestanden van uitdaging 1, 2 en 3;
