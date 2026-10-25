@@ -84,7 +84,7 @@ Elk vlak heeft een effen kleurvlak als binnenkant en een sobere, duidelijke rand
 
 #### 4. Bord en beginsituatie
 
-Het speelbord is een vast raster van **5 kolommen bij 7 rijen** (5 × 7), dus 35 vakken in totaal. Deze rasterafmeting ligt vast en mag tijdens de bouw niet worden gewijzigd. Het bord bevat uitsluitend effen kleurvlakken, zonder symbolen of pictogrammen. De exacte beginmatrix wordt als onderdeel van de technische uitwerking gecontroleerd. De gekozen beginsituatie moet aan alle voorwaarden voldoen:
+Het speelbord is een vast raster van **5 kolommen bij 7 rijen** (5 × 7), dus 35 vakken in totaal. Deze rasterafmeting ligt vast en mag tijdens de bouw niet worden gewijzigd. Het bord bevat uitsluitend effen kleurvlakken, zonder symbolen of pictogrammen. De ontwikkelaar genereert en valideert de concrete beginmatrix tijdens de bouw; het dossier legt de voorwaarden vast, niet de exacte matrix. De gekozen beginsituatie moet aan alle voorwaarden voldoen:
 
 - Er is onmiddellijk minstens één geldige zet.
 - Een geldige zet betekent dat de verwisseling twee horizontaal of verticaal direct aangrenzende kleurvlakken betreft en een match van minstens drie vlakken van dezelfde kleur oplevert.
@@ -221,7 +221,7 @@ De vijf houten kistjes zijn de enige nieuwe spelcomponent ten opzichte van Level
 
 Het bord gebruikt hetzelfde vaste raster als Level 1: **5 kolommen × 7 rijen**, in totaal 35 vakken. De rasterafmeting verandert niet.
 
-De beginopstelling bevat vijf houten kistjes en gewone effen kleurvlakken in de overige vakken. De exacte beginmatrix wordt later technisch vastgelegd en getest. De beginsituatie moet voldoen aan de volgende voorwaarden:
+De beginopstelling bevat vijf houten kistjes en gewone effen kleurvlakken in de overige vakken. De ontwikkelaar genereert en test de concrete beginmatrix tijdens de bouw; het dossier legt de voorwaarden vast, niet de exacte matrix. De beginsituatie moet voldoen aan de volgende voorwaarden:
 
 - Er is vanaf de start minstens één geldige zet.
 - Er zijn geen automatische matches voordat Wannes zelf een zet uitvoert.
@@ -360,7 +360,7 @@ De **gouden energiesleutel** is het enige speciale doelobject. Ze is visueel dui
 
 Het bord gebruikt hetzelfde vaste raster als de vorige levels: **5 kolommen × 7 rijen**, in totaal 35 vakken. De rasterafmeting verandert niet.
 
-De beginsituatie bevat gewone kleurvlakken en één gouden energiesleutel bovenaan het bord. De uitgang bevindt zich onderaan in dezelfde kolom als de sleutel. De exacte beginmatrix wordt later technisch vastgelegd en getest. De beginsituatie moet aan de volgende voorwaarden voldoen:
+De beginsituatie bevat gewone kleurvlakken en één gouden energiesleutel bovenaan het bord. De uitgang bevindt zich onderaan in dezelfde kolom als de sleutel. De ontwikkelaar genereert en test de concrete beginmatrix tijdens de bouw; het dossier legt de voorwaarden vast, niet de exacte matrix. De beginsituatie moet aan de volgende voorwaarden voldoen:
 
 - Er is vanaf de start minstens één geldige zet.
 - Er zijn geen automatische matches voordat Wannes zelf een zet uitvoert.
@@ -475,7 +475,7 @@ Het woord wordt niet gekoppeld aan een gouden medaille of een extra voorwerp uit
 - Respecteer gereduceerde beweging waar mogelijk; animaties mogen nooit de enige manier zijn om spelstatus te begrijpen.
 - Laat de speler na elke match genoeg tijd om het resultaat te zien; geen snelle automatische cascades die invoer verwarrend maken.
 - Houd de instructie kort en toon het leveldoel altijd tijdens het spelen.
-- De rasterafmeting ligt vast op 5 × 7 en alle drie levels hebben geen zettenlimiet. De exacte beginmatrices en de oplosbaarheid moeten tijdens de technische uitwerking worden getest. Dit dossier legt de spelregels en doelen vast, niet de definitieve puzzelmatrices.
+- De rasterafmeting ligt vast op 5 × 7 en alle drie levels hebben geen zettenlimiet. De ontwikkelaar genereert geldige beginmatrices en test speelbaarheid, oplosbaarheid en herstelgedrag tijdens de bouw. Dit dossier legt de spelregels en doelen vast, niet de definitieve puzzelmatrices.
 
 ## Uitdaging 2 — De drie raadselmeesters
 
