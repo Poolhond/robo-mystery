@@ -1,6 +1,6 @@
 # De mysterieuze fabriek — Spelconcept
 
-**Versie:** 1.6  
+**Versie:** 1.7  
 **Status:** Ontwerpfase — geen nieuwe gamecode  
 **Laatste update:** 25 oktober 2026 — werktitel gewijzigd naar De mysterieuze fabriek; robot geschrapt, speler onderzoekt zelf het laboratorium
 
@@ -18,6 +18,7 @@ Wannes sluit af met een laatste interactieve handeling waarmee het feest begint.
 - Visuele richting van de fabriek: een compacte controlekamer met vier duidelijk gegroepeerde interactieve voorwerpen en weinig decoratie. Bedieningspanelen, meetinstrumenten en metalen lockers zorgen voor karakter. Alle vier de voorwerpen blijven tegelijk zichtbaar en herkenbaar op het iPhone-scherm; de sfeer is mysterieus maar niet griezelig.
 - Interactie: aantikken zoomt in op het gekozen voorwerp en opent een apart volledig scherm voor de uitdaging. Een duidelijke terugknop brengt Wannes terug naar dezelfde controlekamer.
 - De speler is **Wannes**; hij onderzoekt de ruimte zelf en bedient de voorwerpen rechtstreeks.
+- Uitlegstijl: minimaal en mysterieus. Wannes ontdekt bediening en doelen grotendeels zelf; hints zijn beschikbaar wanneer hij vastloopt.
 - Het feest aan het einde is voor Wannes.
 - Wannes speelt het spel op zijn verjaardag zelf.
 - Het mysterie blijft aan het begin onduidelijk.
@@ -88,7 +89,7 @@ De herkenbare vormen en kleuren van de bestaande speelgoedfiguren blijven leiden
 
 ## 6. Verhaalregels
 
-1. Geef vooraf niet te veel uitleg; Wannes ontdekt het verhaal door te spelen.
+1. Geef vooraf niet te veel uitleg; Wannes ontdekt het verhaal door te spelen. Instructies blijven kort en hints zijn beschikbaar wanneer hij vastloopt.
 2. Elke uitdaging heeft een duidelijke functie in het avontuur.
 3. De aanwijzingen en de gesloten deur vormen de rode draad door alle scènes.
 4. De uitdagingen testen verschillende vaardigheden: matchen en plannen, logisch nadenken en goed observeren; het slot vraagt dat Wannes zijn ontdekkingen toepast.
