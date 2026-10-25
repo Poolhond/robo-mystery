@@ -80,3 +80,67 @@ De exacte bestandsnamen, afmetingen, herkomst, eventuele promptgegevens en goedk
 
 ## Volgende stap
 Controleer de originele bestanden één voor één, bevestig de rol van elke referentie en registreer eventuele aparte karakterbladen, kamers, voorwerpen, iconen en textuurvoorbeelden.
+
+
+## Karakterset uitdaging 2 — hoofdrolfiguren (nieuw dossieronderdeel)
+
+**Status:** visuele uitwerking gestart; onderstaande richtlijnen zijn voorstellen op basis van de vier nieuw aangeleverde beelden. Dit legt de karakteridentiteit en assetbehoeften vast, maar keurt de uiteindelijke game-assets nog niet goed. Er is nog geen gamecode gebouwd.
+
+### REF-CHAR-02 — Groepsreferentie: Charlie, RidderUs en Schildje
+
+**Bronbestand:** `CB12583C-C094-4781-B3F7-09805B768190.jpeg` (711 × 1536 px, JPEG).  
+**Rol:** groepscompositie en stijlvoorbeeld voor de drie hoofdrolfiguren in het raadsel van uitdaging 2.  
+**Wat deze afbeelding vastlegt:** de drie figuren staan samen in één warme, verticale jarenzeventig-popartposter, met crème papier, geometrische vlakken, plantvormen en verweerde zeefdruk. Dit is de beste referentie voor hoe de figuren samen in dezelfde beeldwereld kunnen staan. De compositie is géén verplichte pose voor toekomstige losse assets.
+
+### CHAR-CHARLIE-01 — Charlie, de aap
+
+**Bronbestand:** `IMG_0228.jpeg` (1152 × 1536 px, JPEG).  
+**Referentie:** de echte pluchen Charlie met bruine kop en kruin, lichtbruine snuit en wangen, ronde uitstekende oren, grote donkere ogen en oranje jas met kraag en twee knopen.  
+**Onveranderlijke herkenningspunten:**
+- bruine pluchen kop met duidelijk lichtere snuit en gezichtsvlak;
+- twee ronde oren die aan beide kanten zichtbaar uitsteken;
+- twee grote, donkere, glanzende ogen;
+- oranje jas met brede kraag en twee grote knopen;
+- zachte, vriendelijke en een tikje ondeugende uitstraling.
+**Vormregels:** behoud Charlie als aap en als zittende pluchen pop met armen en benen. Geen helm, geen astronautenvenster en geen robotachtige lichaamsvorm. De jas blijft oranje; verander die niet naar een andere kleur om het palet af te dwingen.  
+**Gewenste eerste asset:** geïsoleerd volledig figuur, transparante achtergrond waar mogelijk; daarnaast hoofd-/schouderportret en drie bruikbare expressies (neutraal, nadenkend, geheimzinnig/ondeugend).  
+**Bestandsnaamvoorstel:** `assets/characters/charlie/charlie-full.webp`, met bronfoto apart bewaard.
+
+### CHAR-RIDDERUS-01 — RidderUs, het oranje figuur
+
+**Bronbestand:** `FA536B09-396F-45D1-AA7D-50B1E54526DF.jpeg` (1024 × 1536 px, JPEG).  
+**Referentie:** het eenvoudige oranje figuur met afgeronde, verticale romp, twee korte benen, een groot cyaan vizier met donker petrolkleurige rand en een donkergrijze metalen helm met verticale kijkopeningen en een gele pompon.
+**Onveranderlijke herkenningspunten:**
+- heldere oranje romp en twee korte benen; geen armen zichtbaar in het gevestigde ontwerp;
+- groot afgerond cyaan vizier, omlijst met donker petrol;
+- grijze, koepelvormige ridder-/ruimtehelm met donkere verticale openingen;
+- gele, zachte pompon bovenop de helm;
+- stevige donker-petrol contour.
+**Vormregels:** behoud het herkenbare silhouet en de verhouding tussen helm, vizier en romp. Geen armen toevoegen, geen gezicht of menselijke ogen achter het vizier toevoegen, en de figuur niet als een generieke robot herontwerpen. De lichte achtergrond van de referentiefoto hoort niet bij de figuur zelf.  
+**Gewenste eerste asset:** volledig figuur als vrijstaand beeld met transparante achtergrond waar mogelijk; plus frontaal, driekwart en een kleine reeks toestandvarianten (rust, alert, verbaasd).  
+**Bestandsnaamvoorstel:** `assets/characters/ridderus/ridderus-full.webp`, met bronfoto apart bewaard.
+
+### CHAR-SCHILDJE-01 — Schildje, de schildpad
+
+**Bronbestand:** `IMG_0199.jpeg` (1152 × 1536 px, JPEG).  
+**Referentie:** echte groene pluchen schildpad met brede, licht gemêleerde groene schildvorm, korte flippers, pluizige stof, kleine lichte stik-/knopdetails en grote donkere ogen. De kop steekt naar voren en iets naar links.
+**Onveranderlijke herkenningspunten:**
+- zacht mosgroen, pluizig lijf;
+- breed, afgerond schild met zichtbare rand en subtiele naden/strepen;
+- vier korte flippers, geen lange poten;
+- vooruitstekende kop met grote donkere ogen;
+- klein lichtkleurig detail op het schild behouden waar zichtbaar en passend.
+**Vormregels:** het blijft een kleine pluchen schildpad; geen glad reptielenpantser, schubben of spitse snuit toevoegen. Het reliëf van de stof moet in zeefdrukvorm worden vertaald via gerichte halftoon en inkttextuur, niet weggepoetst tot vlak groen.  
+**Gewenste eerste asset:** volledig figuur, vrijstaand met transparante achtergrond waar mogelijk; voor het raadsel ook een duidelijke front-/driekwartpose en een kleine pose waarin Schildje iets lijkt te bewaken.  
+**Bestandsnaamvoorstel:** `assets/characters/schildje/schildje-full.webp`, met bronfoto apart bewaard.
+
+### Gedeelde assetregels voor de drie hoofdrolfiguren
+
+- **Bronidentiteit gaat voor stijl:** behoud proporties, gezicht, kleding en kenmerkende onderdelen van het speelgoed. Stijlconversie mag details vereenvoudigen, maar mag de figuur niet vervangen door een vergelijkbaar generiek ontwerp.
+- **Beeldstijl:** dezelfde verweerde, handgedrukte jarenzeventig-zeefdruk als de goedgekeurde art direction; warme crème papierkleur, grove halftoon op stof en subtiele kleurplaatverschuiving.
+- **Palet:** gebruik het vastgelegde palet als omgevings- en drukpalet: oud papier `#F3DDA8`, signaalrood `#D94330`, mosterdgeel `#E9B638`, donker petrol `#174B56`, bosgroen `#28513D` en inktzwart `#292A24`. Behoud de eigen oranje, bruine, groene en cyaan identiteitskleuren wanneer de herkenbaarheid die vereist; paletconsistentie betekent niet dat de personages opnieuw worden ingekleurd.
+- **Achtergrond:** losse karakterassets moeten zonder posterachtergrond bruikbaar zijn. Lever een transparante export als dat technisch lukt; anders een nette effen oud-papieren achtergrond zonder decoratieve voorwerpen.
+- **Geen tekst ingebakken:** namen, dialogen en puzzeltekst worden later als echte game-tekst toegevoegd.
+- **Consistentie:** ogen, contouren, textuursterkte en belichting moeten tussen de drie losse assets overeenkomen.
+- **Gebruik:** uitdaging 2 heeft de figuren nodig in een leesbare raadselopstelling. Maak hun gezichten en silhouettes op iPhone-formaat herkenbaar; druktextuur mag belangrijke trekken niet verbergen.
+- **Status:** de vier beelden zijn referenties uit de chat en zijn nog niet als assets in de repository opgeslagen. De definitieve exports moeten afzonderlijk worden toegevoegd en daarna hier met exacte bestandsnamen worden geregistreerd.
