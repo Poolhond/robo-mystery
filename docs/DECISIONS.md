@@ -112,7 +112,7 @@ Bronvolgorde: (1) dit beslissingsdocument voor goedkeuring/open status, (2) `CHA
 | Vrije verkenning | Wannes kiest zelf de volgorde van uitdagingen 1, 2 en 3. Hij kan uitdaging 4 vanaf het begin ontdekken, maar de deur opent pas als alle drie voltooid zijn en woord/kleur juist zijn |
 | Tussentijdse voortgang | Elke uitdaging kan worden onderbroken en hervat vanaf de exacte deelstap; opgeloste puzzels, bordstanden, relevante rondevoortgang, beloningen en slotinvoer blijven bewaard. Eén vaste terugknop brengt Wannes terug naar exact dezelfde controlekamer. Bij terugkeer blijft alle onafgewerkte voortgang bewaard, zodat hij later op exact dezelfde deelstap verdergaat. |
 | Opslaan | Lokale voortgang wordt na elke betekenisvolle actie opgeslagen; herladen of later terugkomen mag geen voortgang wissen |
-| Karakterset uitdaging 2 | **Charlie, RidderUs en Schildje** zijn de drie personages in het sleutelraadsel. Charlie is de aap; de uitspraken zijn: Charlie — “RidderUs heeft de sleutel”; RidderUs — “Ik heb de sleutel niet”; Schildje — “Charlie heeft de sleutel niet”. Alleen als Charlie de sleutel heeft, is precies één uitspraak waar. De panda hoort niet bij dit raadsel: die piept alleen even uit een lade als optionele easter egg en is aanwezig op het verjaardagsfeest. De losse bestanden staan in de repository-root, maar bestandstype, visuele overeenkomst en definitieve goedkeuring moeten nog worden gecontroleerd. Zie `docs/ASSET-REGISTER.md`. |
+| Karakterset uitdaging 2 | **Charlie, RidderUs en Schildje** zijn de drie personages in het sleutelraadsel. Charlie is de aap; de uitspraken zijn: Charlie — “RidderUs heeft de sleutel”; RidderUs — “Ik heb de sleutel niet”; Schildje — “Charlie heeft de sleutel niet”. Alleen als Charlie de sleutel heeft, is precies één uitspraak waar. De panda hoort niet bij dit raadsel: die piept alleen even uit een lade als optionele easter egg en is aanwezig op het verjaardagsfeest. De losse bestanden staan onder `assets/` en zijn door Michel gecontroleerd. Zie `docs/ASSET-REGISTER.md`. |
 | Karakterafwerking — optie A | Gekozen: sterke, uitgesproken verweerde jarenzeventig-zeefdruk met zichtbare korrel, inktspikkels, slijtage en subtiele drukregistratie. Herkenbare gezichtsdetails en silhouetten blijven helder. De groepssheet is alleen een conceptreferentie; losse karakterassets moeten apart worden beoordeeld. |
 | Bouwstatus | Oude prototypecode is niet bruikbaar als basis; er wordt geen gamecode gebouwd vóór goedkeuring van het volledige dossier |
 
@@ -130,7 +130,7 @@ Bronvolgorde: (1) dit beslissingsdocument voor goedkeuring/open status, (2) `CHA
 
 **Reeds vastgelegd, geen open keuze:** het kleurpalet staat vast zoals beschreven in `ART-DIRECTION.md`. De typografie gebruikt systeemlettertypen met een zwaar, grafisch karakter; er komen geen externe fonts. De finalehandeling, de exacte verjaardagsboodschap en het ontbreken van een extra opdracht na de boodschap zijn eveneens beslist en mogen niet opnieuw als open keuzes worden behandeld.
 
-## Assets die nog moeten worden gecontroleerd of gemaakt
+## Assets en aanvullende uitwerking
 
 - Aap, panda, schildpad en regenboogoctopus.
 - Achtergronden per uitdaging.
@@ -142,13 +142,13 @@ Bronvolgorde: (1) dit beslissingsdocument voor goedkeuring/open status, (2) `CHA
 - Doek, goochelvoorwerpen, knoppen, iconen en finale-/feestscène.
 - De drie gekozen easter eggs: (1) pandaschuif in het meubel, (2) vlieg en vleesetende plant, (3) dansend hartkunstwerk. De exacte klikzones en timing moeten nog worden uitgewerkt.
 
-Geef assets consistente namen en leg per bestand vast voor welke scène het dient. De actuele repository bevat elf afbeeldingsbestanden onder `assets/`; ze staan niet meer als negen losse bestanden in de root. Een afzonderlijke export voor `AST-BIRD-01` is niet teruggevonden. Onderscheid aanwezige bestanden, inspiratiebronnen, uitgesloten assets en nog te maken exports. De mechanische vogel is uitgesloten van het spel.
+Geef assets consistente namen en leg per bestand vast voor welke scène het dient. De aanwezige afbeeldingen zijn door Michel gecontroleerd; herhaal die controle niet. De actuele repository bevat elf afbeeldingsbestanden onder `assets/`; ze staan niet meer als negen losse bestanden in de root. Een afzonderlijke export voor `AST-BIRD-01` is niet teruggevonden. Onderscheid aanwezige bestanden, inspiratiebronnen, uitgesloten assets en nog te maken exports. De mechanische vogel is uitgesloten van het spel.
 
 ## Werkvolgorde
 
 1. Werk de technische ruimte verder uit: exacte compositie, plaatsing en niet-overlappende klikzones van de vier hoofdvoorwerpen en de drie reeds gekozen easter eggs.
 2. Werk de resterende spelersteksten, hints, schermtoestanden en finale af.
-3. Controleer en voeg de definitieve assets toe; stem het assetregister af op het spelconcept.
+3. Stem het assetregister af op het spelconcept en bepaal alleen welke aanvullende spelassets nog nodig zijn.
 4. Controleer het volledige dossier op tegenstrijdigheden.
 5. Schrijf pas daarna de master-prompt.
 6. Bouw de nieuwe game vanaf een schone basis, test op iPhone en voer één gerichte fixronde uit.
