@@ -19,7 +19,7 @@ De extensie `.png` is de naam in de repository; alleen op basis van een padnaam 
 | `assets/rooms/toy-laboratory/AST-ENV-01.png` | Speelgoedlaboratorium / maquette | Aanwezig; inhoud en rol als referentie verifiëren |
 | `assets/decor/AST-DECOR-01-red-heart.png` | Rood hart | Aanwezig; visuele inhoud en formaat controleren |
 | `assets/decor/AST-DECOR-02-birdhouse.png` | Vogelhuisje met vogel | Aanwezig; dit is het aanwezige vogelhuisje; niet automatisch gelijkstellen aan de aparte asset-ID AST-BIRD-01 |
-| `assets/decor/AST-DECOR-03-mechanical-bird.png` | Mechanische vogel | Aanwezig, maar uitgesloten van de spelcompositie; niet gebruiken zonder expliciete goedkeuring |
+| `assets/decor/AST-DECOR-03-mechanical-bird.png` | Mechanische vogel | Aanwezig, maar uitgesloten van het spel; niet gebruiken |
 | `assets/decor/AST-DECOR-04-pitcher-terrarium.png` | Vleesetende bekerplant | Aanwezig; visuele inhoud en formaat controleren |
 
 ## Belangrijke bevindingen en documentatiecorrecties
