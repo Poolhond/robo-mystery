@@ -1,6 +1,6 @@
 # De mysterieuze fabriek — Art Direction & Style Guide
 
-**Versie:** 0.7  
+**Versie:** 0.8  
 **Status:** Ontwerpfase — concept herzien, geen codeontwikkeling  
 **Primaire stijlkeuzes:** sterk verweerde zeefdruk; interface geïntegreerd in de vintage posterwereld.
 
@@ -258,3 +258,13 @@ De drie hoofdrolfiguren zijn **Charlie**, **RidderUs** en **Schildje**. Hun echt
 - De illustratie mag de volledige schermhoogte vullen, maar titel, teaser en knop moeten los leesbaar blijven.
 - Geen interface-elementen in de achtergrondillustratie bakken die later als echte interactieve bediening moeten werken.
 - Dit is de goedgekeurde **ontwerprichting**, niet een goedkeuring van definitieve gamecode of finale artwork.
+
+
+## 18. Beginscherm — personages blijven verborgen
+
+**Aanvullende beslissing:** Charlie, RidderUs en Schildje verschijnen **niet** op het beginscherm. Hun verschijning blijft een verrassing die de speler pas tijdens het avontuur ontdekt.
+
+- De fabriek, haar huisjes, snoepdaken, schoorstenen en mysterieuze lichtjes dragen de postercompositie.
+- Geen silhouetten, gezichten, schaduwen of herkenbare hints die de drie personages op het beginscherm verraden.
+- De animaties blijven beperkt tot rook, enkele fabrieklichtjes en een subtiele reactie van de startknop.
+- De drie personages blijven geregistreerd als assets voor de latere spelmomenten; deze keuze verandert hun asset-ID's of art direction niet.
