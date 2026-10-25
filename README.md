@@ -16,6 +16,7 @@ Gebruik deze documenten als projectdossier:
 - [Spelconcept](docs/GAME-CONCEPT.md) — verhaal, wereld, personages en overkoepelende spelstructuur.
 - [Uitdagingen](docs/CHALLENGES.md) — puzzelwerking, oplossingen, hints, feedback en finale.
 - [Technische specificatie](docs/TECH-SPEC.md) — technische randvoorwaarden, opslag/herstel en acceptatietests; nog afhankelijk van afronding en goedkeuring van het volledige dossier.
+- [Scherm- en toestandspecificatie](docs/SCREEN-SPEC.md) — gedetailleerde scherm-ID's, puzzel-deeltoestanden, teksten, hints, fout/succesfeedback en finaleovergangen.
 - [Art Direction & Style Guide](docs/ART-DIRECTION.md) — visuele identiteit, kleuren, zeefdruktextuur en interface.
 - [Assetregister en referenties](docs/ASSET-REGISTER.md) — beeldreferenties, asset-ID's, status en ontbrekende bestanden.
 - [Assetaudit — 25 oktober 2026](docs/ASSET-AUDIT-2026-10-25.md) — momentopname van de negen geüploade afbeeldingen en het voorgestelde doelpad per bestand.
@@ -58,9 +59,9 @@ De oude prototypecode is geen basis voor de uiteindelijke game. De nieuwe game w
 
 1. README, beslissingen, uitdagingen, spelconcept en technische specificatie bijwerken — **eerste synchronisatieronde uitgevoerd**.
 2. Assetregister afstemmen op de negen bestanden die aantoonbaar in de repository staan — **inventaris bijgewerkt; werkelijke bestandstypen en visuele overeenkomst nog te controleren**.
-3. Los de resterende inhoudelijke tegenstrijdigheden op, vooral de personages in uitdaging 2.
+3. Scherm- en toestandspecificatie toegevoegd; controleer teksten en hints op onderlinge consistentie.
 4. Controleer en structureer de definitieve assets en werk de klikzones/easter eggs uit.
-5. Rond alle spelersteksten, hints, schermtoestanden en match-3-testborden af.
+5. Valideer de drie vaste match-3-startborden met een oplosbaarheidstest; schermtoestanden en een eerste tekst-/hintinventaris staan nu in SCREEN-SPEC.md, maar moeten nog inhoudelijk worden nagekeken.
 6. Voer een laatste dossiercontrole uit en maak pas daarna de master-prompt.
 
 Gebruik [GitHub-issue #1](https://github.com/Poolhond/robo-mystery/issues/1) als centrale checklist voor de voorbereiding van de master-prompt.
