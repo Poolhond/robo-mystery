@@ -30,7 +30,7 @@
 | Uitdaging 4 — bediening | De ster met oog verschijnt automatisch na uitdaging 2; Wannes typt zelf het woord en kiest zelf een kleur; grote knop OPEN DE DEUR |
 | Uitdaging 4 — oplossing | Ster met oog (uitdaging 2), woord BAL (uitdaging 1), kleur signaalrood (uitdaging 3); onbeperkte pogingen |
 | Startscherm en wereld | De maquette is uitsluitend het startscherm. Na Start onderzoekt Wannes zelf de technische ruimte. |
-| Technische ruimte | De volledige ruimte is tegelijk zichtbaar op het iPhone-scherm; alle vier de voorwerpen zijn tegelijk herkenbaar. Tikken op een voorwerp opent de bijbehorende interactie. |
+| Technische ruimte | Een geheim technisch laboratorium met bedieningspanelen, meetinstrumenten, metalen lockers en een gesloten deur; retrofuturistisch en mysterieus, niet griezelig. De volledige ruimte is tegelijk zichtbaar op het iPhone-scherm; alle vier de voorwerpen zijn tegelijk herkenbaar. Tikken op een voorwerp opent de bijbehorende interactie. |
 | Voorwerpen in de technische ruimte | Computerscherm = uitdaging 1; locker met cijfercode = uitdaging 2; tafel met bekers = uitdaging 3; grote deur = uitdaging 4. |
 | Vrije verkenning | Wannes kiest zelf de volgorde van uitdagingen 1, 2 en 3. Hij kan uitdaging 4 vanaf het begin ontdekken, maar de deur opent pas als alle drie voltooid zijn en woord/kleur juist zijn |
 | Tussentijdse voortgang | Elke uitdaging kan worden onderbroken en hervat vanaf de exacte deelstap; opgeloste puzzels, bordstanden, relevante rondevoortgang, beloningen en slotinvoer blijven bewaard |
