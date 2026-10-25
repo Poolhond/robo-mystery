@@ -2,7 +2,7 @@
 
 ## Samenvatting
 
-De actuele GitHub-bestandsstructuur bevat **elf afbeeldingsbestanden** onder `assets/`. De eerdere verwijzing naar negen bestanden was verouderd. Deze audit bevestigt de paden en GitHub-bestandsgrootten, maar niet de werkelijke afbeeldingsafmetingen, transparantie of visuele inhoud. Die moeten worden gecontroleerd door de ontwikkelaar of met een afzonderlijke beeldinspectie.
+De actuele GitHub-bestandsstructuur bevat **elf afbeeldingsbestanden** onder `assets/`. De eerdere verwijzing naar negen bestanden was verouderd. Michel heeft de aanwezige afbeeldingen zelf gecontroleerd op visuele inhoud, afmetingen en transparantie. Deze audit is de repository-inventaris; de ontwikkelaar hoeft die visuele controle niet te herhalen.
 
 De extensie `.png` is de naam in de repository; alleen op basis van een padnaam kan het werkelijke bestandsformaat niet worden bewezen. Er zijn in deze audit geen afbeeldingen geconverteerd, hernoemd, verplaatst of verwijderd.
 
@@ -10,16 +10,16 @@ De extensie `.png` is de naam in de repository; alleen op basis van een padnaam 
 
 | Huidig repositorypad | Asset | Status / volgende actie |
 |---|---|---|
-| `assets/characters/charlie/AST-CHARLIE-01-charlie-screenprint.png` | Charlie | Aanwezig; visuele overeenkomst, werkelijke afmetingen en formaat controleren |
+| `assets/characters/charlie/AST-CHARLIE-01-charlie-screenprint.png` | Charlie | Aanwezig; door Michel visueel en technisch gecontroleerd |
 | `assets/characters/ridderus/AST-RIDDERUS-01-ridderus-screenprint.png` | RidderUs | Aanwezig; visuele overeenkomst, werkelijke afmetingen en formaat controleren |
 | `assets/characters/schildje/AST-SCHILDJE-01-schildje-screenprint.png` | Schildje | Aanwezig; visuele overeenkomst, werkelijke afmetingen en formaat controleren |
-| `assets/characters/panda/AST-PANDA-01-panda-screenprint.png` | Panda | Aanwezig; visuele inhoud en rol als optioneel personage controleren |
-| `assets/title-screen/AST-TITLE-01-title-poster.png` | Titelposter | Aanwezig; compositie, afmetingen en werkelijke bestandstype controleren |
-| `assets/rooms/control-room/AST-ROOM-01-control-room-reference.png` | Vaste controlekamerreferentie | Aanwezig; vaste ruimtecompositie, afmetingen en werkelijke bestandstype controleren |
+| `assets/characters/panda/AST-PANDA-01-panda-screenprint.png` | Panda | Aanwezig; door Michel gecontroleerd; optionele easter egg en finale |
+| `assets/title-screen/AST-TITLE-01-title-poster.png` | Titelposter | Aanwezig; door Michel gecontroleerd; goedgekeurde richting voor titelposter |
+| `assets/rooms/control-room/AST-ROOM-01-control-room-reference.png` | Vaste controlekamerreferentie | Aanwezig; door Michel gecontroleerd; vaste ruimtecompositie |
 | `assets/rooms/toy-laboratory/AST-ENV-01.png` | Speelgoedlaboratorium / maquette | Aanwezig; inhoud en rol als referentie verifiëren |
-| `assets/decor/AST-DECOR-01-red-heart.png` | Rood hart | Aanwezig; visuele inhoud en formaat controleren |
+| `assets/decor/AST-DECOR-01-red-heart.png` | Rood hart | Aanwezig; door Michel gecontroleerd |
 | `assets/decor/AST-DECOR-02-birdhouse.png` | Vogelhuisje met vogel | Aanwezig; dit is het aanwezige vogelhuisje; niet automatisch gelijkstellen aan de aparte asset-ID AST-BIRD-01 |
-| `assets/decor/AST-DECOR-03-mechanical-bird.png` | Mechanische vogel | Aanwezig, maar uitgesloten van het spel; niet gebruiken |
+| `assets/decor/AST-DECOR-03-mechanical-bird.png` | Mechanische vogel | Aanwezig, uitgesloten van het spel; niet gebruiken |
 | `assets/decor/AST-DECOR-04-pitcher-terrarium.png` | Vleesetende bekerplant | Aanwezig; visuele inhoud en formaat controleren |
 
 ## Belangrijke bevindingen en documentatiecorrecties
@@ -35,9 +35,10 @@ De extensie `.png` is de naam in de repository; alleen op basis van een padnaam 
 
 De afbeeldingen zijn inspiratiebronnen voor een eigen, samenhangende spelwereld. De ontwikkelaar moet herkenbare kenmerken behouden waar die belangrijk zijn, maar mag compositie, schaal, uitsnede en context aanpassen. Nieuwe achtergronden, animaties en spelobjecten mogen worden gegenereerd waar nodig. Alles moet visueel op elkaar aansluiten en goed schalen op een mobiel scherm. Geen uitgesloten ontwerp gebruiken.
 
-## Nog te controleren tijdens de technische bouw
+## Verantwoordelijkheid tijdens de technische bouw
 
-- Werkelijke beeldformaten, pixelafmetingen, transparantie en bestandsgrootte in bytes.
+- Gebruik de door Michel gecontroleerde bestanden op de bestaande paden.
+- Zorg voor correcte schaling, uitsnede en positionering in de spelwereld; vervang of converteer bronbestanden niet stilzwijgend.
 - Visuele overeenkomst van personages met de goedgekeurde referenties.
 - Gebruik van de controlekamerafbeelding als vaste compositiereferentie, met afzonderlijke interactieve zones.
 - Welke ontbrekende puzzelobjecten beter als schaalbare interface/CSS-vormen kunnen worden gemaakt en welke een illustratie nodig hebben.
