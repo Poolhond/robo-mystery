@@ -223,7 +223,7 @@ Een eerste gezamenlijke conceptsheet is gegenereerd om de samenhang van de drie 
 - **Compositie:** verticaal, bedoeld voor iPhone-verhouding 9:19,5.
 - **Personages:** geen Charlie, RidderUs of Schildje zichtbaar; hun aanwezigheid blijft een verrassing.
 - **Animatieplan:** de poster zelf blijft statisch; later kunnen rook, fabrieklichtjes en startknop afzonderlijk subtiel bewegen.
-- **Status:** ontwerp goedgekeurd als richting; bestand `assets/title-screen/AST-TITLE-01-title-poster.png` aanwezig, maar werkelijke bestandstype en overeenkomst met de definitieve export moeten nog worden gecontroleerd.
+- **Status:** ontwerp goedgekeurd als richting; bestand `assets/title-screen/AST-TITLE-01-title-poster.png` aanwezig en door Michel gecontroleerd.
 - **Belangrijk:** als de knop in de afbeelding behouden blijft, moet later worden beslist of de volledige poster als één klikbaar vlak werkt of dat de knop grafisch wordt afgedekt/vervangen door een echte toegankelijke HTML-knop. De animaties en bediening mogen niet in de afbeeldingspixels worden ingebakken.
 
 
@@ -260,14 +260,14 @@ De volgende elf bestanden zijn teruggevonden onder de huidige `assets/`-paden. D
 | `assets/rooms/control-room/AST-ROOM-01-control-room-reference.png` | Vaste controlekamerreferentie | Aanwezig; PNG-formaat bevestigd door Michel; afmetingen en definitieve export controleren |
 | `assets/decor/AST-DECOR-01-red-heart.png` | Rood hart | Aanwezig; PNG-formaat bevestigd door Michel; afmetingen en definitieve export controleren |
 | `assets/decor/AST-DECOR-02-birdhouse.png` | Vogelhuisje met vogel | Aanwezig; PNG-formaat bevestigd door Michel; visuele overeenkomst controleren |
-| `assets/decor/AST-DECOR-03-mechanical-bird.png` | Mechanische vogel | Aanwezig, maar voorlopig niet inzetten; wacht op expliciete ontwerpgoedkeuring |
+| `assets/decor/AST-DECOR-03-mechanical-bird.png` | Mechanische vogel | Aanwezig, maar uitgesloten van het spel; niet gebruiken |
 | `assets/decor/AST-DECOR-04-pitcher-terrarium.png` | Vleesetende bekerplant | Aanwezig; door Michel gecontroleerd |
 | `assets/rooms/toy-laboratory/AST-ENV-01.png` | Speelgoedlaboratorium | Aanwezig; door Michel gecontroleerd |
 | `assets/characters/panda/AST-PANDA-01-panda-screenprint.png` | Panda | Aanwezig; visuele overeenkomst en afmetingen controleren |
 
 ### Voorzichtig omgaan met extensies
 
-Alle elf huidige afbeeldingsbestanden hebben een `.png`-pad in GitHub. De extensie op zichzelf bevestigt niet het interne bestandsformaat. De namen en paden zijn opgeschoond; de oorspronkelijke beeldbytes zijn behouden. De mechanische vogel staat in de map met decorassets om hem veilig te bewaren, maar mag niet in de kamercompositie of game worden gebruikt. Dit is een uitsluiting, geen open ontwerpkeuze.
+Alle elf huidige afbeeldingsbestanden hebben een `.png`-pad in GitHub. De extensie op zichzelf bevestigt niet het interne bestandsformaat. De namen en paden zijn opgeschoond; de oorspronkelijke beeldbytes zijn behouden. De mechanische vogel staat in de map met decorassets om hem veilig te bewaren, maar mag niet in de kamercompositie of game worden gebruikt. Dit is een vaste uitsluiting, geen open ontwerpkeuze.
 
 
 ## Assetorganisatie — synchronisatie 25 oktober 2026
