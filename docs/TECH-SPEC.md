@@ -1,7 +1,7 @@
 # De mysterieuze fabriek — Technische specificatie
 
 **Versie:** 1.4  
-**Status:** Specificatie voor één zelfstandige bouwopdracht. Na goedkeuring van het dossier wordt deze specificatie samen met de master-prompt gebruikt om het volledige spel te laten bouwen, testen en opleveren. Er wordt geen aparte voorafgaande technische uitwerkronde vereist.  
+**Status:** Technische specificatie voor de bouwfase. Na finale dossiercontrole en expliciete goedkeuring wordt deze specificatie samen met de master-prompt gebruikt om het volledige spel te bouwen, testen en opleveren. Een aparte technische uitwerkronde vooraf is niet vereist.  
 **Samenhang:** `docs/GAME-CONCEPT.md`, `docs/CHALLENGES.md`, `docs/DECISIONS.md` en `docs/ART-DIRECTION.md` zijn leidend voor respectievelijk spelverloop, puzzels, goedgekeurde ontwerpkeuzes en visuele stijl. Bij tegenstrijdigheid moet de afwijking eerst in het dossier worden opgelost.
 
 ## 1. Platform en grenzen
