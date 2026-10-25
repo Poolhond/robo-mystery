@@ -1,6 +1,6 @@
 # De mysterieuze fabriek — Uitdagingen
 
-**Versie:** 0.9  
+**Versie:** 1.0  
 **Status:** Uitgewerkt voorontwerp; nog niet bouwklaar. Er wordt nog geen gamecode gebouwd.  
 **Focus van deze revisie:** vrije verkenning van het laboratorium; uitdaging 4 vereenvoudigd tot woord en kleur, met automatische symboolherkenning.
 
@@ -26,6 +26,8 @@
 **Beloning die hier vervalt:** de ster met het oog hoort niet langer bij uitdaging 1. Die wordt voortaan verdiend in **uitdaging 2**.  
 **Geschatte speelduur:** ongeveer 3 minuten, afhankelijk van het aantal pogingen.  
 **Bediening:** tik op een symbool en vervolgens op een direct aangrenzend symbool om ze te verwisselen. Het bord en alle belangrijke bediening blijven zichtbaar op een iPhone in staande stand.
+
+**Visuele presentatie:** het match-3-spel verschijnt alsof het op de bestaande retro-computermonitor in de controlekamer draait. Wanneer Wannes de computer aantikt, zoomt de camera in op de monitor en wordt het spelbord daarop zichtbaar, met de bestaande verweerde jarenzeventig-zeefdrukstijl, korrel, inktspikkels en het vastgelegde kleurpalet. Het wordt geen los modern gamevenster en krijgt geen afwijkende grafische stijl. De spelbediening moet wel groot en duidelijk genoeg blijven voor iPhone in staande stand.
 
 ### Gemeenschappelijke spelregels voor de drie levels
 
