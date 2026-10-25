@@ -1,6 +1,6 @@
 # De mysterieuze fabriek — Beslissingen en open punten
 
-**Versie:** 1.9  
+**Versie:** 2.0  
 **Doel:** één betrouwbare plek voor besluiten en open punten, zodat de inhoud niet telkens opnieuw wordt bedacht.
 
 ## Vastgelegd
@@ -20,6 +20,7 @@
 | Thema | Een mysterieuze speelgoedfabriek met goocheltrucs, puzzels en raadsels |
 | Opbouw | Vrije verkenning van het laboratorium; uitdagingen 1–3 in zelfgekozen volgorde; uitdaging 4 is de grote deur en het slot |
 | Platform | Mobile-first webspel, GitHub Pages, geen account |
+| Beginscherm | Combineer een vintage filmposter met subtiele animaties: langzame schoorsteenrook, af en toe oplichtende fabrieklichtjes, een optionele tikbare easter egg en een zachte startknop-puls. Ontwerp voor iPhone-verhouding 9:19,5; titel en startknop blijven duidelijk en binnen de veilige zones. Zie `docs/ART-DIRECTION.md`. |
 | Taal | Nederlands |
 | Bouwmethode | Eerst het volledige ontwerpdossier afronden en goedkeuren, daarna één master-prompt, bouwen en testen op iPhone |
 | Uitleg aan de speler | Minimale uitleg: korte mysterieuze introductie; Wannes ontdekt bediening en doelen grotendeels zelf. |
