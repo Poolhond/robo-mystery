@@ -1,6 +1,6 @@
 # De mysterieuze fabriek — Beslissingen en open punten
 
-**Versie:** 5.5  
+**Versie:** 5.6  
 **Doel:** één betrouwbare plek voor goedgekeurde besluiten en open punten, zodat de inhoud niet telkens opnieuw wordt bedacht.
 
 ## Dossierstatus en bronvolgorde
@@ -23,6 +23,7 @@ Bronvolgorde: (1) dit beslissingsdocument voor goedkeuring/open status, (2) `CHA
 | Finalehandeling | Wannes drukt op een grote rode feestknop. Die activeert de lichtjes en confetti en vormt de laatste interactieve handeling van het spel. |
 | Verjaardagsboodschap — ontwerpbeslissing 34 | Na het indrukken van de feestknop verschijnt in het rustige eindbeeld de persoonlijke boodschap: **“Proficiat Wannes! Dat verdient een cadeau.”** De boodschap is kort, duidelijk en vormt de overgang naar de echte verrassing. |
 | Echte verrassing na het spel | De persoonlijke boodschap “Proficiat Wannes! Dat verdient een cadeau.” wijst erop dat er een echt cadeau volgt. Er is geen extra opdracht of raadsel nodig in het eindbeeld. |
+| Schaal en schermformaten — ontwerpbeslissing 44 | **Optie C — vaste spelwereld met slimme schaal.** De goedgekeurde scène blijft volledig zichtbaar en wordt niet opnieuw samengesteld of bijgesneden. Illustratie, interface en interactieve zones schalen mee met het scherm; op iPhone blijven bediening en raakvlakken comfortabel bereikbaar met één duim. |
 | Beweging in de werkplaats — ontwerpbeslissing 43 | **Optie A — alleen de belangrijkste bewegingen.** Op de titelpagina beweegt de schoorsteenrook subtiel. In de werkplaats reageren interactieve voorwerpen met de eerder vastgelegde korte beweging of oplichting. De rest van de ruimte blijft stil; geen voortdurende decoratieve animaties die de aandacht afleiden. |
 | Herhalen van easter eggs — ontwerpbeslissing 42 | **Optie A — volledige animatie telkens opnieuw.** Elke keer dat Wannes een easter egg opnieuw activeert, speelt de volledige bijbehorende animatie opnieuw. Dit blijft optioneel en blokkeert de hoofdvoortgang niet. |
 | Moeilijkheid easter eggs — ontwerpbeslissing 41 | **Optie A — makkelijk te ontdekken.** De drie easter eggs mogen tijdens gewone nieuwsgierige verkenning gevonden worden. Ze blijven leuke extraatjes, geen moeilijke verborgen zoektocht. Subtiele animaties kunnen aandacht trekken, maar er komen geen extra uitleg of markeringen. |
