@@ -21,15 +21,15 @@ De bestanden in `assets/` zijn **geen letterlijke inventaris van wat er in het s
 | AST-DECOR-02 | Houten vogelhuisje met rood-oranje, gefacetteerde vogel die uit de opening kijkt | Decorstuk voor de controlekamer | Ontwerp uitgewerkt; bestand `assets/decor/AST-DECOR-02-birdhouse.png` aanwezig; PNG-formaat bevestigd door Michel |
 | AST-DECOR-03 | Mechanische bouwsteen-vogel met roestoranje lichaam, donkerblauwe uitgespreide vleugels en ronde blauwe displaybasis | Decorstuk voor de controlekamer | Ontwerp uitgewerkt; bestand `assets/decor/AST-DECOR-03-mechanical-bird.png` aanwezig; **niet gebruiken zonder expliciete goedkeuring** |
 | AST-DECOR-04 | Vleesetende bekerplant in witte en turquoise kweekkast met opengeklapt deksel | Decorstuk en interactieve easter egg in de controlekamer | Ontwerp uitgewerkt; bestand `assets/decor/AST-DECOR-04-pitcher-terrarium.png` aanwezig; PNG-formaat bevestigd door Michel |
-| AST-ROOM-01 | De door Michel aangeleverde verticale afbeelding van de controlekamer: computer links, hoge groene cijfercode-locker in het midden, grote rode deur rechts en tafel met drie bekers vooraan. Bevat ook het hartkunstwerk en de vleesetende plant. | **Vaste visuele basis van de speelruimte** en referentie voor de posities van de vier hoofdobjecten en drie easter eggs | Door Michel bevestigd als dé ruimte; bestand `assets/rooms/control-room/AST-ROOM-01-control-room-reference.png` aanwezig. PNG-formaat bevestigd door Michel; afmetingen en visuele export nog te controleren |
+| AST-ROOM-01 | De door Michel aangeleverde verticale afbeelding van de controlekamer: computer links, hoge groene cijfercode-locker in het midden, grote rode deur rechts en tafel met drie bekers vooraan. Bevat ook het hartkunstwerk en de vleesetende plant. | **Vaste visuele basis van de speelruimte** en referentie voor de posities van de vier hoofdobjecten en drie easter eggs | Door Michel bevestigd als dé ruimte; bestand `assets/rooms/control-room/AST-ROOM-01-control-room-reference.png` aanwezig en door Michel gecontroleerd |
 | REF-01 | Kamer 3 — The Signal Room: signaalmonitor, satellietschotel, technische apparatuur, verhaalpaneel, inventaris en score | Primaire referentie voor omgevingsstijl en geïntegreerde game-interface | Kernreferentie |
 | REF-02 | Karakter-/conceptblad: The Signal Bird, Winged Guardian, The Heart Mark en The Golden Clue | Karakterpresentatie, symbolen en objecten | Kernreferentie |
 | REF-03 | Overzicht met signaalvogel, aap, panda, octopus, schildpad en aanvullende symbolen | Verhouding tussen personages, aanzichten en karakterbladen | Kernreferentie |
 | REF-04 | Het speelgoedlaboratorium: kleine geometrische huisjes, gestreepte schoorstenen, kleurrijke daken en een knoppenroute op een groene basis | Specifieke omgevingsconceptreferentie | Kernreferentie voor deze wereld |
 | REF-05 | Verticale poster met kinderen en geometrische achtergrondvlakken, geometrische achtergrondvlakken | Aanvullende compositiereferentie; robotfiguur niet overnemen | Aanvullend |
-| AST-TURTLE-01 | Verweerde zeefdrukillustratie van de groene pluchen schildpad, gebaseerd op Michels foto | Karakterasset: de schildpad / geheime bewaker | Bestand aanwezig: `assets/characters/schildje/AST-SCHILDJE-01-schildje-screenprint.png`; visuele overeenkomst met de referentie nog controleren |
+| AST-TURTLE-01 | Verweerde zeefdrukillustratie van de groene pluchen schildpad, gebaseerd op Michels foto | Karakterasset: de schildpad / geheime bewaker | Bestand aanwezig: `assets/characters/schildje/AST-SCHILDJE-01-schildje-screenprint.png`; door Michel gecontroleerd |
 | AST-BIRD-01 | Zeefdrukillustratie van de houten nestkast met rood-oranje zangvogel, gebaseerd op Michels foto | Karakter-/omgevingsasset voor de signaalvogel en haar nestkast | Een afzonderlijke definitieve export is niet teruggevonden in de huidige tree; niet verwarren met het aanwezige bestand AST-DECOR-02-birdhouse.png |
-| AST-ENV-01 | Zeefdrukillustratie van het fysieke speelgoedlaboratorium | Primaire omgevingsasset voor het speelgoedlaboratorium | Bestand aanwezig: `assets/rooms/toy-laboratory/AST-ENV-01.png`; visuele controle nog nodig |
+| AST-ENV-01 | Zeefdrukillustratie van het fysieke speelgoedlaboratorium | Primaire omgevingsasset voor het speelgoedlaboratorium | Bestand aanwezig: `assets/rooms/toy-laboratory/AST-ENV-01.png`; door Michel gecontroleerd |
 | AST-ROBOT-01 | Eerder gegenereerde zeefdrukillustratie van de witte speelgoedrobot | Vervallen asset; robot is volledig uit het spelconcept geschrapt | Niet gebruiken; archiefreferentie, geen gameasset |
 | REF-CHAR-02 | Groepsposter met Charlie, RidderUs en Schildje samen | Compositie- en stijlreferentie voor de drie hoofdrolfiguren van uitdaging 2 | Referentie uit chat; nog niet als repo-bestand opgeslagen |
 | CHAR-CHARLIE-01 | Echte pluchen Charlie, bruine aap met lichtbruine snuit en oranje jas met twee knopen | Karakterreferentie voor het logische raadsel in uitdaging 2 | Referentie uit chat; losse goedgekeurde asset nog te maken |
@@ -61,7 +61,7 @@ De bestanden in `assets/` zijn **geen letterlijke inventaris van wat er in het s
 **Assetrichting:** behoud de huisvormen, drie gestreepte schoorstenen, daken met veelkleurige korrels, groene basis en route van knopen naar de voordeur.  
 **Stijlbehandeling:** sterke, verweerde zeefdruk op warm crème papier; signaalrood, mosterdgeel, donker petrol en diep groen; halftoon, inktspikkels en onregelmatige drukdekking.  
 **Compositie:** de volledige maquette als centraal onderwerp, met grafische cirkels op de achtergrond en een posterachtige uitsnede.  
-**Bestand:** aanwezig als `assets/rooms/toy-laboratory/AST-ENV-01.png`. De visuele inhoud en overeenkomst met de beschreven maquette moeten nog worden gecontroleerd.
+**Bestand:** aanwezig als `assets/rooms/toy-laboratory/AST-ENV-01.png`. Door Michel gecontroleerd; gebruik als omgevingsreferentie voor het speelgoedlaboratorium.
 
 ## Derde uitgewerkte asset — AST-BIRD-01
 
@@ -77,11 +77,11 @@ De bestanden in `assets/` zijn **geen letterlijke inventaris van wat er in het s
 **Assetrichting:** behoud het zachte, pluizige groene lijf, de brede schild, vier korte flippers, de lichte stik-/knopdetails en de grote donkere ogen.  
 **Stijlbehandeling:** sterke verweerde zeefdruk op warm crème papier; diep mosgroen en geelgroen, met signaalrode en mosterdgele drukvlakken en donker petrol; grove halftoon, korrel, inktspikkels en lichte kleurplaatverschuiving.  
 **Compositie:** schildpad centraal, als herkenbaar personage met eenvoudige geometrische achtergrondvlakken; geen extra tekst.  
-**Bestand:** bestand `assets/characters/schildje/AST-SCHILDJE-01-schildje-screenprint.png` aanwezig; afmetingen en visuele overeenkomst moeten nog worden gecontroleerd.
+**Bestand:** bestand `assets/characters/schildje/AST-SCHILDJE-01-schildje-screenprint.png` aanwezig; door Michel gecontroleerd.
 
 ## Nog te maken of te bevestigen game-assets
 
-- **AST-PANDA-01:** panda-knuffel in vintage zeefdrukstijl — bestand aanwezig: `assets/characters/panda/AST-PANDA-01-panda-screenprint.png`; visuele controle nog nodig.
+- **AST-PANDA-01:** panda-knuffel in vintage zeefdrukstijl — bestand aanwezig: `assets/characters/panda/AST-PANDA-01-panda-screenprint.png`; door Michel gecontroleerd.
 
 De volgende lijst beschrijft assets die inhoudelijk nodig kunnen zijn voor de huidige uitdagingen. Ze zijn niet automatisch al als bestanden aanwezig in de repository. Definitieve selectie en prioriteit volgen na het uitwerken van de laboratoriumroute.
 
@@ -182,7 +182,7 @@ Controleer de originele bestanden één voor één, bevestig de rol van elke ref
 
 ## Hoofdrolfiguren — uitdaging 2
 
-De drie losse illustraties staan al in de repository. De onderstaande `.jpg`-paden uit de eerdere uploadplanning zijn vervallen; gebruik de actuele `.png`-paden uit de gecontroleerde GitHub-inventaris. De visuele overeenkomst met de bedoelde definitieve exports moet nog worden bevestigd.
+De drie losse illustraties staan al in de repository. De onderstaande `.jpg`-paden uit de eerdere uploadplanning zijn vervallen; gebruik de actuele `.png`-paden uit de gecontroleerde GitHub-inventaris. Michel heeft de afbeeldingen gecontroleerd.
 
 | Asset-ID | Personage | Repositorypad / bestandsnaam |
 |---|---|---|
@@ -191,8 +191,7 @@ De drie losse illustraties staan al in de repository. De onderstaande `.jpg`-pad
 | AST-SCHILDJE-01 | Schildje | `assets/characters/schildje/AST-SCHILDJE-01-schildje-screenprint.png` |
 
 **Bestandsafspraken**
-- Het huidige repositorypad eindigt op `.png`; de interne bestandsindeling en afmetingen zijn nog niet technisch gecontroleerd.
-- Transparantie en achtergrond moeten per bestand worden gecontroleerd; leid dit niet af uit oude uploadnotities.
+- Michel heeft de afbeeldingen en hun technische eigenschappen gecontroleerd. Gebruik de bestaande bestanden en paden; converteer of overschrijf ze niet stilzwijgend.
 - ID's zijn stabiel en worden niet gewijzigd als later een export wordt vervangen.
 - Bij een latere transparante of opgeschoonde export krijgt die een aparte variantnaam, bijvoorbeeld `-transparent.png`; overschrijf het origineel niet stilzwijgend.
 - Deze versie is de gekozen karakterstijl: minimalistische vectorvormen met sterke, verweerde zeefdruktextuur.
@@ -254,16 +253,16 @@ De volgende elf bestanden zijn teruggevonden onder de huidige `assets/`-paden. D
 
 | Huidige bestandsnaam in GitHub-root | Voorlopige koppeling | Status / actie |
 |---|---|---|
-| `assets/characters/charlie/AST-CHARLIE-01-charlie-screenprint.png` | Charlie | Aanwezig; bestandstype en visuele overeenkomst controleren |
+| `assets/characters/charlie/AST-CHARLIE-01-charlie-screenprint.png` | Charlie | Aanwezig; door Michel gecontroleerd |
 | `assets/characters/ridderus/AST-RIDDERUS-01-ridderus-screenprint.png` | RidderUs | Aanwezig; bestandstype en visuele overeenkomst controleren |
 | `assets/characters/schildje/AST-SCHILDJE-01-schildje-screenprint.png` | Schildje | Aanwezig; bestandstype en visuele overeenkomst controleren |
-| `assets/title-screen/AST-TITLE-01-title-poster.png` | Titelposter | Aanwezig; PNG-formaat bevestigd door Michel; afmetingen en definitieve export controleren |
+| `assets/title-screen/AST-TITLE-01-title-poster.png` | Titelposter | Aanwezig; door Michel gecontroleerd |
 | `assets/rooms/control-room/AST-ROOM-01-control-room-reference.png` | Vaste controlekamerreferentie | Aanwezig; PNG-formaat bevestigd door Michel; afmetingen en definitieve export controleren |
 | `assets/decor/AST-DECOR-01-red-heart.png` | Rood hart | Aanwezig; PNG-formaat bevestigd door Michel; afmetingen en definitieve export controleren |
 | `assets/decor/AST-DECOR-02-birdhouse.png` | Vogelhuisje met vogel | Aanwezig; PNG-formaat bevestigd door Michel; visuele overeenkomst controleren |
 | `assets/decor/AST-DECOR-03-mechanical-bird.png` | Mechanische vogel | Aanwezig, maar voorlopig niet inzetten; wacht op expliciete ontwerpgoedkeuring |
-| `assets/decor/AST-DECOR-04-pitcher-terrarium.png` | Vleesetende bekerplant | Aanwezig; afmetingen en definitieve export controleren |
-| `assets/rooms/toy-laboratory/AST-ENV-01.png` | Speelgoedlaboratorium | Aanwezig; visuele overeenkomst en afmetingen controleren |
+| `assets/decor/AST-DECOR-04-pitcher-terrarium.png` | Vleesetende bekerplant | Aanwezig; door Michel gecontroleerd |
+| `assets/rooms/toy-laboratory/AST-ENV-01.png` | Speelgoedlaboratorium | Aanwezig; door Michel gecontroleerd |
 | `assets/characters/panda/AST-PANDA-01-panda-screenprint.png` | Panda | Aanwezig; visuele overeenkomst en afmetingen controleren |
 
 ### Voorzichtig omgaan met extensies
@@ -273,6 +272,6 @@ Alle elf huidige afbeeldingsbestanden hebben een `.png`-pad in GitHub. De extens
 
 ## Assetorganisatie — synchronisatie 25 oktober 2026
 
-De elf aanwezige afbeeldingsbestanden met `.png`-paden staan onder `assets/characters/`, `assets/title-screen/`, `assets/rooms/control-room/`, `assets/rooms/toy-laboratory/` en `assets/decor/`. De verplaatsing en hernoeming hergebruiken de bestaande Git-blobs; de bestandsinhoud is niet opnieuw gecodeerd of gecomprimeerd. Zie [de assetaudit](ASSET-AUDIT-2026-10-25.md) voor de actuele paden en resterende controles.
+De elf aanwezige afbeeldingsbestanden met `.png`-paden staan onder `assets/characters/`, `assets/title-screen/`, `assets/rooms/control-room/`, `assets/rooms/toy-laboratory/` en `assets/decor/`. Zie [de assetaudit](ASSET-AUDIT-2026-10-25.md) voor de actuele paden. Michel heeft de afbeeldingen zelf gecontroleerd.
 
-De elf afbeeldingsbestanden zijn aanwezig in de repository. De speelgoedlaboratorium- en panda-bestanden zijn aanwezig; controleer nog de visuele inhoud en afmetingen. Nieuwe afbeeldingen worden alleen gemaakt als een concrete asset ontbreekt. De ontwikkelaar kan eenvoudige puzzelobjecten en interface-elementen zelf tekenen als dat de stijl en leesbaarheid ondersteunt.
+De elf afbeeldingsbestanden zijn aanwezig in de repository en door Michel gecontroleerd. Nieuwe afbeeldingen worden alleen gemaakt als een concrete asset ontbreekt. De ontwikkelaar kan eenvoudige puzzelobjecten en interface-elementen zelf tekenen als dat de stijl en leesbaarheid ondersteunt.
