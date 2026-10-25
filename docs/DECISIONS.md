@@ -1,6 +1,6 @@
 # De mysterieuze fabriek — Beslissingen en open punten
 
-**Versie:** 2.5  
+**Versie:** 2.6  
 **Doel:** één betrouwbare plek voor goedgekeurde besluiten en open punten, zodat de inhoud niet telkens opnieuw wordt bedacht.
 
 ## Dossierstatus en bronvolgorde
@@ -39,6 +39,7 @@ Bronvolgorde: (1) dit beslissingsdocument voor goedkeuring/open status, (2) `CHA
 | Uitdaging 1 — leveldoelen | Verzamel 8 rode energiecellen; verwijder 4 houten kistjes; laat de gouden energiesleutel naar de uitgang vallen |
 | Aanwijzing uit uitdaging 1 | De letters B, A en L, verdiend na elk level en samen gevormd tot het woord BAL |
 | Uitdaging 2 — structuur | Drie opeenvolgende deelpuzzels: code opent een geheim deurtje; logisch raadsel levert een messing sleutel; kistjesraadsel onthult de ster-met-oog-aanwijzing |
+| Uitdaging 2 — schermpresentatie | Na aantikken zoomt het beeld in op de bestaande groene locker. De codepuzzel, het geheime deurtje, het personageraadsel en het kistjesraadsel spelen zich visueel af binnen/op deze locker, in dezelfde verweerde jarenzeventig-zeefdrukstijl. Geen los modern spelvenster of afwijkende grafische stijl. |
 | Uitdaging 2 — code | De cijfercode is 042 |
 | Uitdaging 2 — sleutelraadsel | Precies één uitspraak is waar; de aap heeft de sleutel |
 | Uitdaging 2 — kistjesraadsel | Precies één uitspraak is waar; het rode kistje is de juiste keuze |
