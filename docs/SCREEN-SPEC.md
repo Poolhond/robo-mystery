@@ -1,6 +1,6 @@
 # De mysterieuze fabriek — Scherm- en toestandspecificatie
 
-**Versie:** 1.0  
+**Versie:** 1.1  
 **Status:** Werkdocument voor dossiercontrole; geen toestemming om gamecode te bouwen.  
 **Doel:** elk zichtbaar scherm, elke betekenisvolle deeltoestand, overgang, tekst en herstelregel beschrijven voordat de master-prompt wordt geschreven.
 
@@ -43,11 +43,11 @@ De drie easter eggs zijn optioneel, herhaalbaar en wijzigen geen hoofdvoortgang.
 
 | Toestand-ID | Wat zichtbaar is | Actie / overgang | Tekst / feedback |
 |---|---|---|---|
-| `M-01` | Computer zoomt in; toont niveau, doel, relevante voortgang en letterstrook. Een zettenaantal verschijnt alleen als het actieve level een zettenlimiet heeft. | Start bord → `M-02` | Intro per niveau staat in `CHALLENGES.md` |
+| `M-01` | Computer zoomt in; toont niveau, doel, voortgangsteller en letterstrook. Geen zettenaantal of timer: alle drie levels zijn onbeperkt. | Start bord → `M-02` | Intro per niveau staat in `CHALLENGES.md` |
 | `M-02` | Actief bord, teller, zetten, `?` en terugknop | Selecteer tegel → `M-03` | Geen extra tekst |
 | `M-03` | Eerste tegel geselecteerd | Tik aangrenzende tegel → controle zet; tik dezelfde/andere tegel → selectie bijwerken | Geen extra tekst |
 | `M-04` | Ongeldige niet-matchende verwisseling keert terug | Bord keert terug naar `M-02`; geen zet afgetrokken. De feedback volgt de actieve levelbeschrijving. In Level 1 keren de vlakken zonder foutmeldingstekst terug. | Geen algemene fouttekst; gebruik alleen tekst die voor het actieve level expliciet is vastgelegd. |
-| `M-05` | Geldige match wordt verwijderd; symbolen vallen en bord vult aan | Na animatie → `M-02`, tenzij doel bereikt | Als match geen leveldoel helpt, gebruik de passende foutfeedback uit `CHALLENGES.md` |
+| `M-05` | Geldige match wordt verwijderd; effen kleurvlakken vallen, het bord vult van boven aan en eventuele cascades spelen stap voor stap af. Doelobjecten reageren volgens het actieve level. | Na animatie → `M-02`, tenzij doel bereikt | Gebruik uitsluitend de level-specifieke feedback uit `CHALLENGES.md` |
 | `M-06` | Leveldoel bereikt; korte succesreactie | Toon letter → `M-07` | Succesfeedback van het betreffende level |
 | `M-07` | Letterbeloning en voortgangsstrook | Niveau 1 → niveau 2; niveau 2 → niveau 3; niveau 3 → `M-08` | “Circuit één draait weer! Goed gedaan.” / “De tandwielen zijn vrij! De fabriek komt weer op gang.” / “De uitgang is open! De fabriek is weer helemaal wakker.” |
 | `M-08` | B, A en L samen op metalen plaatje | Terug naar werkplaats; uitdaging 1 gemarkeerd als voltooid | “B… A… L. Dat is je eerste geheime woord. Onthoud het goed — je hebt het later nodig!” |
