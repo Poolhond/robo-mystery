@@ -47,9 +47,9 @@ Bij een tegenstrijdigheid tussen documenten mag de ontwikkelaar geen goedgekeurd
 
 ## Assets: huidige stand
 
-De repository bevat negen geüploade afbeeldingsbestanden in de hoofdmap. Ze staan nog niet in de beoogde `assets/`-mappenstructuur en hebben dubbele extensies. De assetaudit stelt doelpaden voor, maar de bestanden zijn tijdens die audit **niet** verplaatst, hernoemd of verwijderd.
+De negen bestaande afbeeldingsbestanden zijn nu geordend onder de afgesproken `assets/`-mappen. De oorspronkelijke Git-blobs en bestandsnamen zijn behouden; de dubbele extensies zijn bewust niet opgeschoond omdat het werkelijke bestandstype nog moet worden gecontroleerd. De mechanische vogel blijft buiten de goedgekeurde spelcompositie.
 
-Volgende assetstap: controleer de werkelijke bestandstypen, verplaats de bestanden veilig naar de afgesproken doelmappen en werk daarna het assetregister bij. Verwijder of overschrijf geen originele afbeelding zonder controle.
+Volgende assetstap: controleer de werkelijke bestandstypen, afmetingen en visuele inhoud. Verwijder, converteer of overschrijf geen origineel voordat een gecontroleerde variant is gevalideerd.
 
 ## Waarom er nog geen gamecode is
 
