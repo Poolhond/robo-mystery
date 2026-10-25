@@ -15,8 +15,8 @@ Wannes sluit af met een laatste interactieve handeling waarmee het feest begint.
 ## 2. Vastgelegde spelbeslissingen
 
 - De werktitel is **De mysterieuze fabriek**; de definitieve grafische titeluitwerking volgt later.
-- Visuele richting van de fabriek: een compacte controlekamer met vier duidelijk gegroepeerde interactieve voorwerpen en weinig decoratie. Bedieningspanelen, meetinstrumenten en metalen lockers zorgen voor karakter. Alle vier de voorwerpen blijven tegelijk zichtbaar en herkenbaar op het iPhone-scherm; de sfeer is mysterieus maar niet griezelig.
-- Interactie: aantikken zoomt in op het gekozen voorwerp en opent een apart volledig scherm voor de uitdaging. Een duidelijke terugknop brengt Wannes terug naar dezelfde controlekamer.
+- Visuele richting van de fabriek: een speelse technische ruimte/werkplaats met vier verspreid geplaatste, maar tegelijk zichtbare interactieve hoofdvoorwerpen. Bedieningspanelen, meetinstrumenten, kabels en metalen lockers geven karakter zonder de ruimte rommelig te maken. Alle vier de voorwerpen blijven tegelijk zichtbaar en herkenbaar op het iPhone-scherm; de sfeer is mysterieus maar niet griezelig.
+- Interactie: aantikken zoomt in op het gekozen voorwerp en opent een apart volledig scherm voor de uitdaging. Een duidelijke terugknop brengt Wannes terug naar dezelfde technische ruimte.
 - De speler is **Wannes**; hij onderzoekt de ruimte zelf en bedient de voorwerpen rechtstreeks.
 - Uitlegstijl: minimaal en mysterieus. Wannes ontdekt bediening en doelen grotendeels zelf; hints zijn beschikbaar wanneer hij vastloopt.
 - Het feest aan het einde is voor Wannes.
